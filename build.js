@@ -24,6 +24,19 @@ StyleDictionaryPackage.registerTransform({
     }
     });
 
+StyleDictionaryPackage.registerFormat({
+  name: 'myCustomFormat',
+  formatter: function({ dictionary, options }) {
+    const { outputReferences } = options;
+    const formatProperty = createPropertyFormatter({
+      outputReferences,
+      dictionary,
+      format: 'css'
+    });
+    return dictionary.allTokens.map(formatProperty).join('\n');
+  }
+});
+
 function getStyleDictionaryConfig(theme) {
   return {
     "source": [
@@ -35,11 +48,8 @@ function getStyleDictionaryConfig(theme) {
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
-            "format": "css/variables",
-            "selector": `.${theme}-theme`,
-            "options": {
-          "outputReferences": true
-             }
+            "format": "myCustomFormat",
+            "selector": `.${theme}-theme`
           }]
       }
     }
