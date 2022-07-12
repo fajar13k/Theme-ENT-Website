@@ -31,6 +31,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
+        "transforms": ["attribute/cti", "name/cti/camel", "sizes/px"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
