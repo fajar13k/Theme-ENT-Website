@@ -33,11 +33,10 @@ function getStyleDictionaryConfig(theme) {
     "platforms": {
       "web": {
         "transformGroup": "css",
-        "transforms": ["attribute/cti", "sizes/px"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
-            "format": "css/variables",
+            "format": "test",
             "selector": `.${theme}-theme`
           }]
       }
