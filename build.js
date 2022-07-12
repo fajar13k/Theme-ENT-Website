@@ -38,7 +38,8 @@ function getStyleDictionaryConfig(theme) {
             "selector": `.${theme}-theme`
           }]
       }
-    };
+    }
+  };
 }
 
 console.log('Build started...');
