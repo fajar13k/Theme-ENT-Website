@@ -61,10 +61,10 @@
       },
       "typography": {
         "value": {
-          "fontFamily": "Nunito Sans",
+          "fontFamily": "Montserrat",
           "fontWeight": "Bold",
-          "lineHeight": 24,
-          "fontSize": 16,
+          "lineHeight": 28,
+          "fontSize": 18,
           "letterSpacing": 0,
           "paragraphSpacing": 0,
           "textCase": "none",
@@ -92,10 +92,10 @@
       },
       "typography": {
         "value": {
-          "fontFamily": "Nunito Sans",
+          "fontFamily": "Open Sans",
           "fontWeight": "Bold",
-          "lineHeight": 18,
-          "fontSize": 12,
+          "lineHeight": 21,
+          "fontSize": 14,
           "letterSpacing": 0,
           "paragraphSpacing": 0,
           "textCase": "none",
@@ -247,10 +247,10 @@
       },
       "typography": {
         "value": {
-          "fontFamily": "Nunito Sans",
+          "fontFamily": "Open Sans",
           "fontWeight": "Bold",
-          "lineHeight": 20,
-          "fontSize": 14,
+          "lineHeight": 24,
+          "fontSize": 16,
           "letterSpacing": 0,
           "paragraphSpacing": 0,
           "textCase": "none",
