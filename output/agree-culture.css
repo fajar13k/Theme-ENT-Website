@@ -111,7 +111,12 @@
   --switch-active-disable-background-color: #cae2cf;
   --switch-nonactive-background-color: #b1b1b1;
   --switch-nonactive-disable-background-color: #e8e8e8;
-  --button: [object Object];
+  --button-x: 0;
+  --button-y: 0;
+  --button-blur: 0;
+  --button-spread: 0;
+  --button-color: #000000;
+  --button-type: dropShadow;
   --avatar-lg-size: 64;
   --avatar-lg-icon-size: 40;
   --avatar-lg-font-size: 18;

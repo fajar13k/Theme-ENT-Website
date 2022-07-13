@@ -540,15 +540,30 @@
     }
   },
   "Button": {
-    "value": {
-      "x": 0,
-      "y": 0,
-      "blur": 0,
-      "spread": 0,
-      "color": "#000000",
-      "type": "dropShadow"
+    "x": {
+      "value": 0,
+      "type": "x"
     },
-    "type": "boxShadow"
+    "y": {
+      "value": 0,
+      "type": "y"
+    },
+    "blur": {
+      "value": 0,
+      "type": "blur"
+    },
+    "spread": {
+      "value": 0,
+      "type": "spread"
+    },
+    "color": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    }
   },
   "Avatar": {
     "lg": {
