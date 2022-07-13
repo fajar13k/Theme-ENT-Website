@@ -36,7 +36,7 @@ function getStyleDictionaryConfig(theme) {
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
-            "format": "test",
+            "format": "css/variables",
             "selector": `.${theme}-theme`
           }]
       }
