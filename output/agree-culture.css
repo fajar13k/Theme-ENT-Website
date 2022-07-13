@@ -1,10 +1,5 @@
-/**
- * Do not edit directly
- * Generated on Wed, 13 Jul 2022 05:32:43 GMT
- */
-
-:root {
-  --primary-25: #f9fbf9;
+.agree-culture-theme {
+          --primary-25: #f9fbf9;
   --primary-50: #f2f8f3;
   --primary-100: #e6f1e8;
   --primary-200: #cae2cf;
@@ -105,4 +100,4 @@
   --avatar-sm-size: 32;
   --avatar-sm-icon-size: 16;
   --avatar-sm-font-size: 12;
-}
+      }

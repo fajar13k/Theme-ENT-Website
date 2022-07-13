@@ -1,10 +1,5 @@
-/**
- * Do not edit directly
- * Generated on Wed, 13 Jul 2022 05:32:43 GMT
- */
-
-:root {
-  --primary-25: #fffaf8;
+.agree-livestock-theme {
+          --primary-25: #fffaf8;
   --primary-50: #fff6f1;
   --primary-100: #ffeee4;
   --primary-200: #ffdbc5;
@@ -105,4 +100,4 @@
   --avatar-sm-size: 32;
   --avatar-sm-icon-size: 16;
   --avatar-sm-font-size: 12;
-}
+      }

@@ -1,10 +1,5 @@
-/**
- * Do not edit directly
- * Generated on Wed, 13 Jul 2022 05:32:43 GMT
- */
-
-:root {
-  --primary-25: #f8fafd;
+.agree-fisheries-theme {
+          --primary-25: #f8fafd;
   --primary-50: #f2f6fb;
   --primary-100: #e4eef7;
   --primary-200: #c6dcf0;
@@ -105,4 +100,4 @@
   --avatar-sm-size: 32;
   --avatar-sm-icon-size: 16;
   --avatar-sm-font-size: 12;
-}
+      }
