@@ -1,4 +1,5 @@
 # Token sample ecosystem Logee & agree
+# Token sample ecosystem Logee & Agree
 
 This example illustrates how you can transform your tokens stored on Figma Tokens (with GitHub sync enabled) to be automatically transformed with token-transformer and Style Dictionary in a dark/light theme environment.
 
