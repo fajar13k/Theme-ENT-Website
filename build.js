@@ -25,6 +25,25 @@ StyleDictionaryPackage.registerTransform({
     });
 
 
+    const typographyCSSFormat = (dictionary, options) => {
+      return dictionary.allProperties
+        .filter(token => token.attributes.category === 'font' && token.attributes.type === 'size')
+        .map(token => {
+          return `.${token.name} {
+      font-size: ${token.value};
+      ${Object.keys(token.associations).map(key => {
+        return `${key}: ${token.associations[key]}`
+      })}
+    }`
+        }).join('\n');
+    }
+    
+    module.exports = {
+      format: {
+        typographyCSSFormat
+      }
+    }
+
 function getStyleDictionaryConfig(theme) {
   return {
     "source": [
@@ -36,7 +55,7 @@ function getStyleDictionaryConfig(theme) {
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
-            "format": "css/variables",
+            "format": "typographyCSSFormat",
             "selector": `.${theme}-theme`
           }]
       }
