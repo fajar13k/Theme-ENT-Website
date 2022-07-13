@@ -1,5 +1,10 @@
-.foundation-theme {
-          --elevation-0: [object Object];
+/**
+ * Do not edit directly
+ * Generated on Wed, 13 Jul 2022 05:32:43 GMT
+ */
+
+:root {
+  --elevation-0: [object Object];
   --elevation-1: [object Object];
   --elevation-2: [object Object],[object Object];
   --elevation-3: [object Object],[object Object];
@@ -248,4 +253,4 @@
   --mobile-caption-sm-underline: [object Object];
   --mobile-caption-sm-underline-semibold: [object Object];
   --mobile-caption-sm-underline-bold: [object Object];
-      }
+}
