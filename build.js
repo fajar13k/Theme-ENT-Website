@@ -16,7 +16,7 @@ StyleDictionaryPackage.registerTransform({
     type: 'value',
     matcher: function(prop) {
         // You can be more specific here if you only want 'em' units for font sizes    
-        return ["fontSize", "spacing", "borderRadius", "borderWidth", "sizing"].includes(prop.attributes.category);
+        return ["fontSizes", "Spacing-1", "borderRadius", "borderWidth", "sizing"].includes(prop.attributes.category);
     },
     transformer: function(prop) {
         // You can also modify the value here if you want to convert pixels to ems
@@ -47,7 +47,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['foundation', 'agree-culture', 'agree-fisheries', 'agree-livestock', 'agree-market'].map(function (theme) {
+['foundation', 'agree-culture', 'agree-fisheries', 'agree-livestock'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
