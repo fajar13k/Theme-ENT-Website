@@ -20,7 +20,7 @@ StyleDictionaryPackage.registerTransform({
     },
     transformer: function(prop) {
         // You can also modify the value here if you want to convert pixels to ems
-        return parseFloat(prop.attributes.value) + 'px';
+        return parseFloat(prop.original.value) + 'px';
     }
     });
 
