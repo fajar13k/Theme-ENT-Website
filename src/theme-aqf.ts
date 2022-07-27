@@ -578,7 +578,7 @@ export const aqf = makeTheme({
       },
     solid: {
       alignItems: 'center',
-      borderRadius: `${tokens.buttonsBorderRadius}`,
+      borderRadius: `${tokens.buttonsBorderRadius} !important`,
       cursor: 'pointer',
       display: 'flex',
       lineHeight: '21px',
