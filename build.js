@@ -60,7 +60,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['foundation', 'logee-transportation', 'logee-distribution', 'logee-control-tower'].map(function (theme) {
+['foundation', 'agree-livestock', 'agree-fisheries', 'agree-culture'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
