@@ -2,7 +2,7 @@
 'use strict'
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = require('./theme.cjs.production.min.js')
+  module.exports = require('./agree.cjs.production.min.js')
 } else {
-  module.exports = require('./theme.cjs.development.js')
+  module.exports = require('./agree.cjs.development.js')
 }
