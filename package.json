@@ -30,7 +30,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@legion-theme/logee",
+  "name": "@legion-theme/agree",
   "author": "Telkom Design",
   "module": "dist/theme.esm.js",
   "size-limit": [
