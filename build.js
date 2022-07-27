@@ -11,6 +11,19 @@ StyleDictionaryPackage.registerFormat({
     }
   });  
 
+const _ = require('lodash');
+const fs = require('fs');
+
+const typingsES6Template = _.template(
+  fs.readFileSync(`${__dirname}/template/es6.template`)
+);
+
+StyleDictionaryPackage.registerFormat({
+  name: 'typings/es6',
+  formatter: typingsES6Template,
+});
+
+
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
@@ -27,15 +40,15 @@ StyleDictionaryPackage.registerTransform({
 function getStyleDictionaryConfig(theme) {
   return {
     "source": [
-      `tokens/${theme}.json`,
+      `src/resources/${theme}.json`,
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `output/`,
+        "transforms": ["attribute/cti", "name/cti/camel", "sizes/px"],
+        "buildPath": `src/tokens/`,
         "files": [{
-            "destination": `${theme}.css`,
-            "format": "css/variables",
+            "destination": `${theme}.ts`,
+            "format": "typings/es6",
             "selector": `.${theme}-theme`
           }]
       }
@@ -47,7 +60,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['foundation', 'agree-culture', 'agree-fisheries', 'agree-livestock'].map(function (theme) {
+['foundation', 'logee-transportation', 'logee-distribution', 'logee-control-tower'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
