@@ -97,7 +97,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 10:44:13 GMT
+ * Generated on Wed, 27 Jul 2022 16:39:58 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -831,7 +831,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 10:44:13 GMT
+ * Generated on Wed, 27 Jul 2022 16:39:58 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1472,7 +1472,7 @@ var agr = /*#__PURE__*/utils.makeTheme({
     }, text.body.sm.reguler),
     solid: {
       alignItems: 'center',
-      borderRadius: "" + tokens$1.buttonsBorderRadius,
+      borderRadius: tokens$1.buttonsBorderRadius + " !important",
       cursor: 'pointer',
       display: 'flex',
       lineHeight: '21px',
@@ -1601,7 +1601,7 @@ var agr = /*#__PURE__*/utils.makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 10:44:13 GMT
+ * Generated on Wed, 27 Jul 2022 16:39:58 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -2242,7 +2242,7 @@ var agl = /*#__PURE__*/utils.makeTheme({
     }, text.body.sm.reguler),
     solid: {
       alignItems: 'center',
-      borderRadius: "" + tokens$2.buttonsBorderRadius,
+      borderRadius: tokens$2.buttonsBorderRadius + " !important",
       cursor: 'pointer',
       display: 'flex',
       lineHeight: '21px',
@@ -2371,7 +2371,7 @@ var agl = /*#__PURE__*/utils.makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 10:44:13 GMT
+ * Generated on Wed, 27 Jul 2022 16:39:58 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -3009,7 +3009,7 @@ var aqf = /*#__PURE__*/utils.makeTheme({
     }, text.body.sm.reguler),
     solid: {
       alignItems: 'center',
-      borderRadius: "" + tokens$3.buttonsBorderRadius,
+      borderRadius: tokens$3.buttonsBorderRadius + " !important",
       cursor: 'pointer',
       display: 'flex',
       lineHeight: '21px',

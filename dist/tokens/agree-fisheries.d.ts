@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 10:44:13 GMT
+ * Generated on Wed, 27 Jul 2022 16:39:58 GMT
  */
 export declare const tokens: {
     primary25: string;
