@@ -56,7 +56,7 @@ function getStyleDictionaryConfig(theme) {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
         "buildPath": `output/css/`,
         "files": [{
-            "destination": `${theme}.ts`,
+            "destination": `${theme}.css`,
             "format": "css/variables",
             "selector": `.${theme}-theme`
           }]
