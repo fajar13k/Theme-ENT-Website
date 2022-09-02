@@ -331,6 +331,8 @@ export const aqf = makeTheme({
   },
   styles: {
     a: {
+      color: `${tokens.anchorDefaultColor} !important`,
+
       '&:hover': {
         color: `${tokens.anchorHoverColor} !important`,
         textDecoration: "underline",
@@ -662,116 +664,392 @@ export const aqf = makeTheme({
         backgroundColor: tokens.buttonsPrimaryDisabledBackgroundColor,
         color: tokens.buttonsPrimaryDisabledColor,
       }
-    }
+    },
+    soft: {
+      alignItems: 'center',
+      borderRadius: `${tokens.buttonsBorderRadius}`,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+
+      backgroundColor: tokens.buttonsSecondaryDefaultBackgroundColor,
+      color: tokens.buttonsSecondaryDefaultColor,
+      border: '0px',
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px',
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px',
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px',
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px',
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10,
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10,
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center',
+      },
+      '&:hover': {
+        backgroundColor: tokens.buttonsSecondaryHoverBackgroundColor,
+        color: tokens.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important',
+      },
+      '&:focus': {
+        boxShadow: `0px 0px 0px 2px ${tokens.buttonsSecondaryFocusBorderColors} !important`,
+      },
+      '&:active': {
+        backgroundColor: tokens.buttonsSecondaryActiveBackgroundColor,
+        color: tokens.buttonsSecondaryActiveColor,
+        boxShadow: 'none !important',
+      },
+      '&:disabled': {
+        cursor: 'unset !important',
+        backgroundColor: tokens.buttonsSecondaryDisabledBackgroundColor,
+        color: tokens.buttonsSecondaryDisabledColor,
+      },
+    },
+    outline: {
+      alignItems: 'center',
+      borderRadius: `${tokens.buttonsBorderRadius}`,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+
+      backgroundColor: tokens.buttonsSecondaryDefaultBackgroundColor,
+      border: `1px solid ${tokens.buttonsSecondaryDefaultColor}`,
+      color: tokens.buttonsSecondaryDefaultColor,
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px',
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px',
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px',
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px',
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10,
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10,
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center',
+      },
+      '&:hover': {
+        backgroundColor: tokens.buttonsSecondaryHoverBackgroundColor,
+        border: `1px solid ${tokens.buttonsSecondaryHoverColor}`,
+        color: tokens.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important',
+      },
+      '&:active': {
+        backgroundColor: tokens.buttonsSecondaryActiveBackgroundColor,
+        border: `1px solid ${tokens.buttonsSecondaryActiveColor}`,
+        color: tokens.buttonsSecondaryActiveColor,
+        boxShadow: 'none !important',
+      },
+      '&:focus': {
+        boxShadow: `0px 0px 0px 2px ${tokens.buttonsSecondaryFocusBorderColors} !important`,
+      },
+      '&:disabled': {
+        cursor: 'unset',
+        appearance: 'none',
+        backgroundColor: `${tokens.buttonsSecondaryDisabledBackgroundColor} !important`,
+        border: `1px solid ${tokens.buttonsSecondaryDisabledColor} !important`,
+        color: `${tokens.buttonsSecondaryDisabledColor} !important`,
+      },
+    },
+    transparent: {
+      alignItems: 'center',
+      borderRadius: `${tokens.buttonsBorderRadius}`,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      
+      backgroundColor: 'transparent',
+      border: 'none',
+      color: tokens.buttonsSecondaryDefaultColor,
+    
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px',
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px',
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px',
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px',
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10,
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10,
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center',
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center',
+      },
+      '&:hover': {
+        backgroundColor: tokens.buttonsSecondaryDefaultBackgroundColor,
+        color: tokens.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important',
+      },
+      '&:focus': {
+        backgroundColor: `${tokens.buttonsSecondaryDefaultBackgroundColor} !important`,
+        color: `${tokens.buttonsSecondaryHoverColor} !important`,
+        boxShadow: `0px 0px 0px 2px ${tokens.buttonsSecondaryFocusBorderColors}`,
+      },
+      '&:active': {
+        backgroundColor: `${tokens.buttonsSecondaryHoverBackgroundColor} !important`,
+        color: `${tokens.buttonsSecondaryActiveColor} !important`,
+        boxShadow: 'none !important',
+      },
+      '&:disabled': {
+        cursor: 'unset',
+        appearance: 'none',
+        backgroundColor: 'transparent !important',
+        border: 'none !important',
+        color: `${tokens.buttonsSecondaryDisabledColor} !important`,
+      },
+    },
   },
-  Heading: {
-    h1:{
-      ...text.heading.h1
+  text: {
+    default: {
+      color: color.grayscale80,
+
+      // Body
+      lg_reguler: {
+        ...text.body.lg.reguler,
+      },
+      lg_semibold: {
+        ...text.body.lg.semibold,
+      },
+      lg_bold: {
+        ...text.body.lg.bold,
+      },
+      lg_italic: {
+        ...text.body.lg.italic,
+      },
+      lg_underline: {
+        ...text.body.lg.underline,
+      },
+      lg_underline_semibold: {
+        ...text.body.lg.underline_semibold,
+      },
+      lg_underline_bold: {
+        ...text.body.lg.underline_bold,
+      },
+      sm_reguler: {
+        ...text.body.sm.reguler,
+      },
+      sm_semibold: {
+        ...text.body.sm.semibold,
+      },
+      sm_bold: {
+        ...text.body.sm.bold,
+      },
+      sm_italic: {
+        ...text.body.sm.italic,
+      },
+      sm_underline: {
+        ...text.body.sm.underline,
+      },
+      sm_underline_semibold: {
+        ...text.body.sm.underline_semibold,
+      },
+      sm_underline_bold: {
+        ...text.body.sm.underline_bold,
+      },
+
+      // Caption
+      sizes: {
+        lg_reguler: {
+          ...text.caption.lg.reguler,
+        },
+        lg_semibold: {
+          ...text.caption.lg.semibold,
+        },
+        lg_bold: {
+          ...text.caption.lg.bold,
+        },
+        lg_italic: {
+          ...text.caption.lg.italic,
+        },
+        lg_underline: {
+          ...text.caption.lg.underline,
+        },
+        lg_underline_semibold: {
+          ...text.caption.lg.underline_semibold,
+        },
+        lg_underline_bold: {
+          ...text.caption.lg.underline_bold,
+        },
+        sm_reguler: {
+          ...text.caption.sm.reguler,
+        },
+        sm_semibold: {
+          ...text.caption.sm.semibold,
+        },
+        sm_bold: {
+          ...text.caption.sm.bold,
+        },
+        sm_italic: {
+          ...text.caption.sm.italic,
+        },
+        sm_underline: {
+          ...text.caption.sm.underline,
+        },
+        sm_underline_semibold: {
+          ...text.caption.sm.underline_semibold,
+        },
+        sm_underline_bold: {
+          ...text.caption.sm.underline_bold,
+        },
+      },
+
+      // Heading
+      heading: {
+        h1: {
+          ...text.heading.h1,
+        },
+        h2: {
+          ...text.heading.h2,
+        },
+        h3: {
+          ...text.heading.h3,
+        },
+        h4: {
+          ...text.heading.h4,
+        },
+        h5: {
+          ...text.heading.h5,
+        },
+        h6: {
+          ...text.heading.h6,
+        },
+      },
     },
-    h2:{
-      ...text.heading.h2
-    },
-    h3:{
-      ...text.heading.h3
-    },
-    h4:{
-      ...text.heading.h4
-    },
-    h5:{
-      ...text.heading.h5
-    },
-    h6:{
-      ...text.heading.h6
-    }
   },
-  Body: {
-    lg_reguler:{
-      ...text.body.lg.reguler
-    },
-    lg_semibold:{
-      ...text.body.lg.semibold
-    },
-    lg_bold:{
-      ...text.body.lg.bold
-    },
-    lg_italic:{
-      ...text.body.lg.italic
-    },
-    lg_underline:{
-      ...text.body.lg.underline
-    },
-    lg_underline_semibold:{
-      ...text.body.lg.underline_semibold
-    },
-    lg_underline_bold:{
-      ...text.body.lg.underline_bold
-    },
-    sm_reguler:{
-      ...text.body.sm.reguler
-    },
-    sm_semibold:{
-      ...text.body.sm.semibold
-    },
-    sm_bold:{
-      ...text.body.sm.bold
-    },
-    sm_italic:{
-      ...text.body.sm.italic
-    },
-    sm_underline:{
-      ...text.body.sm.underline
-    },
-    sm_underline_semibold:{
-      ...text.body.sm.underline_semibold
-    },
-    sm_underline_bold:{
-      ...text.body.sm.underline_bold
-    }
-  },
-  Caption: {
-    lg_reguler:{
-      ...text.caption.lg.reguler
-    },
-    lg_semibold:{
-      ...text.caption.lg.semibold
-    },
-    lg_bold:{
-      ...text.caption.lg.bold
-    },
-    lg_italic:{
-      ...text.caption.lg.italic
-    },
-    lg_underline:{
-      ...text.caption.lg.underline
-    },
-    lg_underline_semibold:{
-      ...text.caption.lg.underline_semibold
-    },
-    lg_underline_bold:{
-      ...text.caption.lg.underline_bold
-    },
-    sm_reguler:{
-      ...text.caption.sm.reguler
-    },
-    sm_semibold:{
-      ...text.caption.sm.semibold
-    },
-    sm_bold:{
-      ...text.caption.sm.bold
-    },
-    sm_italic:{
-      ...text.caption.sm.italic
-    },
-    sm_underline:{
-      ...text.caption.sm.underline
-    },
-    sm_underline_semibold:{
-      ...text.caption.sm.underline_semibold
-    },
-    sm_underline_bold:{
-      ...text.caption.sm.underline_bold
-    }
-  }
 })
 
 export default aqf
