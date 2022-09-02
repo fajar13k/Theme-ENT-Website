@@ -91,7 +91,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 08:47:05 GMT
+ * Generated on Fri, 02 Sep 2022 03:10:01 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -825,7 +825,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 08:47:05 GMT
+ * Generated on Fri, 02 Sep 2022 03:10:01 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1222,6 +1222,7 @@ var agr = /*#__PURE__*/makeTheme({
   },
   styles: {
     a: {
+      color: tokens$1.anchorDefaultColor + " !important",
       '&:hover': {
         color: tokens$1.anchorHoverColor + " !important",
         textDecoration: "underline",
@@ -1549,53 +1550,322 @@ var agr = /*#__PURE__*/makeTheme({
         backgroundColor: tokens$1.buttonsPrimaryDisabledBackgroundColor,
         color: tokens$1.buttonsPrimaryDisabledColor
       }
+    },
+    soft: {
+      alignItems: 'center',
+      borderRadius: "" + tokens$1.buttonsBorderRadius,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      backgroundColor: tokens$1.buttonsSecondaryDefaultBackgroundColor,
+      color: tokens$1.buttonsSecondaryDefaultColor,
+      border: '0px',
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px'
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px'
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px'
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px'
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '&:hover': {
+        backgroundColor: tokens$1.buttonsSecondaryHoverBackgroundColor,
+        color: tokens$1.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important'
+      },
+      '&:focus': {
+        boxShadow: "0px 0px 0px 2px " + tokens$1.buttonsSecondaryFocusBorderColors + " !important"
+      },
+      '&:active': {
+        backgroundColor: tokens$1.buttonsSecondaryActiveBackgroundColor,
+        color: tokens$1.buttonsSecondaryActiveColor,
+        boxShadow: 'none !important'
+      },
+      '&:disabled': {
+        cursor: 'unset !important',
+        backgroundColor: tokens$1.buttonsSecondaryDisabledBackgroundColor,
+        color: tokens$1.buttonsSecondaryDisabledColor
+      }
+    },
+    outline: {
+      alignItems: 'center',
+      borderRadius: "" + tokens$1.buttonsBorderRadius,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      backgroundColor: tokens$1.buttonsSecondaryDefaultBackgroundColor,
+      border: "1px solid " + tokens$1.buttonsSecondaryDefaultColor,
+      color: tokens$1.buttonsSecondaryDefaultColor,
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px'
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px'
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px'
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px'
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '&:hover': {
+        backgroundColor: tokens$1.buttonsSecondaryHoverBackgroundColor,
+        border: "1px solid " + tokens$1.buttonsSecondaryHoverColor,
+        color: tokens$1.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important'
+      },
+      '&:active': {
+        backgroundColor: tokens$1.buttonsSecondaryActiveBackgroundColor,
+        border: "1px solid " + tokens$1.buttonsSecondaryActiveColor,
+        color: tokens$1.buttonsSecondaryActiveColor,
+        boxShadow: 'none !important'
+      },
+      '&:focus': {
+        boxShadow: "0px 0px 0px 2px " + tokens$1.buttonsSecondaryFocusBorderColors + " !important"
+      },
+      '&:disabled': {
+        cursor: 'unset',
+        appearance: 'none',
+        backgroundColor: tokens$1.buttonsSecondaryDisabledBackgroundColor + " !important",
+        border: "1px solid " + tokens$1.buttonsSecondaryDisabledColor + " !important",
+        color: tokens$1.buttonsSecondaryDisabledColor + " !important"
+      }
+    },
+    transparent: {
+      alignItems: 'center',
+      borderRadius: "" + tokens$1.buttonsBorderRadius,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      backgroundColor: 'transparent',
+      border: 'none',
+      color: tokens$1.buttonsSecondaryDefaultColor,
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px'
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px'
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px'
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px'
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '&:hover': {
+        backgroundColor: tokens$1.buttonsSecondaryDefaultBackgroundColor,
+        color: tokens$1.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important'
+      },
+      '&:focus': {
+        backgroundColor: tokens$1.buttonsSecondaryDefaultBackgroundColor + " !important",
+        color: tokens$1.buttonsSecondaryHoverColor + " !important",
+        boxShadow: "0px 0px 0px 2px " + tokens$1.buttonsSecondaryFocusBorderColors
+      },
+      '&:active': {
+        backgroundColor: tokens$1.buttonsSecondaryHoverBackgroundColor + " !important",
+        color: tokens$1.buttonsSecondaryActiveColor + " !important",
+        boxShadow: 'none !important'
+      },
+      '&:disabled': {
+        cursor: 'unset',
+        appearance: 'none',
+        backgroundColor: 'transparent !important',
+        border: 'none !important',
+        color: tokens$1.buttonsSecondaryDisabledColor + " !important"
+      }
     }
   },
-  Heading: {
-    h1: /*#__PURE__*/_extends({}, text.heading.h1),
-    h2: /*#__PURE__*/_extends({}, text.heading.h2),
-    h3: /*#__PURE__*/_extends({}, text.heading.h3),
-    h4: /*#__PURE__*/_extends({}, text.heading.h4),
-    h5: /*#__PURE__*/_extends({}, text.heading.h5),
-    h6: /*#__PURE__*/_extends({}, text.heading.h6)
-  },
-  Body: {
-    lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
-    lg_semibold: /*#__PURE__*/_extends({}, text.body.lg.semibold),
-    lg_bold: /*#__PURE__*/_extends({}, text.body.lg.bold),
-    lg_italic: /*#__PURE__*/_extends({}, text.body.lg.italic),
-    lg_underline: /*#__PURE__*/_extends({}, text.body.lg.underline),
-    lg_underline_semibold: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold),
-    lg_underline_bold: /*#__PURE__*/_extends({}, text.body.lg.underline_bold),
-    sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
-    sm_semibold: /*#__PURE__*/_extends({}, text.body.sm.semibold),
-    sm_bold: /*#__PURE__*/_extends({}, text.body.sm.bold),
-    sm_italic: /*#__PURE__*/_extends({}, text.body.sm.italic),
-    sm_underline: /*#__PURE__*/_extends({}, text.body.sm.underline),
-    sm_underline_semibold: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold),
-    sm_underline_bold: /*#__PURE__*/_extends({}, text.body.sm.underline_bold)
-  },
-  Caption: {
-    lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
-    lg_semibold: /*#__PURE__*/_extends({}, text.caption.lg.semibold),
-    lg_bold: /*#__PURE__*/_extends({}, text.caption.lg.bold),
-    lg_italic: /*#__PURE__*/_extends({}, text.caption.lg.italic),
-    lg_underline: /*#__PURE__*/_extends({}, text.caption.lg.underline),
-    lg_underline_semibold: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold),
-    lg_underline_bold: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold),
-    sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
-    sm_semibold: /*#__PURE__*/_extends({}, text.caption.sm.semibold),
-    sm_bold: /*#__PURE__*/_extends({}, text.caption.sm.bold),
-    sm_italic: /*#__PURE__*/_extends({}, text.caption.sm.italic),
-    sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
-    sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
-    sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
+  text: {
+    "default": {
+      color: color.grayscale80,
+      // Body
+      lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
+      lg_semibold: /*#__PURE__*/_extends({}, text.body.lg.semibold),
+      lg_bold: /*#__PURE__*/_extends({}, text.body.lg.bold),
+      lg_italic: /*#__PURE__*/_extends({}, text.body.lg.italic),
+      lg_underline: /*#__PURE__*/_extends({}, text.body.lg.underline),
+      lg_underline_semibold: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold),
+      lg_underline_bold: /*#__PURE__*/_extends({}, text.body.lg.underline_bold),
+      sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
+      sm_semibold: /*#__PURE__*/_extends({}, text.body.sm.semibold),
+      sm_bold: /*#__PURE__*/_extends({}, text.body.sm.bold),
+      sm_italic: /*#__PURE__*/_extends({}, text.body.sm.italic),
+      sm_underline: /*#__PURE__*/_extends({}, text.body.sm.underline),
+      sm_underline_semibold: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold),
+      sm_underline_bold: /*#__PURE__*/_extends({}, text.body.sm.underline_bold),
+      // Caption
+      sizes: {
+        lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
+        lg_semibold: /*#__PURE__*/_extends({}, text.caption.lg.semibold),
+        lg_bold: /*#__PURE__*/_extends({}, text.caption.lg.bold),
+        lg_italic: /*#__PURE__*/_extends({}, text.caption.lg.italic),
+        lg_underline: /*#__PURE__*/_extends({}, text.caption.lg.underline),
+        lg_underline_semibold: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold),
+        lg_underline_bold: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold),
+        sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
+        sm_semibold: /*#__PURE__*/_extends({}, text.caption.sm.semibold),
+        sm_bold: /*#__PURE__*/_extends({}, text.caption.sm.bold),
+        sm_italic: /*#__PURE__*/_extends({}, text.caption.sm.italic),
+        sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
+        sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
+        sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
+      },
+      // Heading
+      heading: {
+        h1: /*#__PURE__*/_extends({}, text.heading.h1),
+        h2: /*#__PURE__*/_extends({}, text.heading.h2),
+        h3: /*#__PURE__*/_extends({}, text.heading.h3),
+        h4: /*#__PURE__*/_extends({}, text.heading.h4),
+        h5: /*#__PURE__*/_extends({}, text.heading.h5),
+        h6: /*#__PURE__*/_extends({}, text.heading.h6)
+      }
+    }
   }
 });
 
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 08:47:05 GMT
+ * Generated on Fri, 02 Sep 2022 03:10:01 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -1992,6 +2262,7 @@ var agl = /*#__PURE__*/makeTheme({
   },
   styles: {
     a: {
+      color: tokens$2.anchorDefaultColor + " !important",
       '&:hover': {
         color: tokens$2.anchorHoverColor + " !important",
         textDecoration: "underline",
@@ -2319,53 +2590,322 @@ var agl = /*#__PURE__*/makeTheme({
         backgroundColor: tokens$2.buttonsPrimaryDisabledBackgroundColor,
         color: tokens$2.buttonsPrimaryDisabledColor
       }
+    },
+    soft: {
+      alignItems: 'center',
+      borderRadius: "" + tokens$2.buttonsBorderRadius,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      backgroundColor: tokens$2.buttonsSecondaryDefaultBackgroundColor,
+      color: tokens$2.buttonsSecondaryDefaultColor,
+      border: '0px',
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px'
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px'
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px'
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px'
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '&:hover': {
+        backgroundColor: tokens$2.buttonsSecondaryHoverBackgroundColor,
+        color: tokens$2.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important'
+      },
+      '&:focus': {
+        boxShadow: "0px 0px 0px 2px " + tokens$2.buttonsSecondaryFocusBorderColors + " !important"
+      },
+      '&:active': {
+        backgroundColor: tokens$2.buttonsSecondaryActiveBackgroundColor,
+        color: tokens$2.buttonsSecondaryActiveColor,
+        boxShadow: 'none !important'
+      },
+      '&:disabled': {
+        cursor: 'unset !important',
+        backgroundColor: tokens$2.buttonsSecondaryDisabledBackgroundColor,
+        color: tokens$2.buttonsSecondaryDisabledColor
+      }
+    },
+    outline: {
+      alignItems: 'center',
+      borderRadius: "" + tokens$2.buttonsBorderRadius,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      backgroundColor: tokens$2.buttonsSecondaryDefaultBackgroundColor,
+      border: "1px solid " + tokens$2.buttonsSecondaryDefaultColor,
+      color: tokens$2.buttonsSecondaryDefaultColor,
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px'
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px'
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px'
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px'
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '&:hover': {
+        backgroundColor: tokens$2.buttonsSecondaryHoverBackgroundColor,
+        border: "1px solid " + tokens$2.buttonsSecondaryHoverColor,
+        color: tokens$2.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important'
+      },
+      '&:active': {
+        backgroundColor: tokens$2.buttonsSecondaryActiveBackgroundColor,
+        border: "1px solid " + tokens$2.buttonsSecondaryActiveColor,
+        color: tokens$2.buttonsSecondaryActiveColor,
+        boxShadow: 'none !important'
+      },
+      '&:focus': {
+        boxShadow: "0px 0px 0px 2px " + tokens$2.buttonsSecondaryFocusBorderColors + " !important"
+      },
+      '&:disabled': {
+        cursor: 'unset',
+        appearance: 'none',
+        backgroundColor: tokens$2.buttonsSecondaryDisabledBackgroundColor + " !important",
+        border: "1px solid " + tokens$2.buttonsSecondaryDisabledColor + " !important",
+        color: tokens$2.buttonsSecondaryDisabledColor + " !important"
+      }
+    },
+    transparent: {
+      alignItems: 'center',
+      borderRadius: "" + tokens$2.buttonsBorderRadius,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      backgroundColor: 'transparent',
+      border: 'none',
+      color: tokens$2.buttonsSecondaryDefaultColor,
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px'
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px'
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px'
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px'
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '&:hover': {
+        backgroundColor: tokens$2.buttonsSecondaryDefaultBackgroundColor,
+        color: tokens$2.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important'
+      },
+      '&:focus': {
+        backgroundColor: tokens$2.buttonsSecondaryDefaultBackgroundColor + " !important",
+        color: tokens$2.buttonsSecondaryHoverColor + " !important",
+        boxShadow: "0px 0px 0px 2px " + tokens$2.buttonsSecondaryFocusBorderColors
+      },
+      '&:active': {
+        backgroundColor: tokens$2.buttonsSecondaryHoverBackgroundColor + " !important",
+        color: tokens$2.buttonsSecondaryActiveColor + " !important",
+        boxShadow: 'none !important'
+      },
+      '&:disabled': {
+        cursor: 'unset',
+        appearance: 'none',
+        backgroundColor: 'transparent !important',
+        border: 'none !important',
+        color: tokens$2.buttonsSecondaryDisabledColor + " !important"
+      }
     }
   },
-  Heading: {
-    h1: /*#__PURE__*/_extends({}, text.heading.h1),
-    h2: /*#__PURE__*/_extends({}, text.heading.h2),
-    h3: /*#__PURE__*/_extends({}, text.heading.h3),
-    h4: /*#__PURE__*/_extends({}, text.heading.h4),
-    h5: /*#__PURE__*/_extends({}, text.heading.h5),
-    h6: /*#__PURE__*/_extends({}, text.heading.h6)
-  },
-  Body: {
-    lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
-    lg_semibold: /*#__PURE__*/_extends({}, text.body.lg.semibold),
-    lg_bold: /*#__PURE__*/_extends({}, text.body.lg.bold),
-    lg_italic: /*#__PURE__*/_extends({}, text.body.lg.italic),
-    lg_underline: /*#__PURE__*/_extends({}, text.body.lg.underline),
-    lg_underline_semibold: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold),
-    lg_underline_bold: /*#__PURE__*/_extends({}, text.body.lg.underline_bold),
-    sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
-    sm_semibold: /*#__PURE__*/_extends({}, text.body.sm.semibold),
-    sm_bold: /*#__PURE__*/_extends({}, text.body.sm.bold),
-    sm_italic: /*#__PURE__*/_extends({}, text.body.sm.italic),
-    sm_underline: /*#__PURE__*/_extends({}, text.body.sm.underline),
-    sm_underline_semibold: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold),
-    sm_underline_bold: /*#__PURE__*/_extends({}, text.body.sm.underline_bold)
-  },
-  Caption: {
-    lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
-    lg_semibold: /*#__PURE__*/_extends({}, text.caption.lg.semibold),
-    lg_bold: /*#__PURE__*/_extends({}, text.caption.lg.bold),
-    lg_italic: /*#__PURE__*/_extends({}, text.caption.lg.italic),
-    lg_underline: /*#__PURE__*/_extends({}, text.caption.lg.underline),
-    lg_underline_semibold: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold),
-    lg_underline_bold: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold),
-    sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
-    sm_semibold: /*#__PURE__*/_extends({}, text.caption.sm.semibold),
-    sm_bold: /*#__PURE__*/_extends({}, text.caption.sm.bold),
-    sm_italic: /*#__PURE__*/_extends({}, text.caption.sm.italic),
-    sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
-    sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
-    sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
+  text: {
+    "default": {
+      color: color.grayscale80,
+      // Body
+      lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
+      lg_semibold: /*#__PURE__*/_extends({}, text.body.lg.semibold),
+      lg_bold: /*#__PURE__*/_extends({}, text.body.lg.bold),
+      lg_italic: /*#__PURE__*/_extends({}, text.body.lg.italic),
+      lg_underline: /*#__PURE__*/_extends({}, text.body.lg.underline),
+      lg_underline_semibold: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold),
+      lg_underline_bold: /*#__PURE__*/_extends({}, text.body.lg.underline_bold),
+      sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
+      sm_semibold: /*#__PURE__*/_extends({}, text.body.sm.semibold),
+      sm_bold: /*#__PURE__*/_extends({}, text.body.sm.bold),
+      sm_italic: /*#__PURE__*/_extends({}, text.body.sm.italic),
+      sm_underline: /*#__PURE__*/_extends({}, text.body.sm.underline),
+      sm_underline_semibold: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold),
+      sm_underline_bold: /*#__PURE__*/_extends({}, text.body.sm.underline_bold),
+      // Caption
+      sizes: {
+        lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
+        lg_semibold: /*#__PURE__*/_extends({}, text.caption.lg.semibold),
+        lg_bold: /*#__PURE__*/_extends({}, text.caption.lg.bold),
+        lg_italic: /*#__PURE__*/_extends({}, text.caption.lg.italic),
+        lg_underline: /*#__PURE__*/_extends({}, text.caption.lg.underline),
+        lg_underline_semibold: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold),
+        lg_underline_bold: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold),
+        sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
+        sm_semibold: /*#__PURE__*/_extends({}, text.caption.sm.semibold),
+        sm_bold: /*#__PURE__*/_extends({}, text.caption.sm.bold),
+        sm_italic: /*#__PURE__*/_extends({}, text.caption.sm.italic),
+        sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
+        sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
+        sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
+      },
+      // Heading
+      heading: {
+        h1: /*#__PURE__*/_extends({}, text.heading.h1),
+        h2: /*#__PURE__*/_extends({}, text.heading.h2),
+        h3: /*#__PURE__*/_extends({}, text.heading.h3),
+        h4: /*#__PURE__*/_extends({}, text.heading.h4),
+        h5: /*#__PURE__*/_extends({}, text.heading.h5),
+        h6: /*#__PURE__*/_extends({}, text.heading.h6)
+      }
+    }
   }
 });
 
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 08:47:05 GMT
+ * Generated on Fri, 02 Sep 2022 03:10:01 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -2759,6 +3299,7 @@ var aqf = /*#__PURE__*/makeTheme({
   },
   styles: {
     a: {
+      color: tokens$3.anchorDefaultColor + " !important",
       '&:hover': {
         color: tokens$3.anchorHoverColor + " !important",
         textDecoration: "underline",
@@ -3086,47 +3627,316 @@ var aqf = /*#__PURE__*/makeTheme({
         backgroundColor: tokens$3.buttonsPrimaryDisabledBackgroundColor,
         color: tokens$3.buttonsPrimaryDisabledColor
       }
+    },
+    soft: {
+      alignItems: 'center',
+      borderRadius: "" + tokens$3.buttonsBorderRadius,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      backgroundColor: tokens$3.buttonsSecondaryDefaultBackgroundColor,
+      color: tokens$3.buttonsSecondaryDefaultColor,
+      border: '0px',
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px'
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px'
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px'
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px'
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '&:hover': {
+        backgroundColor: tokens$3.buttonsSecondaryHoverBackgroundColor,
+        color: tokens$3.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important'
+      },
+      '&:focus': {
+        boxShadow: "0px 0px 0px 2px " + tokens$3.buttonsSecondaryFocusBorderColors + " !important"
+      },
+      '&:active': {
+        backgroundColor: tokens$3.buttonsSecondaryActiveBackgroundColor,
+        color: tokens$3.buttonsSecondaryActiveColor,
+        boxShadow: 'none !important'
+      },
+      '&:disabled': {
+        cursor: 'unset !important',
+        backgroundColor: tokens$3.buttonsSecondaryDisabledBackgroundColor,
+        color: tokens$3.buttonsSecondaryDisabledColor
+      }
+    },
+    outline: {
+      alignItems: 'center',
+      borderRadius: "" + tokens$3.buttonsBorderRadius,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      backgroundColor: tokens$3.buttonsSecondaryDefaultBackgroundColor,
+      border: "1px solid " + tokens$3.buttonsSecondaryDefaultColor,
+      color: tokens$3.buttonsSecondaryDefaultColor,
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px'
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px'
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px'
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px'
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '&:hover': {
+        backgroundColor: tokens$3.buttonsSecondaryHoverBackgroundColor,
+        border: "1px solid " + tokens$3.buttonsSecondaryHoverColor,
+        color: tokens$3.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important'
+      },
+      '&:active': {
+        backgroundColor: tokens$3.buttonsSecondaryActiveBackgroundColor,
+        border: "1px solid " + tokens$3.buttonsSecondaryActiveColor,
+        color: tokens$3.buttonsSecondaryActiveColor,
+        boxShadow: 'none !important'
+      },
+      '&:focus': {
+        boxShadow: "0px 0px 0px 2px " + tokens$3.buttonsSecondaryFocusBorderColors + " !important"
+      },
+      '&:disabled': {
+        cursor: 'unset',
+        appearance: 'none',
+        backgroundColor: tokens$3.buttonsSecondaryDisabledBackgroundColor + " !important",
+        border: "1px solid " + tokens$3.buttonsSecondaryDisabledColor + " !important",
+        color: tokens$3.buttonsSecondaryDisabledColor + " !important"
+      }
+    },
+    transparent: {
+      alignItems: 'center',
+      borderRadius: "" + tokens$3.buttonsBorderRadius,
+      cursor: 'pointer',
+      display: 'flex',
+      lineHeight: '21px',
+      fontWeight: '700',
+      justifyContent: 'center',
+      backgroundColor: 'transparent',
+      border: 'none',
+      color: tokens$3.buttonsSecondaryDefaultColor,
+      '& .wrapper-icon-left-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-left-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-both-children': {
+        marginLeft: '10px',
+        marginRight: '10px'
+      },
+      '& .wrapper-icon-left-children': {
+        marginLeft: '10px'
+      },
+      '& .wrapper-icon-right-children': {
+        marginRight: '10px'
+      },
+      '& .wrapper-two-icon': {
+        marginRight: '10px'
+      },
+      '& .wrapperIconLeft': {
+        marginRight: 10
+      },
+      '& .wrapperIconRight': {
+        marginLeft: 10
+      },
+      '& .wrapper-icon-right-large': {
+        display: 'flex',
+        width: '20px',
+        height: '20px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-medium': {
+        display: 'flex',
+        width: '16px',
+        height: '16px',
+        alignItems: 'center'
+      },
+      '& .wrapper-icon-right-small': {
+        display: 'flex',
+        width: '12px',
+        height: '12px',
+        alignItems: 'center'
+      },
+      '&:hover': {
+        backgroundColor: tokens$3.buttonsSecondaryDefaultBackgroundColor,
+        color: tokens$3.buttonsSecondaryHoverColor,
+        boxShadow: 'none !important'
+      },
+      '&:focus': {
+        backgroundColor: tokens$3.buttonsSecondaryDefaultBackgroundColor + " !important",
+        color: tokens$3.buttonsSecondaryHoverColor + " !important",
+        boxShadow: "0px 0px 0px 2px " + tokens$3.buttonsSecondaryFocusBorderColors
+      },
+      '&:active': {
+        backgroundColor: tokens$3.buttonsSecondaryHoverBackgroundColor + " !important",
+        color: tokens$3.buttonsSecondaryActiveColor + " !important",
+        boxShadow: 'none !important'
+      },
+      '&:disabled': {
+        cursor: 'unset',
+        appearance: 'none',
+        backgroundColor: 'transparent !important',
+        border: 'none !important',
+        color: tokens$3.buttonsSecondaryDisabledColor + " !important"
+      }
     }
   },
-  Heading: {
-    h1: /*#__PURE__*/_extends({}, text.heading.h1),
-    h2: /*#__PURE__*/_extends({}, text.heading.h2),
-    h3: /*#__PURE__*/_extends({}, text.heading.h3),
-    h4: /*#__PURE__*/_extends({}, text.heading.h4),
-    h5: /*#__PURE__*/_extends({}, text.heading.h5),
-    h6: /*#__PURE__*/_extends({}, text.heading.h6)
-  },
-  Body: {
-    lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
-    lg_semibold: /*#__PURE__*/_extends({}, text.body.lg.semibold),
-    lg_bold: /*#__PURE__*/_extends({}, text.body.lg.bold),
-    lg_italic: /*#__PURE__*/_extends({}, text.body.lg.italic),
-    lg_underline: /*#__PURE__*/_extends({}, text.body.lg.underline),
-    lg_underline_semibold: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold),
-    lg_underline_bold: /*#__PURE__*/_extends({}, text.body.lg.underline_bold),
-    sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
-    sm_semibold: /*#__PURE__*/_extends({}, text.body.sm.semibold),
-    sm_bold: /*#__PURE__*/_extends({}, text.body.sm.bold),
-    sm_italic: /*#__PURE__*/_extends({}, text.body.sm.italic),
-    sm_underline: /*#__PURE__*/_extends({}, text.body.sm.underline),
-    sm_underline_semibold: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold),
-    sm_underline_bold: /*#__PURE__*/_extends({}, text.body.sm.underline_bold)
-  },
-  Caption: {
-    lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
-    lg_semibold: /*#__PURE__*/_extends({}, text.caption.lg.semibold),
-    lg_bold: /*#__PURE__*/_extends({}, text.caption.lg.bold),
-    lg_italic: /*#__PURE__*/_extends({}, text.caption.lg.italic),
-    lg_underline: /*#__PURE__*/_extends({}, text.caption.lg.underline),
-    lg_underline_semibold: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold),
-    lg_underline_bold: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold),
-    sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
-    sm_semibold: /*#__PURE__*/_extends({}, text.caption.sm.semibold),
-    sm_bold: /*#__PURE__*/_extends({}, text.caption.sm.bold),
-    sm_italic: /*#__PURE__*/_extends({}, text.caption.sm.italic),
-    sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
-    sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
-    sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
+  text: {
+    "default": {
+      color: color.grayscale80,
+      // Body
+      lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
+      lg_semibold: /*#__PURE__*/_extends({}, text.body.lg.semibold),
+      lg_bold: /*#__PURE__*/_extends({}, text.body.lg.bold),
+      lg_italic: /*#__PURE__*/_extends({}, text.body.lg.italic),
+      lg_underline: /*#__PURE__*/_extends({}, text.body.lg.underline),
+      lg_underline_semibold: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold),
+      lg_underline_bold: /*#__PURE__*/_extends({}, text.body.lg.underline_bold),
+      sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
+      sm_semibold: /*#__PURE__*/_extends({}, text.body.sm.semibold),
+      sm_bold: /*#__PURE__*/_extends({}, text.body.sm.bold),
+      sm_italic: /*#__PURE__*/_extends({}, text.body.sm.italic),
+      sm_underline: /*#__PURE__*/_extends({}, text.body.sm.underline),
+      sm_underline_semibold: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold),
+      sm_underline_bold: /*#__PURE__*/_extends({}, text.body.sm.underline_bold),
+      // Caption
+      sizes: {
+        lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
+        lg_semibold: /*#__PURE__*/_extends({}, text.caption.lg.semibold),
+        lg_bold: /*#__PURE__*/_extends({}, text.caption.lg.bold),
+        lg_italic: /*#__PURE__*/_extends({}, text.caption.lg.italic),
+        lg_underline: /*#__PURE__*/_extends({}, text.caption.lg.underline),
+        lg_underline_semibold: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold),
+        lg_underline_bold: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold),
+        sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
+        sm_semibold: /*#__PURE__*/_extends({}, text.caption.sm.semibold),
+        sm_bold: /*#__PURE__*/_extends({}, text.caption.sm.bold),
+        sm_italic: /*#__PURE__*/_extends({}, text.caption.sm.italic),
+        sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
+        sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
+        sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
+      },
+      // Heading
+      heading: {
+        h1: /*#__PURE__*/_extends({}, text.heading.h1),
+        h2: /*#__PURE__*/_extends({}, text.heading.h2),
+        h3: /*#__PURE__*/_extends({}, text.heading.h3),
+        h4: /*#__PURE__*/_extends({}, text.heading.h4),
+        h5: /*#__PURE__*/_extends({}, text.heading.h5),
+        h6: /*#__PURE__*/_extends({}, text.heading.h6)
+      }
+    }
   }
 });
 

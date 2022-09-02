@@ -365,6 +365,7 @@ export declare const agr: {
     };
     styles: {
         a: {
+            color: string;
             '&:hover': {
                 color: string;
                 textDecoration: string;
@@ -708,197 +709,463 @@ export declare const agr: {
                 color: string;
             };
         };
+        soft: {
+            alignItems: "center";
+            borderRadius: string;
+            cursor: "pointer";
+            display: "flex";
+            lineHeight: string;
+            fontWeight: string;
+            justifyContent: "center";
+            backgroundColor: string;
+            color: string;
+            border: string;
+            '& .wrapper-icon-left-large': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-left-medium': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-left-small': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-both-children': {
+                marginLeft: string;
+                marginRight: string;
+            };
+            '& .wrapper-icon-left-children': {
+                marginLeft: string;
+            };
+            '& .wrapper-icon-right-children': {
+                marginRight: string;
+            };
+            '& .wrapper-two-icon': {
+                marginRight: string;
+            };
+            '& .wrapperIconLeft': {
+                marginRight: number;
+            };
+            '& .wrapperIconRight': {
+                marginLeft: number;
+            };
+            '& .wrapper-icon-right-large': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-right-medium': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-right-small': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '&:hover': {
+                backgroundColor: string;
+                color: string;
+                boxShadow: "none !important";
+            };
+            '&:focus': {
+                boxShadow: string;
+            };
+            '&:active': {
+                backgroundColor: string;
+                color: string;
+                boxShadow: "none !important";
+            };
+            '&:disabled': {
+                cursor: "unset !important";
+                backgroundColor: string;
+                color: string;
+            };
+        };
+        outline: {
+            alignItems: "center";
+            borderRadius: string;
+            cursor: "pointer";
+            display: "flex";
+            lineHeight: string;
+            fontWeight: string;
+            justifyContent: "center";
+            backgroundColor: string;
+            border: string;
+            color: string;
+            '& .wrapper-icon-left-large': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-left-medium': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-left-small': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-both-children': {
+                marginLeft: string;
+                marginRight: string;
+            };
+            '& .wrapper-icon-left-children': {
+                marginLeft: string;
+            };
+            '& .wrapper-icon-right-children': {
+                marginRight: string;
+            };
+            '& .wrapper-two-icon': {
+                marginRight: string;
+            };
+            '& .wrapperIconLeft': {
+                marginRight: number;
+            };
+            '& .wrapperIconRight': {
+                marginLeft: number;
+            };
+            '& .wrapper-icon-right-large': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-right-medium': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-right-small': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '&:hover': {
+                backgroundColor: string;
+                border: string;
+                color: string;
+                boxShadow: "none !important";
+            };
+            '&:active': {
+                backgroundColor: string;
+                border: string;
+                color: string;
+                boxShadow: "none !important";
+            };
+            '&:focus': {
+                boxShadow: string;
+            };
+            '&:disabled': {
+                cursor: "unset";
+                appearance: "none";
+                backgroundColor: string;
+                border: string;
+                color: string;
+            };
+        };
+        transparent: {
+            alignItems: "center";
+            borderRadius: string;
+            cursor: "pointer";
+            display: "flex";
+            lineHeight: string;
+            fontWeight: string;
+            justifyContent: "center";
+            backgroundColor: "transparent";
+            border: string;
+            color: string;
+            '& .wrapper-icon-left-large': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-left-medium': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-left-small': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-both-children': {
+                marginLeft: string;
+                marginRight: string;
+            };
+            '& .wrapper-icon-left-children': {
+                marginLeft: string;
+            };
+            '& .wrapper-icon-right-children': {
+                marginRight: string;
+            };
+            '& .wrapper-two-icon': {
+                marginRight: string;
+            };
+            '& .wrapperIconLeft': {
+                marginRight: number;
+            };
+            '& .wrapperIconRight': {
+                marginLeft: number;
+            };
+            '& .wrapper-icon-right-large': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-right-medium': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '& .wrapper-icon-right-small': {
+                display: "flex";
+                width: string;
+                height: string;
+                alignItems: "center";
+            };
+            '&:hover': {
+                backgroundColor: string;
+                color: string;
+                boxShadow: "none !important";
+            };
+            '&:focus': {
+                backgroundColor: string;
+                color: string;
+                boxShadow: string;
+            };
+            '&:active': {
+                backgroundColor: string;
+                color: string;
+                boxShadow: "none !important";
+            };
+            '&:disabled': {
+                cursor: "unset";
+                appearance: "none";
+                backgroundColor: "transparent !important";
+                border: string;
+                color: string;
+            };
+        };
     };
-    Heading: {
-        h1: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        h2: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        h3: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        h4: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        h5: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        h6: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-    };
-    Body: {
-        lg_reguler: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        lg_semibold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        lg_bold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        lg_italic: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        lg_underline: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        lg_underline_semibold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        lg_underline_bold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        sm_reguler: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        sm_semibold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        sm_bold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        sm_italic: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        sm_underline: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        sm_underline_semibold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        sm_underline_bold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-    };
-    Caption: {
-        lg_reguler: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        lg_semibold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        lg_bold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        lg_italic: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        lg_underline: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        lg_underline_semibold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        lg_underline_bold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        sm_reguler: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        sm_semibold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        sm_bold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-        };
-        sm_italic: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        sm_underline: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        sm_underline_semibold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
-        };
-        sm_underline_bold: {
-            fontSize: string;
-            lineHeight: string;
-            fontWeight: string;
-            fontStyle: string;
+    text: {
+        default: {
+            color: string;
+            lg_reguler: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+            };
+            lg_semibold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+            };
+            lg_bold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+            };
+            lg_italic: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+                fontStyle: string;
+            };
+            lg_underline: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+                fontStyle: string;
+            };
+            lg_underline_semibold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+                fontStyle: string;
+            };
+            lg_underline_bold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+                fontStyle: string;
+            };
+            sm_reguler: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+            };
+            sm_semibold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+            };
+            sm_bold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+            };
+            sm_italic: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+                fontStyle: string;
+            };
+            sm_underline: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+                fontStyle: string;
+            };
+            sm_underline_semibold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+                fontStyle: string;
+            };
+            sm_underline_bold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: string;
+                fontStyle: string;
+            };
+            sizes: {
+                lg_reguler: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                lg_semibold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                lg_bold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                lg_italic: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                    fontStyle: string;
+                };
+                lg_underline: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                    fontStyle: string;
+                };
+                lg_underline_semibold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                    fontStyle: string;
+                };
+                lg_underline_bold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                    fontStyle: string;
+                };
+                sm_reguler: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                sm_semibold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                sm_bold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                sm_italic: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                    fontStyle: string;
+                };
+                sm_underline: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                    fontStyle: string;
+                };
+                sm_underline_semibold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                    fontStyle: string;
+                };
+                sm_underline_bold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                    fontStyle: string;
+                };
+            };
+            heading: {
+                h1: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                h2: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                h3: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                h4: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                h5: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                h6: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+            };
         };
     };
 };
