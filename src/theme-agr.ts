@@ -330,7 +330,7 @@ export const agr = makeTheme({
     }
   },
   styles: {
-    a: {
+  a: {
       color: `${tokens.anchorDefaultColor} !important`,
 
       '&:hover': {
@@ -426,18 +426,18 @@ export const agr = makeTheme({
         marginTop: '2px',
         height: '17px',
         width: '28px',
-        'div': {
+        div: {
           height: '12px !important',
           width: '12px !important',
-        }
+        },
       },
       background: '#C8CCD2 !important',
       'input:checked ~ &': {
         backgroundColor: '#52BD94 !important',
       },
-      ":disabled": {
+      ':disabled': {
         background: '#D9DDE3 !important',
-      }
+      },
     },
     checkbox: {
       sizeBoxLarge: {
@@ -446,7 +446,7 @@ export const agr = makeTheme({
         alignItems: 'center',
         cursor: 'pointer',
         width: 'fit-content',
-        fontFamily: 'Nunito Sans, sans-serif'
+        fontFamily: 'Nunito Sans, sans-serif',
       },
       sizeBoxSmall: {
         fontSize: '14px',
@@ -454,10 +454,10 @@ export const agr = makeTheme({
         alignItems: 'center',
         cursor: 'pointer',
         width: 'fit-content',
-        fontFamily: 'Nunito Sans, sans-serif'
+        fontFamily: 'Nunito Sans, sans-serif',
       },
       wrappLabel: {
-        marginLeft: '10px'
+        marginLeft: '10px',
       },
       '& .container-checkbox': {
         display: 'flex',
@@ -466,7 +466,7 @@ export const agr = makeTheme({
       check: {
         sm: {
           height: '20px !important',
-          width: '20px !important'
+          width: '20px !important',
         },
         '&:disabled': {
           '&:hover': {
@@ -478,45 +478,45 @@ export const agr = makeTheme({
           '&:checked': {
             '&:after': {
               content: '"\\2714"',
-              color: color.grayscale60,
-            }
+              color: `${tokens.checkboxDisabledBorder} !important`,
+            },
           },
-          backgroundColor: `${color.grayscale30} !important`,
-          borderRadius: '4px !important',
+          backgroundColor: `${tokens.checkboxDisabledBackgroundColor} !important`,
+          borderRadius: `${tokens.checkboxBorderRadius} !important`,
           border: 'none !important',
         },
         height: '24px',
         width: '24px',
         appearance: 'none',
-        border: `2px solid ${color.grayscale30}`,
-        borderRadius: '4px',
+        border: `2px solid ${tokens.checkboxDefaultBorder}`,
+        borderRadius: tokens.checkboxBorderRadius,
         cursor: 'pointer',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         '&:hover': {
-          border: `2px solid ${tokens.primary500}`,
+          border: `2px solid ${tokens.checkboxActiveBorder}`,
           '&:after': {
-            color: color.primary20,
+            color: tokens.checkboxActiveDisableBackgroundColor,
             content: '"\\2714"',
-          }
+          },
         },
         '&:checked': {
           backgroundColor: tokens.checkboxActiveBackgroundColor,
-          border: 'none',
+          border: `2px solid ${tokens.checkboxActiveBorder}`,
           '&:after': {
             content: '"\\2714"',
-            color: color.grayscale10,
+            color: tokens.checkboxDefaultBackgroundColor,
           },
           '&:hover': {
-            backgroundColor: tokens.primary600,
-          }
-        }
+            backgroundColor: tokens.checkboxActiveBorder,
+          },
+        },
       },
       indeterminate: {
         sm: {
           height: '20px !important',
-          width: '20px !important'
+          width: '20px !important',
         },
         '&:disabled': {
           '&:hover': {
@@ -528,8 +528,8 @@ export const agr = makeTheme({
           '&:checked': {
             '&:after': {
               content: '"\\2012"',
-              color: color.grayscale60,
-            }
+              color: `${tokens.checkboxDisabledBorder} !important`,
+            },
           },
           backgroundColor: `${color.grayscale30} !important`,
           borderRadius: `${tokens.checkboxBorderRadius} !important`,
@@ -538,49 +538,49 @@ export const agr = makeTheme({
         height: '24px',
         width: '24px',
         appearance: 'none',
-        border: `2px solid ${color.grayscale30}`,
-        borderRadius: '4px',
+        border: `2px solid ${tokens.checkboxDefaultBorder}`,
+        borderRadius: tokens.checkboxBorderRadius,
         cursor: 'pointer',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         '&:hover': {
-          border: `2px solid ${tokens.primary500}`,
+          border: `2px solid ${tokens.checkboxActiveBorder}`,
           '&:after': {
-            color: color.primary20,
+            color: tokens.checkboxActiveDisableBackgroundColor,
             content: '"\\2012"',
-          }
+          },
         },
         '&:checked': {
-          backgroundColor: tokens.primary500,
-          border: 'none',
+          backgroundColor: tokens.checkboxActiveBackgroundColor,
+          border: `2px solid ${tokens.checkboxActiveBorder}`,
           '&:after': {
             content: '"\\2012"',
-            color: color.grayscale10,
+            color: tokens.checkboxDefaultBackgroundColor,
           },
           '&:hover': {
-            backgroundColor: tokens.primary600,
-          }
-        }
-      }
+            backgroundColor: tokens.checkboxActiveBorder,
+          },
+        },
+      },
     },
   },
   buttons: {
     sm: {
       padding: `${tokens.buttonsSmPaddingTopBottom} ${tokens.buttonsSmPaddingLeftRight} ${tokens.buttonsSmPaddingTopBottom} ${tokens.buttonsSmPaddingLeftRight} !important`,
-      ...text.caption.lg.reguler
+      ...text.caption.lg.semibold,
     },
     md: {
       padding: `${tokens.buttonsMdPaddingTopBottom} ${tokens.buttonsMdPaddingLeftRight} ${tokens.buttonsMdPaddingTopBottom} ${tokens.buttonsMdPaddingLeftRight} !important`,
-      ...text.body.sm.reguler
+      ...text.body.sm.semibold,
     },
     lg: {
       padding: `${tokens.buttonsLgPaddingTopBottom} ${tokens.buttonsLgPaddingLeftRight} ${tokens.buttonsLgPaddingTopBottom} ${tokens.buttonsLgPaddingLeftRight} !important`,
-      ...text.body.sm.reguler
-      },
+      ...text.body.sm.semibold,
+    },
     solid: {
       alignItems: 'center',
-      borderRadius: `${tokens.buttonsBorderRadius} !important`,
+      borderRadius: `${tokens.buttonsBorderRadius}`,
       cursor: 'pointer',
       display: 'flex',
       lineHeight: '21px',
@@ -589,8 +589,7 @@ export const agr = makeTheme({
 
       backgroundColor: tokens.buttonsPrimaryDefaultBackgroundColor,
       color: tokens.buttonsPrimaryDefaultColor,
-      border: tokens.buttonsPrimaryBorderWidth,
-      fontFamily: 'Nunito Sans, sans-serif',
+      border: '0px',
       '& .wrapper-icon-left-large': {
         display: 'flex',
         width: '20px',
@@ -614,19 +613,19 @@ export const agr = makeTheme({
         marginRight: '10px',
       },
       '& .wrapper-icon-left-children': {
-        marginLeft: '10px'
+        marginLeft: '10px',
       },
       '& .wrapper-icon-right-children': {
-        marginRight: '10px'
+        marginRight: '10px',
       },
       '& .wrapper-two-icon': {
-        marginRight: '10px'
+        marginRight: '10px',
       },
       '& .wrapperIconLeft': {
-        marginRight: 10
+        marginRight: 10,
       },
       '& .wrapperIconRight': {
-        marginLeft: 10
+        marginLeft: 10,
       },
       '& .wrapper-icon-right-large': {
         display: 'flex',
@@ -663,7 +662,7 @@ export const agr = makeTheme({
         cursor: 'unset !important',
         backgroundColor: tokens.buttonsPrimaryDisabledBackgroundColor,
         color: tokens.buttonsPrimaryDisabledColor,
-      }
+      },
     },
     soft: {
       alignItems: 'center',
@@ -935,6 +934,7 @@ export const agr = makeTheme({
   },
   text: {
     default: {
+      fontFamily: 'Lato, sans-serif',
       color: color.grayscale80,
 
       // Body
@@ -944,7 +944,7 @@ export const agr = makeTheme({
       lg_semibold: {
         ...text.body.lg.semibold,
       },
-      lg_bold: {
+      lg_bold: { 
         ...text.body.lg.bold,
       },
       lg_italic: {
@@ -965,7 +965,7 @@ export const agr = makeTheme({
       sm_semibold: {
         ...text.body.sm.semibold,
       },
-      sm_bold: {
+      sm_bold: { 
         ...text.body.sm.bold,
       },
       sm_italic: {
@@ -1026,27 +1026,27 @@ export const agr = makeTheme({
           ...text.caption.sm.underline_bold,
         },
       },
+    },
 
-      // Heading
-      heading: {
-        h1: {
-          ...text.heading.h1,
-        },
-        h2: {
-          ...text.heading.h2,
-        },
-        h3: {
-          ...text.heading.h3,
-        },
-        h4: {
-          ...text.heading.h4,
-        },
-        h5: {
-          ...text.heading.h5,
-        },
-        h6: {
-          ...text.heading.h6,
-        },
+    // Heading
+    heading: {
+      h1: {
+        ...text.heading.h1,
+      },
+      h2: {
+        ...text.heading.h2,
+      },
+      h3: {
+        ...text.heading.h3,
+      },
+      h4: {
+        ...text.heading.h4,
+      },
+      h5: {
+        ...text.heading.h5,
+      },
+      h6: {
+        ...text.heading.h6,
       },
     },
   },

@@ -4,84 +4,98 @@ export const text = {
   body: {
     lg:{
       reguler: { 
-        fontSize: `${tokens.bodyLargeRegularFontSize}px`, 
-        lineHeight: `${tokens.bodyLargeRegularLineHeight}px`, 
-        fontWeight: tokens.bodyLargeRegularFontWeight
+        fontSize: `${tokens.bodyLargeRegularFontSize}`, 
+        lineHeight: `${tokens.bodyLargeRegularLineHeight}`, 
+        fontWeight: 400,
+        fontFamily: `${tokens.bodyLargeRegularFontFamily}`
       },
       semibold: { 
-        fontSize: `${tokens.bodyLargeSemiboldFontSize}px`, 
-        lineHeight: `${tokens.bodyLargeSemiboldLineHeight}px`, 
-        fontWeight: tokens.bodyLargeSemiboldFontWeight
+        fontSize: `${tokens.bodyLargeSemiboldFontSize}`, 
+        lineHeight: `${tokens.bodyLargeSemiboldLineHeight}`, 
+        fontWeight: 600,
+        fontFamily: `${tokens.bodyLargeSemiboldFontFamily}`
       },
       bold: { 
-        fontSize: `${tokens.bodyLargeBoldFontSize}px`, 
-        lineHeight: `${tokens.bodyLargeBoldLineHeight}px`, 
-        fontWeight: tokens.bodyLargeBoldFontWeight 
+        fontSize: `${tokens.bodyLargeBoldFontSize}`, 
+        lineHeight: `${tokens.bodyLargeBoldLineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.bodyLargeBoldFontFamily}`
       },
       italic: { 
-        fontSize: `${tokens.bodyLargeItalicFontSize}px`, 
-        lineHeight: `${tokens.bodyLargeItalicLineHeight}px`, 
-        fontWeight: tokens.bodyLargeItalicFontWeight, 
-        fontStyle: tokens.bodyLargeItalicTextDecoration 
+        fontSize: `${tokens.bodyLargeItalicFontSize}`, 
+        lineHeight: `${tokens.bodyLargeItalicLineHeight}`, 
+        fontWeight: 400, 
+        fontStyle: `${tokens.bodyLargeItalicTextDecoration}`,
+        fontFamily: `${tokens.bodyLargeItalicFontFamily}`
       },
       underline: { 
-        fontSize: `${tokens.bodyLargeUnderlineFontSize}px`, 
-        lineHeight: `${tokens.bodyLargeUnderlineLineHeight}px`, 
-        fontWeight: tokens.bodyLargeUnderlineFontWeight, 
-        fontStyle: tokens.bodyLargeUnderlineTextDecoration 
+        fontSize: `${tokens.bodyLargeUnderlineFontSize}`, 
+        lineHeight: `${tokens.bodyLargeUnderlineLineHeight}`, 
+        fontWeight: 400, 
+        fontStyle: `${tokens.bodyLargeUnderlineTextDecoration}`,
+        fontFamily: `${tokens.bodyLargeUnderlineFontFamily}`
       },
       underline_semibold: { 
-        fontSize: `${tokens.bodyLargeUnderlineSemiboldFontSize}px`, 
-        lineHeight: `${tokens.bodyLargeUnderlineSemiboldLineHeight}px`, 
-        fontWeight: tokens.bodyLargeUnderlineSemiboldFontWeight, 
-        fontStyle: tokens.bodyLargeUnderlineSemiboldTextDecoration  
+        fontSize: `${tokens.bodyLargeUnderlineSemiboldFontSize}`, 
+        lineHeight: `${tokens.bodyLargeUnderlineSemiboldLineHeight}`, 
+        fontWeight: 600, 
+        fontStyle: `${tokens.bodyLargeUnderlineSemiboldTextDecoration}`,
+        fontFamily: `${tokens.bodyLargeUnderlineSemiboldFontFamily}`
       },
       underline_bold: { 
-        fontSize: `${tokens.bodyLargeUnderlineBoldFontSize}px`, 
-        lineHeight: `${tokens.bodyLargeUnderlineBoldLineHeight}px`, 
-        fontWeight: tokens.bodyLargeUnderlineBoldFontWeight, 
-        fontStyle: tokens.bodyLargeUnderlineBoldTextDecoration  
+        fontSize: `${tokens.bodyLargeUnderlineBoldFontSize}`, 
+        lineHeight: `${tokens.bodyLargeUnderlineBoldLineHeight}`, 
+        fontWeight: 700, 
+        fontStyle: `${tokens.bodyLargeUnderlineBoldTextDecoration}`,
+        fontFamily: `${tokens.bodyLargeUnderlineBoldFontFamily}`  
       }
     },
     sm:{
       reguler: { 
-        fontSize: `${tokens.bodySmallRegularFontSize}px`, 
-        lineHeight: `${tokens.bodySmallRegularLineHeight}px`, 
-        fontWeight: tokens.bodySmallRegularFontWeight
+        fontSize: `${tokens.bodySmallRegularFontSize}`, 
+        lineHeight: `${tokens.bodySmallRegularLineHeight}`, 
+        fontWeight: 400,
+        fontFamily: `${tokens.bodySmallRegularFontFamily}`
       },
       semibold: { 
-        fontSize: `${tokens.bodySmallSemiboldFontSize}px`, 
-        lineHeight: `${tokens.bodySmallSemiboldLineHeight}px`, 
-        fontWeight: tokens.bodySmallSemiboldFontWeight
+        fontSize: `${tokens.bodySmallSemiboldFontSize}`, 
+        lineHeight: `${tokens.bodySmallSemiboldLineHeight}`, 
+        fontWeight: 600,
+        fontFamily: `${tokens.bodySmallSemiboldFontFamily}`
       },
       bold: { 
-        fontSize: `${tokens.bodySmallBoldFontSize}px`, 
-        lineHeight: `${tokens.bodySmallBoldLineHeight}px`, 
-        fontWeight: tokens.bodySmallBoldFontWeight 
+        fontSize: `${tokens.bodySmallBoldFontSize}`, 
+        lineHeight: `${tokens.bodySmallBoldLineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.bodySmallBoldFontFamily}`
       },
       italic: { 
-        fontSize: `${tokens.bodySmallItalicFontSize}px`, 
-        lineHeight: `${tokens.bodySmallItalicLineHeight}px`, 
-        fontWeight: tokens.bodySmallItalicFontWeight, 
-        fontStyle: tokens.bodySmallItalicTextDecoration 
+        fontSize: `${tokens.bodySmallItalicFontSize}`, 
+        lineHeight: `${tokens.bodySmallItalicLineHeight}`, 
+        fontWeight: 400, 
+        fontStyle: `${tokens.bodySmallItalicTextDecoration}`,
+        fontFamily: `${tokens.bodySmallItalicFontFamily}` 
       },
       underline: { 
-        fontSize: `${tokens.bodySmallUnderlineFontSize}px`, 
-        lineHeight: `${tokens.bodySmallUnderlineLineHeight}px`, 
-        fontWeight: tokens.bodySmallUnderlineFontWeight, 
-        fontStyle: tokens.bodySmallUnderlineTextDecoration 
+        fontSize: `${tokens.bodySmallUnderlineFontSize}`, 
+        lineHeight: `${tokens.bodySmallUnderlineLineHeight}`, 
+        fontWeight: 400, 
+        fontStyle: `${tokens.bodySmallUnderlineTextDecoration}`,
+        fontFamily: `${tokens.bodySmallUnderlineFontFamily}`
       },
       underline_semibold: { 
-        fontSize: `${tokens.bodySmallUnderlineSemiboldFontSize}px`, 
-        lineHeight: `${tokens.bodySmallUnderlineSemiboldLineHeight}px`, 
-        fontWeight: tokens.bodySmallUnderlineSemiboldFontWeight, 
-        fontStyle: tokens.bodySmallUnderlineSemiboldTextDecoration  
+        fontSize: `${tokens.bodySmallUnderlineSemiboldFontSize}`, 
+        lineHeight: `${tokens.bodySmallUnderlineSemiboldLineHeight}`, 
+        fontWeight: 600, 
+        fontStyle: `${tokens.bodySmallUnderlineSemiboldTextDecoration}`,
+        fontFamily: `${tokens.bodySmallUnderlineSemiboldFontFamily}` 
       },
       underline_bold: { 
-        fontSize: `${tokens.bodySmallUnderlineBoldFontSize}px`, 
-        lineHeight: `${tokens.bodySmallUnderlineBoldLineHeight}px`, 
-        fontWeight: tokens.bodySmallUnderlineBoldFontWeight, 
-        fontStyle: tokens.bodySmallUnderlineBoldTextDecoration  
+        fontSize: `${tokens.bodySmallUnderlineBoldFontSize}`, 
+        lineHeight: `${tokens.bodySmallUnderlineBoldLineHeight}`, 
+        fontWeight: 700, 
+        fontStyle: `${tokens.bodySmallUnderlineBoldTextDecoration}`,
+        fontFamily: `${tokens.bodySmallUnderlineBoldFontFamily}`  
       }
     }
   },
@@ -89,112 +103,132 @@ export const text = {
   caption: {
     lg:{
       reguler: { 
-        fontSize: `${tokens.captionLargeRegularFontSize}px`, 
-        lineHeight: `${tokens.captionLargeRegularLineHeight}px`, 
-        fontWeight: tokens.captionLargeRegularFontWeight
+        fontSize: `${tokens.captionLargeRegularFontSize}`, 
+        lineHeight: `${tokens.captionLargeRegularLineHeight}`, 
+        fontWeight: 400,
+        fontFamily: `${tokens.captionLargeRegularFontFamily}`
       },
       semibold: { 
-        fontSize: `${tokens.captionLargeSemiboldFontSize}px`, 
-        lineHeight: `${tokens.captionLargeSemiboldLineHeight}px`, 
-        fontWeight: tokens.captionLargeSemiboldFontWeight
+        fontSize: `${tokens.captionLargeSemiboldFontSize}`, 
+        lineHeight: `${tokens.captionLargeSemiboldLineHeight}`, 
+        fontWeight: 600,
+        fontFamily: `${tokens.captionLargeSemiboldFontFamily}`
       },
       bold: { 
-        fontSize: `${tokens.captionLargeBoldFontSize}px`, 
-        lineHeight: `${tokens.captionLargeBoldLineHeight}px`, 
-        fontWeight: tokens.captionLargeBoldFontWeight 
+        fontSize: `${tokens.captionLargeBoldFontSize}`, 
+        lineHeight: `${tokens.captionLargeBoldLineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.captionLargeBoldFontFamily}` 
       },
       italic: { 
-        fontSize: `${tokens.captionLargeItalicFontSize}px`, 
-        lineHeight: `${tokens.captionLargeItalicLineHeight}px`, 
-        fontWeight: tokens.captionLargeItalicFontWeight, 
-        fontStyle: tokens.captionLargeItalicTextDecoration 
+        fontSize: `${tokens.captionLargeItalicFontSize}`, 
+        lineHeight: `${tokens.captionLargeItalicLineHeight}`, 
+        fontWeight: 400, 
+        fontStyle: `${tokens.captionLargeItalicTextDecoration}`,
+        fontFamily: `${tokens.captionLargeItalicFontFamily}` 
       },
       underline: { 
-        fontSize: `${tokens.captionLargeUnderlineFontSize}px`, 
-        lineHeight: `${tokens.captionLargeUnderlineLineHeight}px`, 
-        fontWeight: tokens.captionLargeUnderlineFontWeight, 
-        fontStyle: tokens.captionLargeUnderlineTextDecoration 
+        fontSize: `${tokens.captionLargeUnderlineFontSize}`, 
+        lineHeight: `${tokens.captionLargeUnderlineLineHeight}`, 
+        fontWeight: 400, 
+        fontStyle: `${tokens.captionLargeUnderlineTextDecoration}`,
+        fontFamily: `${tokens.captionLargeUnderlineFontFamily}` 
       },
       underline_semibold: { 
-        fontSize: `${tokens.captionLargeUnderlineSemiboldFontSize}px`, 
-        lineHeight: `${tokens.captionLargeUnderlineSemiboldLineHeight}px`, 
-        fontWeight: tokens.captionLargeUnderlineSemiboldFontWeight, 
-        fontStyle: tokens.captionLargeUnderlineSemiboldTextDecoration  
+        fontSize: `${tokens.captionLargeUnderlineSemiboldFontSize}`, 
+        lineHeight: `${tokens.captionLargeUnderlineSemiboldLineHeight}`, 
+        fontWeight: 600, 
+        fontStyle: `${tokens.captionLargeUnderlineSemiboldTextDecoration}`,
+        fontFamily: `${tokens.captionLargeUnderlineSemiboldFontFamily}`  
       },
       underline_bold: { 
-        fontSize: `${tokens.captionLargeUnderlineBoldFontSize}px`, 
-        lineHeight: `${tokens.captionLargeUnderlineBoldLineHeight}px`, 
-        fontWeight: tokens.captionLargeUnderlineBoldFontWeight, 
-        fontStyle: tokens.captionLargeUnderlineBoldTextDecoration  
+        fontSize: `${tokens.captionLargeUnderlineBoldFontSize}`, 
+        lineHeight: `${tokens.captionLargeUnderlineBoldLineHeight}`, 
+        fontWeight: 700, 
+        fontStyle: `${tokens.captionLargeUnderlineBoldTextDecoration}`,
+        fontFamily: `${tokens.captionLargeUnderlineBoldFontFamily}`  
       }
     },
     sm:{
       reguler: { 
-        fontSize: `${tokens.captionSmallRegularFontSize}px`, 
-        lineHeight: `${tokens.captionSmallRegularLineHeight}px`, 
-        fontWeight: tokens.captionSmallRegularFontWeight
+        fontSize: `${tokens.captionSmallRegularFontSize}`, 
+        lineHeight: `${tokens.captionSmallRegularLineHeight}`, 
+        fontWeight: 400,
+        fontFamily: `${tokens.captionSmallRegularFontFamily}`
       },
       semibold: { 
-        fontSize: `${tokens.captionSmallSemiboldFontSize}px`, 
-        lineHeight: `${tokens.captionSmallSemiboldLineHeight}px`, 
-        fontWeight: tokens.captionSmallSemiboldFontWeight
+        fontSize: `${tokens.captionSmallSemiboldFontSize}`, 
+        lineHeight: `${tokens.captionSmallSemiboldLineHeight}`, 
+        fontWeight: 600,
+        fontFamily: `${tokens.captionSmallSemiboldFontFamily}`
       },
       bold: { 
-        fontSize: `${tokens.captionSmallBoldFontSize}px`, 
-        lineHeight: `${tokens.captionSmallBoldLineHeight}px`, 
-        fontWeight: tokens.captionSmallBoldFontWeight 
+        fontSize: `${tokens.captionSmallBoldFontSize}`, 
+        lineHeight: `${tokens.captionSmallBoldLineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.captionSmallBoldFontFamily}` 
       },
       italic: { 
-        fontSize: `${tokens.captionSmallItalicFontSize}px`, 
-        lineHeight: `${tokens.captionSmallItalicLineHeight}px`, 
-        fontWeight: tokens.captionSmallItalicFontWeight, 
-        fontStyle: tokens.captionSmallItalicTextDecoration 
+        fontSize: `${tokens.captionSmallItalicFontSize}`, 
+        lineHeight: `${tokens.captionSmallItalicLineHeight}`, 
+        fontWeight: 400, 
+        fontStyle: `${tokens.captionSmallItalicTextDecoration}`,
+        fontFamily: `${tokens.captionSmallItalicFontFamily}` 
       },
       underline: { 
-        fontSize: `${tokens.captionSmallUnderlineFontSize}px`, 
-        lineHeight: `${tokens.captionSmallUnderlineLineHeight}px`, 
-        fontWeight: tokens.captionSmallUnderlineFontWeight, 
-        fontStyle: tokens.captionSmallUnderlineTextDecoration 
+        fontSize: `${tokens.captionSmallUnderlineFontSize}`, 
+        lineHeight: `${tokens.captionSmallUnderlineLineHeight}`, 
+        fontWeight: 400, 
+        fontStyle: `${tokens.captionSmallUnderlineTextDecoration}`,
+        fontFamily: `${tokens.captionSmallUnderlineFontFamily}` 
       },
       underline_semibold: { 
-        fontSize: `${tokens.captionSmallUnderlineSemiboldFontSize}px`, 
-        lineHeight: `${tokens.captionSmallUnderlineSemiboldLineHeight}px`, 
-        fontWeight: tokens.captionSmallUnderlineSemiboldFontWeight, 
-        fontStyle: tokens.captionSmallUnderlineSemiboldTextDecoration  
+        fontSize: `${tokens.captionSmallUnderlineSemiboldFontSize}`, 
+        lineHeight: `${tokens.captionSmallUnderlineSemiboldLineHeight}`, 
+        fontWeight: 600, 
+        fontStyle: `${tokens.captionSmallUnderlineSemiboldTextDecoration}`,
+        fontFamily: `${tokens.captionSmallUnderlineSemiboldFontFamily }` 
       },
       underline_bold: { 
-        fontSize: `${tokens.captionSmallUnderlineBoldFontSize}px`, 
-        lineHeight: `${tokens.captionSmallUnderlineBoldLineHeight}px`, 
-        fontWeight: tokens.captionSmallUnderlineBoldFontWeight, 
-        fontStyle: tokens.captionSmallUnderlineBoldTextDecoration  
+        fontSize: `${tokens.captionSmallUnderlineBoldFontSize}`, 
+        lineHeight: `${tokens.captionSmallUnderlineBoldLineHeight}`, 
+        fontWeight: 700, 
+        fontStyle: `${tokens.captionSmallUnderlineBoldTextDecoration}`,
+        fontFamily: `${tokens.captionSmallUnderlineBoldFontFamily}`  
       }
     }
   },
 
 heading:{
-  h1: { fontSize: `${tokens.headingHeading1FontSize}px`, 
-        lineHeight: `${tokens.headingHeading1LineHeight}px`, 
-        fontWeight: tokens.headingHeading1FontWeight 
+  h1: { fontSize: `${tokens.headingHeading1FontSize}`, 
+        lineHeight: `${tokens.headingHeading1LineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.headingHeading1FontFamily}` 
       },
-  h2: { fontSize: `${tokens.headingHeading2FontSize}px`, 
-        lineHeight: `${tokens.headingHeading2LineHeight}px`, 
-        fontWeight: tokens.headingHeading2FontWeight
+  h2: { fontSize: `${tokens.headingHeading2FontSize}`, 
+        lineHeight: `${tokens.headingHeading2LineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.headingHeading2FontFamily}`
       },
-  h3: { fontSize: `${tokens.headingHeading3FontSize}px`, 
-        lineHeight: `${tokens.headingHeading3LineHeight}px`, 
-        fontWeight: tokens.headingHeading3FontWeight 
+  h3: { fontSize: `${tokens.headingHeading3FontSize}`, 
+        lineHeight: `${tokens.headingHeading3LineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.headingHeading3FontFamily}` 
       },
-  h4: { fontSize: `${tokens.headingHeading4FontSize}px`, 
-        lineHeight: `${tokens.headingHeading4LineHeight}px`, 
-        fontWeight: tokens.headingHeading4FontWeight
+  h4: { fontSize: `${tokens.headingHeading4FontSize}`, 
+        lineHeight: `${tokens.headingHeading4LineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.headingHeading4FontFamily}`
       },
-  h5: { fontSize: `${tokens.headingHeading5FontSize}px`, 
-        lineHeight: `${tokens.headingHeading5LineHeight}px`, 
-        fontWeight: tokens.headingHeading5FontWeight 
+  h5: { fontSize: `${tokens.headingHeading5FontSize}`, 
+        lineHeight: `${tokens.headingHeading5LineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.headingHeading5FontFamily}` 
       },
-  h6: { fontSize: `${tokens.headingHeading6FontSize}px`, 
-        lineHeight: `${tokens.headingHeading6LineHeight}px`, 
-        fontWeight: tokens.headingHeading6FontWeight
+  h6: { fontSize: `${tokens.headingHeading6FontSize}`, 
+        lineHeight: `${tokens.headingHeading6LineHeight}`, 
+        fontWeight: 700,
+        fontFamily: `${tokens.headingHeading6FontFamily}`
       }
     }
 };
