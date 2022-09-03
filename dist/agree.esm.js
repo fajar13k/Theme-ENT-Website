@@ -91,7 +91,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Fri, 02 Sep 2022 03:10:01 GMT
+ * Generated on Sat, 03 Sep 2022 18:06:29 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -607,201 +607,235 @@ var text = {
   body: {
     lg: {
       reguler: {
-        fontSize: tokens.bodyLargeRegularFontSize + "px",
-        lineHeight: tokens.bodyLargeRegularLineHeight + "px",
-        fontWeight: tokens.bodyLargeRegularFontWeight
+        fontSize: "" + tokens.bodyLargeRegularFontSize,
+        lineHeight: "" + tokens.bodyLargeRegularLineHeight,
+        fontWeight: 400,
+        fontFamily: "" + tokens.bodyLargeRegularFontFamily
       },
       semibold: {
-        fontSize: tokens.bodyLargeSemiboldFontSize + "px",
-        lineHeight: tokens.bodyLargeSemiboldLineHeight + "px",
-        fontWeight: tokens.bodyLargeSemiboldFontWeight
+        fontSize: "" + tokens.bodyLargeSemiboldFontSize,
+        lineHeight: "" + tokens.bodyLargeSemiboldLineHeight,
+        fontWeight: 600,
+        fontFamily: "" + tokens.bodyLargeSemiboldFontFamily
       },
       bold: {
-        fontSize: tokens.bodyLargeBoldFontSize + "px",
-        lineHeight: tokens.bodyLargeBoldLineHeight + "px",
-        fontWeight: tokens.bodyLargeBoldFontWeight
+        fontSize: "" + tokens.bodyLargeBoldFontSize,
+        lineHeight: "" + tokens.bodyLargeBoldLineHeight,
+        fontWeight: 700,
+        fontFamily: "" + tokens.bodyLargeBoldFontFamily
       },
       italic: {
-        fontSize: tokens.bodyLargeItalicFontSize + "px",
-        lineHeight: tokens.bodyLargeItalicLineHeight + "px",
-        fontWeight: tokens.bodyLargeItalicFontWeight,
-        fontStyle: tokens.bodyLargeItalicTextDecoration
+        fontSize: "" + tokens.bodyLargeItalicFontSize,
+        lineHeight: "" + tokens.bodyLargeItalicLineHeight,
+        fontWeight: 400,
+        fontStyle: "" + tokens.bodyLargeItalicTextDecoration,
+        fontFamily: "" + tokens.bodyLargeItalicFontFamily
       },
       underline: {
-        fontSize: tokens.bodyLargeUnderlineFontSize + "px",
-        lineHeight: tokens.bodyLargeUnderlineLineHeight + "px",
-        fontWeight: tokens.bodyLargeUnderlineFontWeight,
-        fontStyle: tokens.bodyLargeUnderlineTextDecoration
+        fontSize: "" + tokens.bodyLargeUnderlineFontSize,
+        lineHeight: "" + tokens.bodyLargeUnderlineLineHeight,
+        fontWeight: 400,
+        fontStyle: "" + tokens.bodyLargeUnderlineTextDecoration,
+        fontFamily: "" + tokens.bodyLargeUnderlineFontFamily
       },
       underline_semibold: {
-        fontSize: tokens.bodyLargeUnderlineSemiboldFontSize + "px",
-        lineHeight: tokens.bodyLargeUnderlineSemiboldLineHeight + "px",
-        fontWeight: tokens.bodyLargeUnderlineSemiboldFontWeight,
-        fontStyle: tokens.bodyLargeUnderlineSemiboldTextDecoration
+        fontSize: "" + tokens.bodyLargeUnderlineSemiboldFontSize,
+        lineHeight: "" + tokens.bodyLargeUnderlineSemiboldLineHeight,
+        fontWeight: 600,
+        fontStyle: "" + tokens.bodyLargeUnderlineSemiboldTextDecoration,
+        fontFamily: "" + tokens.bodyLargeUnderlineSemiboldFontFamily
       },
       underline_bold: {
-        fontSize: tokens.bodyLargeUnderlineBoldFontSize + "px",
-        lineHeight: tokens.bodyLargeUnderlineBoldLineHeight + "px",
-        fontWeight: tokens.bodyLargeUnderlineBoldFontWeight,
-        fontStyle: tokens.bodyLargeUnderlineBoldTextDecoration
+        fontSize: "" + tokens.bodyLargeUnderlineBoldFontSize,
+        lineHeight: "" + tokens.bodyLargeUnderlineBoldLineHeight,
+        fontWeight: 700,
+        fontStyle: "" + tokens.bodyLargeUnderlineBoldTextDecoration,
+        fontFamily: "" + tokens.bodyLargeUnderlineBoldFontFamily
       }
     },
     sm: {
       reguler: {
-        fontSize: tokens.bodySmallRegularFontSize + "px",
-        lineHeight: tokens.bodySmallRegularLineHeight + "px",
-        fontWeight: tokens.bodySmallRegularFontWeight
+        fontSize: "" + tokens.bodySmallRegularFontSize,
+        lineHeight: "" + tokens.bodySmallRegularLineHeight,
+        fontWeight: 400,
+        fontFamily: "" + tokens.bodySmallRegularFontFamily
       },
       semibold: {
-        fontSize: tokens.bodySmallSemiboldFontSize + "px",
-        lineHeight: tokens.bodySmallSemiboldLineHeight + "px",
-        fontWeight: tokens.bodySmallSemiboldFontWeight
+        fontSize: "" + tokens.bodySmallSemiboldFontSize,
+        lineHeight: "" + tokens.bodySmallSemiboldLineHeight,
+        fontWeight: 600,
+        fontFamily: "" + tokens.bodySmallSemiboldFontFamily
       },
       bold: {
-        fontSize: tokens.bodySmallBoldFontSize + "px",
-        lineHeight: tokens.bodySmallBoldLineHeight + "px",
-        fontWeight: tokens.bodySmallBoldFontWeight
+        fontSize: "" + tokens.bodySmallBoldFontSize,
+        lineHeight: "" + tokens.bodySmallBoldLineHeight,
+        fontWeight: 700,
+        fontFamily: "" + tokens.bodySmallBoldFontFamily
       },
       italic: {
-        fontSize: tokens.bodySmallItalicFontSize + "px",
-        lineHeight: tokens.bodySmallItalicLineHeight + "px",
-        fontWeight: tokens.bodySmallItalicFontWeight,
-        fontStyle: tokens.bodySmallItalicTextDecoration
+        fontSize: "" + tokens.bodySmallItalicFontSize,
+        lineHeight: "" + tokens.bodySmallItalicLineHeight,
+        fontWeight: 400,
+        fontStyle: "" + tokens.bodySmallItalicTextDecoration,
+        fontFamily: "" + tokens.bodySmallItalicFontFamily
       },
       underline: {
-        fontSize: tokens.bodySmallUnderlineFontSize + "px",
-        lineHeight: tokens.bodySmallUnderlineLineHeight + "px",
-        fontWeight: tokens.bodySmallUnderlineFontWeight,
-        fontStyle: tokens.bodySmallUnderlineTextDecoration
+        fontSize: "" + tokens.bodySmallUnderlineFontSize,
+        lineHeight: "" + tokens.bodySmallUnderlineLineHeight,
+        fontWeight: 400,
+        fontStyle: "" + tokens.bodySmallUnderlineTextDecoration,
+        fontFamily: "" + tokens.bodySmallUnderlineFontFamily
       },
       underline_semibold: {
-        fontSize: tokens.bodySmallUnderlineSemiboldFontSize + "px",
-        lineHeight: tokens.bodySmallUnderlineSemiboldLineHeight + "px",
-        fontWeight: tokens.bodySmallUnderlineSemiboldFontWeight,
-        fontStyle: tokens.bodySmallUnderlineSemiboldTextDecoration
+        fontSize: "" + tokens.bodySmallUnderlineSemiboldFontSize,
+        lineHeight: "" + tokens.bodySmallUnderlineSemiboldLineHeight,
+        fontWeight: 600,
+        fontStyle: "" + tokens.bodySmallUnderlineSemiboldTextDecoration,
+        fontFamily: "" + tokens.bodySmallUnderlineSemiboldFontFamily
       },
       underline_bold: {
-        fontSize: tokens.bodySmallUnderlineBoldFontSize + "px",
-        lineHeight: tokens.bodySmallUnderlineBoldLineHeight + "px",
-        fontWeight: tokens.bodySmallUnderlineBoldFontWeight,
-        fontStyle: tokens.bodySmallUnderlineBoldTextDecoration
+        fontSize: "" + tokens.bodySmallUnderlineBoldFontSize,
+        lineHeight: "" + tokens.bodySmallUnderlineBoldLineHeight,
+        fontWeight: 700,
+        fontStyle: "" + tokens.bodySmallUnderlineBoldTextDecoration,
+        fontFamily: "" + tokens.bodySmallUnderlineBoldFontFamily
       }
     }
   },
   caption: {
     lg: {
       reguler: {
-        fontSize: tokens.captionLargeRegularFontSize + "px",
-        lineHeight: tokens.captionLargeRegularLineHeight + "px",
-        fontWeight: tokens.captionLargeRegularFontWeight
+        fontSize: "" + tokens.captionLargeRegularFontSize,
+        lineHeight: "" + tokens.captionLargeRegularLineHeight,
+        fontWeight: 400,
+        fontFamily: "" + tokens.captionLargeRegularFontFamily
       },
       semibold: {
-        fontSize: tokens.captionLargeSemiboldFontSize + "px",
-        lineHeight: tokens.captionLargeSemiboldLineHeight + "px",
-        fontWeight: tokens.captionLargeSemiboldFontWeight
+        fontSize: "" + tokens.captionLargeSemiboldFontSize,
+        lineHeight: "" + tokens.captionLargeSemiboldLineHeight,
+        fontWeight: 600,
+        fontFamily: "" + tokens.captionLargeSemiboldFontFamily
       },
       bold: {
-        fontSize: tokens.captionLargeBoldFontSize + "px",
-        lineHeight: tokens.captionLargeBoldLineHeight + "px",
-        fontWeight: tokens.captionLargeBoldFontWeight
+        fontSize: "" + tokens.captionLargeBoldFontSize,
+        lineHeight: "" + tokens.captionLargeBoldLineHeight,
+        fontWeight: 700,
+        fontFamily: "" + tokens.captionLargeBoldFontFamily
       },
       italic: {
-        fontSize: tokens.captionLargeItalicFontSize + "px",
-        lineHeight: tokens.captionLargeItalicLineHeight + "px",
-        fontWeight: tokens.captionLargeItalicFontWeight,
-        fontStyle: tokens.captionLargeItalicTextDecoration
+        fontSize: "" + tokens.captionLargeItalicFontSize,
+        lineHeight: "" + tokens.captionLargeItalicLineHeight,
+        fontWeight: 400,
+        fontStyle: "" + tokens.captionLargeItalicTextDecoration,
+        fontFamily: "" + tokens.captionLargeItalicFontFamily
       },
       underline: {
-        fontSize: tokens.captionLargeUnderlineFontSize + "px",
-        lineHeight: tokens.captionLargeUnderlineLineHeight + "px",
-        fontWeight: tokens.captionLargeUnderlineFontWeight,
-        fontStyle: tokens.captionLargeUnderlineTextDecoration
+        fontSize: "" + tokens.captionLargeUnderlineFontSize,
+        lineHeight: "" + tokens.captionLargeUnderlineLineHeight,
+        fontWeight: 400,
+        fontStyle: "" + tokens.captionLargeUnderlineTextDecoration,
+        fontFamily: "" + tokens.captionLargeUnderlineFontFamily
       },
       underline_semibold: {
-        fontSize: tokens.captionLargeUnderlineSemiboldFontSize + "px",
-        lineHeight: tokens.captionLargeUnderlineSemiboldLineHeight + "px",
-        fontWeight: tokens.captionLargeUnderlineSemiboldFontWeight,
-        fontStyle: tokens.captionLargeUnderlineSemiboldTextDecoration
+        fontSize: "" + tokens.captionLargeUnderlineSemiboldFontSize,
+        lineHeight: "" + tokens.captionLargeUnderlineSemiboldLineHeight,
+        fontWeight: 600,
+        fontStyle: "" + tokens.captionLargeUnderlineSemiboldTextDecoration,
+        fontFamily: "" + tokens.captionLargeUnderlineSemiboldFontFamily
       },
       underline_bold: {
-        fontSize: tokens.captionLargeUnderlineBoldFontSize + "px",
-        lineHeight: tokens.captionLargeUnderlineBoldLineHeight + "px",
-        fontWeight: tokens.captionLargeUnderlineBoldFontWeight,
-        fontStyle: tokens.captionLargeUnderlineBoldTextDecoration
+        fontSize: "" + tokens.captionLargeUnderlineBoldFontSize,
+        lineHeight: "" + tokens.captionLargeUnderlineBoldLineHeight,
+        fontWeight: 700,
+        fontStyle: "" + tokens.captionLargeUnderlineBoldTextDecoration,
+        fontFamily: "" + tokens.captionLargeUnderlineBoldFontFamily
       }
     },
     sm: {
       reguler: {
-        fontSize: tokens.captionSmallRegularFontSize + "px",
-        lineHeight: tokens.captionSmallRegularLineHeight + "px",
-        fontWeight: tokens.captionSmallRegularFontWeight
+        fontSize: "" + tokens.captionSmallRegularFontSize,
+        lineHeight: "" + tokens.captionSmallRegularLineHeight,
+        fontWeight: 400,
+        fontFamily: "" + tokens.captionSmallRegularFontFamily
       },
       semibold: {
-        fontSize: tokens.captionSmallSemiboldFontSize + "px",
-        lineHeight: tokens.captionSmallSemiboldLineHeight + "px",
-        fontWeight: tokens.captionSmallSemiboldFontWeight
+        fontSize: "" + tokens.captionSmallSemiboldFontSize,
+        lineHeight: "" + tokens.captionSmallSemiboldLineHeight,
+        fontWeight: 600,
+        fontFamily: "" + tokens.captionSmallSemiboldFontFamily
       },
       bold: {
-        fontSize: tokens.captionSmallBoldFontSize + "px",
-        lineHeight: tokens.captionSmallBoldLineHeight + "px",
-        fontWeight: tokens.captionSmallBoldFontWeight
+        fontSize: "" + tokens.captionSmallBoldFontSize,
+        lineHeight: "" + tokens.captionSmallBoldLineHeight,
+        fontWeight: 700,
+        fontFamily: "" + tokens.captionSmallBoldFontFamily
       },
       italic: {
-        fontSize: tokens.captionSmallItalicFontSize + "px",
-        lineHeight: tokens.captionSmallItalicLineHeight + "px",
-        fontWeight: tokens.captionSmallItalicFontWeight,
-        fontStyle: tokens.captionSmallItalicTextDecoration
+        fontSize: "" + tokens.captionSmallItalicFontSize,
+        lineHeight: "" + tokens.captionSmallItalicLineHeight,
+        fontWeight: 400,
+        fontStyle: "" + tokens.captionSmallItalicTextDecoration,
+        fontFamily: "" + tokens.captionSmallItalicFontFamily
       },
       underline: {
-        fontSize: tokens.captionSmallUnderlineFontSize + "px",
-        lineHeight: tokens.captionSmallUnderlineLineHeight + "px",
-        fontWeight: tokens.captionSmallUnderlineFontWeight,
-        fontStyle: tokens.captionSmallUnderlineTextDecoration
+        fontSize: "" + tokens.captionSmallUnderlineFontSize,
+        lineHeight: "" + tokens.captionSmallUnderlineLineHeight,
+        fontWeight: 400,
+        fontStyle: "" + tokens.captionSmallUnderlineTextDecoration,
+        fontFamily: "" + tokens.captionSmallUnderlineFontFamily
       },
       underline_semibold: {
-        fontSize: tokens.captionSmallUnderlineSemiboldFontSize + "px",
-        lineHeight: tokens.captionSmallUnderlineSemiboldLineHeight + "px",
-        fontWeight: tokens.captionSmallUnderlineSemiboldFontWeight,
-        fontStyle: tokens.captionSmallUnderlineSemiboldTextDecoration
+        fontSize: "" + tokens.captionSmallUnderlineSemiboldFontSize,
+        lineHeight: "" + tokens.captionSmallUnderlineSemiboldLineHeight,
+        fontWeight: 600,
+        fontStyle: "" + tokens.captionSmallUnderlineSemiboldTextDecoration,
+        fontFamily: "" + tokens.captionSmallUnderlineSemiboldFontFamily
       },
       underline_bold: {
-        fontSize: tokens.captionSmallUnderlineBoldFontSize + "px",
-        lineHeight: tokens.captionSmallUnderlineBoldLineHeight + "px",
-        fontWeight: tokens.captionSmallUnderlineBoldFontWeight,
-        fontStyle: tokens.captionSmallUnderlineBoldTextDecoration
+        fontSize: "" + tokens.captionSmallUnderlineBoldFontSize,
+        lineHeight: "" + tokens.captionSmallUnderlineBoldLineHeight,
+        fontWeight: 700,
+        fontStyle: "" + tokens.captionSmallUnderlineBoldTextDecoration,
+        fontFamily: "" + tokens.captionSmallUnderlineBoldFontFamily
       }
     }
   },
   heading: {
     h1: {
-      fontSize: tokens.headingHeading1FontSize + "px",
-      lineHeight: tokens.headingHeading1LineHeight + "px",
-      fontWeight: tokens.headingHeading1FontWeight
+      fontSize: "" + tokens.headingHeading1FontSize,
+      lineHeight: "" + tokens.headingHeading1LineHeight,
+      fontWeight: 700,
+      fontFamily: "" + tokens.headingHeading1FontFamily
     },
     h2: {
-      fontSize: tokens.headingHeading2FontSize + "px",
-      lineHeight: tokens.headingHeading2LineHeight + "px",
-      fontWeight: tokens.headingHeading2FontWeight
+      fontSize: "" + tokens.headingHeading2FontSize,
+      lineHeight: "" + tokens.headingHeading2LineHeight,
+      fontWeight: 700,
+      fontFamily: "" + tokens.headingHeading2FontFamily
     },
     h3: {
-      fontSize: tokens.headingHeading3FontSize + "px",
-      lineHeight: tokens.headingHeading3LineHeight + "px",
-      fontWeight: tokens.headingHeading3FontWeight
+      fontSize: "" + tokens.headingHeading3FontSize,
+      lineHeight: "" + tokens.headingHeading3LineHeight,
+      fontWeight: 700,
+      fontFamily: "" + tokens.headingHeading3FontFamily
     },
     h4: {
-      fontSize: tokens.headingHeading4FontSize + "px",
-      lineHeight: tokens.headingHeading4LineHeight + "px",
-      fontWeight: tokens.headingHeading4FontWeight
+      fontSize: "" + tokens.headingHeading4FontSize,
+      lineHeight: "" + tokens.headingHeading4LineHeight,
+      fontWeight: 700,
+      fontFamily: "" + tokens.headingHeading4FontFamily
     },
     h5: {
-      fontSize: tokens.headingHeading5FontSize + "px",
-      lineHeight: tokens.headingHeading5LineHeight + "px",
-      fontWeight: tokens.headingHeading5FontWeight
+      fontSize: "" + tokens.headingHeading5FontSize,
+      lineHeight: "" + tokens.headingHeading5LineHeight,
+      fontWeight: 700,
+      fontFamily: "" + tokens.headingHeading5FontFamily
     },
     h6: {
-      fontSize: tokens.headingHeading6FontSize + "px",
-      lineHeight: tokens.headingHeading6LineHeight + "px",
-      fontWeight: tokens.headingHeading6FontWeight
+      fontSize: "" + tokens.headingHeading6FontSize,
+      lineHeight: "" + tokens.headingHeading6LineHeight,
+      fontWeight: 700,
+      fontFamily: "" + tokens.headingHeading6FontFamily
     }
   }
 };
@@ -825,7 +859,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Fri, 02 Sep 2022 03:10:01 GMT
+ * Generated on Sat, 03 Sep 2022 18:06:29 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1316,7 +1350,7 @@ var agr = /*#__PURE__*/makeTheme({
         marginTop: '2px',
         height: '17px',
         width: '28px',
-        'div': {
+        div: {
           height: '12px !important',
           width: '12px !important'
         }
@@ -1325,7 +1359,7 @@ var agr = /*#__PURE__*/makeTheme({
       'input:checked ~ &': {
         backgroundColor: '#52BD94 !important'
       },
-      ":disabled": {
+      ':disabled': {
         background: '#D9DDE3 !important'
       }
     },
@@ -1368,38 +1402,38 @@ var agr = /*#__PURE__*/makeTheme({
           '&:checked': {
             '&:after': {
               content: '"\\2714"',
-              color: color.grayscale60
+              color: tokens$1.checkboxDisabledBorder + " !important"
             }
           },
-          backgroundColor: color.grayscale30 + " !important",
-          borderRadius: '4px !important',
+          backgroundColor: tokens$1.checkboxDisabledBackgroundColor + " !important",
+          borderRadius: tokens$1.checkboxBorderRadius + " !important",
           border: 'none !important'
         },
         height: '24px',
         width: '24px',
         appearance: 'none',
-        border: "2px solid " + color.grayscale30,
-        borderRadius: '4px',
+        border: "2px solid " + tokens$1.checkboxDefaultBorder,
+        borderRadius: tokens$1.checkboxBorderRadius,
         cursor: 'pointer',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         '&:hover': {
-          border: "2px solid " + tokens$1.primary500,
+          border: "2px solid " + tokens$1.checkboxActiveBorder,
           '&:after': {
-            color: color.primary20,
+            color: tokens$1.checkboxActiveDisableBackgroundColor,
             content: '"\\2714"'
           }
         },
         '&:checked': {
           backgroundColor: tokens$1.checkboxActiveBackgroundColor,
-          border: 'none',
+          border: "2px solid " + tokens$1.checkboxActiveBorder,
           '&:after': {
             content: '"\\2714"',
-            color: color.grayscale10
+            color: tokens$1.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$1.primary600
+            backgroundColor: tokens$1.checkboxActiveBorder
           }
         }
       },
@@ -1418,7 +1452,7 @@ var agr = /*#__PURE__*/makeTheme({
           '&:checked': {
             '&:after': {
               content: '"\\2012"',
-              color: color.grayscale60
+              color: tokens$1.checkboxDisabledBorder + " !important"
             }
           },
           backgroundColor: color.grayscale30 + " !important",
@@ -1428,28 +1462,28 @@ var agr = /*#__PURE__*/makeTheme({
         height: '24px',
         width: '24px',
         appearance: 'none',
-        border: "2px solid " + color.grayscale30,
-        borderRadius: '4px',
+        border: "2px solid " + tokens$1.checkboxDefaultBorder,
+        borderRadius: tokens$1.checkboxBorderRadius,
         cursor: 'pointer',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         '&:hover': {
-          border: "2px solid " + tokens$1.primary500,
+          border: "2px solid " + tokens$1.checkboxActiveBorder,
           '&:after': {
-            color: color.primary20,
+            color: tokens$1.checkboxActiveDisableBackgroundColor,
             content: '"\\2012"'
           }
         },
         '&:checked': {
-          backgroundColor: tokens$1.primary500,
-          border: 'none',
+          backgroundColor: tokens$1.checkboxActiveBackgroundColor,
+          border: "2px solid " + tokens$1.checkboxActiveBorder,
           '&:after': {
             content: '"\\2012"',
-            color: color.grayscale10
+            color: tokens$1.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$1.primary600
+            backgroundColor: tokens$1.checkboxActiveBorder
           }
         }
       }
@@ -1458,16 +1492,16 @@ var agr = /*#__PURE__*/makeTheme({
   buttons: {
     sm: /*#__PURE__*/_extends({
       padding: tokens$1.buttonsSmPaddingTopBottom + " " + tokens$1.buttonsSmPaddingLeftRight + " " + tokens$1.buttonsSmPaddingTopBottom + " " + tokens$1.buttonsSmPaddingLeftRight + " !important"
-    }, text.caption.lg.reguler),
+    }, text.caption.lg.semibold),
     md: /*#__PURE__*/_extends({
       padding: tokens$1.buttonsMdPaddingTopBottom + " " + tokens$1.buttonsMdPaddingLeftRight + " " + tokens$1.buttonsMdPaddingTopBottom + " " + tokens$1.buttonsMdPaddingLeftRight + " !important"
-    }, text.body.sm.reguler),
+    }, text.body.sm.semibold),
     lg: /*#__PURE__*/_extends({
       padding: tokens$1.buttonsLgPaddingTopBottom + " " + tokens$1.buttonsLgPaddingLeftRight + " " + tokens$1.buttonsLgPaddingTopBottom + " " + tokens$1.buttonsLgPaddingLeftRight + " !important"
-    }, text.body.sm.reguler),
+    }, text.body.sm.semibold),
     solid: {
       alignItems: 'center',
-      borderRadius: tokens$1.buttonsBorderRadius + " !important",
+      borderRadius: "" + tokens$1.buttonsBorderRadius,
       cursor: 'pointer',
       display: 'flex',
       lineHeight: '21px',
@@ -1475,8 +1509,7 @@ var agr = /*#__PURE__*/makeTheme({
       justifyContent: 'center',
       backgroundColor: tokens$1.buttonsPrimaryDefaultBackgroundColor,
       color: tokens$1.buttonsPrimaryDefaultColor,
-      border: tokens$1.buttonsPrimaryBorderWidth,
-      fontFamily: 'Nunito Sans, sans-serif',
+      border: '0px',
       '& .wrapper-icon-left-large': {
         display: 'flex',
         width: '20px',
@@ -1817,6 +1850,7 @@ var agr = /*#__PURE__*/makeTheme({
   },
   text: {
     "default": {
+      fontFamily: 'Lato, sans-serif',
       color: color.grayscale80,
       // Body
       lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
@@ -1849,23 +1883,23 @@ var agr = /*#__PURE__*/makeTheme({
         sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
         sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
         sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
-      },
-      // Heading
-      heading: {
-        h1: /*#__PURE__*/_extends({}, text.heading.h1),
-        h2: /*#__PURE__*/_extends({}, text.heading.h2),
-        h3: /*#__PURE__*/_extends({}, text.heading.h3),
-        h4: /*#__PURE__*/_extends({}, text.heading.h4),
-        h5: /*#__PURE__*/_extends({}, text.heading.h5),
-        h6: /*#__PURE__*/_extends({}, text.heading.h6)
       }
+    },
+    // Heading
+    heading: {
+      h1: /*#__PURE__*/_extends({}, text.heading.h1),
+      h2: /*#__PURE__*/_extends({}, text.heading.h2),
+      h3: /*#__PURE__*/_extends({}, text.heading.h3),
+      h4: /*#__PURE__*/_extends({}, text.heading.h4),
+      h5: /*#__PURE__*/_extends({}, text.heading.h5),
+      h6: /*#__PURE__*/_extends({}, text.heading.h6)
     }
   }
 });
 
 /**
  * Do not edit directly
- * Generated on Fri, 02 Sep 2022 03:10:01 GMT
+ * Generated on Sat, 03 Sep 2022 18:06:29 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -2356,7 +2390,7 @@ var agl = /*#__PURE__*/makeTheme({
         marginTop: '2px',
         height: '17px',
         width: '28px',
-        'div': {
+        div: {
           height: '12px !important',
           width: '12px !important'
         }
@@ -2365,7 +2399,7 @@ var agl = /*#__PURE__*/makeTheme({
       'input:checked ~ &': {
         backgroundColor: '#52BD94 !important'
       },
-      ":disabled": {
+      ':disabled': {
         background: '#D9DDE3 !important'
       }
     },
@@ -2408,38 +2442,38 @@ var agl = /*#__PURE__*/makeTheme({
           '&:checked': {
             '&:after': {
               content: '"\\2714"',
-              color: color.grayscale60
+              color: tokens$2.checkboxDisabledBorder + " !important"
             }
           },
-          backgroundColor: color.grayscale30 + " !important",
-          borderRadius: '4px !important',
+          backgroundColor: tokens$2.checkboxDisabledBackgroundColor + " !important",
+          borderRadius: tokens$2.checkboxBorderRadius + " !important",
           border: 'none !important'
         },
         height: '24px',
         width: '24px',
         appearance: 'none',
-        border: "2px solid " + color.grayscale30,
-        borderRadius: '4px',
+        border: "2px solid " + tokens$2.checkboxDefaultBorder,
+        borderRadius: tokens$2.checkboxBorderRadius,
         cursor: 'pointer',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         '&:hover': {
-          border: "2px solid " + tokens$2.primary500,
+          border: "2px solid " + tokens$2.checkboxActiveBorder,
           '&:after': {
-            color: color.primary20,
+            color: tokens$2.checkboxActiveDisableBackgroundColor,
             content: '"\\2714"'
           }
         },
         '&:checked': {
           backgroundColor: tokens$2.checkboxActiveBackgroundColor,
-          border: 'none',
+          border: "2px solid " + tokens$2.checkboxActiveBorder,
           '&:after': {
             content: '"\\2714"',
-            color: color.grayscale10
+            color: tokens$2.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$2.primary600
+            backgroundColor: tokens$2.checkboxActiveBorder
           }
         }
       },
@@ -2458,7 +2492,7 @@ var agl = /*#__PURE__*/makeTheme({
           '&:checked': {
             '&:after': {
               content: '"\\2012"',
-              color: color.grayscale60
+              color: tokens$2.checkboxDisabledBorder + " !important"
             }
           },
           backgroundColor: color.grayscale30 + " !important",
@@ -2468,28 +2502,28 @@ var agl = /*#__PURE__*/makeTheme({
         height: '24px',
         width: '24px',
         appearance: 'none',
-        border: "2px solid " + color.grayscale30,
-        borderRadius: '4px',
+        border: "2px solid " + tokens$2.checkboxDefaultBorder,
+        borderRadius: tokens$2.checkboxBorderRadius,
         cursor: 'pointer',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         '&:hover': {
-          border: "2px solid " + tokens$2.primary500,
+          border: "2px solid " + tokens$2.checkboxActiveBorder,
           '&:after': {
-            color: color.primary20,
+            color: tokens$2.checkboxActiveDisableBackgroundColor,
             content: '"\\2012"'
           }
         },
         '&:checked': {
-          backgroundColor: tokens$2.primary500,
-          border: 'none',
+          backgroundColor: tokens$2.checkboxActiveBackgroundColor,
+          border: "2px solid " + tokens$2.checkboxActiveBorder,
           '&:after': {
             content: '"\\2012"',
-            color: color.grayscale10
+            color: tokens$2.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$2.primary600
+            backgroundColor: tokens$2.checkboxActiveBorder
           }
         }
       }
@@ -2498,16 +2532,16 @@ var agl = /*#__PURE__*/makeTheme({
   buttons: {
     sm: /*#__PURE__*/_extends({
       padding: tokens$2.buttonsSmPaddingTopBottom + " " + tokens$2.buttonsSmPaddingLeftRight + " " + tokens$2.buttonsSmPaddingTopBottom + " " + tokens$2.buttonsSmPaddingLeftRight + " !important"
-    }, text.caption.lg.reguler),
+    }, text.caption.lg.semibold),
     md: /*#__PURE__*/_extends({
       padding: tokens$2.buttonsMdPaddingTopBottom + " " + tokens$2.buttonsMdPaddingLeftRight + " " + tokens$2.buttonsMdPaddingTopBottom + " " + tokens$2.buttonsMdPaddingLeftRight + " !important"
-    }, text.body.sm.reguler),
+    }, text.body.sm.semibold),
     lg: /*#__PURE__*/_extends({
       padding: tokens$2.buttonsLgPaddingTopBottom + " " + tokens$2.buttonsLgPaddingLeftRight + " " + tokens$2.buttonsLgPaddingTopBottom + " " + tokens$2.buttonsLgPaddingLeftRight + " !important"
-    }, text.body.sm.reguler),
+    }, text.body.sm.semibold),
     solid: {
       alignItems: 'center',
-      borderRadius: tokens$2.buttonsBorderRadius + " !important",
+      borderRadius: "" + tokens$2.buttonsBorderRadius,
       cursor: 'pointer',
       display: 'flex',
       lineHeight: '21px',
@@ -2515,8 +2549,7 @@ var agl = /*#__PURE__*/makeTheme({
       justifyContent: 'center',
       backgroundColor: tokens$2.buttonsPrimaryDefaultBackgroundColor,
       color: tokens$2.buttonsPrimaryDefaultColor,
-      border: tokens$2.buttonsPrimaryBorderWidth,
-      fontFamily: 'Nunito Sans, sans-serif',
+      border: '0px',
       '& .wrapper-icon-left-large': {
         display: 'flex',
         width: '20px',
@@ -2857,6 +2890,7 @@ var agl = /*#__PURE__*/makeTheme({
   },
   text: {
     "default": {
+      fontFamily: 'Lato, sans-serif',
       color: color.grayscale80,
       // Body
       lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
@@ -2889,23 +2923,23 @@ var agl = /*#__PURE__*/makeTheme({
         sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
         sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
         sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
-      },
-      // Heading
-      heading: {
-        h1: /*#__PURE__*/_extends({}, text.heading.h1),
-        h2: /*#__PURE__*/_extends({}, text.heading.h2),
-        h3: /*#__PURE__*/_extends({}, text.heading.h3),
-        h4: /*#__PURE__*/_extends({}, text.heading.h4),
-        h5: /*#__PURE__*/_extends({}, text.heading.h5),
-        h6: /*#__PURE__*/_extends({}, text.heading.h6)
       }
+    },
+    // Heading
+    heading: {
+      h1: /*#__PURE__*/_extends({}, text.heading.h1),
+      h2: /*#__PURE__*/_extends({}, text.heading.h2),
+      h3: /*#__PURE__*/_extends({}, text.heading.h3),
+      h4: /*#__PURE__*/_extends({}, text.heading.h4),
+      h5: /*#__PURE__*/_extends({}, text.heading.h5),
+      h6: /*#__PURE__*/_extends({}, text.heading.h6)
     }
   }
 });
 
 /**
  * Do not edit directly
- * Generated on Fri, 02 Sep 2022 03:10:01 GMT
+ * Generated on Sat, 03 Sep 2022 18:06:29 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -3393,7 +3427,7 @@ var aqf = /*#__PURE__*/makeTheme({
         marginTop: '2px',
         height: '17px',
         width: '28px',
-        'div': {
+        div: {
           height: '12px !important',
           width: '12px !important'
         }
@@ -3402,7 +3436,7 @@ var aqf = /*#__PURE__*/makeTheme({
       'input:checked ~ &': {
         backgroundColor: '#52BD94 !important'
       },
-      ":disabled": {
+      ':disabled': {
         background: '#D9DDE3 !important'
       }
     },
@@ -3445,38 +3479,38 @@ var aqf = /*#__PURE__*/makeTheme({
           '&:checked': {
             '&:after': {
               content: '"\\2714"',
-              color: color.grayscale60
+              color: tokens$3.checkboxDisabledBorder + " !important"
             }
           },
-          backgroundColor: color.grayscale30 + " !important",
-          borderRadius: '4px !important',
+          backgroundColor: tokens$3.checkboxDisabledBackgroundColor + " !important",
+          borderRadius: tokens$3.checkboxBorderRadius + " !important",
           border: 'none !important'
         },
         height: '24px',
         width: '24px',
         appearance: 'none',
-        border: "2px solid " + color.grayscale30,
-        borderRadius: '4px',
+        border: "2px solid " + tokens$3.checkboxDefaultBorder,
+        borderRadius: tokens$3.checkboxBorderRadius,
         cursor: 'pointer',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         '&:hover': {
-          border: "2px solid " + tokens$3.primary500,
+          border: "2px solid " + tokens$3.checkboxActiveBorder,
           '&:after': {
-            color: color.primary20,
+            color: tokens$3.checkboxActiveDisableBackgroundColor,
             content: '"\\2714"'
           }
         },
         '&:checked': {
           backgroundColor: tokens$3.checkboxActiveBackgroundColor,
-          border: 'none',
+          border: "2px solid " + tokens$3.checkboxActiveBorder,
           '&:after': {
             content: '"\\2714"',
-            color: color.grayscale10
+            color: tokens$3.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$3.primary600
+            backgroundColor: tokens$3.checkboxActiveBorder
           }
         }
       },
@@ -3495,7 +3529,7 @@ var aqf = /*#__PURE__*/makeTheme({
           '&:checked': {
             '&:after': {
               content: '"\\2012"',
-              color: color.grayscale60
+              color: tokens$3.checkboxDisabledBorder + " !important"
             }
           },
           backgroundColor: color.grayscale30 + " !important",
@@ -3505,28 +3539,28 @@ var aqf = /*#__PURE__*/makeTheme({
         height: '24px',
         width: '24px',
         appearance: 'none',
-        border: "2px solid " + color.grayscale30,
-        borderRadius: '4px',
+        border: "2px solid " + tokens$3.checkboxDefaultBorder,
+        borderRadius: tokens$3.checkboxBorderRadius,
         cursor: 'pointer',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         '&:hover': {
-          border: "2px solid " + tokens$3.primary500,
+          border: "2px solid " + tokens$3.checkboxActiveBorder,
           '&:after': {
-            color: color.primary20,
+            color: tokens$3.checkboxActiveDisableBackgroundColor,
             content: '"\\2012"'
           }
         },
         '&:checked': {
-          backgroundColor: tokens$3.primary500,
-          border: 'none',
+          backgroundColor: tokens$3.checkboxActiveBackgroundColor,
+          border: "2px solid " + tokens$3.checkboxActiveBorder,
           '&:after': {
             content: '"\\2012"',
-            color: color.grayscale10
+            color: tokens$3.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$3.primary600
+            backgroundColor: tokens$3.checkboxActiveBorder
           }
         }
       }
@@ -3535,16 +3569,16 @@ var aqf = /*#__PURE__*/makeTheme({
   buttons: {
     sm: /*#__PURE__*/_extends({
       padding: tokens$3.buttonsSmPaddingTopBottom + " " + tokens$3.buttonsSmPaddingLeftRight + " " + tokens$3.buttonsSmPaddingTopBottom + " " + tokens$3.buttonsSmPaddingLeftRight + " !important"
-    }, text.caption.lg.reguler),
+    }, text.caption.lg.semibold),
     md: /*#__PURE__*/_extends({
       padding: tokens$3.buttonsMdPaddingTopBottom + " " + tokens$3.buttonsMdPaddingLeftRight + " " + tokens$3.buttonsMdPaddingTopBottom + " " + tokens$3.buttonsMdPaddingLeftRight + " !important"
-    }, text.body.sm.reguler),
+    }, text.body.sm.semibold),
     lg: /*#__PURE__*/_extends({
       padding: tokens$3.buttonsLgPaddingTopBottom + " " + tokens$3.buttonsLgPaddingLeftRight + " " + tokens$3.buttonsLgPaddingTopBottom + " " + tokens$3.buttonsLgPaddingLeftRight + " !important"
-    }, text.body.sm.reguler),
+    }, text.body.sm.semibold),
     solid: {
       alignItems: 'center',
-      borderRadius: tokens$3.buttonsBorderRadius + " !important",
+      borderRadius: "" + tokens$3.buttonsBorderRadius,
       cursor: 'pointer',
       display: 'flex',
       lineHeight: '21px',
@@ -3552,8 +3586,7 @@ var aqf = /*#__PURE__*/makeTheme({
       justifyContent: 'center',
       backgroundColor: tokens$3.buttonsPrimaryDefaultBackgroundColor,
       color: tokens$3.buttonsPrimaryDefaultColor,
-      border: tokens$3.buttonsPrimaryBorderWidth,
-      fontFamily: 'Nunito Sans, sans-serif',
+      border: '0px',
       '& .wrapper-icon-left-large': {
         display: 'flex',
         width: '20px',
@@ -3894,6 +3927,7 @@ var aqf = /*#__PURE__*/makeTheme({
   },
   text: {
     "default": {
+      fontFamily: 'Lato, sans-serif',
       color: color.grayscale80,
       // Body
       lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
@@ -3926,16 +3960,16 @@ var aqf = /*#__PURE__*/makeTheme({
         sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
         sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
         sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
-      },
-      // Heading
-      heading: {
-        h1: /*#__PURE__*/_extends({}, text.heading.h1),
-        h2: /*#__PURE__*/_extends({}, text.heading.h2),
-        h3: /*#__PURE__*/_extends({}, text.heading.h3),
-        h4: /*#__PURE__*/_extends({}, text.heading.h4),
-        h5: /*#__PURE__*/_extends({}, text.heading.h5),
-        h6: /*#__PURE__*/_extends({}, text.heading.h6)
       }
+    },
+    // Heading
+    heading: {
+      h1: /*#__PURE__*/_extends({}, text.heading.h1),
+      h2: /*#__PURE__*/_extends({}, text.heading.h2),
+      h3: /*#__PURE__*/_extends({}, text.heading.h3),
+      h4: /*#__PURE__*/_extends({}, text.heading.h4),
+      h5: /*#__PURE__*/_extends({}, text.heading.h5),
+      h6: /*#__PURE__*/_extends({}, text.heading.h6)
     }
   }
 });

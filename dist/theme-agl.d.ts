@@ -433,7 +433,8 @@ export declare const agl: {
                 alignItems: "center";
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
+                fontFamily: string;
                 color: string;
             };
             md: {
@@ -441,7 +442,8 @@ export declare const agl: {
                 alignItems: "center";
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
+                fontFamily: string;
                 color: string;
             };
             lg: {
@@ -449,7 +451,8 @@ export declare const agl: {
                 alignItems: "center";
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
+                fontFamily: string;
                 color: string;
             };
         };
@@ -474,7 +477,7 @@ export declare const agl: {
             'input:checked ~ &': {
                 backgroundColor: "#52BD94 !important";
             };
-            ":disabled": {
+            ':disabled': {
                 background: string;
             };
         };
@@ -608,19 +611,22 @@ export declare const agl: {
         sm: {
             fontSize: string;
             lineHeight: string;
-            fontWeight: string;
+            fontWeight: number;
+            fontFamily: string;
             padding: string;
         };
         md: {
             fontSize: string;
             lineHeight: string;
-            fontWeight: string;
+            fontWeight: number;
+            fontFamily: string;
             padding: string;
         };
         lg: {
             fontSize: string;
             lineHeight: string;
-            fontWeight: string;
+            fontWeight: number;
+            fontFamily: string;
             padding: string;
         };
         solid: {
@@ -634,7 +640,6 @@ export declare const agl: {
             backgroundColor: string;
             color: string;
             border: string;
-            fontFamily: "Nunito Sans, sans-serif";
             '& .wrapper-icon-left-large': {
                 display: "flex";
                 width: string;
@@ -975,196 +980,231 @@ export declare const agl: {
     };
     text: {
         default: {
+            fontFamily: "Lato, sans-serif";
             color: string;
             lg_reguler: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
+                fontFamily: string;
             };
             lg_semibold: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
+                fontFamily: string;
             };
             lg_bold: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
+                fontFamily: string;
             };
             lg_italic: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
                 fontStyle: string;
+                fontFamily: string;
             };
             lg_underline: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
                 fontStyle: string;
+                fontFamily: string;
             };
             lg_underline_semibold: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
                 fontStyle: string;
+                fontFamily: string;
             };
             lg_underline_bold: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
                 fontStyle: string;
+                fontFamily: string;
             };
             sm_reguler: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
+                fontFamily: string;
             };
             sm_semibold: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
+                fontFamily: string;
             };
             sm_bold: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
+                fontFamily: string;
             };
             sm_italic: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
                 fontStyle: string;
+                fontFamily: string;
             };
             sm_underline: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
                 fontStyle: string;
+                fontFamily: string;
             };
             sm_underline_semibold: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
                 fontStyle: string;
+                fontFamily: string;
             };
             sm_underline_bold: {
                 fontSize: string;
                 lineHeight: string;
-                fontWeight: string;
+                fontWeight: number;
                 fontStyle: string;
+                fontFamily: string;
             };
             sizes: {
                 lg_reguler: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
                 };
                 lg_semibold: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
                 };
                 lg_bold: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
                 };
                 lg_italic: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
                     fontStyle: string;
+                    fontFamily: string;
                 };
                 lg_underline: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
                     fontStyle: string;
+                    fontFamily: string;
                 };
                 lg_underline_semibold: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
                     fontStyle: string;
+                    fontFamily: string;
                 };
                 lg_underline_bold: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
                     fontStyle: string;
+                    fontFamily: string;
                 };
                 sm_reguler: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
                 };
                 sm_semibold: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
                 };
                 sm_bold: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
                 };
                 sm_italic: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
                     fontStyle: string;
+                    fontFamily: string;
                 };
                 sm_underline: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
                     fontStyle: string;
+                    fontFamily: string;
                 };
                 sm_underline_semibold: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
                     fontStyle: string;
+                    fontFamily: string;
                 };
                 sm_underline_bold: {
                     fontSize: string;
                     lineHeight: string;
-                    fontWeight: string;
+                    fontWeight: number;
                     fontStyle: string;
+                    fontFamily: string;
                 };
             };
-            heading: {
-                h1: {
-                    fontSize: string;
-                    lineHeight: string;
-                    fontWeight: string;
-                };
-                h2: {
-                    fontSize: string;
-                    lineHeight: string;
-                    fontWeight: string;
-                };
-                h3: {
-                    fontSize: string;
-                    lineHeight: string;
-                    fontWeight: string;
-                };
-                h4: {
-                    fontSize: string;
-                    lineHeight: string;
-                    fontWeight: string;
-                };
-                h5: {
-                    fontSize: string;
-                    lineHeight: string;
-                    fontWeight: string;
-                };
-                h6: {
-                    fontSize: string;
-                    lineHeight: string;
-                    fontWeight: string;
-                };
+        };
+        heading: {
+            h1: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            h2: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            h3: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            h4: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            h5: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            h6: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
             };
         };
     };
