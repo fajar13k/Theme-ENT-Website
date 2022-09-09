@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 03 Sep 2022 18:06:29 GMT
+ * Generated on Fri, 09 Sep 2022 02:36:25 GMT
  */
 export declare const tokens: {
     primary25: string;
@@ -14,6 +14,72 @@ export declare const tokens: {
     primary700: string;
     primary800: string;
     primary900: string;
+    secondary25: string;
+    secondary50: string;
+    secondary100: string;
+    secondary200: string;
+    secondary300: string;
+    secondary400: string;
+    secondary500: string;
+    secondary600: string;
+    secondary700: string;
+    secondary800: string;
+    secondary900: string;
+    tertiary25: string;
+    tertiary50: string;
+    tertiary100: string;
+    tertiary200: string;
+    tertiary300: string;
+    tertiary400: string;
+    tertiary500: string;
+    tertiary600: string;
+    tertiary700: string;
+    tertiary800: string;
+    tertiary900: string;
+    error25: string;
+    error50: string;
+    error100: string;
+    error200: string;
+    error300: string;
+    error400: string;
+    error500: string;
+    error600: string;
+    error700: string;
+    error800: string;
+    error900: string;
+    warning25: string;
+    warning50: string;
+    warning100: string;
+    warning200: string;
+    warning300: string;
+    warning400: string;
+    warning500: string;
+    warning600: string;
+    warning700: string;
+    warning800: string;
+    warning900: string;
+    success25: string;
+    success50: string;
+    success100: string;
+    success200: string;
+    success300: string;
+    success400: string;
+    success500: string;
+    success600: string;
+    success700: string;
+    success800: string;
+    success900: string;
+    information25: string;
+    information50: string;
+    information100: string;
+    information200: string;
+    information300: string;
+    information400: string;
+    information500: string;
+    information600: string;
+    information700: string;
+    information800: string;
+    information900: string;
     buttonsLgPaddingLeftRight: string;
     buttonsLgPaddingTopBottom: string;
     buttonsLgFontSize: string;
