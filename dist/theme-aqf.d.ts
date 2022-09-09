@@ -1,57 +1,82 @@
 export declare const aqf: {
     colors: {
-        primary70: string;
-        primary60: string;
+        primary25: string;
         primary50: string;
-        primary40: string;
-        primary30: string;
-        primary20: string;
-        primary10: string;
-        secondary70: string;
-        secondary60: string;
+        primary100: string;
+        primary200: string;
+        primary300: string;
+        primary400: string;
+        primary500: string;
+        primary600: string;
+        primary700: string;
+        primary800: string;
+        primary900: string;
+        secondary25: string;
         secondary50: string;
-        secondary40: string;
-        secondary30: string;
-        secondary20: string;
-        secondary10: string;
-        warning70: string;
-        warning60: string;
-        warning50: string;
-        warning40: string;
-        warning30: string;
-        warning20: string;
-        warning10: string;
-        success70: string;
-        success60: string;
-        success50: string;
-        success40: string;
-        success30: string;
-        success20: string;
-        success10: string;
-        error70: string;
-        error60: string;
+        secondary100: string;
+        secondary200: string;
+        secondary300: string;
+        secondary400: string;
+        secondary500: string;
+        secondary600: string;
+        secondary700: string;
+        secondary800: string;
+        secondary900: string;
+        tertiary25: string;
+        tertiary50: string;
+        tertiary100: string;
+        tertiary200: string;
+        tertiary300: string;
+        tertiary400: string;
+        tertiary500: string;
+        tertiary600: string;
+        tertiary700: string;
+        tertiary800: string;
+        tertiary900: string;
+        error25: string;
         error50: string;
-        error40: string;
-        error30: string;
-        error20: string;
-        error10: string;
-        information70: string;
-        information60: string;
+        error100: string;
+        error200: string;
+        error300: string;
+        error400: string;
+        error500: string;
+        error600: string;
+        error700: string;
+        error800: string;
+        error900: string;
+        warning25: string;
+        warning50: string;
+        warning100: string;
+        warning200: string;
+        warning300: string;
+        warning400: string;
+        warning500: string;
+        warning600: string;
+        warning700: string;
+        warning800: string;
+        warning900: string;
+        success25: string;
+        success50: string;
+        success100: string;
+        success200: string;
+        success300: string;
+        success400: string;
+        success500: string;
+        success600: string;
+        success700: string;
+        success800: string;
+        success900: string;
+        information25: string;
         information50: string;
-        information40: string;
-        information30: string;
-        information20: string;
-        information10: string;
-        grayscale100: string;
-        grayscale90: string;
-        grayscale80: string;
-        grayscale70: string;
-        grayscale60: string;
-        grayscale50: string;
-        grayscale40: string;
-        grayscale30: string;
-        grayscale20: string;
-        grayscale10: string;
+        information100: string;
+        information200: string;
+        information300: string;
+        information400: string;
+        information500: string;
+        information600: string;
+        information700: string;
+        information800: string;
+        information900: string;
     };
     spacers: {
         spacing0: string;
@@ -1206,6 +1231,480 @@ export declare const aqf: {
                 fontWeight: number;
                 fontFamily: string;
             };
+        };
+    };
+    cards: {
+        containerColors: {
+            marginBottom: string;
+        };
+        wrappValueColors: {
+            padding: string;
+            fontSize: string;
+            lineHeight: string;
+            fontWeight: number;
+            fontFamily: string;
+        };
+        primary25: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary50: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary100: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary200: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary300: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary400: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary500: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary600: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary700: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary800: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        primary900: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary25: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary50: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary100: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary200: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary300: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary400: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary500: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary600: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary700: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary800: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        secondary900: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary25: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary50: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary100: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary200: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary300: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary400: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary500: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary600: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary700: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary800: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        tertiary900: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success25: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success50: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success100: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success200: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success300: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success400: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success500: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success600: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success700: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success800: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        success900: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning25: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning50: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning100: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning200: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning300: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning400: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning500: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning600: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning700: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning800: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        warning900: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error25: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error50: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error100: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error200: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error300: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error400: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error500: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error600: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error700: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error800: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        error900: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info25: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info50: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info100: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info200: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info300: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info400: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info500: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info600: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info700: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info800: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
+        };
+        info900: {
+            backgroundColor: string;
+            color: string;
+            padding: string;
+            width: string;
         };
     };
 };

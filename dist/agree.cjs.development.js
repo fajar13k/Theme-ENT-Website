@@ -97,7 +97,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 02:36:24 GMT
+ * Generated on Fri, 09 Sep 2022 03:14:50 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -865,7 +865,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 02:36:25 GMT
+ * Generated on Fri, 09 Sep 2022 03:14:50 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1114,7 +1114,85 @@ var tokens$1 = {
 var _formSideCenter, _containerLoginCen, _formSideRight, _formSideLeft, _containerLogin;
 var agr = /*#__PURE__*/utils.makeTheme({
   //...base,
-  colors: /*#__PURE__*/_extends({}, color),
+  colors: {
+    primary25: tokens$1.primary25,
+    primary50: tokens$1.primary50,
+    primary100: tokens$1.primary100,
+    primary200: tokens$1.primary200,
+    primary300: tokens$1.primary300,
+    primary400: tokens$1.primary400,
+    primary500: tokens$1.primary500,
+    primary600: tokens$1.primary600,
+    primary700: tokens$1.primary700,
+    primary800: tokens$1.primary800,
+    primary900: tokens$1.primary900,
+    secondary25: tokens$1.secondary25,
+    secondary50: tokens$1.secondary50,
+    secondary100: tokens$1.secondary100,
+    secondary200: tokens$1.secondary200,
+    secondary300: tokens$1.secondary300,
+    secondary400: tokens$1.secondary400,
+    secondary500: tokens$1.secondary500,
+    secondary600: tokens$1.secondary600,
+    secondary700: tokens$1.secondary700,
+    secondary800: tokens$1.secondary800,
+    secondary900: tokens$1.secondary900,
+    tertiary25: tokens$1.tertiary25,
+    tertiary50: tokens$1.tertiary50,
+    tertiary100: tokens$1.tertiary100,
+    tertiary200: tokens$1.tertiary200,
+    tertiary300: tokens$1.tertiary300,
+    tertiary400: tokens$1.tertiary400,
+    tertiary500: tokens$1.tertiary500,
+    tertiary600: tokens$1.tertiary600,
+    tertiary700: tokens$1.tertiary700,
+    tertiary800: tokens$1.tertiary800,
+    tertiary900: tokens$1.tertiary900,
+    error25: tokens$1.error25,
+    error50: tokens$1.error50,
+    error100: tokens$1.error100,
+    error200: tokens$1.error200,
+    error300: tokens$1.error300,
+    error400: tokens$1.error400,
+    error500: tokens$1.error500,
+    error600: tokens$1.error600,
+    error700: tokens$1.error700,
+    error800: tokens$1.error800,
+    error900: tokens$1.error900,
+    warning25: tokens$1.warning25,
+    warning50: tokens$1.warning50,
+    warning100: tokens$1.warning100,
+    warning200: tokens$1.warning200,
+    warning300: tokens$1.warning300,
+    warning400: tokens$1.warning400,
+    warning500: tokens$1.warning500,
+    warning600: tokens$1.warning600,
+    warning700: tokens$1.warning700,
+    warning800: tokens$1.warning800,
+    warning900: tokens$1.warning900,
+    success25: tokens$1.success25,
+    success50: tokens$1.success50,
+    success100: tokens$1.success100,
+    success200: tokens$1.success200,
+    success300: tokens$1.success300,
+    success400: tokens$1.success400,
+    success500: tokens$1.success500,
+    success600: tokens$1.success600,
+    success700: tokens$1.success700,
+    success800: tokens$1.success800,
+    success900: tokens$1.success900,
+    information25: tokens$1.information25,
+    information50: tokens$1.information50,
+    information100: tokens$1.information100,
+    information200: tokens$1.information200,
+    information300: tokens$1.information300,
+    information400: tokens$1.information400,
+    information500: tokens$1.information500,
+    information600: tokens$1.information600,
+    information700: tokens$1.information700,
+    information800: tokens$1.information800,
+    information900: tokens$1.information900
+  },
   spacers: /*#__PURE__*/_extends({}, spacer),
   layout: {
     container: {
@@ -1966,12 +2044,489 @@ var agr = /*#__PURE__*/utils.makeTheme({
       h5: /*#__PURE__*/_extends({}, text.heading.h5),
       h6: /*#__PURE__*/_extends({}, text.heading.h6)
     }
+  },
+  cards: {
+    containerColors: {
+      marginBottom: '20px'
+    },
+    wrappValueColors: /*#__PURE__*/_extends({}, text.caption.sm.semibold, {
+      padding: '10px'
+    }),
+    // Colors Primary
+    primary25: {
+      backgroundColor: "" + tokens$1.primary25,
+      color: "" + tokens$1.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary50: {
+      backgroundColor: "" + tokens$1.primary50,
+      color: "" + tokens$1.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary100: {
+      backgroundColor: "" + tokens$1.primary100,
+      color: "" + tokens$1.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary200: {
+      backgroundColor: "" + tokens$1.primary200,
+      color: "" + tokens$1.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary300: {
+      backgroundColor: "" + tokens$1.primary300,
+      color: "" + tokens$1.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary400: {
+      backgroundColor: "" + tokens$1.primary400,
+      color: "" + tokens$1.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary500: {
+      backgroundColor: "" + tokens$1.primary500,
+      color: "" + tokens$1.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary600: {
+      backgroundColor: "" + tokens$1.primary600,
+      color: "" + tokens$1.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary700: {
+      backgroundColor: "" + tokens$1.primary700,
+      color: "" + tokens$1.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary800: {
+      backgroundColor: "" + tokens$1.primary800,
+      color: "" + tokens$1.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary900: {
+      backgroundColor: "" + tokens$1.primary900,
+      color: "" + tokens$1.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Secondary
+    secondary25: {
+      backgroundColor: "" + tokens$1.secondary25,
+      color: "" + tokens$1.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary50: {
+      backgroundColor: "" + tokens$1.secondary50,
+      color: "" + tokens$1.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary100: {
+      backgroundColor: "" + tokens$1.secondary100,
+      color: "" + tokens$1.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary200: {
+      backgroundColor: "" + tokens$1.secondary200,
+      color: "" + tokens$1.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary300: {
+      backgroundColor: "" + tokens$1.secondary300,
+      color: "" + tokens$1.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary400: {
+      backgroundColor: "" + tokens$1.secondary400,
+      color: "" + tokens$1.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary500: {
+      backgroundColor: "" + tokens$1.secondary500,
+      color: "" + tokens$1.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary600: {
+      backgroundColor: "" + tokens$1.secondary600,
+      color: "" + tokens$1.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary700: {
+      backgroundColor: "" + tokens$1.secondary700,
+      color: "" + tokens$1.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary800: {
+      backgroundColor: "" + tokens$1.secondary800,
+      color: "" + tokens$1.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary900: {
+      backgroundColor: "" + tokens$1.secondary900,
+      color: "" + tokens$1.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Tertiary
+    tertiary25: {
+      backgroundColor: "" + tokens$1.tertiary25,
+      color: "" + tokens$1.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary50: {
+      backgroundColor: "" + tokens$1.tertiary50,
+      color: "" + tokens$1.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary100: {
+      backgroundColor: "" + tokens$1.tertiary100,
+      color: "" + tokens$1.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary200: {
+      backgroundColor: "" + tokens$1.tertiary200,
+      color: "" + tokens$1.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary300: {
+      backgroundColor: "" + tokens$1.tertiary300,
+      color: "" + tokens$1.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary400: {
+      backgroundColor: "" + tokens$1.tertiary400,
+      color: "" + tokens$1.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary500: {
+      backgroundColor: "" + tokens$1.tertiary500,
+      color: "" + tokens$1.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary600: {
+      backgroundColor: "" + tokens$1.tertiary600,
+      color: "" + tokens$1.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary700: {
+      backgroundColor: "" + tokens$1.tertiary700,
+      color: "" + tokens$1.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary800: {
+      backgroundColor: "" + tokens$1.tertiary800,
+      color: "" + tokens$1.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary900: {
+      backgroundColor: "" + tokens$1.tertiary900,
+      color: "" + tokens$1.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Success
+    success25: {
+      backgroundColor: "" + tokens$1.success25,
+      color: "" + tokens$1.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success50: {
+      backgroundColor: "" + tokens$1.success50,
+      color: "" + tokens$1.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success100: {
+      backgroundColor: "" + tokens$1.success100,
+      color: "" + tokens$1.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success200: {
+      backgroundColor: "" + tokens$1.success200,
+      color: "" + tokens$1.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success300: {
+      backgroundColor: "" + tokens$1.success300,
+      color: "" + tokens$1.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success400: {
+      backgroundColor: "" + tokens$1.success400,
+      color: "" + tokens$1.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success500: {
+      backgroundColor: "" + tokens$1.success500,
+      color: "" + tokens$1.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success600: {
+      backgroundColor: "" + tokens$1.success600,
+      color: "" + tokens$1.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success700: {
+      backgroundColor: "" + tokens$1.success700,
+      color: "" + tokens$1.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success800: {
+      backgroundColor: "" + tokens$1.success800,
+      color: "" + tokens$1.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success900: {
+      backgroundColor: "" + tokens$1.success900,
+      color: "" + tokens$1.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Warning
+    warning25: {
+      backgroundColor: "" + tokens$1.warning25,
+      color: "" + tokens$1.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning50: {
+      backgroundColor: "" + tokens$1.warning50,
+      color: "" + tokens$1.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning100: {
+      backgroundColor: "" + tokens$1.warning100,
+      color: "" + tokens$1.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning200: {
+      backgroundColor: "" + tokens$1.warning200,
+      color: "" + tokens$1.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning300: {
+      backgroundColor: "" + tokens$1.warning300,
+      color: "" + tokens$1.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning400: {
+      backgroundColor: "" + tokens$1.warning400,
+      color: "" + tokens$1.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning500: {
+      backgroundColor: "" + tokens$1.warning500,
+      color: "" + tokens$1.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning600: {
+      backgroundColor: "" + tokens$1.warning600,
+      color: "" + tokens$1.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning700: {
+      backgroundColor: "" + tokens$1.warning700,
+      color: "" + tokens$1.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning800: {
+      backgroundColor: "" + tokens$1.warning800,
+      color: "" + tokens$1.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning900: {
+      backgroundColor: "" + tokens$1.warning900,
+      color: "" + tokens$1.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Error
+    error25: {
+      backgroundColor: "" + tokens$1.error25,
+      color: "" + tokens$1.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error50: {
+      backgroundColor: "" + tokens$1.error50,
+      color: "" + tokens$1.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error100: {
+      backgroundColor: "" + tokens$1.error100,
+      color: "" + tokens$1.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error200: {
+      backgroundColor: "" + tokens$1.error200,
+      color: "" + tokens$1.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error300: {
+      backgroundColor: "" + tokens$1.error300,
+      color: "" + tokens$1.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error400: {
+      backgroundColor: "" + tokens$1.error400,
+      color: "" + tokens$1.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error500: {
+      backgroundColor: "" + tokens$1.error500,
+      color: "" + tokens$1.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error600: {
+      backgroundColor: "" + tokens$1.error600,
+      color: "" + tokens$1.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error700: {
+      backgroundColor: "" + tokens$1.error700,
+      color: "" + tokens$1.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error800: {
+      backgroundColor: "" + tokens$1.error800,
+      color: "" + tokens$1.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error900: {
+      backgroundColor: "" + tokens$1.error900,
+      color: "" + tokens$1.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Information
+    info25: {
+      backgroundColor: "" + tokens$1.information25,
+      color: "" + tokens$1.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info50: {
+      backgroundColor: "" + tokens$1.information50,
+      color: "" + tokens$1.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info100: {
+      backgroundColor: "" + tokens$1.information100,
+      color: "" + tokens$1.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info200: {
+      backgroundColor: "" + tokens$1.information200,
+      color: "" + tokens$1.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info300: {
+      backgroundColor: "" + tokens$1.information300,
+      color: "" + tokens$1.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info400: {
+      backgroundColor: "" + tokens$1.information400,
+      color: "" + tokens$1.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info500: {
+      backgroundColor: "" + tokens$1.information500,
+      color: "" + tokens$1.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info600: {
+      backgroundColor: "" + tokens$1.information600,
+      color: "" + tokens$1.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info700: {
+      backgroundColor: "" + tokens$1.information700,
+      color: "" + tokens$1.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info800: {
+      backgroundColor: "" + tokens$1.information800,
+      color: "" + tokens$1.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info900: {
+      backgroundColor: "" + tokens$1.information900,
+      color: "" + tokens$1.information25,
+      padding: '1rem',
+      width: '100%'
+    }
   }
 });
 
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 02:36:24 GMT
+ * Generated on Fri, 09 Sep 2022 03:14:50 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -2220,7 +2775,85 @@ var tokens$2 = {
 var _formSideCenter$1, _containerLoginCen$1, _formSideRight$1, _formSideLeft$1, _containerLogin$1;
 var agl = /*#__PURE__*/utils.makeTheme({
   //...base,
-  colors: /*#__PURE__*/_extends({}, color),
+  colors: {
+    primary25: tokens$2.primary25,
+    primary50: tokens$2.primary50,
+    primary100: tokens$2.primary100,
+    primary200: tokens$2.primary200,
+    primary300: tokens$2.primary300,
+    primary400: tokens$2.primary400,
+    primary500: tokens$2.primary500,
+    primary600: tokens$2.primary600,
+    primary700: tokens$2.primary700,
+    primary800: tokens$2.primary800,
+    primary900: tokens$2.primary900,
+    secondary25: tokens$2.secondary25,
+    secondary50: tokens$2.secondary50,
+    secondary100: tokens$2.secondary100,
+    secondary200: tokens$2.secondary200,
+    secondary300: tokens$2.secondary300,
+    secondary400: tokens$2.secondary400,
+    secondary500: tokens$2.secondary500,
+    secondary600: tokens$2.secondary600,
+    secondary700: tokens$2.secondary700,
+    secondary800: tokens$2.secondary800,
+    secondary900: tokens$2.secondary900,
+    tertiary25: tokens$2.tertiary25,
+    tertiary50: tokens$2.tertiary50,
+    tertiary100: tokens$2.tertiary100,
+    tertiary200: tokens$2.tertiary200,
+    tertiary300: tokens$2.tertiary300,
+    tertiary400: tokens$2.tertiary400,
+    tertiary500: tokens$2.tertiary500,
+    tertiary600: tokens$2.tertiary600,
+    tertiary700: tokens$2.tertiary700,
+    tertiary800: tokens$2.tertiary800,
+    tertiary900: tokens$2.tertiary900,
+    error25: tokens$2.error25,
+    error50: tokens$2.error50,
+    error100: tokens$2.error100,
+    error200: tokens$2.error200,
+    error300: tokens$2.error300,
+    error400: tokens$2.error400,
+    error500: tokens$2.error500,
+    error600: tokens$2.error600,
+    error700: tokens$2.error700,
+    error800: tokens$2.error800,
+    error900: tokens$2.error900,
+    warning25: tokens$2.warning25,
+    warning50: tokens$2.warning50,
+    warning100: tokens$2.warning100,
+    warning200: tokens$2.warning200,
+    warning300: tokens$2.warning300,
+    warning400: tokens$2.warning400,
+    warning500: tokens$2.warning500,
+    warning600: tokens$2.warning600,
+    warning700: tokens$2.warning700,
+    warning800: tokens$2.warning800,
+    warning900: tokens$2.warning900,
+    success25: tokens$2.success25,
+    success50: tokens$2.success50,
+    success100: tokens$2.success100,
+    success200: tokens$2.success200,
+    success300: tokens$2.success300,
+    success400: tokens$2.success400,
+    success500: tokens$2.success500,
+    success600: tokens$2.success600,
+    success700: tokens$2.success700,
+    success800: tokens$2.success800,
+    success900: tokens$2.success900,
+    information25: tokens$2.information25,
+    information50: tokens$2.information50,
+    information100: tokens$2.information100,
+    information200: tokens$2.information200,
+    information300: tokens$2.information300,
+    information400: tokens$2.information400,
+    information500: tokens$2.information500,
+    information600: tokens$2.information600,
+    information700: tokens$2.information700,
+    information800: tokens$2.information800,
+    information900: tokens$2.information900
+  },
   spacers: /*#__PURE__*/_extends({}, spacer),
   layout: {
     container: {
@@ -3072,12 +3705,489 @@ var agl = /*#__PURE__*/utils.makeTheme({
       h5: /*#__PURE__*/_extends({}, text.heading.h5),
       h6: /*#__PURE__*/_extends({}, text.heading.h6)
     }
+  },
+  cards: {
+    containerColors: {
+      marginBottom: '20px'
+    },
+    wrappValueColors: /*#__PURE__*/_extends({}, text.caption.sm.semibold, {
+      padding: '10px'
+    }),
+    // Colors Primary
+    primary25: {
+      backgroundColor: "" + tokens$2.primary25,
+      color: "" + tokens$2.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary50: {
+      backgroundColor: "" + tokens$2.primary50,
+      color: "" + tokens$2.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary100: {
+      backgroundColor: "" + tokens$2.primary100,
+      color: "" + tokens$2.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary200: {
+      backgroundColor: "" + tokens$2.primary200,
+      color: "" + tokens$2.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary300: {
+      backgroundColor: "" + tokens$2.primary300,
+      color: "" + tokens$2.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary400: {
+      backgroundColor: "" + tokens$2.primary400,
+      color: "" + tokens$2.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary500: {
+      backgroundColor: "" + tokens$2.primary500,
+      color: "" + tokens$2.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary600: {
+      backgroundColor: "" + tokens$2.primary600,
+      color: "" + tokens$2.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary700: {
+      backgroundColor: "" + tokens$2.primary700,
+      color: "" + tokens$2.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary800: {
+      backgroundColor: "" + tokens$2.primary800,
+      color: "" + tokens$2.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary900: {
+      backgroundColor: "" + tokens$2.primary900,
+      color: "" + tokens$2.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Secondary
+    secondary25: {
+      backgroundColor: "" + tokens$2.secondary25,
+      color: "" + tokens$2.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary50: {
+      backgroundColor: "" + tokens$2.secondary50,
+      color: "" + tokens$2.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary100: {
+      backgroundColor: "" + tokens$2.secondary100,
+      color: "" + tokens$2.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary200: {
+      backgroundColor: "" + tokens$2.secondary200,
+      color: "" + tokens$2.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary300: {
+      backgroundColor: "" + tokens$2.secondary300,
+      color: "" + tokens$2.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary400: {
+      backgroundColor: "" + tokens$2.secondary400,
+      color: "" + tokens$2.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary500: {
+      backgroundColor: "" + tokens$2.secondary500,
+      color: "" + tokens$2.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary600: {
+      backgroundColor: "" + tokens$2.secondary600,
+      color: "" + tokens$2.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary700: {
+      backgroundColor: "" + tokens$2.secondary700,
+      color: "" + tokens$2.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary800: {
+      backgroundColor: "" + tokens$2.secondary800,
+      color: "" + tokens$2.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary900: {
+      backgroundColor: "" + tokens$2.secondary900,
+      color: "" + tokens$2.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Tertiary
+    tertiary25: {
+      backgroundColor: "" + tokens$2.tertiary25,
+      color: "" + tokens$2.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary50: {
+      backgroundColor: "" + tokens$2.tertiary50,
+      color: "" + tokens$2.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary100: {
+      backgroundColor: "" + tokens$2.tertiary100,
+      color: "" + tokens$2.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary200: {
+      backgroundColor: "" + tokens$2.tertiary200,
+      color: "" + tokens$2.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary300: {
+      backgroundColor: "" + tokens$2.tertiary300,
+      color: "" + tokens$2.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary400: {
+      backgroundColor: "" + tokens$2.tertiary400,
+      color: "" + tokens$2.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary500: {
+      backgroundColor: "" + tokens$2.tertiary500,
+      color: "" + tokens$2.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary600: {
+      backgroundColor: "" + tokens$2.tertiary600,
+      color: "" + tokens$2.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary700: {
+      backgroundColor: "" + tokens$2.tertiary700,
+      color: "" + tokens$2.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary800: {
+      backgroundColor: "" + tokens$2.tertiary800,
+      color: "" + tokens$2.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary900: {
+      backgroundColor: "" + tokens$2.tertiary900,
+      color: "" + tokens$2.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Success
+    success25: {
+      backgroundColor: "" + tokens$2.success25,
+      color: "" + tokens$2.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success50: {
+      backgroundColor: "" + tokens$2.success50,
+      color: "" + tokens$2.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success100: {
+      backgroundColor: "" + tokens$2.success100,
+      color: "" + tokens$2.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success200: {
+      backgroundColor: "" + tokens$2.success200,
+      color: "" + tokens$2.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success300: {
+      backgroundColor: "" + tokens$2.success300,
+      color: "" + tokens$2.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success400: {
+      backgroundColor: "" + tokens$2.success400,
+      color: "" + tokens$2.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success500: {
+      backgroundColor: "" + tokens$2.success500,
+      color: "" + tokens$2.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success600: {
+      backgroundColor: "" + tokens$2.success600,
+      color: "" + tokens$2.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success700: {
+      backgroundColor: "" + tokens$2.success700,
+      color: "" + tokens$2.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success800: {
+      backgroundColor: "" + tokens$2.success800,
+      color: "" + tokens$2.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success900: {
+      backgroundColor: "" + tokens$2.success900,
+      color: "" + tokens$2.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Warning
+    warning25: {
+      backgroundColor: "" + tokens$2.warning25,
+      color: "" + tokens$2.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning50: {
+      backgroundColor: "" + tokens$2.warning50,
+      color: "" + tokens$2.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning100: {
+      backgroundColor: "" + tokens$2.warning100,
+      color: "" + tokens$2.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning200: {
+      backgroundColor: "" + tokens$2.warning200,
+      color: "" + tokens$2.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning300: {
+      backgroundColor: "" + tokens$2.warning300,
+      color: "" + tokens$2.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning400: {
+      backgroundColor: "" + tokens$2.warning400,
+      color: "" + tokens$2.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning500: {
+      backgroundColor: "" + tokens$2.warning500,
+      color: "" + tokens$2.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning600: {
+      backgroundColor: "" + tokens$2.warning600,
+      color: "" + tokens$2.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning700: {
+      backgroundColor: "" + tokens$2.warning700,
+      color: "" + tokens$2.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning800: {
+      backgroundColor: "" + tokens$2.warning800,
+      color: "" + tokens$2.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning900: {
+      backgroundColor: "" + tokens$2.warning900,
+      color: "" + tokens$2.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Error
+    error25: {
+      backgroundColor: "" + tokens$2.error25,
+      color: "" + tokens$2.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error50: {
+      backgroundColor: "" + tokens$2.error50,
+      color: "" + tokens$2.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error100: {
+      backgroundColor: "" + tokens$2.error100,
+      color: "" + tokens$2.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error200: {
+      backgroundColor: "" + tokens$2.error200,
+      color: "" + tokens$2.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error300: {
+      backgroundColor: "" + tokens$2.error300,
+      color: "" + tokens$2.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error400: {
+      backgroundColor: "" + tokens$2.error400,
+      color: "" + tokens$2.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error500: {
+      backgroundColor: "" + tokens$2.error500,
+      color: "" + tokens$2.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error600: {
+      backgroundColor: "" + tokens$2.error600,
+      color: "" + tokens$2.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error700: {
+      backgroundColor: "" + tokens$2.error700,
+      color: "" + tokens$2.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error800: {
+      backgroundColor: "" + tokens$2.error800,
+      color: "" + tokens$2.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error900: {
+      backgroundColor: "" + tokens$2.error900,
+      color: "" + tokens$2.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Information
+    info25: {
+      backgroundColor: "" + tokens$2.information25,
+      color: "" + tokens$2.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info50: {
+      backgroundColor: "" + tokens$2.information50,
+      color: "" + tokens$2.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info100: {
+      backgroundColor: "" + tokens$2.information100,
+      color: "" + tokens$2.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info200: {
+      backgroundColor: "" + tokens$2.information200,
+      color: "" + tokens$2.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info300: {
+      backgroundColor: "" + tokens$2.information300,
+      color: "" + tokens$2.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info400: {
+      backgroundColor: "" + tokens$2.information400,
+      color: "" + tokens$2.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info500: {
+      backgroundColor: "" + tokens$2.information500,
+      color: "" + tokens$2.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info600: {
+      backgroundColor: "" + tokens$2.information600,
+      color: "" + tokens$2.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info700: {
+      backgroundColor: "" + tokens$2.information700,
+      color: "" + tokens$2.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info800: {
+      backgroundColor: "" + tokens$2.information800,
+      color: "" + tokens$2.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info900: {
+      backgroundColor: "" + tokens$2.information900,
+      color: "" + tokens$2.information25,
+      padding: '1rem',
+      width: '100%'
+    }
   }
 });
 
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 02:36:25 GMT
+ * Generated on Fri, 09 Sep 2022 03:14:50 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -3323,7 +4433,85 @@ var tokens$3 = {
 var _formSideCenter$2, _containerLoginCen$2, _formSideRight$2, _formSideLeft$2, _containerLogin$2;
 var aqf = /*#__PURE__*/utils.makeTheme({
   //...base,
-  colors: /*#__PURE__*/_extends({}, color),
+  colors: {
+    primary25: tokens$3.primary25,
+    primary50: tokens$3.primary50,
+    primary100: tokens$3.primary100,
+    primary200: tokens$3.primary200,
+    primary300: tokens$3.primary300,
+    primary400: tokens$3.primary400,
+    primary500: tokens$3.primary500,
+    primary600: tokens$3.primary600,
+    primary700: tokens$3.primary700,
+    primary800: tokens$3.primary800,
+    primary900: tokens$3.primary900,
+    secondary25: tokens$3.secondary25,
+    secondary50: tokens$3.secondary50,
+    secondary100: tokens$3.secondary100,
+    secondary200: tokens$3.secondary200,
+    secondary300: tokens$3.secondary300,
+    secondary400: tokens$3.secondary400,
+    secondary500: tokens$3.secondary500,
+    secondary600: tokens$3.secondary600,
+    secondary700: tokens$3.secondary700,
+    secondary800: tokens$3.secondary800,
+    secondary900: tokens$3.secondary900,
+    tertiary25: tokens$3.tertiary25,
+    tertiary50: tokens$3.tertiary50,
+    tertiary100: tokens$3.tertiary100,
+    tertiary200: tokens$3.tertiary200,
+    tertiary300: tokens$3.tertiary300,
+    tertiary400: tokens$3.tertiary400,
+    tertiary500: tokens$3.tertiary500,
+    tertiary600: tokens$3.tertiary600,
+    tertiary700: tokens$3.tertiary700,
+    tertiary800: tokens$3.tertiary800,
+    tertiary900: tokens$3.tertiary900,
+    error25: tokens$3.error25,
+    error50: tokens$3.error50,
+    error100: tokens$3.error100,
+    error200: tokens$3.error200,
+    error300: tokens$3.error300,
+    error400: tokens$3.error400,
+    error500: tokens$3.error500,
+    error600: tokens$3.error600,
+    error700: tokens$3.error700,
+    error800: tokens$3.error800,
+    error900: tokens$3.error900,
+    warning25: tokens$3.warning25,
+    warning50: tokens$3.warning50,
+    warning100: tokens$3.warning100,
+    warning200: tokens$3.warning200,
+    warning300: tokens$3.warning300,
+    warning400: tokens$3.warning400,
+    warning500: tokens$3.warning500,
+    warning600: tokens$3.warning600,
+    warning700: tokens$3.warning700,
+    warning800: tokens$3.warning800,
+    warning900: tokens$3.warning900,
+    success25: tokens$3.success25,
+    success50: tokens$3.success50,
+    success100: tokens$3.success100,
+    success200: tokens$3.success200,
+    success300: tokens$3.success300,
+    success400: tokens$3.success400,
+    success500: tokens$3.success500,
+    success600: tokens$3.success600,
+    success700: tokens$3.success700,
+    success800: tokens$3.success800,
+    success900: tokens$3.success900,
+    information25: tokens$3.information25,
+    information50: tokens$3.information50,
+    information100: tokens$3.information100,
+    information200: tokens$3.information200,
+    information300: tokens$3.information300,
+    information400: tokens$3.information400,
+    information500: tokens$3.information500,
+    information600: tokens$3.information600,
+    information700: tokens$3.information700,
+    information800: tokens$3.information800,
+    information900: tokens$3.information900
+  },
   spacers: /*#__PURE__*/_extends({}, spacer),
   layout: {
     container: {
@@ -4174,6 +5362,483 @@ var aqf = /*#__PURE__*/utils.makeTheme({
       h4: /*#__PURE__*/_extends({}, text.heading.h4),
       h5: /*#__PURE__*/_extends({}, text.heading.h5),
       h6: /*#__PURE__*/_extends({}, text.heading.h6)
+    }
+  },
+  cards: {
+    containerColors: {
+      marginBottom: '20px'
+    },
+    wrappValueColors: /*#__PURE__*/_extends({}, text.caption.sm.semibold, {
+      padding: '10px'
+    }),
+    // Colors Primary
+    primary25: {
+      backgroundColor: "" + tokens$3.primary25,
+      color: "" + tokens$3.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary50: {
+      backgroundColor: "" + tokens$3.primary50,
+      color: "" + tokens$3.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary100: {
+      backgroundColor: "" + tokens$3.primary100,
+      color: "" + tokens$3.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary200: {
+      backgroundColor: "" + tokens$3.primary200,
+      color: "" + tokens$3.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary300: {
+      backgroundColor: "" + tokens$3.primary300,
+      color: "" + tokens$3.primary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary400: {
+      backgroundColor: "" + tokens$3.primary400,
+      color: "" + tokens$3.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary500: {
+      backgroundColor: "" + tokens$3.primary500,
+      color: "" + tokens$3.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary600: {
+      backgroundColor: "" + tokens$3.primary600,
+      color: "" + tokens$3.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary700: {
+      backgroundColor: "" + tokens$3.primary700,
+      color: "" + tokens$3.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary800: {
+      backgroundColor: "" + tokens$3.primary800,
+      color: "" + tokens$3.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    primary900: {
+      backgroundColor: "" + tokens$3.primary900,
+      color: "" + tokens$3.primary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Secondary
+    secondary25: {
+      backgroundColor: "" + tokens$3.secondary25,
+      color: "" + tokens$3.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary50: {
+      backgroundColor: "" + tokens$3.secondary50,
+      color: "" + tokens$3.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary100: {
+      backgroundColor: "" + tokens$3.secondary100,
+      color: "" + tokens$3.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary200: {
+      backgroundColor: "" + tokens$3.secondary200,
+      color: "" + tokens$3.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary300: {
+      backgroundColor: "" + tokens$3.secondary300,
+      color: "" + tokens$3.secondary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary400: {
+      backgroundColor: "" + tokens$3.secondary400,
+      color: "" + tokens$3.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary500: {
+      backgroundColor: "" + tokens$3.secondary500,
+      color: "" + tokens$3.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary600: {
+      backgroundColor: "" + tokens$3.secondary600,
+      color: "" + tokens$3.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary700: {
+      backgroundColor: "" + tokens$3.secondary700,
+      color: "" + tokens$3.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary800: {
+      backgroundColor: "" + tokens$3.secondary800,
+      color: "" + tokens$3.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    secondary900: {
+      backgroundColor: "" + tokens$3.secondary900,
+      color: "" + tokens$3.secondary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Tertiary
+    tertiary25: {
+      backgroundColor: "" + tokens$3.tertiary25,
+      color: "" + tokens$3.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary50: {
+      backgroundColor: "" + tokens$3.tertiary50,
+      color: "" + tokens$3.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary100: {
+      backgroundColor: "" + tokens$3.tertiary100,
+      color: "" + tokens$3.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary200: {
+      backgroundColor: "" + tokens$3.tertiary200,
+      color: "" + tokens$3.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary300: {
+      backgroundColor: "" + tokens$3.tertiary300,
+      color: "" + tokens$3.tertiary900,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary400: {
+      backgroundColor: "" + tokens$3.tertiary400,
+      color: "" + tokens$3.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary500: {
+      backgroundColor: "" + tokens$3.tertiary500,
+      color: "" + tokens$3.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary600: {
+      backgroundColor: "" + tokens$3.tertiary600,
+      color: "" + tokens$3.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary700: {
+      backgroundColor: "" + tokens$3.tertiary700,
+      color: "" + tokens$3.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary800: {
+      backgroundColor: "" + tokens$3.tertiary800,
+      color: "" + tokens$3.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    tertiary900: {
+      backgroundColor: "" + tokens$3.tertiary900,
+      color: "" + tokens$3.tertiary25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Success
+    success25: {
+      backgroundColor: "" + tokens$3.success25,
+      color: "" + tokens$3.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success50: {
+      backgroundColor: "" + tokens$3.success50,
+      color: "" + tokens$3.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success100: {
+      backgroundColor: "" + tokens$3.success100,
+      color: "" + tokens$3.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success200: {
+      backgroundColor: "" + tokens$3.success200,
+      color: "" + tokens$3.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success300: {
+      backgroundColor: "" + tokens$3.success300,
+      color: "" + tokens$3.success900,
+      padding: '1rem',
+      width: '100%'
+    },
+    success400: {
+      backgroundColor: "" + tokens$3.success400,
+      color: "" + tokens$3.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success500: {
+      backgroundColor: "" + tokens$3.success500,
+      color: "" + tokens$3.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success600: {
+      backgroundColor: "" + tokens$3.success600,
+      color: "" + tokens$3.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success700: {
+      backgroundColor: "" + tokens$3.success700,
+      color: "" + tokens$3.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success800: {
+      backgroundColor: "" + tokens$3.success800,
+      color: "" + tokens$3.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    success900: {
+      backgroundColor: "" + tokens$3.success900,
+      color: "" + tokens$3.success25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Warning
+    warning25: {
+      backgroundColor: "" + tokens$3.warning25,
+      color: "" + tokens$3.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning50: {
+      backgroundColor: "" + tokens$3.warning50,
+      color: "" + tokens$3.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning100: {
+      backgroundColor: "" + tokens$3.warning100,
+      color: "" + tokens$3.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning200: {
+      backgroundColor: "" + tokens$3.warning200,
+      color: "" + tokens$3.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning300: {
+      backgroundColor: "" + tokens$3.warning300,
+      color: "" + tokens$3.warning900,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning400: {
+      backgroundColor: "" + tokens$3.warning400,
+      color: "" + tokens$3.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning500: {
+      backgroundColor: "" + tokens$3.warning500,
+      color: "" + tokens$3.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning600: {
+      backgroundColor: "" + tokens$3.warning600,
+      color: "" + tokens$3.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning700: {
+      backgroundColor: "" + tokens$3.warning700,
+      color: "" + tokens$3.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning800: {
+      backgroundColor: "" + tokens$3.warning800,
+      color: "" + tokens$3.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    warning900: {
+      backgroundColor: "" + tokens$3.warning900,
+      color: "" + tokens$3.warning25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Error
+    error25: {
+      backgroundColor: "" + tokens$3.error25,
+      color: "" + tokens$3.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error50: {
+      backgroundColor: "" + tokens$3.error50,
+      color: "" + tokens$3.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error100: {
+      backgroundColor: "" + tokens$3.error100,
+      color: "" + tokens$3.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error200: {
+      backgroundColor: "" + tokens$3.error200,
+      color: "" + tokens$3.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error300: {
+      backgroundColor: "" + tokens$3.error300,
+      color: "" + tokens$3.error900,
+      padding: '1rem',
+      width: '100%'
+    },
+    error400: {
+      backgroundColor: "" + tokens$3.error400,
+      color: "" + tokens$3.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error500: {
+      backgroundColor: "" + tokens$3.error500,
+      color: "" + tokens$3.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error600: {
+      backgroundColor: "" + tokens$3.error600,
+      color: "" + tokens$3.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error700: {
+      backgroundColor: "" + tokens$3.error700,
+      color: "" + tokens$3.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error800: {
+      backgroundColor: "" + tokens$3.error800,
+      color: "" + tokens$3.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    error900: {
+      backgroundColor: "" + tokens$3.error900,
+      color: "" + tokens$3.error25,
+      padding: '1rem',
+      width: '100%'
+    },
+    // Colors Information
+    info25: {
+      backgroundColor: "" + tokens$3.information25,
+      color: "" + tokens$3.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info50: {
+      backgroundColor: "" + tokens$3.information50,
+      color: "" + tokens$3.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info100: {
+      backgroundColor: "" + tokens$3.information100,
+      color: "" + tokens$3.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info200: {
+      backgroundColor: "" + tokens$3.information200,
+      color: "" + tokens$3.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info300: {
+      backgroundColor: "" + tokens$3.information300,
+      color: "" + tokens$3.information900,
+      padding: '1rem',
+      width: '100%'
+    },
+    info400: {
+      backgroundColor: "" + tokens$3.information400,
+      color: "" + tokens$3.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info500: {
+      backgroundColor: "" + tokens$3.information500,
+      color: "" + tokens$3.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info600: {
+      backgroundColor: "" + tokens$3.information600,
+      color: "" + tokens$3.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info700: {
+      backgroundColor: "" + tokens$3.information700,
+      color: "" + tokens$3.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info800: {
+      backgroundColor: "" + tokens$3.information800,
+      color: "" + tokens$3.information25,
+      padding: '1rem',
+      width: '100%'
+    },
+    info900: {
+      backgroundColor: "" + tokens$3.information900,
+      color: "" + tokens$3.information25,
+      padding: '1rem',
+      width: '100%'
     }
   }
 });
