@@ -240,4 +240,22 @@
   --avatar-sm-size: 32px;
   --avatar-sm-icon-size: 16px;
   --avatar-sm-font-size: 12px;
+  --text-field-default-background-color: #ffffff;
+  --text-field-default-outline-color: #cecece;
+  --text-field-default-icon-color: #3d3d3d;
+  --text-field-default-placeholder-color: #8f8f8f;
+  --text-field-default-label-color: #3d3d3d;
+  --text-field-active-outline-color: #ff9900;
+  --text-field-active-placeholder-color: #3d3d3d;
+  --text-field-active-border-color: #ffdbc5;
+  --text-field-error-outline-color: #f04438;
+  --text-field-success-outline-color: #12b76a;
+  --text-field-disable-background-color: #e8e8e8;
+  --text-field-disable-outline-color: #b1b1b1;
+  --text-field-disable-placeholder-color: #8f8f8f;
+  --text-field-prefixsufix-line-color: #b1b1b1;
+  --text-field-prefixsufix-text-color: #616161;
+  --text-field-border-radius: 4px;
+  --text-field-padding-left-right: 8px;
+  --text-field-padding-top-bottom: 12px;
       }

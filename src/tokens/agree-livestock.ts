@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 03:14:50 GMT
+ * Generated on Thu, 15 Sep 2022 10:55:17 GMT
  */
 
 export const tokens = {
@@ -245,6 +245,24 @@ avatarMdFontSize: '16px',
 avatarSmSize: '32px',
 avatarSmIconSize: '16px',
 avatarSmFontSize: '12px',
+textFieldDefaultBackgroundColor: '#ffffff',
+textFieldDefaultOutlineColor: '#cecece',
+textFieldDefaultIconColor: '#3d3d3d',
+textFieldDefaultPlaceholderColor: '#8f8f8f',
+textFieldDefaultLabelColor: '#3d3d3d',
+textFieldActiveOutlineColor: '#ff9900',
+textFieldActivePlaceholderColor: '#3d3d3d',
+textFieldActiveBorderColor: '#ffdbc5',
+textFieldErrorOutlineColor: '#f04438',
+textFieldSuccessOutlineColor: '#12b76a',
+textFieldDisableBackgroundColor: '#e8e8e8',
+textFieldDisableOutlineColor: '#b1b1b1',
+textFieldDisablePlaceholderColor: '#8f8f8f',
+textFieldPrefixsufixLineColor: '#b1b1b1',
+textFieldPrefixsufixTextColor: '#616161',
+textFieldBorderRadius: '4px',
+textFieldPaddingLeftRight: '8px',
+textFieldPaddingTopBottom: '12px',
 
 }
 

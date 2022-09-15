@@ -97,7 +97,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 03:14:50 GMT
+ * Generated on Thu, 15 Sep 2022 10:55:17 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -865,7 +865,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 03:14:50 GMT
+ * Generated on Thu, 15 Sep 2022 10:55:17 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1108,7 +1108,25 @@ var tokens$1 = {
   avatarMdFontSize: '16px',
   avatarSmSize: '32px',
   avatarSmIconSize: '16px',
-  avatarSmFontSize: '12px'
+  avatarSmFontSize: '12px',
+  textFieldDefaultBackgroundColor: '#ffffff',
+  textFieldDefaultOutlineColor: '#cecece',
+  textFieldDefaultIconColor: '#3d3d3d',
+  textFieldDefaultPlaceholderColor: '#8f8f8f',
+  textFieldDefaultLabelColor: '#3d3d3d',
+  textFieldActiveOutlineColor: '#47af64',
+  textFieldActivePlaceholderColor: '#3d3d3d',
+  textFieldActiveBorderColor: '#cae2cf',
+  textFieldErrorOutlineColor: '#f04438',
+  textFieldSuccessOutlineColor: '#12b76a',
+  textFieldDisableBackgroundColor: '#e8e8e8',
+  textFieldDisableOutlineColor: '#b1b1b1',
+  textFieldDisablePlaceholderColor: '#8f8f8f',
+  textFieldPrefixsufixLineColor: '#b1b1b1',
+  textFieldPrefixsufixTextColor: '#616161',
+  textFieldBorderRadius: '4px',
+  textFieldPaddingLeftRight: '8px',
+  textFieldPaddingTopBottom: '12px'
 };
 
 var _formSideCenter, _containerLoginCen, _formSideRight, _formSideLeft, _containerLogin;
@@ -2526,7 +2544,7 @@ var agr = /*#__PURE__*/utils.makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 03:14:50 GMT
+ * Generated on Thu, 15 Sep 2022 10:55:17 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -2769,7 +2787,25 @@ var tokens$2 = {
   avatarMdFontSize: '16px',
   avatarSmSize: '32px',
   avatarSmIconSize: '16px',
-  avatarSmFontSize: '12px'
+  avatarSmFontSize: '12px',
+  textFieldDefaultBackgroundColor: '#ffffff',
+  textFieldDefaultOutlineColor: '#cecece',
+  textFieldDefaultIconColor: '#3d3d3d',
+  textFieldDefaultPlaceholderColor: '#8f8f8f',
+  textFieldDefaultLabelColor: '#3d3d3d',
+  textFieldActiveOutlineColor: '#ff9900',
+  textFieldActivePlaceholderColor: '#3d3d3d',
+  textFieldActiveBorderColor: '#ffdbc5',
+  textFieldErrorOutlineColor: '#f04438',
+  textFieldSuccessOutlineColor: '#12b76a',
+  textFieldDisableBackgroundColor: '#e8e8e8',
+  textFieldDisableOutlineColor: '#b1b1b1',
+  textFieldDisablePlaceholderColor: '#8f8f8f',
+  textFieldPrefixsufixLineColor: '#b1b1b1',
+  textFieldPrefixsufixTextColor: '#616161',
+  textFieldBorderRadius: '4px',
+  textFieldPaddingLeftRight: '8px',
+  textFieldPaddingTopBottom: '12px'
 };
 
 var _formSideCenter$1, _containerLoginCen$1, _formSideRight$1, _formSideLeft$1, _containerLogin$1;
@@ -4187,7 +4223,7 @@ var agl = /*#__PURE__*/utils.makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 03:14:50 GMT
+ * Generated on Thu, 15 Sep 2022 10:55:17 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -4427,7 +4463,25 @@ var tokens$3 = {
   avatarMdFontSize: '16px',
   avatarSmSize: '32px',
   avatarSmIconSize: '16px',
-  avatarSmFontSize: '12px'
+  avatarSmFontSize: '12px',
+  textFieldDefaultBackgroundColor: '#ffffff',
+  textFieldDefaultOutlineColor: '#cecece',
+  textFieldDefaultIconColor: '#3d3d3d',
+  textFieldDefaultPlaceholderColor: '#8f8f8f',
+  textFieldDefaultLabelColor: '#3d3d3d',
+  textFieldActiveOutlineColor: '#229bd8',
+  textFieldActivePlaceholderColor: '#3d3d3d',
+  textFieldActiveBorderColor: '#c6dcf0',
+  textFieldErrorOutlineColor: '#f04438',
+  textFieldSuccessOutlineColor: '#12b76a',
+  textFieldDisableBackgroundColor: '#e8e8e8',
+  textFieldDisableOutlineColor: '#b1b1b1',
+  textFieldDisablePlaceholderColor: '#8f8f8f',
+  textFieldPrefixsufixLineColor: '#b1b1b1',
+  textFieldPrefixsufixTextColor: '#616161',
+  textFieldBorderRadius: '4px',
+  textFieldPaddingLeftRight: '8px',
+  textFieldPaddingTopBottom: '12px'
 };
 
 var _formSideCenter$2, _containerLoginCen$2, _formSideRight$2, _formSideLeft$2, _containerLogin$2;

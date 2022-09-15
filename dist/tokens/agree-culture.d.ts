@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 09 Sep 2022 03:14:50 GMT
+ * Generated on Thu, 15 Sep 2022 10:55:17 GMT
  */
 export declare const tokens: {
     primary25: string;
@@ -244,5 +244,23 @@ export declare const tokens: {
     avatarSmSize: string;
     avatarSmIconSize: string;
     avatarSmFontSize: string;
+    textFieldDefaultBackgroundColor: string;
+    textFieldDefaultOutlineColor: string;
+    textFieldDefaultIconColor: string;
+    textFieldDefaultPlaceholderColor: string;
+    textFieldDefaultLabelColor: string;
+    textFieldActiveOutlineColor: string;
+    textFieldActivePlaceholderColor: string;
+    textFieldActiveBorderColor: string;
+    textFieldErrorOutlineColor: string;
+    textFieldSuccessOutlineColor: string;
+    textFieldDisableBackgroundColor: string;
+    textFieldDisableOutlineColor: string;
+    textFieldDisablePlaceholderColor: string;
+    textFieldPrefixsufixLineColor: string;
+    textFieldPrefixsufixTextColor: string;
+    textFieldBorderRadius: string;
+    textFieldPaddingLeftRight: string;
+    textFieldPaddingTopBottom: string;
 };
 export default tokens;

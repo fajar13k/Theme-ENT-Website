@@ -1069,5 +1069,91 @@
         "type": "fontSizes"
       }
     }
+  },
+  "TextField": {
+    "_default": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "outlineColor": {
+        "value": "#cecece",
+        "type": "color"
+      },
+      "iconColor": {
+        "value": "#3d3d3d",
+        "type": "color"
+      },
+      "placeholderColor": {
+        "value": "#8f8f8f",
+        "type": "color"
+      },
+      "labelColor": {
+        "value": "#3d3d3d",
+        "type": "color"
+      }
+    },
+    "_active": {
+      "outlineColor": {
+        "value": "#229bd8",
+        "type": "color"
+      },
+      "placeholderColor": {
+        "value": "#3d3d3d",
+        "type": "color"
+      },
+      "borderColor": {
+        "value": "#c6dcf0",
+        "type": "color"
+      }
+    },
+    "_error": {
+      "outlineColor": {
+        "value": "#f04438",
+        "type": "color"
+      }
+    },
+    "_ success": {
+      "outlineColor": {
+        "value": "#12b76a",
+        "type": "color"
+      }
+    },
+    "_disable": {
+      "backgroundColor": {
+        "value": "#e8e8e8",
+        "type": "color"
+      },
+      "outlineColor": {
+        "value": "#b1b1b1",
+        "type": "color"
+      },
+      "placeholderColor": {
+        "value": "#8f8f8f",
+        "type": "color"
+      }
+    },
+    "_prefixsufix": {
+      "lineColor": {
+        "value": "#b1b1b1",
+        "type": "color"
+      },
+      "textColor": {
+        "value": "#616161",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "value": 4,
+      "type": "borderRadius"
+    },
+    "paddingLeft-Right": {
+      "value": 8,
+      "type": "spacing"
+    },
+    "paddingTop-Bottom": {
+      "value": 12,
+      "type": "spacing"
+    }
   }
 }
