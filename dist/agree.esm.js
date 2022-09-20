@@ -91,7 +91,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Tue, 20 Sep 2022 16:52:43 GMT
+ * Generated on Tue, 20 Sep 2022 17:21:42 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -861,7 +861,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Tue, 20 Sep 2022 16:52:43 GMT
+ * Generated on Tue, 20 Sep 2022 17:21:42 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -2014,49 +2014,259 @@ var agr = /*#__PURE__*/makeTheme({
   },
   text: {
     "default": {
-      fontFamily: 'Lato, sans-serif',
-      color: color.grayscale80,
+      fontFamily: 'Nunito Sans, sans-serif',
+      color: tokens$1.tertiary800,
       // Body
       lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
+      lg_reguler_respon: /*#__PURE__*/_extends({}, text.body.lg.reguler, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_semibold: /*#__PURE__*/_extends({}, text.body.lg.semibold),
+      lg_semibold_respon: /*#__PURE__*/_extends({}, text.body.lg.semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_bold: /*#__PURE__*/_extends({}, text.body.lg.bold),
+      lg_bold_respon: /*#__PURE__*/_extends({}, text.body.lg.bold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_italic: /*#__PURE__*/_extends({}, text.body.lg.italic),
+      lg_italic_respon: /*#__PURE__*/_extends({}, text.body.lg.italic, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_underline: /*#__PURE__*/_extends({}, text.body.lg.underline),
+      lg_underline_respon: /*#__PURE__*/_extends({}, text.body.lg.underline, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_underline_semibold: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold),
+      lg_underline_semibold_respon: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_underline_bold: /*#__PURE__*/_extends({}, text.body.lg.underline_bold),
+      lg_underline_bold_respon: /*#__PURE__*/_extends({}, text.body.lg.underline_bold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
+      sm_reguler_respon: /*#__PURE__*/_extends({}, text.body.sm.reguler, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_semibold: /*#__PURE__*/_extends({}, text.body.sm.semibold),
+      sm_semibold_respon: /*#__PURE__*/_extends({}, text.body.sm.semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_bold: /*#__PURE__*/_extends({}, text.body.sm.bold),
+      sm_bold_respon: /*#__PURE__*/_extends({}, text.body.sm.semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_italic: /*#__PURE__*/_extends({}, text.body.sm.italic),
+      sm_italic_respon: /*#__PURE__*/_extends({}, text.body.sm.italic, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_underline: /*#__PURE__*/_extends({}, text.body.sm.underline),
+      sm_underline_respon: /*#__PURE__*/_extends({}, text.body.sm.underline, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_underline_semibold: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold),
+      sm_underline_semibold_respon: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_underline_bold: /*#__PURE__*/_extends({}, text.body.sm.underline_bold),
+      sm_underline_bold_respon: /*#__PURE__*/_extends({}, text.body.sm.underline_bold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       // Caption
       sizes: {
         lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
+        lg_reguler_respon: /*#__PURE__*/_extends({}, text.caption.lg.reguler, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_semibold: /*#__PURE__*/_extends({}, text.caption.lg.semibold),
+        lg_semibold_respon: /*#__PURE__*/_extends({}, text.caption.lg.semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_bold: /*#__PURE__*/_extends({}, text.caption.lg.bold),
+        lg_bold_respon: /*#__PURE__*/_extends({}, text.caption.lg.bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_italic: /*#__PURE__*/_extends({}, text.caption.lg.italic),
+        lg_italic_respon: /*#__PURE__*/_extends({}, text.caption.lg.italic, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_underline: /*#__PURE__*/_extends({}, text.caption.lg.underline),
+        lg_underline_respon: /*#__PURE__*/_extends({}, text.caption.lg.underline, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_underline_semibold: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold),
+        lg_underline_semibold_respon: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_underline_bold: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold),
+        lg_underline_bold_respon: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
+        sm_reguler_respon: /*#__PURE__*/_extends({}, text.caption.sm.reguler, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_semibold: /*#__PURE__*/_extends({}, text.caption.sm.semibold),
+        sm_semibold_respon: /*#__PURE__*/_extends({}, text.caption.sm.semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_bold: /*#__PURE__*/_extends({}, text.caption.sm.bold),
+        sm_bold_respon: /*#__PURE__*/_extends({}, text.caption.sm.bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_italic: /*#__PURE__*/_extends({}, text.caption.sm.italic),
+        sm_italic_respon: /*#__PURE__*/_extends({}, text.caption.sm.italic, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
+        sm_underline_respon: /*#__PURE__*/_extends({}, text.caption.sm.underline, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
-        sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
+        sm_underline_semibold_respon: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
+        sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold),
+        sm_underline_bold_respon: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        })
       }
     },
     // Heading
     heading: {
       h1: /*#__PURE__*/_extends({}, text.heading.h1),
+      h1Respon: /*#__PURE__*/_extends({}, text.heading.h1, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: "calc(" + text.heading.h1.fontSize + " + 8 * ((100vw - 320px) / 960))",
+          lineHeight: "calc(" + text.heading.h1.lineHeight + " + 0.6 * ((100vw - 320px) / 60))",
+          fontWeight: '700'
+        }
+      }),
       h2: /*#__PURE__*/_extends({}, text.heading.h2),
+      h2Respon: /*#__PURE__*/_extends({}, text.heading.h2, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '28px',
+          lineHeight: '42px',
+          fontWeight: '700'
+        }
+      }),
       h3: /*#__PURE__*/_extends({}, text.heading.h3),
+      h3Respon: /*#__PURE__*/_extends({}, text.heading.h3, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '24px',
+          lineHeight: '36px',
+          fontWeight: '700'
+        }
+      }),
       h4: /*#__PURE__*/_extends({}, text.heading.h4),
+      h4Respon: /*#__PURE__*/_extends({}, text.heading.h4, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '22px',
+          lineHeight: '32px',
+          fontWeight: '700'
+        }
+      }),
       h5: /*#__PURE__*/_extends({}, text.heading.h5),
-      h6: /*#__PURE__*/_extends({}, text.heading.h6)
+      h5Respon: /*#__PURE__*/_extends({}, text.heading.h5, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '20px',
+          lineHeight: '28px',
+          fontWeight: '700'
+        }
+      }),
+      h6: /*#__PURE__*/_extends({}, text.heading.h6),
+      h6Respon: /*#__PURE__*/_extends({}, text.heading.h6, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '18px',
+          lineHeight: '26px',
+          fontWeight: '700'
+        }
+      })
     }
   },
   cards: {
@@ -2540,7 +2750,7 @@ var agr = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Tue, 20 Sep 2022 16:52:43 GMT
+ * Generated on Tue, 20 Sep 2022 17:21:42 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -3693,49 +3903,259 @@ var agl = /*#__PURE__*/makeTheme({
   },
   text: {
     "default": {
-      fontFamily: 'Lato, sans-serif',
-      color: color.grayscale80,
+      fontFamily: 'Nunito Sans, sans-serif',
+      color: tokens$2.tertiary800,
       // Body
       lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
+      lg_reguler_respon: /*#__PURE__*/_extends({}, text.body.lg.reguler, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_semibold: /*#__PURE__*/_extends({}, text.body.lg.semibold),
+      lg_semibold_respon: /*#__PURE__*/_extends({}, text.body.lg.semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_bold: /*#__PURE__*/_extends({}, text.body.lg.bold),
+      lg_bold_respon: /*#__PURE__*/_extends({}, text.body.lg.bold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_italic: /*#__PURE__*/_extends({}, text.body.lg.italic),
+      lg_italic_respon: /*#__PURE__*/_extends({}, text.body.lg.italic, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_underline: /*#__PURE__*/_extends({}, text.body.lg.underline),
+      lg_underline_respon: /*#__PURE__*/_extends({}, text.body.lg.underline, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_underline_semibold: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold),
+      lg_underline_semibold_respon: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_underline_bold: /*#__PURE__*/_extends({}, text.body.lg.underline_bold),
+      lg_underline_bold_respon: /*#__PURE__*/_extends({}, text.body.lg.underline_bold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
+      sm_reguler_respon: /*#__PURE__*/_extends({}, text.body.sm.reguler, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_semibold: /*#__PURE__*/_extends({}, text.body.sm.semibold),
+      sm_semibold_respon: /*#__PURE__*/_extends({}, text.body.sm.semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_bold: /*#__PURE__*/_extends({}, text.body.sm.bold),
+      sm_bold_respon: /*#__PURE__*/_extends({}, text.body.sm.semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_italic: /*#__PURE__*/_extends({}, text.body.sm.italic),
+      sm_italic_respon: /*#__PURE__*/_extends({}, text.body.sm.italic, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_underline: /*#__PURE__*/_extends({}, text.body.sm.underline),
+      sm_underline_respon: /*#__PURE__*/_extends({}, text.body.sm.underline, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_underline_semibold: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold),
+      sm_underline_semibold_respon: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_underline_bold: /*#__PURE__*/_extends({}, text.body.sm.underline_bold),
+      sm_underline_bold_respon: /*#__PURE__*/_extends({}, text.body.sm.underline_bold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       // Caption
       sizes: {
         lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
+        lg_reguler_respon: /*#__PURE__*/_extends({}, text.caption.lg.reguler, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_semibold: /*#__PURE__*/_extends({}, text.caption.lg.semibold),
+        lg_semibold_respon: /*#__PURE__*/_extends({}, text.caption.lg.semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_bold: /*#__PURE__*/_extends({}, text.caption.lg.bold),
+        lg_bold_respon: /*#__PURE__*/_extends({}, text.caption.lg.bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_italic: /*#__PURE__*/_extends({}, text.caption.lg.italic),
+        lg_italic_respon: /*#__PURE__*/_extends({}, text.caption.lg.italic, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_underline: /*#__PURE__*/_extends({}, text.caption.lg.underline),
+        lg_underline_respon: /*#__PURE__*/_extends({}, text.caption.lg.underline, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_underline_semibold: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold),
+        lg_underline_semibold_respon: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_underline_bold: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold),
+        lg_underline_bold_respon: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
+        sm_reguler_respon: /*#__PURE__*/_extends({}, text.caption.sm.reguler, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_semibold: /*#__PURE__*/_extends({}, text.caption.sm.semibold),
+        sm_semibold_respon: /*#__PURE__*/_extends({}, text.caption.sm.semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_bold: /*#__PURE__*/_extends({}, text.caption.sm.bold),
+        sm_bold_respon: /*#__PURE__*/_extends({}, text.caption.sm.bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_italic: /*#__PURE__*/_extends({}, text.caption.sm.italic),
+        sm_italic_respon: /*#__PURE__*/_extends({}, text.caption.sm.italic, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
+        sm_underline_respon: /*#__PURE__*/_extends({}, text.caption.sm.underline, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
-        sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
+        sm_underline_semibold_respon: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
+        sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold),
+        sm_underline_bold_respon: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        })
       }
     },
     // Heading
     heading: {
       h1: /*#__PURE__*/_extends({}, text.heading.h1),
+      h1Respon: /*#__PURE__*/_extends({}, text.heading.h1, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '34px',
+          lineHeight: '48px',
+          fontWeight: '700'
+        }
+      }),
       h2: /*#__PURE__*/_extends({}, text.heading.h2),
+      h2Respon: /*#__PURE__*/_extends({}, text.heading.h2, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '28px',
+          lineHeight: '42px',
+          fontWeight: '700'
+        }
+      }),
       h3: /*#__PURE__*/_extends({}, text.heading.h3),
+      h3Respon: /*#__PURE__*/_extends({}, text.heading.h3, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '24px',
+          lineHeight: '36px',
+          fontWeight: '700'
+        }
+      }),
       h4: /*#__PURE__*/_extends({}, text.heading.h4),
+      h4Respon: /*#__PURE__*/_extends({}, text.heading.h4, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '22px',
+          lineHeight: '32px',
+          fontWeight: '700'
+        }
+      }),
       h5: /*#__PURE__*/_extends({}, text.heading.h5),
-      h6: /*#__PURE__*/_extends({}, text.heading.h6)
+      h5Respon: /*#__PURE__*/_extends({}, text.heading.h5, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '20px',
+          lineHeight: '28px',
+          fontWeight: '700'
+        }
+      }),
+      h6: /*#__PURE__*/_extends({}, text.heading.h6),
+      h6Respon: /*#__PURE__*/_extends({}, text.heading.h6, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '18px',
+          lineHeight: '26px',
+          fontWeight: '700'
+        }
+      })
     }
   },
   cards: {
@@ -4219,7 +4639,7 @@ var agl = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Tue, 20 Sep 2022 16:52:43 GMT
+ * Generated on Tue, 20 Sep 2022 17:21:42 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -5369,49 +5789,259 @@ var aqf = /*#__PURE__*/makeTheme({
   },
   text: {
     "default": {
-      fontFamily: 'Lato, sans-serif',
-      color: color.grayscale80,
+      fontFamily: 'Nunito Sans, sans-serif',
+      color: tokens$3.tertiary800,
       // Body
       lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
+      lg_reguler_respon: /*#__PURE__*/_extends({}, text.body.lg.reguler, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_semibold: /*#__PURE__*/_extends({}, text.body.lg.semibold),
+      lg_semibold_respon: /*#__PURE__*/_extends({}, text.body.lg.semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_bold: /*#__PURE__*/_extends({}, text.body.lg.bold),
+      lg_bold_respon: /*#__PURE__*/_extends({}, text.body.lg.bold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_italic: /*#__PURE__*/_extends({}, text.body.lg.italic),
+      lg_italic_respon: /*#__PURE__*/_extends({}, text.body.lg.italic, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_underline: /*#__PURE__*/_extends({}, text.body.lg.underline),
+      lg_underline_respon: /*#__PURE__*/_extends({}, text.body.lg.underline, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_underline_semibold: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold),
+      lg_underline_semibold_respon: /*#__PURE__*/_extends({}, text.body.lg.underline_semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       lg_underline_bold: /*#__PURE__*/_extends({}, text.body.lg.underline_bold),
+      lg_underline_bold_respon: /*#__PURE__*/_extends({}, text.body.lg.underline_bold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px'
+        }
+      }),
       sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
+      sm_reguler_respon: /*#__PURE__*/_extends({}, text.body.sm.reguler, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_semibold: /*#__PURE__*/_extends({}, text.body.sm.semibold),
+      sm_semibold_respon: /*#__PURE__*/_extends({}, text.body.sm.semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_bold: /*#__PURE__*/_extends({}, text.body.sm.bold),
+      sm_bold_respon: /*#__PURE__*/_extends({}, text.body.sm.semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_italic: /*#__PURE__*/_extends({}, text.body.sm.italic),
+      sm_italic_respon: /*#__PURE__*/_extends({}, text.body.sm.italic, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_underline: /*#__PURE__*/_extends({}, text.body.sm.underline),
+      sm_underline_respon: /*#__PURE__*/_extends({}, text.body.sm.underline, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_underline_semibold: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold),
+      sm_underline_semibold_respon: /*#__PURE__*/_extends({}, text.body.sm.underline_semibold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       sm_underline_bold: /*#__PURE__*/_extends({}, text.body.sm.underline_bold),
+      sm_underline_bold_respon: /*#__PURE__*/_extends({}, text.body.sm.underline_bold, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px'
+        }
+      }),
       // Caption
       sizes: {
         lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
+        lg_reguler_respon: /*#__PURE__*/_extends({}, text.caption.lg.reguler, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_semibold: /*#__PURE__*/_extends({}, text.caption.lg.semibold),
+        lg_semibold_respon: /*#__PURE__*/_extends({}, text.caption.lg.semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_bold: /*#__PURE__*/_extends({}, text.caption.lg.bold),
+        lg_bold_respon: /*#__PURE__*/_extends({}, text.caption.lg.bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_italic: /*#__PURE__*/_extends({}, text.caption.lg.italic),
+        lg_italic_respon: /*#__PURE__*/_extends({}, text.caption.lg.italic, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_underline: /*#__PURE__*/_extends({}, text.caption.lg.underline),
+        lg_underline_respon: /*#__PURE__*/_extends({}, text.caption.lg.underline, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_underline_semibold: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold),
+        lg_underline_semibold_respon: /*#__PURE__*/_extends({}, text.caption.lg.underline_semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         lg_underline_bold: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold),
+        lg_underline_bold_respon: /*#__PURE__*/_extends({}, text.caption.lg.underline_bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px'
+          }
+        }),
         sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
+        sm_reguler_respon: /*#__PURE__*/_extends({}, text.caption.sm.reguler, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_semibold: /*#__PURE__*/_extends({}, text.caption.sm.semibold),
+        sm_semibold_respon: /*#__PURE__*/_extends({}, text.caption.sm.semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_bold: /*#__PURE__*/_extends({}, text.caption.sm.bold),
+        sm_bold_respon: /*#__PURE__*/_extends({}, text.caption.sm.bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_italic: /*#__PURE__*/_extends({}, text.caption.sm.italic),
+        sm_italic_respon: /*#__PURE__*/_extends({}, text.caption.sm.italic, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_underline: /*#__PURE__*/_extends({}, text.caption.sm.underline),
+        sm_underline_respon: /*#__PURE__*/_extends({}, text.caption.sm.underline, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
         sm_underline_semibold: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold),
-        sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold)
+        sm_underline_semibold_respon: /*#__PURE__*/_extends({}, text.caption.sm.underline_semibold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        }),
+        sm_underline_bold: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold),
+        sm_underline_bold_respon: /*#__PURE__*/_extends({}, text.caption.sm.underline_bold, {
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px'
+          }
+        })
       }
     },
     // Heading
     heading: {
       h1: /*#__PURE__*/_extends({}, text.heading.h1),
+      h1Respon: /*#__PURE__*/_extends({}, text.heading.h1, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '34px',
+          lineHeight: '48px',
+          fontWeight: '700'
+        }
+      }),
       h2: /*#__PURE__*/_extends({}, text.heading.h2),
+      h2Respon: /*#__PURE__*/_extends({}, text.heading.h2, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '28px',
+          lineHeight: '42px',
+          fontWeight: '700'
+        }
+      }),
       h3: /*#__PURE__*/_extends({}, text.heading.h3),
+      h3Respon: /*#__PURE__*/_extends({}, text.heading.h3, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '24px',
+          lineHeight: '36px',
+          fontWeight: '700'
+        }
+      }),
       h4: /*#__PURE__*/_extends({}, text.heading.h4),
+      h4Respon: /*#__PURE__*/_extends({}, text.heading.h4, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '22px',
+          lineHeight: '32px',
+          fontWeight: '700'
+        }
+      }),
       h5: /*#__PURE__*/_extends({}, text.heading.h5),
-      h6: /*#__PURE__*/_extends({}, text.heading.h6)
+      h5Respon: /*#__PURE__*/_extends({}, text.heading.h5, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '20px',
+          lineHeight: '28px',
+          fontWeight: '700'
+        }
+      }),
+      h6: /*#__PURE__*/_extends({}, text.heading.h6),
+      h6Respon: /*#__PURE__*/_extends({}, text.heading.h6, {
+        '@media screen and (max-width: 400px)': {
+          fontSize: '18px',
+          lineHeight: '26px',
+          fontWeight: '700'
+        }
+      })
     }
   },
   cards: {

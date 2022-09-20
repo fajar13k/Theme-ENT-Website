@@ -1005,9 +1005,19 @@ export declare const agr: {
     };
     text: {
         default: {
-            fontFamily: "Lato, sans-serif";
+            fontFamily: "Nunito Sans, sans-serif";
             color: string;
             lg_reguler: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            lg_reguler_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
@@ -1019,13 +1029,44 @@ export declare const agr: {
                 fontWeight: number;
                 fontFamily: string;
             };
+            lg_semibold_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
             lg_bold: {
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
                 fontFamily: string;
             };
+            lg_bold_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
             lg_italic: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontStyle: string;
+                fontFamily: string;
+            };
+            lg_italic_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
@@ -1039,7 +1080,29 @@ export declare const agr: {
                 fontStyle: string;
                 fontFamily: string;
             };
+            lg_underline_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontStyle: string;
+                fontFamily: string;
+            };
             lg_underline_semibold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontStyle: string;
+                fontFamily: string;
+            };
+            lg_underline_semibold_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
@@ -1053,7 +1116,28 @@ export declare const agr: {
                 fontStyle: string;
                 fontFamily: string;
             };
+            lg_underline_bold_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontStyle: string;
+                fontFamily: string;
+            };
             sm_reguler: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            sm_reguler_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
@@ -1065,13 +1149,44 @@ export declare const agr: {
                 fontWeight: number;
                 fontFamily: string;
             };
+            sm_semibold_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
             sm_bold: {
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
                 fontFamily: string;
             };
+            sm_bold_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
             sm_italic: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontStyle: string;
+                fontFamily: string;
+            };
+            sm_italic_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
@@ -1085,7 +1200,29 @@ export declare const agr: {
                 fontStyle: string;
                 fontFamily: string;
             };
+            sm_underline_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontStyle: string;
+                fontFamily: string;
+            };
             sm_underline_semibold: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontStyle: string;
+                fontFamily: string;
+            };
+            sm_underline_semibold_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
@@ -1099,8 +1236,29 @@ export declare const agr: {
                 fontStyle: string;
                 fontFamily: string;
             };
+            sm_underline_bold_respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontStyle: string;
+                fontFamily: string;
+            };
             sizes: {
                 lg_reguler: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
+                };
+                lg_reguler_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
@@ -1112,13 +1270,44 @@ export declare const agr: {
                     fontWeight: number;
                     fontFamily: string;
                 };
+                lg_semibold_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
+                };
                 lg_bold: {
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
                     fontFamily: string;
                 };
+                lg_bold_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
+                };
                 lg_italic: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontStyle: string;
+                    fontFamily: string;
+                };
+                lg_italic_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
@@ -1132,7 +1321,29 @@ export declare const agr: {
                     fontStyle: string;
                     fontFamily: string;
                 };
+                lg_underline_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontStyle: string;
+                    fontFamily: string;
+                };
                 lg_underline_semibold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontStyle: string;
+                    fontFamily: string;
+                };
+                lg_underline_semibold_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
@@ -1146,7 +1357,28 @@ export declare const agr: {
                     fontStyle: string;
                     fontFamily: string;
                 };
+                lg_underline_bold_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontStyle: string;
+                    fontFamily: string;
+                };
                 sm_reguler: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
+                };
+                sm_reguler_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
@@ -1158,13 +1390,44 @@ export declare const agr: {
                     fontWeight: number;
                     fontFamily: string;
                 };
+                sm_semibold_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
+                };
                 sm_bold: {
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
                     fontFamily: string;
                 };
+                sm_bold_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontFamily: string;
+                };
                 sm_italic: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontStyle: string;
+                    fontFamily: string;
+                };
+                sm_italic_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
@@ -1178,6 +1441,17 @@ export declare const agr: {
                     fontStyle: string;
                     fontFamily: string;
                 };
+                sm_underline_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontStyle: string;
+                    fontFamily: string;
+                };
                 sm_underline_semibold: {
                     fontSize: string;
                     lineHeight: string;
@@ -1185,7 +1459,29 @@ export declare const agr: {
                     fontStyle: string;
                     fontFamily: string;
                 };
+                sm_underline_semibold_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontStyle: string;
+                    fontFamily: string;
+                };
                 sm_underline_bold: {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: number;
+                    fontStyle: string;
+                    fontFamily: string;
+                };
+                sm_underline_bold_respon: {
+                    '@media screen and (max-width: 400px)': {
+                        fontSize: string;
+                        lineHeight: string;
+                    };
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
@@ -1201,7 +1497,29 @@ export declare const agr: {
                 fontWeight: number;
                 fontFamily: string;
             };
+            h1Respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
             h2: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            h2Respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
@@ -1213,7 +1531,29 @@ export declare const agr: {
                 fontWeight: number;
                 fontFamily: string;
             };
+            h3Respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
             h4: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            h4Respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
@@ -1225,7 +1565,29 @@ export declare const agr: {
                 fontWeight: number;
                 fontFamily: string;
             };
+            h5Respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
             h6: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+            };
+            h6Respon: {
+                '@media screen and (max-width: 400px)': {
+                    fontSize: string;
+                    lineHeight: string;
+                    fontWeight: string;
+                };
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
