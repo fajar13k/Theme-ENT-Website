@@ -1222,7 +1222,7 @@
     "Large": {
       "Regular": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1256,7 +1256,7 @@
       },
       "Semibold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1290,7 +1290,7 @@
       },
       "Bold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1324,7 +1324,7 @@
       },
       "Italic": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1358,7 +1358,7 @@
       },
       "Underline": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1392,7 +1392,7 @@
       },
       "Underline Semibold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1426,7 +1426,7 @@
       },
       "Underline Bold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1462,7 +1462,7 @@
     "Small": {
       "Regular": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1496,7 +1496,7 @@
       },
       "Semibold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1530,7 +1530,7 @@
       },
       "Bold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1564,7 +1564,7 @@
       },
       "Italic": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1598,7 +1598,7 @@
       },
       "Underline": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1632,7 +1632,7 @@
       },
       "Underline Semibold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1666,7 +1666,7 @@
       },
       "Underline Bold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1704,7 +1704,7 @@
     "Large": {
       "Regular": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1738,7 +1738,7 @@
       },
       "Semibold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1772,7 +1772,7 @@
       },
       "Bold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1806,7 +1806,7 @@
       },
       "Italic": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1840,7 +1840,7 @@
       },
       "Underline": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1874,7 +1874,7 @@
       },
       "Underline Semibold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1908,7 +1908,7 @@
       },
       "Underline Bold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1944,7 +1944,7 @@
     "Small": {
       "Regular": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1978,7 +1978,7 @@
       },
       "Semibold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -2012,7 +2012,7 @@
       },
       "Bold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -2046,7 +2046,7 @@
       },
       "Italic": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -2080,7 +2080,7 @@
       },
       "Underline": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -2114,7 +2114,7 @@
       },
       "Underline Semibold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -2148,7 +2148,7 @@
       },
       "Underline Bold": {
         "fontFamily": {
-          "value": "Montserrat",
+          "value": "Open Sans",
           "type": "fontFamily"
         },
         "fontWeight": {

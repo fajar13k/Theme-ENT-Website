@@ -282,7 +282,7 @@
   --heading-heading-6-paragraph-spacing: 0px;
   --heading-heading-6-text-case: uppercase;
   --heading-heading-6-text-decoration: none;
-  --body-large-regular-font-family: Montserrat;
+  --body-large-regular-font-family: Open Sans;
   --body-large-regular-font-weight: Regular;
   --body-large-regular-line-height: 24px;
   --body-large-regular-font-size: 16px;
@@ -290,7 +290,7 @@
   --body-large-regular-paragraph-spacing: 0px;
   --body-large-regular-text-case: none;
   --body-large-regular-text-decoration: none;
-  --body-large-semibold-font-family: Montserrat;
+  --body-large-semibold-font-family: Open Sans;
   --body-large-semibold-font-weight: SemiBold;
   --body-large-semibold-line-height: 24px;
   --body-large-semibold-font-size: 16px;
@@ -298,7 +298,7 @@
   --body-large-semibold-paragraph-spacing: 0px;
   --body-large-semibold-text-case: none;
   --body-large-semibold-text-decoration: none;
-  --body-large-bold-font-family: Montserrat;
+  --body-large-bold-font-family: Open Sans;
   --body-large-bold-font-weight: Bold;
   --body-large-bold-line-height: 24px;
   --body-large-bold-font-size: 16px;
@@ -306,7 +306,7 @@
   --body-large-bold-paragraph-spacing: 0px;
   --body-large-bold-text-case: none;
   --body-large-bold-text-decoration: none;
-  --body-large-italic-font-family: Montserrat;
+  --body-large-italic-font-family: Open Sans;
   --body-large-italic-font-weight: Italic;
   --body-large-italic-line-height: 24px;
   --body-large-italic-font-size: 16px;
@@ -314,7 +314,7 @@
   --body-large-italic-paragraph-spacing: 0px;
   --body-large-italic-text-case: none;
   --body-large-italic-text-decoration: none;
-  --body-large-underline-font-family: Montserrat;
+  --body-large-underline-font-family: Open Sans;
   --body-large-underline-font-weight: Regular;
   --body-large-underline-line-height: 24px;
   --body-large-underline-font-size: 16px;
@@ -322,7 +322,7 @@
   --body-large-underline-paragraph-spacing: 0px;
   --body-large-underline-text-case: none;
   --body-large-underline-text-decoration: underline;
-  --body-large-underline-semibold-font-family: Montserrat;
+  --body-large-underline-semibold-font-family: Open Sans;
   --body-large-underline-semibold-font-weight: SemiBold;
   --body-large-underline-semibold-line-height: 24px;
   --body-large-underline-semibold-font-size: 16px;
@@ -330,7 +330,7 @@
   --body-large-underline-semibold-paragraph-spacing: 0px;
   --body-large-underline-semibold-text-case: none;
   --body-large-underline-semibold-text-decoration: underline;
-  --body-large-underline-bold-font-family: Montserrat;
+  --body-large-underline-bold-font-family: Open Sans;
   --body-large-underline-bold-font-weight: Bold;
   --body-large-underline-bold-line-height: 24px;
   --body-large-underline-bold-font-size: 16px;
@@ -338,7 +338,7 @@
   --body-large-underline-bold-paragraph-spacing: 0px;
   --body-large-underline-bold-text-case: none;
   --body-large-underline-bold-text-decoration: underline;
-  --body-small-regular-font-family: Montserrat;
+  --body-small-regular-font-family: Open Sans;
   --body-small-regular-font-weight: Regular;
   --body-small-regular-line-height: 21px;
   --body-small-regular-font-size: 14px;
@@ -346,7 +346,7 @@
   --body-small-regular-paragraph-spacing: 0px;
   --body-small-regular-text-case: none;
   --body-small-regular-text-decoration: none;
-  --body-small-semibold-font-family: Montserrat;
+  --body-small-semibold-font-family: Open Sans;
   --body-small-semibold-font-weight: SemiBold;
   --body-small-semibold-line-height: 21px;
   --body-small-semibold-font-size: 14px;
@@ -354,7 +354,7 @@
   --body-small-semibold-paragraph-spacing: 0px;
   --body-small-semibold-text-case: none;
   --body-small-semibold-text-decoration: none;
-  --body-small-bold-font-family: Montserrat;
+  --body-small-bold-font-family: Open Sans;
   --body-small-bold-font-weight: Bold;
   --body-small-bold-line-height: 21px;
   --body-small-bold-font-size: 14px;
@@ -362,7 +362,7 @@
   --body-small-bold-paragraph-spacing: 0px;
   --body-small-bold-text-case: none;
   --body-small-bold-text-decoration: none;
-  --body-small-italic-font-family: Montserrat;
+  --body-small-italic-font-family: Open Sans;
   --body-small-italic-font-weight: Italic;
   --body-small-italic-line-height: 21px;
   --body-small-italic-font-size: 14px;
@@ -370,7 +370,7 @@
   --body-small-italic-paragraph-spacing: 0px;
   --body-small-italic-text-case: none;
   --body-small-italic-text-decoration: none;
-  --body-small-underline-font-family: Montserrat;
+  --body-small-underline-font-family: Open Sans;
   --body-small-underline-font-weight: Regular;
   --body-small-underline-line-height: 21px;
   --body-small-underline-font-size: 14px;
@@ -378,7 +378,7 @@
   --body-small-underline-paragraph-spacing: 18px;
   --body-small-underline-text-case: none;
   --body-small-underline-text-decoration: underline;
-  --body-small-underline-semibold-font-family: Montserrat;
+  --body-small-underline-semibold-font-family: Open Sans;
   --body-small-underline-semibold-font-weight: SemiBold;
   --body-small-underline-semibold-line-height: 21px;
   --body-small-underline-semibold-font-size: 14px;
@@ -386,7 +386,7 @@
   --body-small-underline-semibold-paragraph-spacing: 0px;
   --body-small-underline-semibold-text-case: none;
   --body-small-underline-semibold-text-decoration: underline;
-  --body-small-underline-bold-font-family: Montserrat;
+  --body-small-underline-bold-font-family: Open Sans;
   --body-small-underline-bold-font-weight: Bold;
   --body-small-underline-bold-line-height: 21px;
   --body-small-underline-bold-font-size: 14px;
@@ -394,7 +394,7 @@
   --body-small-underline-bold-paragraph-spacing: 0px;
   --body-small-underline-bold-text-case: none;
   --body-small-underline-bold-text-decoration: underline;
-  --caption-large-regular-font-family: Montserrat;
+  --caption-large-regular-font-family: Open Sans;
   --caption-large-regular-font-weight: Regular;
   --caption-large-regular-line-height: 18px;
   --caption-large-regular-font-size: 12px;
@@ -402,7 +402,7 @@
   --caption-large-regular-paragraph-spacing: 0px;
   --caption-large-regular-text-case: none;
   --caption-large-regular-text-decoration: none;
-  --caption-large-semibold-font-family: Montserrat;
+  --caption-large-semibold-font-family: Open Sans;
   --caption-large-semibold-font-weight: SemiBold;
   --caption-large-semibold-line-height: 18px;
   --caption-large-semibold-font-size: 12px;
@@ -410,7 +410,7 @@
   --caption-large-semibold-paragraph-spacing: 0px;
   --caption-large-semibold-text-case: none;
   --caption-large-semibold-text-decoration: none;
-  --caption-large-bold-font-family: Montserrat;
+  --caption-large-bold-font-family: Open Sans;
   --caption-large-bold-font-weight: Bold;
   --caption-large-bold-line-height: 18px;
   --caption-large-bold-font-size: 12px;
@@ -418,7 +418,7 @@
   --caption-large-bold-paragraph-spacing: 0px;
   --caption-large-bold-text-case: none;
   --caption-large-bold-text-decoration: none;
-  --caption-large-italic-font-family: Montserrat;
+  --caption-large-italic-font-family: Open Sans;
   --caption-large-italic-font-weight: Italic;
   --caption-large-italic-line-height: 18px;
   --caption-large-italic-font-size: 12px;
@@ -426,7 +426,7 @@
   --caption-large-italic-paragraph-spacing: 0px;
   --caption-large-italic-text-case: none;
   --caption-large-italic-text-decoration: none;
-  --caption-large-underline-font-family: Montserrat;
+  --caption-large-underline-font-family: Open Sans;
   --caption-large-underline-font-weight: Regular;
   --caption-large-underline-line-height: 18px;
   --caption-large-underline-font-size: 12px;
@@ -434,7 +434,7 @@
   --caption-large-underline-paragraph-spacing: 0px;
   --caption-large-underline-text-case: none;
   --caption-large-underline-text-decoration: underline;
-  --caption-large-underline-semibold-font-family: Montserrat;
+  --caption-large-underline-semibold-font-family: Open Sans;
   --caption-large-underline-semibold-font-weight: SemiBold;
   --caption-large-underline-semibold-line-height: 18px;
   --caption-large-underline-semibold-font-size: 12px;
@@ -442,7 +442,7 @@
   --caption-large-underline-semibold-paragraph-spacing: 0px;
   --caption-large-underline-semibold-text-case: none;
   --caption-large-underline-semibold-text-decoration: underline;
-  --caption-large-underline-bold-font-family: Montserrat;
+  --caption-large-underline-bold-font-family: Open Sans;
   --caption-large-underline-bold-font-weight: Bold;
   --caption-large-underline-bold-line-height: 18px;
   --caption-large-underline-bold-font-size: 12px;
@@ -450,7 +450,7 @@
   --caption-large-underline-bold-paragraph-spacing: 0px;
   --caption-large-underline-bold-text-case: none;
   --caption-large-underline-bold-text-decoration: underline;
-  --caption-small-regular-font-family: Montserrat;
+  --caption-small-regular-font-family: Open Sans;
   --caption-small-regular-font-weight: Regular;
   --caption-small-regular-line-height: 18px;
   --caption-small-regular-font-size: 10px;
@@ -458,7 +458,7 @@
   --caption-small-regular-paragraph-spacing: 0px;
   --caption-small-regular-text-case: none;
   --caption-small-regular-text-decoration: none;
-  --caption-small-semibold-font-family: Montserrat;
+  --caption-small-semibold-font-family: Open Sans;
   --caption-small-semibold-font-weight: SemiBold;
   --caption-small-semibold-line-height: 18px;
   --caption-small-semibold-font-size: 10px;
@@ -466,7 +466,7 @@
   --caption-small-semibold-paragraph-spacing: 0px;
   --caption-small-semibold-text-case: none;
   --caption-small-semibold-text-decoration: none;
-  --caption-small-bold-font-family: Montserrat;
+  --caption-small-bold-font-family: Open Sans;
   --caption-small-bold-font-weight: Bold;
   --caption-small-bold-line-height: 18px;
   --caption-small-bold-font-size: 10px;
@@ -474,7 +474,7 @@
   --caption-small-bold-paragraph-spacing: 0px;
   --caption-small-bold-text-case: none;
   --caption-small-bold-text-decoration: none;
-  --caption-small-italic-font-family: Montserrat;
+  --caption-small-italic-font-family: Open Sans;
   --caption-small-italic-font-weight: Italic;
   --caption-small-italic-line-height: 18px;
   --caption-small-italic-font-size: 10px;
@@ -482,7 +482,7 @@
   --caption-small-italic-paragraph-spacing: 0px;
   --caption-small-italic-text-case: none;
   --caption-small-italic-text-decoration: none;
-  --caption-small-underline-font-family: Montserrat;
+  --caption-small-underline-font-family: Open Sans;
   --caption-small-underline-font-weight: Regular;
   --caption-small-underline-line-height: 18px;
   --caption-small-underline-font-size: 10px;
@@ -490,7 +490,7 @@
   --caption-small-underline-paragraph-spacing: 18px;
   --caption-small-underline-text-case: none;
   --caption-small-underline-text-decoration: underline;
-  --caption-small-underline-semibold-font-family: Montserrat;
+  --caption-small-underline-semibold-font-family: Open Sans;
   --caption-small-underline-semibold-font-weight: SemiBold;
   --caption-small-underline-semibold-line-height: 18px;
   --caption-small-underline-semibold-font-size: 10px;
@@ -498,7 +498,7 @@
   --caption-small-underline-semibold-paragraph-spacing: 0px;
   --caption-small-underline-semibold-text-case: none;
   --caption-small-underline-semibold-text-decoration: underline;
-  --caption-small-underline-bold-font-family: Montserrat;
+  --caption-small-underline-bold-font-family: Open Sans;
   --caption-small-underline-bold-font-weight: Bold;
   --caption-small-underline-bold-line-height: 18px;
   --caption-small-underline-bold-font-size: 10px;
