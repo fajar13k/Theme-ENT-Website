@@ -1251,8 +1251,8 @@ export const agr = makeTheme({
       h1Respon: {
         ...text.heading.h1,
         '@media screen and (max-width: 400px)': {
-          fontSize: `calc(${text.heading.h1.fontSize} + 8 * ((100vw - 320px) / 960))`,
-          lineHeight: `calc(${text.heading.h1.lineHeight} + 0.6 * ((100vw - 320px) / 60))`,
+          fontSize: '34px',
+          lineHeight: '48px',
           fontWeight: '700',
         },
       },
