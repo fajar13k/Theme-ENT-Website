@@ -1010,119 +1010,296 @@ export const agl = makeTheme({
   },
   text: {
     default: {
-      fontFamily: 'Lato, sans-serif',
-      color: color.grayscale80,
+      fontFamily: 'Nunito Sans, sans-serif',
+      color: tokens.tertiary800,
 
       // Body
-      lg_reguler: {
+      lg_reguler: { ...text.body.lg.reguler },
+      lg_reguler_respon: {
         ...text.body.lg.reguler,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px',
+        },
       },
-      lg_semibold: {
+      lg_semibold: { ...text.body.lg.semibold },
+      lg_semibold_respon: {
         ...text.body.lg.semibold,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px',
+        },
       },
-      lg_bold: { 
+      lg_bold: { ...text.body.lg.bold },
+      lg_bold_respon: {
         ...text.body.lg.bold,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px',
+        },
       },
-      lg_italic: {
+      lg_italic: { ...text.body.lg.italic },
+      lg_italic_respon: {
         ...text.body.lg.italic,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px',
+        },
       },
-      lg_underline: {
+      lg_underline: { ...text.body.lg.underline },
+      lg_underline_respon: {
         ...text.body.lg.underline,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px',
+        },
       },
-      lg_underline_semibold: {
+      lg_underline_semibold: { ...text.body.lg.underline_semibold },
+      lg_underline_semibold_respon: {
         ...text.body.lg.underline_semibold,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px',
+        },
       },
-      lg_underline_bold: {
+      lg_underline_bold: { ...text.body.lg.underline_bold },
+      lg_underline_bold_respon: {
         ...text.body.lg.underline_bold,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '16px',
+          lineHeight: '24px',
+        },
       },
-      sm_reguler: {
+      sm_reguler: { ...text.body.sm.reguler },
+      sm_reguler_respon: {
         ...text.body.sm.reguler,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px',
+        },
       },
-      sm_semibold: {
+      sm_semibold: { ...text.body.sm.semibold },
+      sm_semibold_respon: {
         ...text.body.sm.semibold,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px',
+        },
       },
-      sm_bold: { 
-        ...text.body.sm.bold,
+      sm_bold: { ...text.body.sm.bold },
+      sm_bold_respon: {
+        ...text.body.sm.semibold,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px',
+        },
       },
-      sm_italic: {
+      sm_italic: { ...text.body.sm.italic },
+      sm_italic_respon: {
         ...text.body.sm.italic,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px',
+        },
       },
-      sm_underline: {
+      sm_underline: { ...text.body.sm.underline },
+      sm_underline_respon: {
         ...text.body.sm.underline,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px',
+        },
       },
-      sm_underline_semibold: {
+      sm_underline_semibold: { ...text.body.sm.underline_semibold },
+      sm_underline_semibold_respon: {
         ...text.body.sm.underline_semibold,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px',
+        },
       },
-      sm_underline_bold: {
+      sm_underline_bold: { ...text.body.sm.underline_bold },
+      sm_underline_bold_respon: {
         ...text.body.sm.underline_bold,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '14px',
+          lineHeight: '21px',
+        },
       },
 
       // Caption
       sizes: {
-        lg_reguler: {
+        lg_reguler: { ...text.caption.lg.reguler },
+        lg_reguler_respon: {
           ...text.caption.lg.reguler,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px',
+          },
         },
-        lg_semibold: {
+        lg_semibold: { ...text.caption.lg.semibold },
+        lg_semibold_respon: {
           ...text.caption.lg.semibold,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px',
+          },
         },
-        lg_bold: {
+        lg_bold: { ...text.caption.lg.bold },
+        lg_bold_respon: {
           ...text.caption.lg.bold,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px',
+          },
         },
-        lg_italic: {
+        lg_italic: { ...text.caption.lg.italic },
+        lg_italic_respon: {
           ...text.caption.lg.italic,
+          '@media screen and (max-width: 400px)': {
+
+            fontSize: '12px',
+            lineHeight: '18px',
+          },
         },
-        lg_underline: {
+        lg_underline: { ...text.caption.lg.underline },
+        lg_underline_respon: {
           ...text.caption.lg.underline,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px',
+          },
         },
-        lg_underline_semibold: {
+        lg_underline_semibold: { ...text.caption.lg.underline_semibold },
+        lg_underline_semibold_respon: {
           ...text.caption.lg.underline_semibold,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px',
+          },
         },
-        lg_underline_bold: {
+        lg_underline_bold: { ...text.caption.lg.underline_bold },
+        lg_underline_bold_respon: {
           ...text.caption.lg.underline_bold,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '12px',
+            lineHeight: '18px',
+          },
         },
-        sm_reguler: {
+        sm_reguler: { ...text.caption.sm.reguler },
+        sm_reguler_respon: {
           ...text.caption.sm.reguler,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px',
+          },
         },
-        sm_semibold: {
+        sm_semibold: { ...text.caption.sm.semibold },
+        sm_semibold_respon: {
           ...text.caption.sm.semibold,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px',
+          },
         },
-        sm_bold: {
+        sm_bold: { ...text.caption.sm.bold },
+        sm_bold_respon: {
           ...text.caption.sm.bold,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px',
+          },
         },
-        sm_italic: {
+        sm_italic: { ...text.caption.sm.italic },
+        sm_italic_respon: {
           ...text.caption.sm.italic,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px',
+          },
         },
-        sm_underline: {
+        sm_underline: { ...text.caption.sm.underline },
+        sm_underline_respon: {
           ...text.caption.sm.underline,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px',
+          },
         },
-        sm_underline_semibold: {
+        sm_underline_semibold: { ...text.caption.sm.underline_semibold },
+        sm_underline_semibold_respon: {
           ...text.caption.sm.underline_semibold,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px',
+          },
         },
-        sm_underline_bold: {
+        sm_underline_bold: { ...text.caption.sm.underline_bold },
+        sm_underline_bold_respon: {
           ...text.caption.sm.underline_bold,
+          '@media screen and (max-width: 400px)': {
+            fontSize: '10px',
+            lineHeight: '18px',
+          },
         },
       },
     },
 
     // Heading
     heading: {
-      h1: {
+      h1: { ...text.heading.h1 },
+      h1Respon: {
         ...text.heading.h1,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '34px',
+          lineHeight: '48px',
+          fontWeight: '700',
+        },
       },
-      h2: {
+      h2: { ...text.heading.h2 },
+      h2Respon: {
         ...text.heading.h2,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '28px',
+          lineHeight: '42px',
+          fontWeight: '700',
+        },
       },
-      h3: {
+      h3: { ...text.heading.h3 },
+      h3Respon: {
         ...text.heading.h3,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '24px',
+          lineHeight: '36px',
+          fontWeight: '700',
+        },
       },
-      h4: {
+      h4: { ...text.heading.h4 },
+      h4Respon: {
         ...text.heading.h4,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '22px',
+          lineHeight: '32px',
+          fontWeight: '700',
+        },
       },
-      h5: {
+      h5: { ...text.heading.h5 },
+      h5Respon: {
         ...text.heading.h5,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '20px',
+          lineHeight: '28px',
+          fontWeight: '700',
+        },
       },
-      h6: {
+      h6: { ...text.heading.h6 },
+      h6Respon: {
         ...text.heading.h6,
+        '@media screen and (max-width: 400px)': {
+          fontSize: '18px',
+          lineHeight: '26px',
+          fontWeight: '700',
+        },
       },
     },
   },
