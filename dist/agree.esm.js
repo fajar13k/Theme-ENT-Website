@@ -91,7 +91,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Tue, 20 Sep 2022 17:52:46 GMT
+ * Generated on Thu, 22 Sep 2022 05:56:58 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -861,7 +861,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Tue, 20 Sep 2022 17:52:46 GMT
+ * Generated on Thu, 22 Sep 2022 05:56:58 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1592,12 +1592,14 @@ var agr = /*#__PURE__*/makeTheme({
         '&:checked': {
           backgroundColor: tokens$1.checkboxActiveBackgroundColor,
           border: "2px solid " + tokens$1.checkboxActiveBorder,
+          transition: 'all 0.15s ease-in-out 0s',
           '&:after': {
             content: '"\\2714"',
             color: tokens$1.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$1.checkboxActiveBorder
+            backgroundColor: tokens$1.checkboxActiveBorder,
+            transition: 'all 0.15s ease-in-out 0s'
           }
         }
       },
@@ -1642,14 +1644,247 @@ var agr = /*#__PURE__*/makeTheme({
         '&:checked': {
           backgroundColor: tokens$1.checkboxActiveBackgroundColor,
           border: "2px solid " + tokens$1.checkboxActiveBorder,
+          transition: 'all 0.15s ease-in-out 0s',
           '&:after': {
             content: '"\\2012"',
             color: tokens$1.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$1.checkboxActiveBorder
+            backgroundColor: tokens$1.checkboxActiveBorder,
+            transition: 'all 0.15s ease-in-out 0s'
           }
         }
+      }
+    },
+    input: {
+      container: {
+        position: 'relative',
+        display: 'flex !important',
+        flexDirection: 'row',
+        alignItems: 'center !important',
+        height: '44px !important',
+        backgroundColor: "" + tokens$1.textFieldDefaultBackgroundColor,
+        marginBottom: '30px'
+      },
+      containPrefLeft: {
+        display: 'flex',
+        height: '44px',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingLeft: "" + tokens$1.textFieldPaddingLeftRight,
+        pointerEvents: 'none',
+        zIndex: 3
+      },
+      wrapperPrefLeft: /*#__PURE__*/_extends({
+        color: "" + tokens$1.textFieldPrefixsufixTextColor
+      }, text.body.sm.semibold),
+      limitPrefLeft: {
+        height: '24px',
+        borderRight: "1px solid " + tokens$1.textFieldPrefixsufixLineColor,
+        marginLeft: "" + tokens$1.textFieldPaddingLeftRight
+      },
+      wrappPrefLeftIconLeft: {
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        marginLeft: '12px',
+        zIndex: 2
+      },
+      wrappIconLeft: {
+        position: 'relative',
+        marginLeft: "" + tokens$1.textFieldPaddingLeftRight,
+        zIndex: 2,
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px'
+      },
+      wrappField: {
+        position: 'absolute',
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$1.textFieldBorderRadius,
+        border: "1px solid " + tokens$1.textFieldDefaultOutlineColor + " !important",
+        backgroundColor: tokens$1.textFieldDisableBackgroundColor + " !important",
+        transition: 'all 0.15s ease-in-out 0s'
+      },
+      wrappNormal: {
+        position: 'absolute',
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$1.textFieldBorderRadius,
+        border: "1px solid " + tokens$1.textFieldDefaultOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
+      },
+      wrappSuccess: {
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$1.textFieldBorderRadius,
+        border: "1px solid " + tokens$1.textFieldSuccessOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s',
+        position: 'absolute'
+      },
+      wrappError: {
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$1.textFieldBorderRadius,
+        border: "1px solid " + tokens$1.textFieldErrorOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s',
+        position: 'absolute'
+      },
+      wrappPrefRightIconRight: {
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        zIndex: 2,
+        marginRight: '12px'
+      },
+      wrappIconRight: {
+        position: 'relative',
+        zIndex: 2,
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        marginRight: "" + tokens$1.textFieldPaddingLeftRight,
+        cursor: 'pointer'
+      },
+      containPrefRight: {
+        textAlign: 'center',
+        paddingRight: "" + tokens$1.textFieldPaddingLeftRight,
+        display: 'flex',
+        zIndex: 3
+      },
+      limitPrefRight: {
+        height: '24px',
+        borderRight: "1px solid " + tokens$1.textFieldPrefixsufixLineColor,
+        marginRight: "" + tokens$1.textFieldPaddingLeftRight
+      },
+      wrapperPrefRight: /*#__PURE__*/_extends({
+        color: "" + tokens$1.textFieldPrefixsufixTextColor
+      }, text.body.sm.semibold),
+      wrappLabelField: /*#__PURE__*/_extends({
+        marginBottom: '5px',
+        color: "" + tokens$1.textFieldDefaultLabelColor
+      }, text.body.sm.semibold),
+      wrapErrorMessage: /*#__PURE__*/_extends({
+        marginTop: '-25px',
+        color: "" + tokens$1.textFieldErrorOutlineColor
+      }, text.caption.lg.reguler),
+      '&:disabled': {
+        zIndex: 2,
+        border: 0,
+        backgroundColor: 'transparent !important'
+      },
+      normal: {
+        '&:focus': {
+          outline: 'none'
+        },
+        '&::placeholder': {
+          color: "" + tokens$1.textFieldDefaultPlaceholderColor
+        },
+        '&:hover ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor
+        },
+        '& .css-1cqyib9-Textfield': {
+          paddingLeft: '30px !important'
+        },
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: tokens$1.textFieldPaddingTopBottom + " " + tokens$1.textFieldPaddingLeftRight + " " + tokens$1.textFieldPaddingTopBottom + " " + tokens$1.textFieldPaddingLeftRight + " !important",
+        zIndex: '2'
+      },
+      success: {
+        '&:hover ~ .css-1nk40ql-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus': {
+          outline: 'none'
+        },
+        '&:focus ~ .css-1nk40ql-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor
+        },
+        zIndex: 2,
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: tokens$1.textFieldPaddingTopBottom + " " + tokens$1.textFieldPaddingLeftRight + " " + tokens$1.textFieldPaddingTopBottom + " " + tokens$1.textFieldPaddingLeftRight + " !important"
+      },
+      error: {
+        '&:hover ~ .css-19xfusu-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus': {
+          outline: 'none'
+        },
+        '&:focus ~ .css-19xfusu-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor
+        },
+        zIndex: 2,
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: tokens$1.textFieldPaddingTopBottom + " " + tokens$1.textFieldPaddingLeftRight + " " + tokens$1.textFieldPaddingTopBottom + " " + tokens$1.textFieldPaddingLeftRight + " !important"
+      }
+    },
+    textarea: {
+      backgroundColor: "" + tokens$1.textFieldDefaultBackgroundColor,
+      borderRadius: "" + tokens$1.textFieldBorderRadius,
+      labelTextArea: /*#__PURE__*/_extends({
+        color: "" + tokens$1.textFieldDefaultLabelColor
+      }, text.body.sm.semibold),
+      '&::placeholder': {
+        color: "" + tokens$1.textFieldDefaultPlaceholderColor
+      },
+      ':disabled': {
+        border: "1px solid " + tokens$1.textFieldDefaultOutlineColor + " !important",
+        backgroundColor: tokens$1.textFieldDisableBackgroundColor + " !important",
+        ':hover': {
+          border: "1px solid " + tokens$1.textFieldDefaultOutlineColor + " !important",
+          outline: 'none'
+        }
+      },
+      ':hover': {
+        outline: 'none',
+        border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important"
+      },
+      ':focus': {
+        outline: 'none',
+        border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
+        boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor
+      },
+      normal: {
+        border: "1px solid " + tokens$1.textFieldDefaultOutlineColor
+      },
+      success: {
+        border: "1px solid " + tokens$1.textFieldSuccessOutlineColor
+      },
+      error: {
+        border: "1px solid " + tokens$1.textFieldErrorOutlineColor
       }
     }
   },
@@ -1732,7 +1967,8 @@ var agr = /*#__PURE__*/makeTheme({
       '&:hover': {
         backgroundColor: tokens$1.buttonsPrimaryHoverBackgroundColor,
         color: tokens$1.buttonsPrimaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:focus': {
         boxShadow: "0px 0px 0px 2px " + tokens$1.buttonsPrimaryFocusBorderColors + " !important"
@@ -1817,7 +2053,8 @@ var agr = /*#__PURE__*/makeTheme({
       '&:hover': {
         backgroundColor: tokens$1.buttonsSecondaryHoverBackgroundColor,
         color: tokens$1.buttonsSecondaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:focus': {
         boxShadow: "0px 0px 0px 2px " + tokens$1.buttonsSecondaryFocusBorderColors + " !important"
@@ -1903,7 +2140,8 @@ var agr = /*#__PURE__*/makeTheme({
         backgroundColor: tokens$1.buttonsSecondaryHoverBackgroundColor,
         border: "1px solid " + tokens$1.buttonsSecondaryHoverColor,
         color: tokens$1.buttonsSecondaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:active': {
         backgroundColor: tokens$1.buttonsSecondaryActiveBackgroundColor,
@@ -1991,7 +2229,8 @@ var agr = /*#__PURE__*/makeTheme({
       '&:hover': {
         backgroundColor: tokens$1.buttonsSecondaryDefaultBackgroundColor,
         color: tokens$1.buttonsSecondaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:focus': {
         backgroundColor: tokens$1.buttonsSecondaryDefaultBackgroundColor + " !important",
@@ -2267,6 +2506,14 @@ var agr = /*#__PURE__*/makeTheme({
           fontWeight: '700'
         }
       })
+    }
+  },
+  spinner: {
+    primary: {
+      color: tokens$1.primary500
+    },
+    secondary: {
+      color: tokens$1.secondary500
     }
   },
   cards: {
@@ -2750,7 +2997,7 @@ var agr = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Tue, 20 Sep 2022 17:52:46 GMT
+ * Generated on Thu, 22 Sep 2022 05:56:58 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -3481,12 +3728,14 @@ var agl = /*#__PURE__*/makeTheme({
         '&:checked': {
           backgroundColor: tokens$2.checkboxActiveBackgroundColor,
           border: "2px solid " + tokens$2.checkboxActiveBorder,
+          transition: 'all 0.15s ease-in-out 0s',
           '&:after': {
             content: '"\\2714"',
             color: tokens$2.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$2.checkboxActiveBorder
+            backgroundColor: tokens$2.checkboxActiveBorder,
+            transition: 'all 0.15s ease-in-out 0s'
           }
         }
       },
@@ -3531,14 +3780,247 @@ var agl = /*#__PURE__*/makeTheme({
         '&:checked': {
           backgroundColor: tokens$2.checkboxActiveBackgroundColor,
           border: "2px solid " + tokens$2.checkboxActiveBorder,
+          transition: 'all 0.15s ease-in-out 0s',
           '&:after': {
             content: '"\\2012"',
             color: tokens$2.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$2.checkboxActiveBorder
+            backgroundColor: tokens$2.checkboxActiveBorder,
+            transition: 'all 0.15s ease-in-out 0s'
           }
         }
+      }
+    },
+    input: {
+      container: {
+        position: 'relative',
+        display: 'flex !important',
+        flexDirection: 'row',
+        alignItems: 'center !important',
+        height: '44px !important',
+        backgroundColor: "" + tokens$2.textFieldDefaultBackgroundColor,
+        marginBottom: '30px'
+      },
+      containPrefLeft: {
+        display: 'flex',
+        height: '44px',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingLeft: "" + tokens$2.textFieldPaddingLeftRight,
+        pointerEvents: 'none',
+        zIndex: 3
+      },
+      wrapperPrefLeft: /*#__PURE__*/_extends({
+        color: "" + tokens$2.textFieldPrefixsufixTextColor
+      }, text.body.sm.semibold),
+      limitPrefLeft: {
+        height: '24px',
+        borderRight: "1px solid " + tokens$2.textFieldPrefixsufixLineColor,
+        marginLeft: "" + tokens$2.textFieldPaddingLeftRight
+      },
+      wrappPrefLeftIconLeft: {
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        marginLeft: '12px',
+        zIndex: 2
+      },
+      wrappIconLeft: {
+        position: 'relative',
+        marginLeft: "" + tokens$2.textFieldPaddingLeftRight,
+        zIndex: 2,
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px'
+      },
+      wrappField: {
+        position: 'absolute',
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$2.textFieldBorderRadius,
+        border: "1px solid " + tokens$2.textFieldDefaultOutlineColor + " !important",
+        backgroundColor: tokens$2.textFieldDisableBackgroundColor + " !important",
+        transition: 'all 0.15s ease-in-out 0s'
+      },
+      wrappNormal: {
+        position: 'absolute',
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$2.textFieldBorderRadius,
+        border: "1px solid " + tokens$2.textFieldDefaultOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
+      },
+      wrappSuccess: {
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$2.textFieldBorderRadius,
+        border: "1px solid " + tokens$2.textFieldSuccessOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s',
+        position: 'absolute'
+      },
+      wrappError: {
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$2.textFieldBorderRadius,
+        border: "1px solid " + tokens$2.textFieldErrorOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s',
+        position: 'absolute'
+      },
+      wrappPrefRightIconRight: {
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        zIndex: 2,
+        marginRight: '12px'
+      },
+      wrappIconRight: {
+        position: 'relative',
+        zIndex: 2,
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        marginRight: "" + tokens$2.textFieldPaddingLeftRight,
+        cursor: 'pointer'
+      },
+      containPrefRight: {
+        textAlign: 'center',
+        paddingRight: "" + tokens$2.textFieldPaddingLeftRight,
+        display: 'flex',
+        zIndex: 3
+      },
+      limitPrefRight: {
+        height: '24px',
+        borderRight: "1px solid " + tokens$2.textFieldPrefixsufixLineColor,
+        marginRight: "" + tokens$2.textFieldPaddingLeftRight
+      },
+      wrapperPrefRight: /*#__PURE__*/_extends({
+        color: "" + tokens$2.textFieldPrefixsufixTextColor
+      }, text.body.sm.semibold),
+      wrappLabelField: /*#__PURE__*/_extends({
+        marginBottom: '5px',
+        color: "" + tokens$2.textFieldDefaultLabelColor
+      }, text.body.sm.semibold),
+      wrapErrorMessage: /*#__PURE__*/_extends({
+        marginTop: '-25px',
+        color: "" + tokens$2.textFieldErrorOutlineColor
+      }, text.caption.lg.reguler),
+      '&:disabled': {
+        zIndex: 2,
+        border: 0,
+        backgroundColor: 'transparent !important'
+      },
+      normal: {
+        '&:focus': {
+          outline: 'none'
+        },
+        '&::placeholder': {
+          color: "" + tokens$2.textFieldDefaultPlaceholderColor
+        },
+        '&:hover ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor
+        },
+        '& .css-1cqyib9-Textfield': {
+          paddingLeft: '30px !important'
+        },
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: tokens$2.textFieldPaddingTopBottom + " " + tokens$2.textFieldPaddingLeftRight + " " + tokens$2.textFieldPaddingTopBottom + " " + tokens$2.textFieldPaddingLeftRight + " !important",
+        zIndex: '2'
+      },
+      success: {
+        '&:hover ~ .css-1nk40ql-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus': {
+          outline: 'none'
+        },
+        '&:focus ~ .css-1nk40ql-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor
+        },
+        zIndex: 2,
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: tokens$2.textFieldPaddingTopBottom + " " + tokens$2.textFieldPaddingLeftRight + " " + tokens$2.textFieldPaddingTopBottom + " " + tokens$2.textFieldPaddingLeftRight + " !important"
+      },
+      error: {
+        '&:hover ~ .css-19xfusu-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus': {
+          outline: 'none'
+        },
+        '&:focus ~ .css-19xfusu-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor
+        },
+        zIndex: 2,
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: tokens$2.textFieldPaddingTopBottom + " " + tokens$2.textFieldPaddingLeftRight + " " + tokens$2.textFieldPaddingTopBottom + " " + tokens$2.textFieldPaddingLeftRight + " !important"
+      }
+    },
+    textarea: {
+      backgroundColor: "" + tokens$2.textFieldDefaultBackgroundColor,
+      borderRadius: "" + tokens$2.textFieldBorderRadius,
+      labelTextArea: /*#__PURE__*/_extends({
+        color: "" + tokens$2.textFieldDefaultLabelColor
+      }, text.body.sm.semibold),
+      '&::placeholder': {
+        color: "" + tokens$2.textFieldDefaultPlaceholderColor
+      },
+      ':disabled': {
+        border: "1px solid " + tokens$2.textFieldDefaultOutlineColor + " !important",
+        backgroundColor: tokens$2.textFieldDisableBackgroundColor + " !important",
+        ':hover': {
+          border: "1px solid " + tokens$2.textFieldDefaultOutlineColor + " !important",
+          outline: 'none'
+        }
+      },
+      ':hover': {
+        outline: 'none',
+        border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
+      },
+      ':focus': {
+        outline: 'none',
+        border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
+        boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor
+      },
+      normal: {
+        border: "1px solid " + tokens$2.textFieldDefaultOutlineColor
+      },
+      success: {
+        border: "1px solid " + tokens$2.textFieldSuccessOutlineColor
+      },
+      error: {
+        border: "1px solid " + tokens$2.textFieldErrorOutlineColor
       }
     }
   },
@@ -3621,7 +4103,8 @@ var agl = /*#__PURE__*/makeTheme({
       '&:hover': {
         backgroundColor: tokens$2.buttonsPrimaryHoverBackgroundColor,
         color: tokens$2.buttonsPrimaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:focus': {
         boxShadow: "0px 0px 0px 2px " + tokens$2.buttonsPrimaryFocusBorderColors + " !important"
@@ -3706,7 +4189,8 @@ var agl = /*#__PURE__*/makeTheme({
       '&:hover': {
         backgroundColor: tokens$2.buttonsSecondaryHoverBackgroundColor,
         color: tokens$2.buttonsSecondaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:focus': {
         boxShadow: "0px 0px 0px 2px " + tokens$2.buttonsSecondaryFocusBorderColors + " !important"
@@ -3792,7 +4276,8 @@ var agl = /*#__PURE__*/makeTheme({
         backgroundColor: tokens$2.buttonsSecondaryHoverBackgroundColor,
         border: "1px solid " + tokens$2.buttonsSecondaryHoverColor,
         color: tokens$2.buttonsSecondaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:active': {
         backgroundColor: tokens$2.buttonsSecondaryActiveBackgroundColor,
@@ -3880,7 +4365,8 @@ var agl = /*#__PURE__*/makeTheme({
       '&:hover': {
         backgroundColor: tokens$2.buttonsSecondaryDefaultBackgroundColor,
         color: tokens$2.buttonsSecondaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:focus': {
         backgroundColor: tokens$2.buttonsSecondaryDefaultBackgroundColor + " !important",
@@ -4156,6 +4642,14 @@ var agl = /*#__PURE__*/makeTheme({
           fontWeight: '700'
         }
       })
+    }
+  },
+  spinner: {
+    primary: {
+      color: tokens$2.primary500
+    },
+    secondary: {
+      color: tokens$2.secondary500
     }
   },
   cards: {
@@ -4639,7 +5133,7 @@ var agl = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Tue, 20 Sep 2022 17:52:46 GMT
+ * Generated on Thu, 22 Sep 2022 05:56:58 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -5367,12 +5861,14 @@ var aqf = /*#__PURE__*/makeTheme({
         '&:checked': {
           backgroundColor: tokens$3.checkboxActiveBackgroundColor,
           border: "2px solid " + tokens$3.checkboxActiveBorder,
+          transition: 'all 0.15s ease-in-out 0s',
           '&:after': {
             content: '"\\2714"',
             color: tokens$3.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$3.checkboxActiveBorder
+            backgroundColor: tokens$3.checkboxActiveBorder,
+            transition: 'all 0.15s ease-in-out 0s'
           }
         }
       },
@@ -5417,14 +5913,247 @@ var aqf = /*#__PURE__*/makeTheme({
         '&:checked': {
           backgroundColor: tokens$3.checkboxActiveBackgroundColor,
           border: "2px solid " + tokens$3.checkboxActiveBorder,
+          transition: 'all 0.15s ease-in-out 0s',
           '&:after': {
             content: '"\\2012"',
             color: tokens$3.checkboxDefaultBackgroundColor
           },
           '&:hover': {
-            backgroundColor: tokens$3.checkboxActiveBorder
+            backgroundColor: tokens$3.checkboxActiveBorder,
+            transition: 'all 0.15s ease-in-out 0s'
           }
         }
+      }
+    },
+    input: {
+      container: {
+        position: 'relative',
+        display: 'flex !important',
+        flexDirection: 'row',
+        alignItems: 'center !important',
+        height: '44px !important',
+        backgroundColor: "" + tokens$3.textFieldDefaultBackgroundColor,
+        marginBottom: '30px'
+      },
+      containPrefLeft: {
+        display: 'flex',
+        height: '44px',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingLeft: "" + tokens$3.textFieldPaddingLeftRight,
+        pointerEvents: 'none',
+        zIndex: 3
+      },
+      wrapperPrefLeft: /*#__PURE__*/_extends({
+        color: "" + tokens$3.textFieldPrefixsufixTextColor
+      }, text.body.sm.semibold),
+      limitPrefLeft: {
+        height: '24px',
+        borderRight: "1px solid " + tokens$3.textFieldPrefixsufixLineColor,
+        marginLeft: "" + tokens$3.textFieldPaddingLeftRight
+      },
+      wrappPrefLeftIconLeft: {
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        marginLeft: '12px',
+        zIndex: 2
+      },
+      wrappIconLeft: {
+        position: 'relative',
+        marginLeft: "" + tokens$3.textFieldPaddingLeftRight,
+        zIndex: 2,
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px'
+      },
+      wrappField: {
+        position: 'absolute',
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$3.textFieldBorderRadius,
+        border: "1px solid " + tokens$3.textFieldDefaultOutlineColor + " !important",
+        backgroundColor: tokens$3.textFieldDisableBackgroundColor + " !important",
+        transition: 'all 0.15s ease-in-out 0s'
+      },
+      wrappNormal: {
+        position: 'absolute',
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$3.textFieldBorderRadius,
+        border: "1px solid " + tokens$3.textFieldDefaultOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
+      },
+      wrappSuccess: {
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$3.textFieldBorderRadius,
+        border: "1px solid " + tokens$3.textFieldSuccessOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s',
+        position: 'absolute'
+      },
+      wrappError: {
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: "" + tokens$3.textFieldBorderRadius,
+        border: "1px solid " + tokens$3.textFieldErrorOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s',
+        position: 'absolute'
+      },
+      wrappPrefRightIconRight: {
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        zIndex: 2,
+        marginRight: '12px'
+      },
+      wrappIconRight: {
+        position: 'relative',
+        zIndex: 2,
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        marginRight: "" + tokens$3.textFieldPaddingLeftRight,
+        cursor: 'pointer'
+      },
+      containPrefRight: {
+        textAlign: 'center',
+        paddingRight: "" + tokens$3.textFieldPaddingLeftRight,
+        display: 'flex',
+        zIndex: 3
+      },
+      limitPrefRight: {
+        height: '24px',
+        borderRight: "1px solid " + tokens$3.textFieldPrefixsufixLineColor,
+        marginRight: "" + tokens$3.textFieldPaddingLeftRight
+      },
+      wrapperPrefRight: /*#__PURE__*/_extends({
+        color: "" + tokens$3.textFieldPrefixsufixTextColor
+      }, text.body.sm.semibold),
+      wrappLabelField: /*#__PURE__*/_extends({
+        marginBottom: '5px',
+        color: "" + tokens$3.textFieldDefaultLabelColor
+      }, text.body.sm.semibold),
+      wrapErrorMessage: /*#__PURE__*/_extends({
+        marginTop: '-25px',
+        color: "" + tokens$3.textFieldErrorOutlineColor
+      }, text.caption.lg.reguler),
+      '&:disabled': {
+        zIndex: 2,
+        border: 0,
+        backgroundColor: 'transparent !important'
+      },
+      normal: {
+        '&:focus': {
+          outline: 'none'
+        },
+        '&::placeholder': {
+          color: "" + tokens$3.textFieldDefaultPlaceholderColor
+        },
+        '&:hover ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor
+        },
+        '& .css-1cqyib9-Textfield': {
+          paddingLeft: '30px !important'
+        },
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: tokens$3.textFieldPaddingTopBottom + " " + tokens$3.textFieldPaddingLeftRight + " " + tokens$3.textFieldPaddingTopBottom + " " + tokens$3.textFieldPaddingLeftRight + " !important",
+        zIndex: '2'
+      },
+      success: {
+        '&:hover ~ .css-1nk40ql-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus': {
+          outline: 'none'
+        },
+        '&:focus ~ .css-1nk40ql-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor
+        },
+        zIndex: 2,
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: tokens$3.textFieldPaddingTopBottom + " " + tokens$3.textFieldPaddingLeftRight + " " + tokens$3.textFieldPaddingTopBottom + " " + tokens$3.textFieldPaddingLeftRight + " !important"
+      },
+      error: {
+        '&:hover ~ .css-19xfusu-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus': {
+          outline: 'none'
+        },
+        '&:focus ~ .css-19xfusu-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor
+        },
+        zIndex: 2,
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: tokens$3.textFieldPaddingTopBottom + " " + tokens$3.textFieldPaddingLeftRight + " " + tokens$3.textFieldPaddingTopBottom + " " + tokens$3.textFieldPaddingLeftRight + " !important"
+      }
+    },
+    textarea: {
+      backgroundColor: "" + tokens$3.textFieldDefaultBackgroundColor,
+      borderRadius: "" + tokens$3.textFieldBorderRadius,
+      labelTextArea: /*#__PURE__*/_extends({
+        color: "" + tokens$3.textFieldDefaultLabelColor
+      }, text.body.sm.semibold),
+      '&::placeholder': {
+        color: "" + tokens$3.textFieldDefaultPlaceholderColor
+      },
+      ':disabled': {
+        border: "1px solid " + tokens$3.textFieldDefaultOutlineColor + " !important",
+        backgroundColor: tokens$3.textFieldDisableBackgroundColor + " !important",
+        ':hover': {
+          border: "1px solid " + tokens$3.textFieldDefaultOutlineColor + " !important",
+          outline: 'none'
+        }
+      },
+      ':hover': {
+        outline: 'none',
+        border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
+      },
+      ':focus': {
+        outline: 'none',
+        border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
+        boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor
+      },
+      normal: {
+        border: "1px solid " + tokens$3.textFieldDefaultOutlineColor
+      },
+      success: {
+        border: "1px solid " + tokens$3.textFieldSuccessOutlineColor
+      },
+      error: {
+        border: "1px solid " + tokens$3.textFieldErrorOutlineColor
       }
     }
   },
@@ -5507,7 +6236,8 @@ var aqf = /*#__PURE__*/makeTheme({
       '&:hover': {
         backgroundColor: tokens$3.buttonsPrimaryHoverBackgroundColor,
         color: tokens$3.buttonsPrimaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:focus': {
         boxShadow: "0px 0px 0px 2px " + tokens$3.buttonsPrimaryFocusBorderColors + " !important"
@@ -5592,7 +6322,8 @@ var aqf = /*#__PURE__*/makeTheme({
       '&:hover': {
         backgroundColor: tokens$3.buttonsSecondaryHoverBackgroundColor,
         color: tokens$3.buttonsSecondaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:focus': {
         boxShadow: "0px 0px 0px 2px " + tokens$3.buttonsSecondaryFocusBorderColors + " !important"
@@ -5678,7 +6409,8 @@ var aqf = /*#__PURE__*/makeTheme({
         backgroundColor: tokens$3.buttonsSecondaryHoverBackgroundColor,
         border: "1px solid " + tokens$3.buttonsSecondaryHoverColor,
         color: tokens$3.buttonsSecondaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:active': {
         backgroundColor: tokens$3.buttonsSecondaryActiveBackgroundColor,
@@ -5766,7 +6498,8 @@ var aqf = /*#__PURE__*/makeTheme({
       '&:hover': {
         backgroundColor: tokens$3.buttonsSecondaryDefaultBackgroundColor,
         color: tokens$3.buttonsSecondaryHoverColor,
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s'
       },
       '&:focus': {
         backgroundColor: tokens$3.buttonsSecondaryDefaultBackgroundColor + " !important",
@@ -6042,6 +6775,14 @@ var aqf = /*#__PURE__*/makeTheme({
           fontWeight: '700'
         }
       })
+    }
+  },
+  spinner: {
+    primary: {
+      color: tokens$3.primary500
+    },
+    secondary: {
+      color: tokens$3.secondary500
     }
   },
   cards: {

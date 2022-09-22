@@ -571,12 +571,14 @@ export declare const agr: {
                 '&:checked': {
                     backgroundColor: string;
                     border: string;
+                    transition: "all 0.15s ease-in-out 0s";
                     '&:after': {
                         content: "\"\\2714\"";
                         color: string;
                     };
                     '&:hover': {
                         backgroundColor: string;
+                        transition: "all 0.15s ease-in-out 0s";
                     };
                 };
             };
@@ -621,14 +623,267 @@ export declare const agr: {
                 '&:checked': {
                     backgroundColor: string;
                     border: string;
+                    transition: "all 0.15s ease-in-out 0s";
                     '&:after': {
                         content: "\"\\2012\"";
                         color: string;
                     };
                     '&:hover': {
                         backgroundColor: string;
+                        transition: "all 0.15s ease-in-out 0s";
                     };
                 };
+            };
+        };
+        input: {
+            container: {
+                position: "relative";
+                display: "flex !important";
+                flexDirection: "row";
+                alignItems: "center !important";
+                height: string;
+                backgroundColor: string;
+                marginBottom: string;
+            };
+            containPrefLeft: {
+                display: "flex";
+                height: string;
+                alignItems: "center";
+                justifyContent: "center";
+                paddingLeft: string;
+                pointerEvents: "none";
+                zIndex: number;
+            };
+            wrapperPrefLeft: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+                color: string;
+            };
+            limitPrefLeft: {
+                height: string;
+                borderRight: string;
+                marginLeft: string;
+            };
+            wrappPrefLeftIconLeft: {
+                display: "flex";
+                alignItems: "center";
+                width: string;
+                height: string;
+                marginLeft: string;
+                zIndex: number;
+            };
+            wrappIconLeft: {
+                position: "relative";
+                marginLeft: string;
+                zIndex: number;
+                display: "flex";
+                alignItems: "center";
+                width: string;
+                height: string;
+            };
+            wrappField: {
+                position: "absolute";
+                zIndex: number;
+                top: string;
+                left: string;
+                width: string;
+                height: string;
+                borderRadius: string;
+                border: string;
+                backgroundColor: string;
+                transition: "all 0.15s ease-in-out 0s";
+            };
+            wrappNormal: {
+                position: "absolute";
+                zIndex: number;
+                top: string;
+                left: string;
+                width: string;
+                height: string;
+                borderRadius: string;
+                border: string;
+                transition: "all 0.15s ease-in-out 0s";
+            };
+            wrappSuccess: {
+                zIndex: number;
+                top: string;
+                left: string;
+                width: string;
+                height: string;
+                borderRadius: string;
+                border: string;
+                transition: "all 0.15s ease-in-out 0s";
+                position: "absolute";
+            };
+            wrappError: {
+                zIndex: number;
+                top: string;
+                left: string;
+                width: string;
+                height: string;
+                borderRadius: string;
+                border: string;
+                transition: "all 0.15s ease-in-out 0s";
+                position: "absolute";
+            };
+            wrappPrefRightIconRight: {
+                display: "flex";
+                alignItems: "center";
+                width: string;
+                height: string;
+                zIndex: number;
+                marginRight: string;
+            };
+            wrappIconRight: {
+                position: "relative";
+                zIndex: number;
+                display: "flex";
+                alignItems: "center";
+                width: string;
+                height: string;
+                marginRight: string;
+                cursor: "pointer";
+            };
+            containPrefRight: {
+                textAlign: "center";
+                paddingRight: string;
+                display: "flex";
+                zIndex: number;
+            };
+            limitPrefRight: {
+                height: string;
+                borderRight: string;
+                marginRight: string;
+            };
+            wrapperPrefRight: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+                color: string;
+            };
+            wrappLabelField: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+                marginBottom: string;
+                color: string;
+            };
+            wrapErrorMessage: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+                marginTop: string;
+                color: string;
+            };
+            '&:disabled': {
+                zIndex: number;
+                border: number;
+                backgroundColor: "transparent !important";
+            };
+            normal: {
+                '&:focus': {
+                    outline: string;
+                };
+                '&::placeholder': {
+                    color: string;
+                };
+                '&:hover ~ .css-wot0oi-Textfield': {
+                    outline: string;
+                    border: string;
+                };
+                '&:focus ~ .css-wot0oi-Textfield': {
+                    outline: string;
+                    border: string;
+                    boxShadow: string;
+                };
+                '& .css-1cqyib9-Textfield': {
+                    paddingLeft: string;
+                };
+                border: string;
+                backgroundColor: "transparent";
+                padding: string;
+                zIndex: string;
+            };
+            success: {
+                '&:hover ~ .css-1nk40ql-Textfield': {
+                    outline: string;
+                    border: string;
+                };
+                '&:focus': {
+                    outline: string;
+                };
+                '&:focus ~ .css-1nk40ql-Textfield': {
+                    outline: string;
+                    border: string;
+                    boxShadow: string;
+                };
+                zIndex: number;
+                border: string;
+                backgroundColor: "transparent";
+                padding: string;
+            };
+            error: {
+                '&:hover ~ .css-19xfusu-Textfield': {
+                    outline: string;
+                    border: string;
+                };
+                '&:focus': {
+                    outline: string;
+                };
+                '&:focus ~ .css-19xfusu-Textfield': {
+                    outline: string;
+                    border: string;
+                    boxShadow: string;
+                };
+                zIndex: number;
+                border: string;
+                backgroundColor: "transparent";
+                padding: string;
+            };
+        };
+        textarea: {
+            backgroundColor: string;
+            borderRadius: string;
+            labelTextArea: {
+                fontSize: string;
+                lineHeight: string;
+                fontWeight: number;
+                fontFamily: string;
+                color: string;
+            };
+            '&::placeholder': {
+                color: string;
+            };
+            ':disabled': {
+                border: string;
+                backgroundColor: string;
+                ':hover': {
+                    border: string;
+                    outline: string;
+                };
+            };
+            ':hover': {
+                outline: string;
+                border: string;
+            };
+            ':focus': {
+                outline: string;
+                border: string;
+                boxShadow: string;
+            };
+            normal: {
+                border: string;
+            };
+            success: {
+                border: string;
+            };
+            error: {
+                border: string;
             };
         };
     };
@@ -724,6 +979,7 @@ export declare const agr: {
                 backgroundColor: string;
                 color: string;
                 boxShadow: "none !important";
+                transition: "all 0.15s ease-in-out 0s";
             };
             '&:focus': {
                 boxShadow: string;
@@ -809,6 +1065,7 @@ export declare const agr: {
                 backgroundColor: string;
                 color: string;
                 boxShadow: "none !important";
+                transition: "all 0.15s ease-in-out 0s";
             };
             '&:focus': {
                 boxShadow: string;
@@ -895,6 +1152,7 @@ export declare const agr: {
                 border: string;
                 color: string;
                 boxShadow: "none !important";
+                transition: "all 0.15s ease-in-out 0s";
             };
             '&:active': {
                 backgroundColor: string;
@@ -983,6 +1241,7 @@ export declare const agr: {
                 backgroundColor: string;
                 color: string;
                 boxShadow: "none !important";
+                transition: "all 0.15s ease-in-out 0s";
             };
             '&:focus': {
                 backgroundColor: string;
@@ -1593,6 +1852,14 @@ export declare const agr: {
                 fontWeight: number;
                 fontFamily: string;
             };
+        };
+    };
+    spinner: {
+        primary: {
+            color: string;
+        };
+        secondary: {
+            color: string;
         };
     };
     cards: {
