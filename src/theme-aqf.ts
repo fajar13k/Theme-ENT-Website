@@ -650,13 +650,13 @@ export const aqf = makeTheme({
         display: 'flex !important',
         flexDirection: 'row',
         alignItems: 'center !important',
-        height: '44px !important',
+        height: 'none !important',
         backgroundColor: `${tokens.textFieldDefaultBackgroundColor}`,
         marginBottom: '30px',
       },
       containPrefLeft: {
         display: 'flex',
-        height: '44px',
+        height: '-webkit-fill-available',
         alignItems: 'center',
         justifyContent: 'center',
         paddingLeft: `${tokens.textFieldPaddingLeftRight}`,
@@ -695,7 +695,7 @@ export const aqf = makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: `${tokens.textFieldBorderRadius}`,
         border: `1px solid ${tokens.textFieldDefaultOutlineColor} !important`,
         backgroundColor: `${tokens.textFieldDisableBackgroundColor} !important`,
@@ -707,7 +707,7 @@ export const aqf = makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: `${tokens.textFieldBorderRadius}`,
         border: `1px solid ${tokens.textFieldDefaultOutlineColor}`,
         transition: 'all 0.15s ease-in-out 0s',
@@ -717,7 +717,7 @@ export const aqf = makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: `${tokens.textFieldBorderRadius}`,
         border: `1px solid ${tokens.textFieldSuccessOutlineColor}`,
         transition: 'all 0.15s ease-in-out 0s',
@@ -728,7 +728,7 @@ export const aqf = makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: `${tokens.textFieldBorderRadius}`,
         border: `1px solid ${tokens.textFieldErrorOutlineColor}`,
         transition: 'all 0.15s ease-in-out 0s',
@@ -787,7 +787,7 @@ export const aqf = makeTheme({
           outline: 'none',
         },
         '&::placeholder': {
-          color: `${tokens.textFieldDefaultPlaceholderColor}`,
+          color: tokens.textFieldDefaultPlaceholderColor,
         },
         '&:hover ~ .css-wot0oi-Textfield': {
           outline: 'none',
@@ -796,7 +796,7 @@ export const aqf = makeTheme({
         '&:focus ~ .css-wot0oi-Textfield': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor}`,
+          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
         },
         '& .css-1cqyib9-Textfield': {
           paddingLeft: '30px !important',
@@ -817,7 +817,7 @@ export const aqf = makeTheme({
         '&:focus ~ .css-1nk40ql-Textfield': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor}`,
+          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
         },
         zIndex: 2,
         border: '0',
@@ -835,7 +835,7 @@ export const aqf = makeTheme({
         '&:focus ~ .css-19xfusu-Textfield': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor}`,
+          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
         },
         zIndex: 2,
         border: '0',
@@ -1143,14 +1143,14 @@ export const aqf = makeTheme({
         boxShadow: 'none !important',
         transition: 'all 0.15s ease-in-out 0s',
       },
+      '&:focus': {
+        boxShadow: `0px 0px 0px 2px ${tokens.buttonsSecondaryFocusBorderColors} !important`,
+      },
       '&:active': {
         backgroundColor: tokens.buttonsSecondaryActiveBackgroundColor,
         border: `1px solid ${tokens.buttonsSecondaryActiveColor}`,
         color: tokens.buttonsSecondaryActiveColor,
         boxShadow: 'none !important',
-      },
-      '&:focus': {
-        boxShadow: `0px 0px 0px 2px ${tokens.buttonsSecondaryFocusBorderColors} !important`,
       },
       '&:disabled': {
         cursor: 'unset',
@@ -1237,7 +1237,7 @@ export const aqf = makeTheme({
       '&:focus': {
         backgroundColor: `${tokens.buttonsSecondaryDefaultBackgroundColor} !important`,
         color: `${tokens.buttonsSecondaryHoverColor} !important`,
-        boxShadow: `0px 0px 0px 2px ${tokens.buttonsSecondaryFocusBorderColors}`,
+        boxShadow: `0px 0px 0px 2px ${tokens.buttonsSecondaryFocusBorderColors} !important`,
       },
       '&:active': {
         backgroundColor: `${tokens.buttonsSecondaryHoverBackgroundColor} !important`,
@@ -1251,6 +1251,70 @@ export const aqf = makeTheme({
         border: 'none !important',
         color: `${tokens.buttonsSecondaryDisabledColor} !important`,
       },
+    },
+  },
+  badges: {
+    primary: {
+      bg: `${tokens.badgePrimaryBackgroundColor}`,
+      color: tokens.badgePrimaryColor,
+    },
+    secondary: {
+      bg: `${tokens.badgeSecondaryBackgroundColor}`,
+      color: tokens.badgeSecondaryColor,
+    },
+    error: {
+      bg: `${tokens.badgeErrorBackgroundColor}`,
+      color: tokens.badgeErrorColor,
+    },
+    info: {
+      bg: `${tokens.badgeInfoBackgroundColor}`,
+      color: tokens.badgeInfoColor,
+    },
+    success: {
+      bg: `${tokens.badgeSuccessBackgroundColor}`,
+      color: tokens.badgeSuccessColor,
+    },
+    warning: {
+      bg: `${tokens.badgeWarningBackgroundColor}`,
+      color: tokens.badgeWarningColor,
+    },
+    small: {
+      width: 8,
+      height: 8,
+      borderRadius: 8 / 2,
+      ...text.body.sm.reguler,
+    },
+    smallWithBorder: {
+      border: '1px solid white',
+      height: 10,
+      borderRadius: 10 / 2,
+      ...text.body.sm.reguler,
+    },
+    largeWithBorder: {
+      border: '2px solid white',
+      ...text.body.lg.reguler,
+    },
+    smallWithContent: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      height: 21,
+      borderRadius: 24,
+      paddingX: '7px',
+      ...text.body.sm.reguler,
+    },
+    largeWithContent: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      height: 28,
+      borderRadius: tokens.badgeBorderRadius,
+      paddingX: '14px',
+      ...text.body.lg.reguler,
+    },
+    large: {
+      width: 12,
+      height: 12,
+      borderRadius: 12 / 2,
+      ...text.body.lg.reguler,
     },
   },
   text: {
