@@ -91,7 +91,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Thu, 22 Sep 2022 09:12:45 GMT
+ * Generated on Thu, 22 Sep 2022 10:05:53 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -861,7 +861,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Thu, 22 Sep 2022 09:12:45 GMT
+ * Generated on Thu, 22 Sep 2022 10:05:53 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1588,13 +1588,13 @@ var agr = /*#__PURE__*/makeTheme({
         display: 'flex !important',
         flexDirection: 'row',
         alignItems: 'center !important',
-        height: '44px !important',
+        height: 'none !important',
         backgroundColor: "" + tokens$1.textFieldDefaultBackgroundColor,
         marginBottom: '30px'
       },
       containPrefLeft: {
         display: 'flex',
-        height: '44px',
+        height: '-webkit-fill-available',
         alignItems: 'center',
         justifyContent: 'center',
         paddingLeft: "" + tokens$1.textFieldPaddingLeftRight,
@@ -1632,7 +1632,7 @@ var agr = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$1.textFieldBorderRadius,
         border: "1px solid " + tokens$1.textFieldDefaultOutlineColor + " !important",
         backgroundColor: tokens$1.textFieldDisableBackgroundColor + " !important",
@@ -1644,7 +1644,7 @@ var agr = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$1.textFieldBorderRadius,
         border: "1px solid " + tokens$1.textFieldDefaultOutlineColor,
         transition: 'all 0.15s ease-in-out 0s'
@@ -1654,7 +1654,7 @@ var agr = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$1.textFieldBorderRadius,
         border: "1px solid " + tokens$1.textFieldSuccessOutlineColor,
         transition: 'all 0.15s ease-in-out 0s',
@@ -1665,7 +1665,7 @@ var agr = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$1.textFieldBorderRadius,
         border: "1px solid " + tokens$1.textFieldErrorOutlineColor,
         transition: 'all 0.15s ease-in-out 0s',
@@ -1721,7 +1721,7 @@ var agr = /*#__PURE__*/makeTheme({
           outline: 'none'
         },
         '&::placeholder': {
-          color: "" + tokens$1.textFieldDefaultPlaceholderColor
+          color: tokens$1.textFieldDefaultPlaceholderColor
         },
         '&:hover ~ .css-wot0oi-Textfield': {
           outline: 'none',
@@ -1730,7 +1730,7 @@ var agr = /*#__PURE__*/makeTheme({
         '&:focus ~ .css-wot0oi-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor
+          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor + " !important"
         },
         '& .css-1cqyib9-Textfield': {
           paddingLeft: '30px !important'
@@ -1751,7 +1751,7 @@ var agr = /*#__PURE__*/makeTheme({
         '&:focus ~ .css-1nk40ql-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor
+          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor + " !important"
         },
         zIndex: 2,
         border: '0',
@@ -1769,7 +1769,7 @@ var agr = /*#__PURE__*/makeTheme({
         '&:focus ~ .css-19xfusu-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor
+          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor + " !important"
         },
         zIndex: 2,
         border: '0',
@@ -2069,14 +2069,14 @@ var agr = /*#__PURE__*/makeTheme({
         boxShadow: 'none !important',
         transition: 'all 0.15s ease-in-out 0s'
       },
+      '&:focus': {
+        boxShadow: "0px 0px 0px 2px " + tokens$1.buttonsSecondaryFocusBorderColors + " !important"
+      },
       '&:active': {
         backgroundColor: tokens$1.buttonsSecondaryActiveBackgroundColor,
         border: "1px solid " + tokens$1.buttonsSecondaryActiveColor,
         color: tokens$1.buttonsSecondaryActiveColor,
         boxShadow: 'none !important'
-      },
-      '&:focus': {
-        boxShadow: "0px 0px 0px 2px " + tokens$1.buttonsSecondaryFocusBorderColors + " !important"
       },
       '&:disabled': {
         cursor: 'unset',
@@ -2161,7 +2161,7 @@ var agr = /*#__PURE__*/makeTheme({
       '&:focus': {
         backgroundColor: tokens$1.buttonsSecondaryDefaultBackgroundColor + " !important",
         color: tokens$1.buttonsSecondaryHoverColor + " !important",
-        boxShadow: "0px 0px 0px 2px " + tokens$1.buttonsSecondaryFocusBorderColors
+        boxShadow: "0px 0px 0px 2px " + tokens$1.buttonsSecondaryFocusBorderColors + " !important"
       },
       '&:active': {
         backgroundColor: tokens$1.buttonsSecondaryHoverBackgroundColor + " !important",
@@ -2176,6 +2176,64 @@ var agr = /*#__PURE__*/makeTheme({
         color: tokens$1.buttonsSecondaryDisabledColor + " !important"
       }
     }
+  },
+  badges: {
+    primary: {
+      bg: "" + tokens$1.badgePrimaryBackgroundColor,
+      color: tokens$1.badgePrimaryColor
+    },
+    secondary: {
+      bg: "" + tokens$1.badgeSecondaryBackgroundColor,
+      color: tokens$1.badgeSecondaryColor
+    },
+    error: {
+      bg: "" + tokens$1.badgeErrorBackgroundColor,
+      color: tokens$1.badgeErrorColor
+    },
+    info: {
+      bg: "" + tokens$1.badgeInfoBackgroundColor,
+      color: tokens$1.badgeInfoColor
+    },
+    success: {
+      bg: "" + tokens$1.badgeSuccessBackgroundColor,
+      color: tokens$1.badgeSuccessColor
+    },
+    warning: {
+      bg: "" + tokens$1.badgeWarningBackgroundColor,
+      color: tokens$1.badgeWarningColor
+    },
+    small: /*#__PURE__*/_extends({
+      width: 8,
+      height: 8,
+      borderRadius: 8 / 2
+    }, text.body.sm.reguler),
+    smallWithBorder: /*#__PURE__*/_extends({
+      border: '1px solid white',
+      height: 10,
+      borderRadius: 10 / 2
+    }, text.body.sm.reguler),
+    largeWithBorder: /*#__PURE__*/_extends({
+      border: '2px solid white'
+    }, text.body.lg.reguler),
+    smallWithContent: /*#__PURE__*/_extends({
+      display: 'inline-flex',
+      alignItems: 'center',
+      height: 21,
+      borderRadius: 24,
+      paddingX: '7px'
+    }, text.body.sm.reguler),
+    largeWithContent: /*#__PURE__*/_extends({
+      display: 'inline-flex',
+      alignItems: 'center',
+      height: 28,
+      borderRadius: tokens$1.badgeBorderRadius,
+      paddingX: '14px'
+    }, text.body.lg.reguler),
+    large: /*#__PURE__*/_extends({
+      width: 12,
+      height: 12,
+      borderRadius: 12 / 2
+    }, text.body.lg.reguler)
   },
   text: {
     "default": {
@@ -2923,7 +2981,7 @@ var agr = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Thu, 22 Sep 2022 09:12:45 GMT
+ * Generated on Thu, 22 Sep 2022 10:05:53 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -3650,13 +3708,13 @@ var agl = /*#__PURE__*/makeTheme({
         display: 'flex !important',
         flexDirection: 'row',
         alignItems: 'center !important',
-        height: '44px !important',
+        height: 'none !important',
         backgroundColor: "" + tokens$2.textFieldDefaultBackgroundColor,
         marginBottom: '30px'
       },
       containPrefLeft: {
         display: 'flex',
-        height: '44px',
+        height: '-webkit-fill-available',
         alignItems: 'center',
         justifyContent: 'center',
         paddingLeft: "" + tokens$2.textFieldPaddingLeftRight,
@@ -3694,7 +3752,7 @@ var agl = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$2.textFieldBorderRadius,
         border: "1px solid " + tokens$2.textFieldDefaultOutlineColor + " !important",
         backgroundColor: tokens$2.textFieldDisableBackgroundColor + " !important",
@@ -3706,7 +3764,7 @@ var agl = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$2.textFieldBorderRadius,
         border: "1px solid " + tokens$2.textFieldDefaultOutlineColor,
         transition: 'all 0.15s ease-in-out 0s'
@@ -3716,7 +3774,7 @@ var agl = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$2.textFieldBorderRadius,
         border: "1px solid " + tokens$2.textFieldSuccessOutlineColor,
         transition: 'all 0.15s ease-in-out 0s',
@@ -3727,7 +3785,7 @@ var agl = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$2.textFieldBorderRadius,
         border: "1px solid " + tokens$2.textFieldErrorOutlineColor,
         transition: 'all 0.15s ease-in-out 0s',
@@ -3783,7 +3841,7 @@ var agl = /*#__PURE__*/makeTheme({
           outline: 'none'
         },
         '&::placeholder': {
-          color: "" + tokens$2.textFieldDefaultPlaceholderColor
+          color: tokens$2.textFieldDefaultPlaceholderColor
         },
         '&:hover ~ .css-wot0oi-Textfield': {
           outline: 'none',
@@ -3792,7 +3850,7 @@ var agl = /*#__PURE__*/makeTheme({
         '&:focus ~ .css-wot0oi-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important"
         },
         '& .css-1cqyib9-Textfield': {
           paddingLeft: '30px !important'
@@ -3813,7 +3871,7 @@ var agl = /*#__PURE__*/makeTheme({
         '&:focus ~ .css-1nk40ql-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important"
         },
         zIndex: 2,
         border: '0',
@@ -3831,7 +3889,7 @@ var agl = /*#__PURE__*/makeTheme({
         '&:focus ~ .css-19xfusu-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important"
         },
         zIndex: 2,
         border: '0',
@@ -4131,14 +4189,14 @@ var agl = /*#__PURE__*/makeTheme({
         boxShadow: 'none !important',
         transition: 'all 0.15s ease-in-out 0s'
       },
+      '&:focus': {
+        boxShadow: "0px 0px 0px 2px " + tokens$2.buttonsSecondaryFocusBorderColors + " !important"
+      },
       '&:active': {
         backgroundColor: tokens$2.buttonsSecondaryActiveBackgroundColor,
         border: "1px solid " + tokens$2.buttonsSecondaryActiveColor,
         color: tokens$2.buttonsSecondaryActiveColor,
         boxShadow: 'none !important'
-      },
-      '&:focus': {
-        boxShadow: "0px 0px 0px 2px " + tokens$2.buttonsSecondaryFocusBorderColors + " !important"
       },
       '&:disabled': {
         cursor: 'unset',
@@ -4223,7 +4281,7 @@ var agl = /*#__PURE__*/makeTheme({
       '&:focus': {
         backgroundColor: tokens$2.buttonsSecondaryDefaultBackgroundColor + " !important",
         color: tokens$2.buttonsSecondaryHoverColor + " !important",
-        boxShadow: "0px 0px 0px 2px " + tokens$2.buttonsSecondaryFocusBorderColors
+        boxShadow: "0px 0px 0px 2px " + tokens$2.buttonsSecondaryFocusBorderColors + " !important"
       },
       '&:active': {
         backgroundColor: tokens$2.buttonsSecondaryHoverBackgroundColor + " !important",
@@ -4238,6 +4296,64 @@ var agl = /*#__PURE__*/makeTheme({
         color: tokens$2.buttonsSecondaryDisabledColor + " !important"
       }
     }
+  },
+  badges: {
+    primary: {
+      bg: "" + tokens$2.badgePrimaryBackgroundColor,
+      color: tokens$2.badgePrimaryColor
+    },
+    secondary: {
+      bg: "" + tokens$2.badgeSecondaryBackgroundColor,
+      color: tokens$2.badgeSecondaryColor
+    },
+    error: {
+      bg: "" + tokens$2.badgeErrorBackgroundColor,
+      color: tokens$2.badgeErrorColor
+    },
+    info: {
+      bg: "" + tokens$2.badgeInfoBackgroundColor,
+      color: tokens$2.badgeInfoColor
+    },
+    success: {
+      bg: "" + tokens$2.badgeSuccessBackgroundColor,
+      color: tokens$2.badgeSuccessColor
+    },
+    warning: {
+      bg: "" + tokens$2.badgeWarningBackgroundColor,
+      color: tokens$2.badgeWarningColor
+    },
+    small: /*#__PURE__*/_extends({
+      width: 8,
+      height: 8,
+      borderRadius: 8 / 2
+    }, text.body.sm.reguler),
+    smallWithBorder: /*#__PURE__*/_extends({
+      border: '1px solid white',
+      height: 10,
+      borderRadius: 10 / 2
+    }, text.body.sm.reguler),
+    largeWithBorder: /*#__PURE__*/_extends({
+      border: '2px solid white'
+    }, text.body.lg.reguler),
+    smallWithContent: /*#__PURE__*/_extends({
+      display: 'inline-flex',
+      alignItems: 'center',
+      height: 21,
+      borderRadius: 24,
+      paddingX: '7px'
+    }, text.body.sm.reguler),
+    largeWithContent: /*#__PURE__*/_extends({
+      display: 'inline-flex',
+      alignItems: 'center',
+      height: 28,
+      borderRadius: tokens$2.badgeBorderRadius,
+      paddingX: '14px'
+    }, text.body.lg.reguler),
+    large: /*#__PURE__*/_extends({
+      width: 12,
+      height: 12,
+      borderRadius: 12 / 2
+    }, text.body.lg.reguler)
   },
   text: {
     "default": {
@@ -4985,7 +5101,7 @@ var agl = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Thu, 22 Sep 2022 09:12:45 GMT
+ * Generated on Thu, 22 Sep 2022 10:05:53 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -5712,13 +5828,13 @@ var aqf = /*#__PURE__*/makeTheme({
         display: 'flex !important',
         flexDirection: 'row',
         alignItems: 'center !important',
-        height: '44px !important',
+        height: 'none !important',
         backgroundColor: "" + tokens$3.textFieldDefaultBackgroundColor,
         marginBottom: '30px'
       },
       containPrefLeft: {
         display: 'flex',
-        height: '44px',
+        height: '-webkit-fill-available',
         alignItems: 'center',
         justifyContent: 'center',
         paddingLeft: "" + tokens$3.textFieldPaddingLeftRight,
@@ -5756,7 +5872,7 @@ var aqf = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$3.textFieldBorderRadius,
         border: "1px solid " + tokens$3.textFieldDefaultOutlineColor + " !important",
         backgroundColor: tokens$3.textFieldDisableBackgroundColor + " !important",
@@ -5768,7 +5884,7 @@ var aqf = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$3.textFieldBorderRadius,
         border: "1px solid " + tokens$3.textFieldDefaultOutlineColor,
         transition: 'all 0.15s ease-in-out 0s'
@@ -5778,7 +5894,7 @@ var aqf = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$3.textFieldBorderRadius,
         border: "1px solid " + tokens$3.textFieldSuccessOutlineColor,
         transition: 'all 0.15s ease-in-out 0s',
@@ -5789,7 +5905,7 @@ var aqf = /*#__PURE__*/makeTheme({
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '44px',
+        height: '-webkit-fill-available',
         borderRadius: "" + tokens$3.textFieldBorderRadius,
         border: "1px solid " + tokens$3.textFieldErrorOutlineColor,
         transition: 'all 0.15s ease-in-out 0s',
@@ -5845,7 +5961,7 @@ var aqf = /*#__PURE__*/makeTheme({
           outline: 'none'
         },
         '&::placeholder': {
-          color: "" + tokens$3.textFieldDefaultPlaceholderColor
+          color: tokens$3.textFieldDefaultPlaceholderColor
         },
         '&:hover ~ .css-wot0oi-Textfield': {
           outline: 'none',
@@ -5854,7 +5970,7 @@ var aqf = /*#__PURE__*/makeTheme({
         '&:focus ~ .css-wot0oi-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important"
         },
         '& .css-1cqyib9-Textfield': {
           paddingLeft: '30px !important'
@@ -5875,7 +5991,7 @@ var aqf = /*#__PURE__*/makeTheme({
         '&:focus ~ .css-1nk40ql-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important"
         },
         zIndex: 2,
         border: '0',
@@ -5893,7 +6009,7 @@ var aqf = /*#__PURE__*/makeTheme({
         '&:focus ~ .css-19xfusu-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important"
         },
         zIndex: 2,
         border: '0',
@@ -6193,14 +6309,14 @@ var aqf = /*#__PURE__*/makeTheme({
         boxShadow: 'none !important',
         transition: 'all 0.15s ease-in-out 0s'
       },
+      '&:focus': {
+        boxShadow: "0px 0px 0px 2px " + tokens$3.buttonsSecondaryFocusBorderColors + " !important"
+      },
       '&:active': {
         backgroundColor: tokens$3.buttonsSecondaryActiveBackgroundColor,
         border: "1px solid " + tokens$3.buttonsSecondaryActiveColor,
         color: tokens$3.buttonsSecondaryActiveColor,
         boxShadow: 'none !important'
-      },
-      '&:focus': {
-        boxShadow: "0px 0px 0px 2px " + tokens$3.buttonsSecondaryFocusBorderColors + " !important"
       },
       '&:disabled': {
         cursor: 'unset',
@@ -6285,7 +6401,7 @@ var aqf = /*#__PURE__*/makeTheme({
       '&:focus': {
         backgroundColor: tokens$3.buttonsSecondaryDefaultBackgroundColor + " !important",
         color: tokens$3.buttonsSecondaryHoverColor + " !important",
-        boxShadow: "0px 0px 0px 2px " + tokens$3.buttonsSecondaryFocusBorderColors
+        boxShadow: "0px 0px 0px 2px " + tokens$3.buttonsSecondaryFocusBorderColors + " !important"
       },
       '&:active': {
         backgroundColor: tokens$3.buttonsSecondaryHoverBackgroundColor + " !important",
@@ -6300,6 +6416,64 @@ var aqf = /*#__PURE__*/makeTheme({
         color: tokens$3.buttonsSecondaryDisabledColor + " !important"
       }
     }
+  },
+  badges: {
+    primary: {
+      bg: "" + tokens$3.badgePrimaryBackgroundColor,
+      color: tokens$3.badgePrimaryColor
+    },
+    secondary: {
+      bg: "" + tokens$3.badgeSecondaryBackgroundColor,
+      color: tokens$3.badgeSecondaryColor
+    },
+    error: {
+      bg: "" + tokens$3.badgeErrorBackgroundColor,
+      color: tokens$3.badgeErrorColor
+    },
+    info: {
+      bg: "" + tokens$3.badgeInfoBackgroundColor,
+      color: tokens$3.badgeInfoColor
+    },
+    success: {
+      bg: "" + tokens$3.badgeSuccessBackgroundColor,
+      color: tokens$3.badgeSuccessColor
+    },
+    warning: {
+      bg: "" + tokens$3.badgeWarningBackgroundColor,
+      color: tokens$3.badgeWarningColor
+    },
+    small: /*#__PURE__*/_extends({
+      width: 8,
+      height: 8,
+      borderRadius: 8 / 2
+    }, text.body.sm.reguler),
+    smallWithBorder: /*#__PURE__*/_extends({
+      border: '1px solid white',
+      height: 10,
+      borderRadius: 10 / 2
+    }, text.body.sm.reguler),
+    largeWithBorder: /*#__PURE__*/_extends({
+      border: '2px solid white'
+    }, text.body.lg.reguler),
+    smallWithContent: /*#__PURE__*/_extends({
+      display: 'inline-flex',
+      alignItems: 'center',
+      height: 21,
+      borderRadius: 24,
+      paddingX: '7px'
+    }, text.body.sm.reguler),
+    largeWithContent: /*#__PURE__*/_extends({
+      display: 'inline-flex',
+      alignItems: 'center',
+      height: 28,
+      borderRadius: tokens$3.badgeBorderRadius,
+      paddingX: '14px'
+    }, text.body.lg.reguler),
+    large: /*#__PURE__*/_extends({
+      width: 12,
+      height: 12,
+      borderRadius: 12 / 2
+    }, text.body.lg.reguler)
   },
   text: {
     "default": {

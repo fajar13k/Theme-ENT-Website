@@ -1154,14 +1154,14 @@ export declare const aqf: {
                 boxShadow: "none !important";
                 transition: "all 0.15s ease-in-out 0s";
             };
+            '&:focus': {
+                boxShadow: string;
+            };
             '&:active': {
                 backgroundColor: string;
                 border: string;
                 color: string;
                 boxShadow: "none !important";
-            };
-            '&:focus': {
-                boxShadow: string;
             };
             '&:disabled': {
                 cursor: "unset";
@@ -1260,6 +1260,88 @@ export declare const aqf: {
                 border: string;
                 color: string;
             };
+        };
+    };
+    badges: {
+        primary: {
+            bg: string;
+            color: string;
+        };
+        secondary: {
+            bg: string;
+            color: string;
+        };
+        error: {
+            bg: string;
+            color: string;
+        };
+        info: {
+            bg: string;
+            color: string;
+        };
+        success: {
+            bg: string;
+            color: string;
+        };
+        warning: {
+            bg: string;
+            color: string;
+        };
+        small: {
+            fontSize: string;
+            lineHeight: string;
+            fontWeight: number;
+            fontFamily: string;
+            width: number;
+            height: number;
+            borderRadius: number;
+        };
+        smallWithBorder: {
+            fontSize: string;
+            lineHeight: string;
+            fontWeight: number;
+            fontFamily: string;
+            border: string;
+            height: number;
+            borderRadius: number;
+        };
+        largeWithBorder: {
+            fontSize: string;
+            lineHeight: string;
+            fontWeight: number;
+            fontFamily: string;
+            border: string;
+        };
+        smallWithContent: {
+            fontSize: string;
+            lineHeight: string;
+            fontWeight: number;
+            fontFamily: string;
+            display: "inline-flex";
+            alignItems: "center";
+            height: number;
+            borderRadius: number;
+            paddingX: string;
+        };
+        largeWithContent: {
+            fontSize: string;
+            lineHeight: string;
+            fontWeight: number;
+            fontFamily: string;
+            display: "inline-flex";
+            alignItems: "center";
+            height: number;
+            borderRadius: string;
+            paddingX: string;
+        };
+        large: {
+            fontSize: string;
+            lineHeight: string;
+            fontWeight: number;
+            fontFamily: string;
+            width: number;
+            height: number;
+            borderRadius: number;
         };
     };
     text: {
