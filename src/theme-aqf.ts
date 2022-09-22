@@ -580,12 +580,14 @@ export const aqf = makeTheme({
         '&:checked': {
           backgroundColor: tokens.checkboxActiveBackgroundColor,
           border: `2px solid ${tokens.checkboxActiveBorder}`,
+          transition: 'all 0.15s ease-in-out 0s',
           '&:after': {
             content: '"\\2714"',
             color: tokens.checkboxDefaultBackgroundColor,
           },
           '&:hover': {
             backgroundColor: tokens.checkboxActiveBorder,
+            transition: 'all 0.15s ease-in-out 0s',
           },
         },
       },
@@ -630,14 +632,253 @@ export const aqf = makeTheme({
         '&:checked': {
           backgroundColor: tokens.checkboxActiveBackgroundColor,
           border: `2px solid ${tokens.checkboxActiveBorder}`,
+          transition: 'all 0.15s ease-in-out 0s',
           '&:after': {
             content: '"\\2012"',
             color: tokens.checkboxDefaultBackgroundColor,
           },
           '&:hover': {
             backgroundColor: tokens.checkboxActiveBorder,
+            transition: 'all 0.15s ease-in-out 0s',
           },
         },
+      },
+    },
+    input: {
+      container: {
+        position: 'relative',
+        display: 'flex !important',
+        flexDirection: 'row',
+        alignItems: 'center !important',
+        height: '44px !important',
+        backgroundColor: `${tokens.textFieldDefaultBackgroundColor}`,
+        marginBottom: '30px',
+      },
+      containPrefLeft: {
+        display: 'flex',
+        height: '44px',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingLeft: `${tokens.textFieldPaddingLeftRight}`,
+        pointerEvents: 'none',
+        zIndex: 3,
+      },
+      wrapperPrefLeft: {
+        color: `${tokens.textFieldPrefixsufixTextColor}`,
+        ...text.body.sm.semibold,
+      },
+      limitPrefLeft: {
+        height: '24px',
+        borderRight: `1px solid ${tokens.textFieldPrefixsufixLineColor}`,
+        marginLeft: `${tokens.textFieldPaddingLeftRight}`,
+      },
+      wrappPrefLeftIconLeft: {
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        marginLeft: '12px',
+        zIndex: 2,
+      },
+      wrappIconLeft: {
+        position: 'relative',
+        marginLeft: `${tokens.textFieldPaddingLeftRight}`,
+        zIndex: 2,
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+      },
+      wrappField: {
+        position: 'absolute',
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: `${tokens.textFieldBorderRadius}`,
+        border: `1px solid ${tokens.textFieldDefaultOutlineColor} !important`,
+        backgroundColor: `${tokens.textFieldDisableBackgroundColor} !important`,
+        transition: 'all 0.15s ease-in-out 0s',
+      },
+      wrappNormal: {
+        position: 'absolute',
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: `${tokens.textFieldBorderRadius}`,
+        border: `1px solid ${tokens.textFieldDefaultOutlineColor}`,
+        transition: 'all 0.15s ease-in-out 0s',
+      },
+      wrappSuccess: {
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: `${tokens.textFieldBorderRadius}`,
+        border: `1px solid ${tokens.textFieldSuccessOutlineColor}`,
+        transition: 'all 0.15s ease-in-out 0s',
+        position: 'absolute',
+      },
+      wrappError: {
+        zIndex: 1,
+        top: '0px',
+        left: '0px',
+        width: '100%',
+        height: '44px',
+        borderRadius: `${tokens.textFieldBorderRadius}`,
+        border: `1px solid ${tokens.textFieldErrorOutlineColor}`,
+        transition: 'all 0.15s ease-in-out 0s',
+        position: 'absolute',
+      },
+      wrappPrefRightIconRight: {
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        zIndex: 2,
+        marginRight: '12px',
+      },
+      wrappIconRight: {
+        position: 'relative',
+        zIndex: 2,
+        display: 'flex',
+        alignItems: 'center',
+        width: '16px',
+        height: '16px',
+        marginRight: `${tokens.textFieldPaddingLeftRight}`,
+        cursor: 'pointer',
+      },
+      containPrefRight: {
+        textAlign: 'center',
+        paddingRight: `${tokens.textFieldPaddingLeftRight}`,
+        display: 'flex',
+        zIndex: 3,
+      },
+      limitPrefRight: {
+        height: '24px',
+        borderRight: `1px solid ${tokens.textFieldPrefixsufixLineColor}`,
+        marginRight: `${tokens.textFieldPaddingLeftRight}`,
+      },
+      wrapperPrefRight: {
+        color: `${tokens.textFieldPrefixsufixTextColor}`,
+        ...text.body.sm.semibold,
+      },
+      wrappLabelField: {
+        marginBottom: '5px',
+        color: `${tokens.textFieldDefaultLabelColor}`,
+        ...text.body.sm.semibold,
+      },
+      wrapErrorMessage: {
+        marginTop: '-25px',
+        color: `${tokens.textFieldErrorOutlineColor}`,
+        ...text.caption.lg.reguler,
+      },
+      '&:disabled': {
+        zIndex: 2,
+        border: 0,
+        backgroundColor: 'transparent !important',
+      },
+      normal: {
+        '&:focus': {
+          outline: 'none',
+        },
+        '&::placeholder': {
+          color: `${tokens.textFieldDefaultPlaceholderColor}`,
+        },
+        '&:hover ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+        },
+        '&:focus ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
+          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor}`,
+        },
+        '& .css-1cqyib9-Textfield': {
+          paddingLeft: '30px !important',
+        },
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: `${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} ${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} !important`,
+        zIndex: '2',
+      },
+      success: {
+        '&:hover ~ .css-1nk40ql-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+        },
+        '&:focus': {
+          outline: 'none',
+        },
+        '&:focus ~ .css-1nk40ql-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
+          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor}`,
+        },
+        zIndex: 2,
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: `${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} ${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} !important`,
+      },
+      error: {
+        '&:hover ~ .css-19xfusu-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+        },
+        '&:focus': {
+          outline: 'none',
+        },
+        '&:focus ~ .css-19xfusu-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
+          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor}`,
+        },
+        zIndex: 2,
+        border: '0',
+        backgroundColor: 'transparent',
+        padding: `${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} ${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} !important`,
+      },
+    },
+    textarea: {
+      backgroundColor: `${tokens.textFieldDefaultBackgroundColor}`,
+      borderRadius: `${tokens.textFieldBorderRadius}`,
+
+      labelTextArea: {
+        color: `${tokens.textFieldDefaultLabelColor}`,
+        ...text.body.sm.semibold,
+      },
+      '&::placeholder': {
+        color: `${tokens.textFieldDefaultPlaceholderColor}`,
+      },
+      ':disabled': {
+        border: `1px solid ${tokens.textFieldDefaultOutlineColor} !important`,
+        backgroundColor: `${tokens.textFieldDisableBackgroundColor} !important`,
+        ':hover': {
+          border: `1px solid ${tokens.textFieldDefaultOutlineColor} !important`,
+          outline: 'none',
+        },
+      },
+      ':hover': {
+        outline: 'none',
+        border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+      },
+      ':focus': {
+        outline: 'none',
+        border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
+        boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor}`,
+      },
+      normal: {
+        border: `1px solid ${tokens.textFieldDefaultOutlineColor}`,
+      },
+      success: {
+        border: `1px solid ${tokens.textFieldSuccessOutlineColor}`,
+      },
+      error: {
+        border: `1px solid ${tokens.textFieldErrorOutlineColor}`,
       },
     },
   },
@@ -725,6 +966,7 @@ export const aqf = makeTheme({
         backgroundColor: tokens.buttonsPrimaryHoverBackgroundColor,
         color: tokens.buttonsPrimaryHoverColor,
         boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s',
       },
       '&:focus': {
         boxShadow: `0px 0px 0px 2px ${tokens.buttonsPrimaryFocusBorderColors} !important`,
@@ -811,6 +1053,7 @@ export const aqf = makeTheme({
         backgroundColor: tokens.buttonsSecondaryHoverBackgroundColor,
         color: tokens.buttonsSecondaryHoverColor,
         boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s',
       },
       '&:focus': {
         boxShadow: `0px 0px 0px 2px ${tokens.buttonsSecondaryFocusBorderColors} !important`,
@@ -898,6 +1141,7 @@ export const aqf = makeTheme({
         border: `1px solid ${tokens.buttonsSecondaryHoverColor}`,
         color: tokens.buttonsSecondaryHoverColor,
         boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s',
       },
       '&:active': {
         backgroundColor: tokens.buttonsSecondaryActiveBackgroundColor,
@@ -988,6 +1232,7 @@ export const aqf = makeTheme({
         backgroundColor: tokens.buttonsSecondaryDefaultBackgroundColor,
         color: tokens.buttonsSecondaryHoverColor,
         boxShadow: 'none !important',
+        transition: 'all 0.15s ease-in-out 0s',
       },
       '&:focus': {
         backgroundColor: `${tokens.buttonsSecondaryDefaultBackgroundColor} !important`,
@@ -1301,6 +1546,14 @@ export const aqf = makeTheme({
           fontWeight: '700',
         },
       },
+    },
+  },
+  spinner: {
+    primary: {
+      color: tokens.primary500,
+    },
+    secondary: {
+      color: tokens.secondary500,
     },
   },
   cards: {
