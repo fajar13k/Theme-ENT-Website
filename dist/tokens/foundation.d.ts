@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 22 Sep 2022 05:56:58 GMT
+ * Generated on Thu, 22 Sep 2022 09:12:45 GMT
  */
 export declare const tokens: {
     elevation0Color: string;
