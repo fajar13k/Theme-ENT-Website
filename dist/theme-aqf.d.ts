@@ -644,6 +644,15 @@ export declare const aqf: {
                 height: string;
                 backgroundColor: string;
                 marginBottom: string;
+                '&:hover ~ .css-wot0oi-Textfield': {
+                    outline: string;
+                    border: string;
+                };
+                '&:focus ~ .css-wot0oi-Textfield': {
+                    outline: string;
+                    border: string;
+                    boxShadow: string;
+                };
             };
             containPrefLeft: {
                 display: "flex";
@@ -791,15 +800,6 @@ export declare const aqf: {
                 };
                 '&::placeholder': {
                     color: string;
-                };
-                '&:hover ~ .css-wot0oi-Textfield': {
-                    outline: string;
-                    border: string;
-                };
-                '&:focus ~ .css-wot0oi-Textfield': {
-                    outline: string;
-                    border: string;
-                    boxShadow: string;
                 };
                 '& .css-1cqyib9-Textfield': {
                     paddingLeft: string;
