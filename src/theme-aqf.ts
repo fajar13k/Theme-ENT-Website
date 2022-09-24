@@ -653,6 +653,15 @@ export const aqf = makeTheme({
         height: 'none !important',
         backgroundColor: `${tokens.textFieldDefaultBackgroundColor}`,
         marginBottom: '30px',
+        '&:hover ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+        },
+        '&:focus ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
+          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
+        },
       },
       containPrefLeft: {
         display: 'flex',
@@ -789,15 +798,7 @@ export const aqf = makeTheme({
         '&::placeholder': {
           color: tokens.textFieldDefaultPlaceholderColor,
         },
-        '&:hover ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
-        },
-        '&:focus ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
-        },
+        
         '& .css-1cqyib9-Textfield': {
           paddingLeft: '30px !important',
         },
