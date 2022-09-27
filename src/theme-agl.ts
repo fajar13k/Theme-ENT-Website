@@ -1,5 +1,5 @@
 //import base from '@theme-ui/preset-base'
-import { makeTheme } from '@theme-ui/css/utils'
+import { makeTheme } from '@theme-ui/css/utils';
 import { color } from '.';
 import spacer from './spacers';
 import { text } from './thypograpy';
@@ -86,9 +86,9 @@ export const agl = makeTheme({
     information700: tokens.information700,
     information800: tokens.information800,
     information900: tokens.information900,
-      },
+  },
   spacers: {
-    ...spacer
+    ...spacer,
   },
   layout: {
     container: {
@@ -96,8 +96,8 @@ export const agl = makeTheme({
       '.container-login-center': {
         ['@media (max-width:480px)']: {
           '.container-side-right': {
-            display: 'none'
-          }
+            display: 'none',
+          },
         },
         position: 'relative',
         overflow: 'hidden',
@@ -121,7 +121,7 @@ export const agl = makeTheme({
           '.container-logo': {
             textAlign: 'center',
             '.wrapper-logo': {
-              width: '150px'
+              width: '150px',
             },
           },
 
@@ -146,11 +146,11 @@ export const agl = makeTheme({
             display: 'flex',
             justifyContent: 'space-between',
             marginTop: spacer.spacing6,
-            marginBottom: spacer.spacing6
+            marginBottom: spacer.spacing6,
           },
 
           '.wrapper-button': {
-            width: '100%'
+            width: '100%',
           },
 
           '.wrapper-or': {
@@ -160,12 +160,12 @@ export const agl = makeTheme({
             marginBottom: spacer.spacing4,
             '.wrapper-line': {
               width: '50%',
-              borderBottom: `1px solid ${color.grayscale40}`
+              borderBottom: `1px solid ${color.grayscale40}`,
             },
             '.or': {
               marginLeft: '20px',
-              marginRight: '20px'
-            }
+              marginRight: '20px',
+            },
           },
 
           '.wrapper-register': {
@@ -186,7 +186,7 @@ export const agl = makeTheme({
             display: 'flex',
             justifyContent: 'center',
             fontFamily: 'Nunito Sans, sans-serif',
-          }
+          },
         },
 
         '.container-side-right': {
@@ -196,14 +196,14 @@ export const agl = makeTheme({
             width: '100% !important',
             height: '100vh !important',
             objectFit: 'cover',
-          }
-        }
+          },
+        },
       },
 
       '.container-login': {
         ['@media (max-width:768px)']: {
           '.container-side-right': {
-            display: 'none'
+            display: 'none',
           },
         },
         display: 'flex',
@@ -223,7 +223,7 @@ export const agl = makeTheme({
           position: 'relative',
 
           '.wrapper-logo': {
-            width: '150px'
+            width: '150px',
           },
 
           '.wrapper-title': {
@@ -231,38 +231,38 @@ export const agl = makeTheme({
             fontWeight: 700,
             fontSize: '36px',
             marginTop: spacer.spacing8,
-            marginBottom: spacer.spacing3
+            marginBottom: spacer.spacing3,
           },
 
           '.wrapper-desc': {
             color: color.grayscale50,
             lineHeight: '24px',
             fontSize: '16px',
-            marginBottom: spacer.spacing6
+            marginBottom: spacer.spacing6,
           },
 
           '.wrapper-title-email': {
             color: color.grayscale80,
             fontWeight: 600,
-            fontSize: '16px'
+            fontSize: '16px',
           },
 
           '.wrapper-title-pass': {
             color: color.grayscale80,
             marginTop: spacer.spacing6,
             fontWeight: 600,
-            fontSize: '16px'
+            fontSize: '16px',
           },
 
           '.wrapper-remember': {
             display: 'flex',
             justifyContent: 'space-between',
             marginTop: spacer.spacing6,
-            marginBottom: spacer.spacing6
+            marginBottom: spacer.spacing6,
           },
 
           '.wrapper-button': {
-            width: '100%'
+            width: '100%',
           },
 
           '.wrapper-or': {
@@ -272,12 +272,12 @@ export const agl = makeTheme({
             marginBottom: spacer.spacing4,
             '.wrapper-line': {
               width: '50%',
-              borderBottom: `1px solid ${color.grayscale40}`
+              borderBottom: `1px solid ${color.grayscale40}`,
             },
             '.or': {
               marginLeft: '20px',
-              marginRight: '20px'
-            }
+              marginRight: '20px',
+            },
           },
 
           '.wrapper-register': {
@@ -299,7 +299,7 @@ export const agl = makeTheme({
             justifyContent: 'center',
             marginBottom: '70px',
             fontFamily: 'Nunito Sans, sans-serif',
-          }
+          },
         },
 
         '.form-side-left': {
@@ -314,7 +314,7 @@ export const agl = makeTheme({
           position: 'relative',
 
           '.wrapper-logo': {
-            width: '150px'
+            width: '150px',
           },
 
           '.wrapper-title': {
@@ -322,38 +322,38 @@ export const agl = makeTheme({
             fontWeight: 700,
             fontSize: '36px',
             marginTop: spacer.spacing8,
-            marginBottom: spacer.spacing3
+            marginBottom: spacer.spacing3,
           },
 
           '.wrapper-desc': {
             color: color.grayscale50,
             lineHeight: '24px',
             fontSize: '16px',
-            marginBottom: spacer.spacing6
+            marginBottom: spacer.spacing6,
           },
 
           '.wrapper-title-email': {
             color: color.grayscale80,
             fontWeight: 600,
-            fontSize: '16px'
+            fontSize: '16px',
           },
 
           '.wrapper-title-pass': {
             color: color.grayscale80,
             marginTop: spacer.spacing6,
             fontWeight: 600,
-            fontSize: '16px'
+            fontSize: '16px',
           },
 
           '.wrapper-remember': {
             display: 'flex',
             justifyContent: 'space-between',
             marginTop: spacer.spacing6,
-            marginBottom: spacer.spacing6
+            marginBottom: spacer.spacing6,
           },
 
           '.wrapper-button': {
-            width: '100%'
+            width: '100%',
           },
 
           '.wrapper-or': {
@@ -363,12 +363,12 @@ export const agl = makeTheme({
             marginBottom: spacer.spacing4,
             '.wrapper-line': {
               width: '50%',
-              borderBottom: `1px solid ${color.grayscale40}`
+              borderBottom: `1px solid ${color.grayscale40}`,
             },
             '.or': {
               marginLeft: '20px',
-              marginRight: '20px'
-            }
+              marginRight: '20px',
+            },
           },
 
           '.wrapper-register': {
@@ -390,7 +390,7 @@ export const agl = makeTheme({
             justifyContent: 'center',
             marginBottom: '70px',
             fontFamily: 'Nunito Sans, sans-serif',
-          }
+          },
         },
 
         '.container-side-right': {
@@ -400,20 +400,20 @@ export const agl = makeTheme({
             width: '100% !important',
             height: '100vh !important',
             objectFit: 'cover',
-          }
-        }
-      }
-    }
+          },
+        },
+      },
+    },
   },
   styles: {
-  a: {
+    a: {
       color: `${tokens.anchorDefaultColor} !important`,
 
       '&:hover': {
         color: `${tokens.anchorHoverColor} !important`,
-        textDecoration: "underline",
+        textDecoration: 'underline',
         outline: 'none',
-        cursor: 'pointer'
+        cursor: 'pointer',
       },
       '&:active': {
         color: `${tokens.anchorActiveColor} !important`,
@@ -427,7 +427,7 @@ export const agl = makeTheme({
       },
       '& .wrapper-anchor': {
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
       },
       '& .wrapper-icon-left-large': {
         display: 'flex',
@@ -488,8 +488,474 @@ export const agl = makeTheme({
         ...text.body.lg.bold,
         display: 'inline-flex',
         alignItems: 'center',
-      }
-    }
+      },
+    },
+    background: {
+      primary25: {
+        background: `${tokens.primary25}`,
+      },
+      primary50: {
+        background: `${tokens.primary50}`,
+      },
+      primary100: {
+        background: `${tokens.primary100}`,
+      },
+      primary200: {
+        background: `${tokens.primary200}`,
+      },
+      primary300: {
+        background: `${tokens.primary300}`,
+      },
+      primary400: {
+        background: `${tokens.primary400}`,
+      },
+      primary500: {
+        background: `${tokens.primary500}`,
+      },
+      primary600: {
+        background: `${tokens.primary600}`,
+      },
+      primary700: {
+        background: `${tokens.primary700}`,
+      },
+      primary800: {
+        background: `${tokens.primary800}`,
+      },
+      primary900: {
+        background: `${tokens.primary900}`,
+      },
+      secondary25: {
+        background: `${tokens.secondary25}`,
+      },
+      secondary50: {
+        background: `${tokens.secondary50}`,
+      },
+      secondary100: {
+        background: `${tokens.secondary100}`,
+      },
+      secondary200: {
+        background: `${tokens.secondary200}`,
+      },
+      secondary300: {
+        background: `${tokens.secondary300}`,
+      },
+      secondary400: {
+        background: `${tokens.secondary400}`,
+      },
+      secondary500: {
+        background: `${tokens.secondary500}`,
+      },
+      secondary600: {
+        background: `${tokens.secondary600}`,
+      },
+      secondary700: {
+        background: `${tokens.secondary700}`,
+      },
+      secondary800: {
+        background: `${tokens.secondary800}`,
+      },
+      secondary900: {
+        background: `${tokens.secondary900}`,
+      },
+      tertiary25: {
+        background: `${tokens.tertiary25}`,
+      },
+      tertiary50: {
+        background: `${tokens.tertiary50}`,
+      },
+      tertiary100: {
+        background: `${tokens.tertiary100}`,
+      },
+      tertiary200: {
+        background: `${tokens.tertiary200}`,
+      },
+      tertiary300: {
+        background: `${tokens.tertiary300}`,
+      },
+      tertiary400: {
+        background: `${tokens.tertiary400}`,
+      },
+      tertiary500: {
+        background: `${tokens.tertiary500}`,
+      },
+      tertiary600: {
+        background: `${tokens.tertiary600}`,
+      },
+      tertiary700: {
+        background: `${tokens.tertiary700}`,
+      },
+      tertiary800: {
+        background: `${tokens.tertiary800}`,
+      },
+      tertiary900: {
+        background: `${tokens.tertiary900}`,
+      },
+      success25: {
+        background: `${tokens.success25}`,
+      },
+      success50: {
+        background: `${tokens.success50}`,
+      },
+      success100: {
+        background: `${tokens.success100}`,
+      },
+      success200: {
+        background: `${tokens.success200}`,
+      },
+      success300: {
+        background: `${tokens.success300}`,
+      },
+      success400: {
+        background: `${tokens.success400}`,
+      },
+      success500: {
+        background: `${tokens.success500}`,
+      },
+      success600: {
+        background: `${tokens.success600}`,
+      },
+      success700: {
+        background: `${tokens.success700}`,
+      },
+      success800: {
+        background: `${tokens.success800}`,
+      },
+      success900: {
+        background: `${tokens.success900}`,
+      },
+      warning25: {
+        background: `${tokens.warning25}`,
+      },
+      warning50: {
+        background: `${tokens.warning50}`,
+      },
+      warning100: {
+        background: `${tokens.warning100}`,
+      },
+      warning200: {
+        background: `${tokens.warning200}`,
+      },
+      warning300: {
+        background: `${tokens.warning300}`,
+      },
+      warning400: {
+        background: `${tokens.warning400}`,
+      },
+      warning500: {
+        background: `${tokens.warning500}`,
+      },
+      warning600: {
+        background: `${tokens.warning600}`,
+      },
+      warning700: {
+        background: `${tokens.warning700}`,
+      },
+      warning800: {
+        background: `${tokens.warning800}`,
+      },
+      warning900: {
+        background: `${tokens.warning900}`,
+      },
+      error25: {
+        background: `${tokens.error25}`,
+      },
+      error50: {
+        background: `${tokens.error50}`,
+      },
+      error100: {
+        background: `${tokens.error100}`,
+      },
+      error200: {
+        background: `${tokens.error200}`,
+      },
+      error300: {
+        background: `${tokens.error300}`,
+      },
+      error400: {
+        background: `${tokens.error400}`,
+      },
+      error500: {
+        background: `${tokens.error500}`,
+      },
+      error600: {
+        background: `${tokens.error600}`,
+      },
+      error700: {
+        background: `${tokens.error700}`,
+      },
+      error800: {
+        background: `${tokens.error800}`,
+      },
+      error900: {
+        background: `${tokens.error900}`,
+      },
+      info25: {
+        background: `${tokens.information25}`,
+      },
+      info50: {
+        background: `${tokens.information50}`,
+      },
+      info100: {
+        background: `${tokens.information100}`,
+      },
+      info200: {
+        background: `${tokens.information200}`,
+      },
+      info300: {
+        background: `${tokens.information300}`,
+      },
+      info400: {
+        background: `${tokens.information400}`,
+      },
+      info500: {
+        background: `${tokens.information500}`,
+      },
+      info600: {
+        background: `${tokens.information600}`,
+      },
+      info700: {
+        background: `${tokens.information700}`,
+      },
+      info800: {
+        background: `${tokens.information800}`,
+      },
+      info900: {
+        background: `${tokens.information900}`,
+      },
+    },
+    text: {
+      primary25: {
+        color: `${tokens.primary25}`,
+      },
+      primary50: {
+        color: `${tokens.primary50}`,
+      },
+      primary100: {
+        color: `${tokens.primary100}`,
+      },
+      primary200: {
+        color: `${tokens.primary200}`,
+      },
+      primary300: {
+        color: `${tokens.primary300}`,
+      },
+      primary400: {
+        color: `${tokens.primary400}`,
+      },
+      primary500: {
+        color: `${tokens.primary500}`,
+      },
+      primary600: {
+        color: `${tokens.primary600}`,
+      },
+      primary700: {
+        color: `${tokens.primary700}`,
+      },
+      primary800: {
+        color: `${tokens.primary800}`,
+      },
+      primary900: {
+        color: `${tokens.primary900}`,
+      },
+      secondary25: {
+        color: `${tokens.secondary25}`,
+      },
+      secondary50: {
+        color: `${tokens.secondary50}`,
+      },
+      secondary100: {
+        color: `${tokens.secondary100}`,
+      },
+      secondary200: {
+        color: `${tokens.secondary200}`,
+      },
+      secondary300: {
+        color: `${tokens.secondary300}`,
+      },
+      secondary400: {
+        color: `${tokens.secondary400}`,
+      },
+      secondary500: {
+        color: `${tokens.secondary500}`,
+      },
+      secondary600: {
+        color: `${tokens.secondary600}`,
+      },
+      secondary700: {
+        color: `${tokens.secondary700}`,
+      },
+      secondary800: {
+        color: `${tokens.secondary800}`,
+      },
+      secondary900: {
+        color: `${tokens.secondary900}`,
+      },
+      tertiary25: {
+        color: `${tokens.tertiary25}`,
+      },
+      tertiary50: {
+        color: `${tokens.tertiary50}`,
+      },
+      tertiary100: {
+        color: `${tokens.tertiary100}`,
+      },
+      tertiary200: {
+        color: `${tokens.tertiary200}`,
+      },
+      tertiary300: {
+        color: `${tokens.tertiary300}`,
+      },
+      tertiary400: {
+        color: `${tokens.tertiary400}`,
+      },
+      tertiary500: {
+        color: `${tokens.tertiary500}`,
+      },
+      tertiary600: {
+        color: `${tokens.tertiary600}`,
+      },
+      tertiary700: {
+        color: `${tokens.tertiary700}`,
+      },
+      tertiary800: {
+        color: `${tokens.tertiary800}`,
+      },
+      tertiary900: {
+        color: `${tokens.tertiary900}`,
+      },
+      success25: {
+        color: `${tokens.success25}`,
+      },
+      success50: {
+        color: `${tokens.success50}`,
+      },
+      success100: {
+        color: `${tokens.success100}`,
+      },
+      success200: {
+        color: `${tokens.success200}`,
+      },
+      success300: {
+        color: `${tokens.success300}`,
+      },
+      success400: {
+        color: `${tokens.success400}`,
+      },
+      success500: {
+        color: `${tokens.success500}`,
+      },
+      success600: {
+        color: `${tokens.success600}`,
+      },
+      success700: {
+        color: `${tokens.success700}`,
+      },
+      success800: {
+        color: `${tokens.success800}`,
+      },
+      success900: {
+        color: `${tokens.success900}`,
+      },
+      warning25: {
+        color: `${tokens.warning25}`,
+      },
+      warning50: {
+        color: `${tokens.warning50}`,
+      },
+      warning100: {
+        color: `${tokens.warning100}`,
+      },
+      warning200: {
+        color: `${tokens.warning200}`,
+      },
+      warning300: {
+        color: `${tokens.warning300}`,
+      },
+      warning400: {
+        color: `${tokens.warning400}`,
+      },
+      warning500: {
+        color: `${tokens.warning500}`,
+      },
+      warning600: {
+        color: `${tokens.warning600}`,
+      },
+      warning700: {
+        color: `${tokens.warning700}`,
+      },
+      warning800: {
+        color: `${tokens.warning800}`,
+      },
+      warning900: {
+        color: `${tokens.warning900}`,
+      },
+      error25: {
+        color: `${tokens.error25}`,
+      },
+      error50: {
+        color: `${tokens.error50}`,
+      },
+      error100: {
+        color: `${tokens.error100}`,
+      },
+      error200: {
+        color: `${tokens.error200}`,
+      },
+      error300: {
+        color: `${tokens.error300}`,
+      },
+      error400: {
+        color: `${tokens.error400}`,
+      },
+      error500: {
+        color: `${tokens.error500}`,
+      },
+      error600: {
+        color: `${tokens.error600}`,
+      },
+      error700: {
+        color: `${tokens.error700}`,
+      },
+      error800: {
+        color: `${tokens.error800}`,
+      },
+      error900: {
+        color: `${tokens.error900}`,
+      },
+      info25: {
+        color: `${tokens.information25}`,
+      },
+      info50: {
+        color: `${tokens.information50}`,
+      },
+      info100: {
+        color: `${tokens.information100}`,
+      },
+      info200: {
+        color: `${tokens.information200}`,
+      },
+      info300: {
+        color: `${tokens.information300}`,
+      },
+      info400: {
+        color: `${tokens.information400}`,
+      },
+      info500: {
+        color: `${tokens.information500}`,
+      },
+      info600: {
+        color: `${tokens.information600}`,
+      },
+      info700: {
+        color: `${tokens.information700}`,
+      },
+      info800: {
+        color: `${tokens.information800}`,
+      },
+      info900: {
+        color: `${tokens.information900}`,
+      },
+    },
   },
   forms: {
     switch: {
@@ -609,7 +1075,7 @@ export const agl = makeTheme({
               color: `${tokens.checkboxDisabledBorder} !important`,
             },
           },
-          backgroundColor: `${color.grayscale30} !important`,
+          backgroundcolor: `${tokens.grayscale30} !important`,
           borderRadius: `${tokens.checkboxBorderRadius} !important`,
           border: 'none !important',
         },
@@ -1168,11 +1634,11 @@ export const agl = makeTheme({
       lineHeight: '21px',
       fontWeight: '700',
       justifyContent: 'center',
-      
+
       backgroundColor: 'transparent',
       border: 'none',
       color: tokens.buttonsSecondaryDefaultColor,
-    
+
       '& .wrapper-icon-left-large': {
         display: 'flex',
         width: '20px',
@@ -1466,7 +1932,6 @@ export const agl = makeTheme({
         lg_italic_respon: {
           ...text.caption.lg.italic,
           '@media screen and (max-width: 400px)': {
-
             fontSize: '12px',
             lineHeight: '18px',
           },
@@ -1622,480 +2087,481 @@ export const agl = makeTheme({
   },
   cards: {
     containerColors: { marginBottom: '20px' },
-    wrappValueColors: { 
-      ...text.caption.sm.semibold, 
-      padding: '10px' },
+    wrappValueColors: {
+      ...text.caption.sm.semibold,
+      padding: '10px',
+    },
 
     // Colors Primary
     primary25: {
       backgroundColor: `${tokens.primary25}`,
       color: `${tokens.primary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary50: {
       backgroundColor: `${tokens.primary50}`,
       color: `${tokens.primary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary100: {
       backgroundColor: `${tokens.primary100}`,
       color: `${tokens.primary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary200: {
       backgroundColor: `${tokens.primary200}`,
       color: `${tokens.primary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary300: {
       backgroundColor: `${tokens.primary300}`,
       color: `${tokens.primary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary400: {
       backgroundColor: `${tokens.primary400}`,
       color: `${tokens.primary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary500: {
       backgroundColor: `${tokens.primary500}`,
       color: `${tokens.primary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary600: {
       backgroundColor: `${tokens.primary600}`,
       color: `${tokens.primary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary700: {
       backgroundColor: `${tokens.primary700}`,
       color: `${tokens.primary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary800: {
       backgroundColor: `${tokens.primary800}`,
       color: `${tokens.primary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     primary900: {
       backgroundColor: `${tokens.primary900}`,
       color: `${tokens.primary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     // Colors Secondary
     secondary25: {
       backgroundColor: `${tokens.secondary25}`,
       color: `${tokens.secondary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary50: {
       backgroundColor: `${tokens.secondary50}`,
       color: `${tokens.secondary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary100: {
       backgroundColor: `${tokens.secondary100}`,
       color: `${tokens.secondary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary200: {
       backgroundColor: `${tokens.secondary200}`,
       color: `${tokens.secondary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary300: {
       backgroundColor: `${tokens.secondary300}`,
       color: `${tokens.secondary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary400: {
       backgroundColor: `${tokens.secondary400}`,
       color: `${tokens.secondary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary500: {
       backgroundColor: `${tokens.secondary500}`,
       color: `${tokens.secondary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary600: {
       backgroundColor: `${tokens.secondary600}`,
       color: `${tokens.secondary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary700: {
       backgroundColor: `${tokens.secondary700}`,
       color: `${tokens.secondary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary800: {
       backgroundColor: `${tokens.secondary800}`,
       color: `${tokens.secondary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     secondary900: {
       backgroundColor: `${tokens.secondary900}`,
       color: `${tokens.secondary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     // Colors Tertiary
     tertiary25: {
       backgroundColor: `${tokens.tertiary25}`,
       color: `${tokens.tertiary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary50: {
       backgroundColor: `${tokens.tertiary50}`,
       color: `${tokens.tertiary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary100: {
       backgroundColor: `${tokens.tertiary100}`,
       color: `${tokens.tertiary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary200: {
       backgroundColor: `${tokens.tertiary200}`,
       color: `${tokens.tertiary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary300: {
       backgroundColor: `${tokens.tertiary300}`,
       color: `${tokens.tertiary900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary400: {
       backgroundColor: `${tokens.tertiary400}`,
       color: `${tokens.tertiary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary500: {
       backgroundColor: `${tokens.tertiary500}`,
       color: `${tokens.tertiary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary600: {
       backgroundColor: `${tokens.tertiary600}`,
       color: `${tokens.tertiary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary700: {
       backgroundColor: `${tokens.tertiary700}`,
       color: `${tokens.tertiary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary800: {
       backgroundColor: `${tokens.tertiary800}`,
       color: `${tokens.tertiary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     tertiary900: {
       backgroundColor: `${tokens.tertiary900}`,
       color: `${tokens.tertiary25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     // Colors Success
     success25: {
       backgroundColor: `${tokens.success25}`,
       color: `${tokens.success900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success50: {
       backgroundColor: `${tokens.success50}`,
       color: `${tokens.success900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success100: {
       backgroundColor: `${tokens.success100}`,
       color: `${tokens.success900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success200: {
       backgroundColor: `${tokens.success200}`,
       color: `${tokens.success900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success300: {
       backgroundColor: `${tokens.success300}`,
       color: `${tokens.success900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success400: {
       backgroundColor: `${tokens.success400}`,
       color: `${tokens.success25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success500: {
       backgroundColor: `${tokens.success500}`,
       color: `${tokens.success25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success600: {
       backgroundColor: `${tokens.success600}`,
       color: `${tokens.success25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success700: {
       backgroundColor: `${tokens.success700}`,
       color: `${tokens.success25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success800: {
       backgroundColor: `${tokens.success800}`,
       color: `${tokens.success25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     success900: {
       backgroundColor: `${tokens.success900}`,
       color: `${tokens.success25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     // Colors Warning
     warning25: {
       backgroundColor: `${tokens.warning25}`,
       color: `${tokens.warning900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning50: {
       backgroundColor: `${tokens.warning50}`,
       color: `${tokens.warning900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning100: {
       backgroundColor: `${tokens.warning100}`,
       color: `${tokens.warning900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning200: {
       backgroundColor: `${tokens.warning200}`,
       color: `${tokens.warning900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning300: {
       backgroundColor: `${tokens.warning300}`,
       color: `${tokens.warning900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning400: {
       backgroundColor: `${tokens.warning400}`,
       color: `${tokens.warning25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning500: {
       backgroundColor: `${tokens.warning500}`,
       color: `${tokens.warning25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning600: {
       backgroundColor: `${tokens.warning600}`,
       color: `${tokens.warning25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning700: {
       backgroundColor: `${tokens.warning700}`,
       color: `${tokens.warning25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning800: {
       backgroundColor: `${tokens.warning800}`,
       color: `${tokens.warning25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     warning900: {
       backgroundColor: `${tokens.warning900}`,
       color: `${tokens.warning25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     // Colors Error
     error25: {
       backgroundColor: `${tokens.error25}`,
       color: `${tokens.error900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error50: {
       backgroundColor: `${tokens.error50}`,
       color: `${tokens.error900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error100: {
       backgroundColor: `${tokens.error100}`,
       color: `${tokens.error900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error200: {
       backgroundColor: `${tokens.error200}`,
       color: `${tokens.error900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error300: {
       backgroundColor: `${tokens.error300}`,
       color: `${tokens.error900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error400: {
       backgroundColor: `${tokens.error400}`,
       color: `${tokens.error25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error500: {
       backgroundColor: `${tokens.error500}`,
       color: `${tokens.error25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error600: {
       backgroundColor: `${tokens.error600}`,
       color: `${tokens.error25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error700: {
       backgroundColor: `${tokens.error700}`,
       color: `${tokens.error25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error800: {
       backgroundColor: `${tokens.error800}`,
       color: `${tokens.error25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     error900: {
       backgroundColor: `${tokens.error900}`,
       color: `${tokens.error25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     // Colors Information
     info25: {
       backgroundColor: `${tokens.information25}`,
       color: `${tokens.information900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info50: {
       backgroundColor: `${tokens.information50}`,
       color: `${tokens.information900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info100: {
       backgroundColor: `${tokens.information100}`,
       color: `${tokens.information900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info200: {
       backgroundColor: `${tokens.information200}`,
       color: `${tokens.information900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info300: {
       backgroundColor: `${tokens.information300}`,
       color: `${tokens.information900}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info400: {
       backgroundColor: `${tokens.information400}`,
       color: `${tokens.information25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info500: {
       backgroundColor: `${tokens.information500}`,
       color: `${tokens.information25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info600: {
       backgroundColor: `${tokens.information600}`,
       color: `${tokens.information25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info700: {
       backgroundColor: `${tokens.information700}`,
       color: `${tokens.information25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info800: {
       backgroundColor: `${tokens.information800}`,
       color: `${tokens.information25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
     info900: {
       backgroundColor: `${tokens.information900}`,
       color: `${tokens.information25}`,
       padding: '1rem',
-      width: '100%'
+      width: '100%',
     },
   },
-})
+});
 
-export default agl
+export default agl;
