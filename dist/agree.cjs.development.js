@@ -870,17 +870,17 @@ function _extends() {
  * Generated on Sat, 24 Sep 2022 05:32:18 GMT
  */
 var tokens$1 = {
-  primary25: '#f9fbf9',
-  primary50: '#f2f8f3',
-  primary100: '#e6f1e8',
-  primary200: '#cae2cf',
-  primary300: '#aad2b2',
-  primary400: '#82c190',
-  primary500: '#47af64',
-  primary600: '#3f9c59',
-  primary700: '#36874d',
-  primary800: '#2c6e3f',
-  primary900: '#1f4e2c',
+  primary25: '#fffaf8',
+  primary50: '#fff6f1',
+  primary100: '#ffeee4',
+  primary200: '#ffdbc5',
+  primary300: '#ffc8a1',
+  primary400: '#ffb272',
+  primary500: '#ff9900',
+  primary600: '#e48800',
+  primary700: '#c57600',
+  primary800: '#a16000',
+  primary900: '#724400',
   secondary25: '#f1f2f2',
   secondary50: '#dbdede',
   secondary100: '#a6b3b7',
@@ -953,31 +953,31 @@ var tokens$1 = {
   buttonsSmPaddingLeftRight: '12px',
   buttonsSmPaddingTopBottom: '8px',
   buttonsSmIconSize: '12px',
-  buttonsPrimaryDefaultBackgroundColor: '#47af64',
+  buttonsPrimaryDefaultBackgroundColor: '#ff9900',
   buttonsPrimaryDefaultColor: '#ffffff',
-  buttonsPrimaryHoverBackgroundColor: '#3f9c59',
+  buttonsPrimaryHoverBackgroundColor: '#e48800',
   buttonsPrimaryHoverColor: '#ffffff',
-  buttonsPrimaryActiveBackgroundColor: '#36874d',
+  buttonsPrimaryActiveBackgroundColor: '#c57600',
   buttonsPrimaryActiveColor: '#ffffff',
-  buttonsPrimaryFocusBackgroundColors: '#47af64',
+  buttonsPrimaryFocusBackgroundColors: '#ff9900',
   buttonsPrimaryFocusColor: '#ffffff',
-  buttonsPrimaryFocusBorderColors: '#aad2b2',
+  buttonsPrimaryFocusBorderColors: '#ffc8a1',
   buttonsPrimaryDisabledBackgroundColor: '#b1b1b1',
   buttonsPrimaryDisabledColor: '#616161',
   buttonsPrimaryBorderWidth: '0px',
-  buttonsSecondaryDefaultBackgroundColor: '#f2f8f3',
-  buttonsSecondaryDefaultColor: '#47af64',
-  buttonsSecondaryHoverBackgroundColor: '#e6f1e8',
-  buttonsSecondaryHoverColor: '#3f9c59',
-  buttonsSecondaryActiveBackgroundColor: '#cae2cf',
-  buttonsSecondaryActiveColor: '#3f9c59',
-  buttonsSecondaryFocusBackgroundColor: '#f2f8f3',
-  buttonsSecondaryFocusColor: '#47af64',
-  buttonsSecondaryFocusBorderColors: '#82c190',
+  buttonsSecondaryDefaultBackgroundColor: '#fff6f1',
+  buttonsSecondaryDefaultColor: '#ff9900',
+  buttonsSecondaryHoverBackgroundColor: '#ffeee4',
+  buttonsSecondaryHoverColor: '#e48800',
+  buttonsSecondaryActiveBackgroundColor: '#ffdbc5',
+  buttonsSecondaryActiveColor: '#e48800',
+  buttonsSecondaryFocusBackgroundColor: '#fff6f1',
+  buttonsSecondaryFocusColor: '#ff9900',
+  buttonsSecondaryFocusBorderColors: '#ff9900',
   buttonsSecondaryDisabledBackgroundColor: '#f3f3f3',
   buttonsSecondaryDisabledColor: '#cecece',
   buttonsSecondaryBorderWidth: '0px',
-  buttonsBorderRadius: '16px',
+  buttonsBorderRadius: '4px',
   buttonsMdPaddingLeftRight: '12px',
   buttonsMdPaddingTopBottom: '8px',
   buttonsMdIconSize: '16px',
@@ -985,12 +985,12 @@ var tokens$1 = {
   checkboxDefaultBorder: '#cecece',
   checkboxDisabledBackgroundColor: '#e8e8e8',
   checkboxDisabledBorder: '#b1b1b1',
-  checkboxActiveDisableBackgroundColor: '#aad2b2',
+  checkboxActiveDisableBackgroundColor: '#ffc8a1',
   checkboxActiveDisableColor: '#ffffff',
-  checkboxActiveDisableBorder: '#47af64',
-  checkboxActiveBackgroundColor: '#47af64',
+  checkboxActiveDisableBorder: '#ff9900',
+  checkboxActiveBackgroundColor: '#ff9900',
   checkboxActiveColor: '#ffffff',
-  checkboxActiveBorder: '#3f9c59',
+  checkboxActiveBorder: '#e48800',
   checkboxBorderRadius: '4px',
   checkboxBorderWidth: '1px',
   checkboxTextEnable: '#041e29',
@@ -1001,21 +1001,21 @@ var tokens$1 = {
   radioDisableBackgroundColor: '#e8e8e8',
   radioDisableBorder: '#b1b1b1',
   radioActiveBackgroundColor: '#ffffff',
-  radioActiveBorder: '#47af64',
+  radioActiveBorder: '#ff9900',
   radioActiveDisableBackgroundColor: '#ffffff',
-  radioActiveDisableBorder: '#aad2b2',
+  radioActiveDisableBorder: '#ffc8a1',
   radioTextEnable: '#041e29',
   radioTextDisable: '#8f8f8f',
-  anchorDefaultColor: '#47af64',
-  anchorHoverColor: '#3f9c59',
-  anchorActiveColor: '#36874d',
-  anchorFocusColor: '#47af64',
+  anchorDefaultColor: '#ff9900',
+  anchorHoverColor: '#e48800',
+  anchorActiveColor: '#c57600',
+  anchorFocusColor: '#ff9900',
   anchorDisableColor: '#b1b1b1',
   anchorLgIconSize: '20px',
   anchorMdIconSize: '16px',
   anchorSmIconSize: '12px',
-  switchActiveBackgroundColor: '#47af64',
-  switchActiveDisableBackgroundColor: '#cae2cf',
+  switchActiveBackgroundColor: '#ff9900',
+  switchActiveDisableBackgroundColor: '#ffdbc5',
   switchNonactiveBackgroundColor: '#b1b1b1',
   switchNonactiveDisableBackgroundColor: '#e8e8e8',
   avatarLgSize: '64px',
@@ -1029,9 +1029,9 @@ var tokens$1 = {
   textFieldDefaultIconColor: '#3d3d3d',
   textFieldDefaultPlaceholderColor: '#8f8f8f',
   textFieldDefaultLabelColor: '#3d3d3d',
-  textFieldActiveOutlineColor: '#47af64',
+  textFieldActiveOutlineColor: '#ff9900',
   textFieldActivePlaceholderColor: '#3d3d3d',
-  textFieldActiveBorderColor: '#cae2cf',
+  textFieldActiveBorderColor: '#ffdbc5',
   textFieldErrorOutlineColor: '#f04438',
   textFieldSuccessOutlineColor: '#12b76a',
   textFieldDisableBackgroundColor: '#e8e8e8',
@@ -1042,10 +1042,10 @@ var tokens$1 = {
   textFieldBorderRadius: '4px',
   textFieldPaddingLeftRight: '12px',
   textFieldPaddingTopBottom: '12px',
-  badgePrimaryBackgroundColor: '#47af64',
+  badgePrimaryBackgroundColor: '#ff9900',
   badgePrimaryColor: '#ffffff',
-  badgeSecondaryBackgroundColor: '#e6f1e8',
-  badgeSecondaryColor: '#47af64',
+  badgeSecondaryBackgroundColor: '#ffeee4',
+  badgeSecondaryColor: '#ff9900',
   badgeErrorBackgroundColor: '#fce6e5',
   badgeErrorColor: '#f04438',
   badgeInfoBackgroundColor: '#e0f2fe',
@@ -1058,7 +1058,7 @@ var tokens$1 = {
 };
 
 var _formSideCenter, _containerLoginCen, _formSideRight, _formSideLeft, _containerLogin;
-var agr = /*#__PURE__*/utils.makeTheme({
+var agl = /*#__PURE__*/utils.makeTheme({
   //...base,
   colors: {
     primary25: tokens$1.primary25,
@@ -1355,7 +1355,7 @@ var agr = /*#__PURE__*/utils.makeTheme({
       color: tokens$1.anchorDefaultColor + " !important",
       '&:hover': {
         color: tokens$1.anchorHoverColor + " !important",
-        textDecoration: "underline",
+        textDecoration: 'underline',
         outline: 'none',
         cursor: 'pointer'
       },
@@ -1433,6 +1433,472 @@ var agr = /*#__PURE__*/utils.makeTheme({
         display: 'inline-flex',
         alignItems: 'center'
       })
+    },
+    background: {
+      primary25: {
+        background: "" + tokens$1.primary25
+      },
+      primary50: {
+        background: "" + tokens$1.primary50
+      },
+      primary100: {
+        background: "" + tokens$1.primary100
+      },
+      primary200: {
+        background: "" + tokens$1.primary200
+      },
+      primary300: {
+        background: "" + tokens$1.primary300
+      },
+      primary400: {
+        background: "" + tokens$1.primary400
+      },
+      primary500: {
+        background: "" + tokens$1.primary500
+      },
+      primary600: {
+        background: "" + tokens$1.primary600
+      },
+      primary700: {
+        background: "" + tokens$1.primary700
+      },
+      primary800: {
+        background: "" + tokens$1.primary800
+      },
+      primary900: {
+        background: "" + tokens$1.primary900
+      },
+      secondary25: {
+        background: "" + tokens$1.secondary25
+      },
+      secondary50: {
+        background: "" + tokens$1.secondary50
+      },
+      secondary100: {
+        background: "" + tokens$1.secondary100
+      },
+      secondary200: {
+        background: "" + tokens$1.secondary200
+      },
+      secondary300: {
+        background: "" + tokens$1.secondary300
+      },
+      secondary400: {
+        background: "" + tokens$1.secondary400
+      },
+      secondary500: {
+        background: "" + tokens$1.secondary500
+      },
+      secondary600: {
+        background: "" + tokens$1.secondary600
+      },
+      secondary700: {
+        background: "" + tokens$1.secondary700
+      },
+      secondary800: {
+        background: "" + tokens$1.secondary800
+      },
+      secondary900: {
+        background: "" + tokens$1.secondary900
+      },
+      tertiary25: {
+        background: "" + tokens$1.tertiary25
+      },
+      tertiary50: {
+        background: "" + tokens$1.tertiary50
+      },
+      tertiary100: {
+        background: "" + tokens$1.tertiary100
+      },
+      tertiary200: {
+        background: "" + tokens$1.tertiary200
+      },
+      tertiary300: {
+        background: "" + tokens$1.tertiary300
+      },
+      tertiary400: {
+        background: "" + tokens$1.tertiary400
+      },
+      tertiary500: {
+        background: "" + tokens$1.tertiary500
+      },
+      tertiary600: {
+        background: "" + tokens$1.tertiary600
+      },
+      tertiary700: {
+        background: "" + tokens$1.tertiary700
+      },
+      tertiary800: {
+        background: "" + tokens$1.tertiary800
+      },
+      tertiary900: {
+        background: "" + tokens$1.tertiary900
+      },
+      success25: {
+        background: "" + tokens$1.success25
+      },
+      success50: {
+        background: "" + tokens$1.success50
+      },
+      success100: {
+        background: "" + tokens$1.success100
+      },
+      success200: {
+        background: "" + tokens$1.success200
+      },
+      success300: {
+        background: "" + tokens$1.success300
+      },
+      success400: {
+        background: "" + tokens$1.success400
+      },
+      success500: {
+        background: "" + tokens$1.success500
+      },
+      success600: {
+        background: "" + tokens$1.success600
+      },
+      success700: {
+        background: "" + tokens$1.success700
+      },
+      success800: {
+        background: "" + tokens$1.success800
+      },
+      success900: {
+        background: "" + tokens$1.success900
+      },
+      warning25: {
+        background: "" + tokens$1.warning25
+      },
+      warning50: {
+        background: "" + tokens$1.warning50
+      },
+      warning100: {
+        background: "" + tokens$1.warning100
+      },
+      warning200: {
+        background: "" + tokens$1.warning200
+      },
+      warning300: {
+        background: "" + tokens$1.warning300
+      },
+      warning400: {
+        background: "" + tokens$1.warning400
+      },
+      warning500: {
+        background: "" + tokens$1.warning500
+      },
+      warning600: {
+        background: "" + tokens$1.warning600
+      },
+      warning700: {
+        background: "" + tokens$1.warning700
+      },
+      warning800: {
+        background: "" + tokens$1.warning800
+      },
+      warning900: {
+        background: "" + tokens$1.warning900
+      },
+      error25: {
+        background: "" + tokens$1.error25
+      },
+      error50: {
+        background: "" + tokens$1.error50
+      },
+      error100: {
+        background: "" + tokens$1.error100
+      },
+      error200: {
+        background: "" + tokens$1.error200
+      },
+      error300: {
+        background: "" + tokens$1.error300
+      },
+      error400: {
+        background: "" + tokens$1.error400
+      },
+      error500: {
+        background: "" + tokens$1.error500
+      },
+      error600: {
+        background: "" + tokens$1.error600
+      },
+      error700: {
+        background: "" + tokens$1.error700
+      },
+      error800: {
+        background: "" + tokens$1.error800
+      },
+      error900: {
+        background: "" + tokens$1.error900
+      },
+      info25: {
+        background: "" + tokens$1.information25
+      },
+      info50: {
+        background: "" + tokens$1.information50
+      },
+      info100: {
+        background: "" + tokens$1.information100
+      },
+      info200: {
+        background: "" + tokens$1.information200
+      },
+      info300: {
+        background: "" + tokens$1.information300
+      },
+      info400: {
+        background: "" + tokens$1.information400
+      },
+      info500: {
+        background: "" + tokens$1.information500
+      },
+      info600: {
+        background: "" + tokens$1.information600
+      },
+      info700: {
+        background: "" + tokens$1.information700
+      },
+      info800: {
+        background: "" + tokens$1.information800
+      },
+      info900: {
+        background: "" + tokens$1.information900
+      }
+    },
+    text: {
+      primary25: {
+        color: "" + tokens$1.primary25
+      },
+      primary50: {
+        color: "" + tokens$1.primary50
+      },
+      primary100: {
+        color: "" + tokens$1.primary100
+      },
+      primary200: {
+        color: "" + tokens$1.primary200
+      },
+      primary300: {
+        color: "" + tokens$1.primary300
+      },
+      primary400: {
+        color: "" + tokens$1.primary400
+      },
+      primary500: {
+        color: "" + tokens$1.primary500
+      },
+      primary600: {
+        color: "" + tokens$1.primary600
+      },
+      primary700: {
+        color: "" + tokens$1.primary700
+      },
+      primary800: {
+        color: "" + tokens$1.primary800
+      },
+      primary900: {
+        color: "" + tokens$1.primary900
+      },
+      secondary25: {
+        color: "" + tokens$1.secondary25
+      },
+      secondary50: {
+        color: "" + tokens$1.secondary50
+      },
+      secondary100: {
+        color: "" + tokens$1.secondary100
+      },
+      secondary200: {
+        color: "" + tokens$1.secondary200
+      },
+      secondary300: {
+        color: "" + tokens$1.secondary300
+      },
+      secondary400: {
+        color: "" + tokens$1.secondary400
+      },
+      secondary500: {
+        color: "" + tokens$1.secondary500
+      },
+      secondary600: {
+        color: "" + tokens$1.secondary600
+      },
+      secondary700: {
+        color: "" + tokens$1.secondary700
+      },
+      secondary800: {
+        color: "" + tokens$1.secondary800
+      },
+      secondary900: {
+        color: "" + tokens$1.secondary900
+      },
+      tertiary25: {
+        color: "" + tokens$1.tertiary25
+      },
+      tertiary50: {
+        color: "" + tokens$1.tertiary50
+      },
+      tertiary100: {
+        color: "" + tokens$1.tertiary100
+      },
+      tertiary200: {
+        color: "" + tokens$1.tertiary200
+      },
+      tertiary300: {
+        color: "" + tokens$1.tertiary300
+      },
+      tertiary400: {
+        color: "" + tokens$1.tertiary400
+      },
+      tertiary500: {
+        color: "" + tokens$1.tertiary500
+      },
+      tertiary600: {
+        color: "" + tokens$1.tertiary600
+      },
+      tertiary700: {
+        color: "" + tokens$1.tertiary700
+      },
+      tertiary800: {
+        color: "" + tokens$1.tertiary800
+      },
+      tertiary900: {
+        color: "" + tokens$1.tertiary900
+      },
+      success25: {
+        color: "" + tokens$1.success25
+      },
+      success50: {
+        color: "" + tokens$1.success50
+      },
+      success100: {
+        color: "" + tokens$1.success100
+      },
+      success200: {
+        color: "" + tokens$1.success200
+      },
+      success300: {
+        color: "" + tokens$1.success300
+      },
+      success400: {
+        color: "" + tokens$1.success400
+      },
+      success500: {
+        color: "" + tokens$1.success500
+      },
+      success600: {
+        color: "" + tokens$1.success600
+      },
+      success700: {
+        color: "" + tokens$1.success700
+      },
+      success800: {
+        color: "" + tokens$1.success800
+      },
+      success900: {
+        color: "" + tokens$1.success900
+      },
+      warning25: {
+        color: "" + tokens$1.warning25
+      },
+      warning50: {
+        color: "" + tokens$1.warning50
+      },
+      warning100: {
+        color: "" + tokens$1.warning100
+      },
+      warning200: {
+        color: "" + tokens$1.warning200
+      },
+      warning300: {
+        color: "" + tokens$1.warning300
+      },
+      warning400: {
+        color: "" + tokens$1.warning400
+      },
+      warning500: {
+        color: "" + tokens$1.warning500
+      },
+      warning600: {
+        color: "" + tokens$1.warning600
+      },
+      warning700: {
+        color: "" + tokens$1.warning700
+      },
+      warning800: {
+        color: "" + tokens$1.warning800
+      },
+      warning900: {
+        color: "" + tokens$1.warning900
+      },
+      error25: {
+        color: "" + tokens$1.error25
+      },
+      error50: {
+        color: "" + tokens$1.error50
+      },
+      error100: {
+        color: "" + tokens$1.error100
+      },
+      error200: {
+        color: "" + tokens$1.error200
+      },
+      error300: {
+        color: "" + tokens$1.error300
+      },
+      error400: {
+        color: "" + tokens$1.error400
+      },
+      error500: {
+        color: "" + tokens$1.error500
+      },
+      error600: {
+        color: "" + tokens$1.error600
+      },
+      error700: {
+        color: "" + tokens$1.error700
+      },
+      error800: {
+        color: "" + tokens$1.error800
+      },
+      error900: {
+        color: "" + tokens$1.error900
+      },
+      info25: {
+        color: "" + tokens$1.information25
+      },
+      info50: {
+        color: "" + tokens$1.information50
+      },
+      info100: {
+        color: "" + tokens$1.information100
+      },
+      info200: {
+        color: "" + tokens$1.information200
+      },
+      info300: {
+        color: "" + tokens$1.information300
+      },
+      info400: {
+        color: "" + tokens$1.information400
+      },
+      info500: {
+        color: "" + tokens$1.information500
+      },
+      info600: {
+        color: "" + tokens$1.information600
+      },
+      info700: {
+        color: "" + tokens$1.information700
+      },
+      info800: {
+        color: "" + tokens$1.information800
+      },
+      info900: {
+        color: "" + tokens$1.information900
+      }
     }
   },
   forms: {
@@ -1553,7 +2019,7 @@ var agr = /*#__PURE__*/utils.makeTheme({
               color: tokens$1.checkboxDisabledBorder + " !important"
             }
           },
-          backgroundColor: color.grayscale30 + " !important",
+          backgroundcolor: color.grayscale30 + " !important",
           borderRadius: tokens$1.checkboxBorderRadius + " !important",
           border: 'none !important'
         },
@@ -2990,17 +3456,17 @@ var agr = /*#__PURE__*/utils.makeTheme({
  * Generated on Sat, 24 Sep 2022 05:32:18 GMT
  */
 var tokens$2 = {
-  primary25: '#fffaf8',
-  primary50: '#fff6f1',
-  primary100: '#ffeee4',
-  primary200: '#ffdbc5',
-  primary300: '#ffc8a1',
-  primary400: '#ffb272',
-  primary500: '#ff9900',
-  primary600: '#e48800',
-  primary700: '#c57600',
-  primary800: '#a16000',
-  primary900: '#724400',
+  primary25: '#f8fafd',
+  primary50: '#f2f6fb',
+  primary100: '#e4eef7',
+  primary200: '#c6dcf0',
+  primary300: '#a3c9e8',
+  primary400: '#73b2df',
+  primary500: '#229bd8',
+  primary600: '#1e8ac1',
+  primary700: '#1a78a7',
+  primary800: '#156288',
+  primary900: '#0f4560',
   secondary25: '#f1f2f2',
   secondary50: '#dbdede',
   secondary100: '#a6b3b7',
@@ -3073,31 +3539,31 @@ var tokens$2 = {
   buttonsSmPaddingLeftRight: '12px',
   buttonsSmPaddingTopBottom: '8px',
   buttonsSmIconSize: '12px',
-  buttonsPrimaryDefaultBackgroundColor: '#ff9900',
+  buttonsPrimaryDefaultBackgroundColor: '#229bd8',
   buttonsPrimaryDefaultColor: '#ffffff',
-  buttonsPrimaryHoverBackgroundColor: '#e48800',
+  buttonsPrimaryHoverBackgroundColor: '#1e8ac1',
   buttonsPrimaryHoverColor: '#ffffff',
-  buttonsPrimaryActiveBackgroundColor: '#c57600',
+  buttonsPrimaryActiveBackgroundColor: '#1a78a7',
   buttonsPrimaryActiveColor: '#ffffff',
-  buttonsPrimaryFocusBackgroundColors: '#ff9900',
+  buttonsPrimaryFocusBackgroundColors: '#229bd8',
   buttonsPrimaryFocusColor: '#ffffff',
-  buttonsPrimaryFocusBorderColors: '#ffc8a1',
+  buttonsPrimaryFocusBorderColors: '#a3c9e8',
   buttonsPrimaryDisabledBackgroundColor: '#b1b1b1',
   buttonsPrimaryDisabledColor: '#616161',
   buttonsPrimaryBorderWidth: '0px',
-  buttonsSecondaryDefaultBackgroundColor: '#fff6f1',
-  buttonsSecondaryDefaultColor: '#ff9900',
-  buttonsSecondaryHoverBackgroundColor: '#ffeee4',
-  buttonsSecondaryHoverColor: '#e48800',
-  buttonsSecondaryActiveBackgroundColor: '#ffdbc5',
-  buttonsSecondaryActiveColor: '#e48800',
-  buttonsSecondaryFocusBackgroundColor: '#fff6f1',
-  buttonsSecondaryFocusColor: '#ff9900',
-  buttonsSecondaryFocusBorderColors: '#ff9900',
+  buttonsSecondaryDefaultBackgroundColor: '#f2f6fb',
+  buttonsSecondaryDefaultColor: '#229bd8',
+  buttonsSecondaryHoverBackgroundColor: '#e4eef7',
+  buttonsSecondaryHoverColor: '#1e8ac1',
+  buttonsSecondaryActiveBackgroundColor: '#c6dcf0',
+  buttonsSecondaryActiveColor: '#1e8ac1',
+  buttonsSecondaryFocusBackgroundColor: '#f2f6fb',
+  buttonsSecondaryFocusColor: '#229bd8',
+  buttonsSecondaryFocusBorderColors: '#229bd8',
   buttonsSecondaryDisabledBackgroundColor: '#f3f3f3',
   buttonsSecondaryDisabledColor: '#cecece',
   buttonsSecondaryBorderWidth: '0px',
-  buttonsBorderRadius: '4px',
+  buttonsBorderRadius: '500px',
   buttonsMdPaddingLeftRight: '12px',
   buttonsMdPaddingTopBottom: '8px',
   buttonsMdIconSize: '16px',
@@ -3105,12 +3571,12 @@ var tokens$2 = {
   checkboxDefaultBorder: '#cecece',
   checkboxDisabledBackgroundColor: '#e8e8e8',
   checkboxDisabledBorder: '#b1b1b1',
-  checkboxActiveDisableBackgroundColor: '#ffc8a1',
+  checkboxActiveDisableBackgroundColor: '#a3c9e8',
   checkboxActiveDisableColor: '#ffffff',
-  checkboxActiveDisableBorder: '#ff9900',
-  checkboxActiveBackgroundColor: '#ff9900',
+  checkboxActiveDisableBorder: '#229bd8',
+  checkboxActiveBackgroundColor: '#229bd8',
   checkboxActiveColor: '#ffffff',
-  checkboxActiveBorder: '#e48800',
+  checkboxActiveBorder: '#1e8ac1',
   checkboxBorderRadius: '4px',
   checkboxBorderWidth: '1px',
   checkboxTextEnable: '#041e29',
@@ -3121,21 +3587,21 @@ var tokens$2 = {
   radioDisableBackgroundColor: '#e8e8e8',
   radioDisableBorder: '#b1b1b1',
   radioActiveBackgroundColor: '#ffffff',
-  radioActiveBorder: '#ff9900',
+  radioActiveBorder: '#229bd8',
   radioActiveDisableBackgroundColor: '#ffffff',
-  radioActiveDisableBorder: '#ffc8a1',
+  radioActiveDisableBorder: '#a3c9e8',
   radioTextEnable: '#041e29',
   radioTextDisable: '#8f8f8f',
-  anchorDefaultColor: '#ff9900',
-  anchorHoverColor: '#e48800',
-  anchorActiveColor: '#c57600',
-  anchorFocusColor: '#ff9900',
+  anchorDefaultColor: '#229bd8',
+  anchorHoverColor: '#1e8ac1',
+  anchorActiveColor: '#1a78a7',
+  anchorFocusColor: '#229bd8',
   anchorDisableColor: '#b1b1b1',
   anchorLgIconSize: '20px',
   anchorMdIconSize: '16px',
   anchorSmIconSize: '12px',
-  switchActiveBackgroundColor: '#ff9900',
-  switchActiveDisableBackgroundColor: '#ffdbc5',
+  switchActiveBackgroundColor: '#229bd8',
+  switchActiveDisableBackgroundColor: '#c6dcf0',
   switchNonactiveBackgroundColor: '#b1b1b1',
   switchNonactiveDisableBackgroundColor: '#e8e8e8',
   avatarLgSize: '64px',
@@ -3149,9 +3615,9 @@ var tokens$2 = {
   textFieldDefaultIconColor: '#3d3d3d',
   textFieldDefaultPlaceholderColor: '#8f8f8f',
   textFieldDefaultLabelColor: '#3d3d3d',
-  textFieldActiveOutlineColor: '#ff9900',
+  textFieldActiveOutlineColor: '#229bd8',
   textFieldActivePlaceholderColor: '#3d3d3d',
-  textFieldActiveBorderColor: '#ffdbc5',
+  textFieldActiveBorderColor: '#c6dcf0',
   textFieldErrorOutlineColor: '#f04438',
   textFieldSuccessOutlineColor: '#12b76a',
   textFieldDisableBackgroundColor: '#e8e8e8',
@@ -3162,10 +3628,10 @@ var tokens$2 = {
   textFieldBorderRadius: '4px',
   textFieldPaddingLeftRight: '12px',
   textFieldPaddingTopBottom: '12px',
-  badgePrimaryBackgroundColor: '#ff9900',
+  badgePrimaryBackgroundColor: '#229bd8',
   badgePrimaryColor: '#ffffff',
-  badgeSecondaryBackgroundColor: '#ffeee4',
-  badgeSecondaryColor: '#ff9900',
+  badgeSecondaryBackgroundColor: '#e4eef7',
+  badgeSecondaryColor: '#229bd8',
   badgeErrorBackgroundColor: '#fce6e5',
   badgeErrorColor: '#f04438',
   badgeInfoBackgroundColor: '#e0f2fe',
@@ -3178,7 +3644,7 @@ var tokens$2 = {
 };
 
 var _formSideCenter$1, _containerLoginCen$1, _formSideRight$1, _formSideLeft$1, _containerLogin$1;
-var agl = /*#__PURE__*/utils.makeTheme({
+var aqf = /*#__PURE__*/utils.makeTheme({
   //...base,
   colors: {
     primary25: tokens$2.primary25,
@@ -3475,7 +3941,7 @@ var agl = /*#__PURE__*/utils.makeTheme({
       color: tokens$2.anchorDefaultColor + " !important",
       '&:hover': {
         color: tokens$2.anchorHoverColor + " !important",
-        textDecoration: "underline",
+        textDecoration: 'underline',
         outline: 'none',
         cursor: 'pointer'
       },
@@ -3553,6 +4019,472 @@ var agl = /*#__PURE__*/utils.makeTheme({
         display: 'inline-flex',
         alignItems: 'center'
       })
+    },
+    background: {
+      primary25: {
+        background: "" + tokens$2.primary25
+      },
+      primary50: {
+        background: "" + tokens$2.primary50
+      },
+      primary100: {
+        background: "" + tokens$2.primary100
+      },
+      primary200: {
+        background: "" + tokens$2.primary200
+      },
+      primary300: {
+        background: "" + tokens$2.primary300
+      },
+      primary400: {
+        background: "" + tokens$2.primary400
+      },
+      primary500: {
+        background: "" + tokens$2.primary500
+      },
+      primary600: {
+        background: "" + tokens$2.primary600
+      },
+      primary700: {
+        background: "" + tokens$2.primary700
+      },
+      primary800: {
+        background: "" + tokens$2.primary800
+      },
+      primary900: {
+        background: "" + tokens$2.primary900
+      },
+      secondary25: {
+        background: "" + tokens$2.secondary25
+      },
+      secondary50: {
+        background: "" + tokens$2.secondary50
+      },
+      secondary100: {
+        background: "" + tokens$2.secondary100
+      },
+      secondary200: {
+        background: "" + tokens$2.secondary200
+      },
+      secondary300: {
+        background: "" + tokens$2.secondary300
+      },
+      secondary400: {
+        background: "" + tokens$2.secondary400
+      },
+      secondary500: {
+        background: "" + tokens$2.secondary500
+      },
+      secondary600: {
+        background: "" + tokens$2.secondary600
+      },
+      secondary700: {
+        background: "" + tokens$2.secondary700
+      },
+      secondary800: {
+        background: "" + tokens$2.secondary800
+      },
+      secondary900: {
+        background: "" + tokens$2.secondary900
+      },
+      tertiary25: {
+        background: "" + tokens$2.tertiary25
+      },
+      tertiary50: {
+        background: "" + tokens$2.tertiary50
+      },
+      tertiary100: {
+        background: "" + tokens$2.tertiary100
+      },
+      tertiary200: {
+        background: "" + tokens$2.tertiary200
+      },
+      tertiary300: {
+        background: "" + tokens$2.tertiary300
+      },
+      tertiary400: {
+        background: "" + tokens$2.tertiary400
+      },
+      tertiary500: {
+        background: "" + tokens$2.tertiary500
+      },
+      tertiary600: {
+        background: "" + tokens$2.tertiary600
+      },
+      tertiary700: {
+        background: "" + tokens$2.tertiary700
+      },
+      tertiary800: {
+        background: "" + tokens$2.tertiary800
+      },
+      tertiary900: {
+        background: "" + tokens$2.tertiary900
+      },
+      success25: {
+        background: "" + tokens$2.success25
+      },
+      success50: {
+        background: "" + tokens$2.success50
+      },
+      success100: {
+        background: "" + tokens$2.success100
+      },
+      success200: {
+        background: "" + tokens$2.success200
+      },
+      success300: {
+        background: "" + tokens$2.success300
+      },
+      success400: {
+        background: "" + tokens$2.success400
+      },
+      success500: {
+        background: "" + tokens$2.success500
+      },
+      success600: {
+        background: "" + tokens$2.success600
+      },
+      success700: {
+        background: "" + tokens$2.success700
+      },
+      success800: {
+        background: "" + tokens$2.success800
+      },
+      success900: {
+        background: "" + tokens$2.success900
+      },
+      warning25: {
+        background: "" + tokens$2.warning25
+      },
+      warning50: {
+        background: "" + tokens$2.warning50
+      },
+      warning100: {
+        background: "" + tokens$2.warning100
+      },
+      warning200: {
+        background: "" + tokens$2.warning200
+      },
+      warning300: {
+        background: "" + tokens$2.warning300
+      },
+      warning400: {
+        background: "" + tokens$2.warning400
+      },
+      warning500: {
+        background: "" + tokens$2.warning500
+      },
+      warning600: {
+        background: "" + tokens$2.warning600
+      },
+      warning700: {
+        background: "" + tokens$2.warning700
+      },
+      warning800: {
+        background: "" + tokens$2.warning800
+      },
+      warning900: {
+        background: "" + tokens$2.warning900
+      },
+      error25: {
+        background: "" + tokens$2.error25
+      },
+      error50: {
+        background: "" + tokens$2.error50
+      },
+      error100: {
+        background: "" + tokens$2.error100
+      },
+      error200: {
+        background: "" + tokens$2.error200
+      },
+      error300: {
+        background: "" + tokens$2.error300
+      },
+      error400: {
+        background: "" + tokens$2.error400
+      },
+      error500: {
+        background: "" + tokens$2.error500
+      },
+      error600: {
+        background: "" + tokens$2.error600
+      },
+      error700: {
+        background: "" + tokens$2.error700
+      },
+      error800: {
+        background: "" + tokens$2.error800
+      },
+      error900: {
+        background: "" + tokens$2.error900
+      },
+      info25: {
+        background: "" + tokens$2.information25
+      },
+      info50: {
+        background: "" + tokens$2.information50
+      },
+      info100: {
+        background: "" + tokens$2.information100
+      },
+      info200: {
+        background: "" + tokens$2.information200
+      },
+      info300: {
+        background: "" + tokens$2.information300
+      },
+      info400: {
+        background: "" + tokens$2.information400
+      },
+      info500: {
+        background: "" + tokens$2.information500
+      },
+      info600: {
+        background: "" + tokens$2.information600
+      },
+      info700: {
+        background: "" + tokens$2.information700
+      },
+      info800: {
+        background: "" + tokens$2.information800
+      },
+      info900: {
+        background: "" + tokens$2.information900
+      }
+    },
+    text: {
+      primary25: {
+        color: "" + tokens$2.primary25
+      },
+      primary50: {
+        color: "" + tokens$2.primary50
+      },
+      primary100: {
+        color: "" + tokens$2.primary100
+      },
+      primary200: {
+        color: "" + tokens$2.primary200
+      },
+      primary300: {
+        color: "" + tokens$2.primary300
+      },
+      primary400: {
+        color: "" + tokens$2.primary400
+      },
+      primary500: {
+        color: "" + tokens$2.primary500
+      },
+      primary600: {
+        color: "" + tokens$2.primary600
+      },
+      primary700: {
+        color: "" + tokens$2.primary700
+      },
+      primary800: {
+        color: "" + tokens$2.primary800
+      },
+      primary900: {
+        color: "" + tokens$2.primary900
+      },
+      secondary25: {
+        color: "" + tokens$2.secondary25
+      },
+      secondary50: {
+        color: "" + tokens$2.secondary50
+      },
+      secondary100: {
+        color: "" + tokens$2.secondary100
+      },
+      secondary200: {
+        color: "" + tokens$2.secondary200
+      },
+      secondary300: {
+        color: "" + tokens$2.secondary300
+      },
+      secondary400: {
+        color: "" + tokens$2.secondary400
+      },
+      secondary500: {
+        color: "" + tokens$2.secondary500
+      },
+      secondary600: {
+        color: "" + tokens$2.secondary600
+      },
+      secondary700: {
+        color: "" + tokens$2.secondary700
+      },
+      secondary800: {
+        color: "" + tokens$2.secondary800
+      },
+      secondary900: {
+        color: "" + tokens$2.secondary900
+      },
+      tertiary25: {
+        color: "" + tokens$2.tertiary25
+      },
+      tertiary50: {
+        color: "" + tokens$2.tertiary50
+      },
+      tertiary100: {
+        color: "" + tokens$2.tertiary100
+      },
+      tertiary200: {
+        color: "" + tokens$2.tertiary200
+      },
+      tertiary300: {
+        color: "" + tokens$2.tertiary300
+      },
+      tertiary400: {
+        color: "" + tokens$2.tertiary400
+      },
+      tertiary500: {
+        color: "" + tokens$2.tertiary500
+      },
+      tertiary600: {
+        color: "" + tokens$2.tertiary600
+      },
+      tertiary700: {
+        color: "" + tokens$2.tertiary700
+      },
+      tertiary800: {
+        color: "" + tokens$2.tertiary800
+      },
+      tertiary900: {
+        color: "" + tokens$2.tertiary900
+      },
+      success25: {
+        color: "" + tokens$2.success25
+      },
+      success50: {
+        color: "" + tokens$2.success50
+      },
+      success100: {
+        color: "" + tokens$2.success100
+      },
+      success200: {
+        color: "" + tokens$2.success200
+      },
+      success300: {
+        color: "" + tokens$2.success300
+      },
+      success400: {
+        color: "" + tokens$2.success400
+      },
+      success500: {
+        color: "" + tokens$2.success500
+      },
+      success600: {
+        color: "" + tokens$2.success600
+      },
+      success700: {
+        color: "" + tokens$2.success700
+      },
+      success800: {
+        color: "" + tokens$2.success800
+      },
+      success900: {
+        color: "" + tokens$2.success900
+      },
+      warning25: {
+        color: "" + tokens$2.warning25
+      },
+      warning50: {
+        color: "" + tokens$2.warning50
+      },
+      warning100: {
+        color: "" + tokens$2.warning100
+      },
+      warning200: {
+        color: "" + tokens$2.warning200
+      },
+      warning300: {
+        color: "" + tokens$2.warning300
+      },
+      warning400: {
+        color: "" + tokens$2.warning400
+      },
+      warning500: {
+        color: "" + tokens$2.warning500
+      },
+      warning600: {
+        color: "" + tokens$2.warning600
+      },
+      warning700: {
+        color: "" + tokens$2.warning700
+      },
+      warning800: {
+        color: "" + tokens$2.warning800
+      },
+      warning900: {
+        color: "" + tokens$2.warning900
+      },
+      error25: {
+        color: "" + tokens$2.error25
+      },
+      error50: {
+        color: "" + tokens$2.error50
+      },
+      error100: {
+        color: "" + tokens$2.error100
+      },
+      error200: {
+        color: "" + tokens$2.error200
+      },
+      error300: {
+        color: "" + tokens$2.error300
+      },
+      error400: {
+        color: "" + tokens$2.error400
+      },
+      error500: {
+        color: "" + tokens$2.error500
+      },
+      error600: {
+        color: "" + tokens$2.error600
+      },
+      error700: {
+        color: "" + tokens$2.error700
+      },
+      error800: {
+        color: "" + tokens$2.error800
+      },
+      error900: {
+        color: "" + tokens$2.error900
+      },
+      info25: {
+        color: "" + tokens$2.information25
+      },
+      info50: {
+        color: "" + tokens$2.information50
+      },
+      info100: {
+        color: "" + tokens$2.information100
+      },
+      info200: {
+        color: "" + tokens$2.information200
+      },
+      info300: {
+        color: "" + tokens$2.information300
+      },
+      info400: {
+        color: "" + tokens$2.information400
+      },
+      info500: {
+        color: "" + tokens$2.information500
+      },
+      info600: {
+        color: "" + tokens$2.information600
+      },
+      info700: {
+        color: "" + tokens$2.information700
+      },
+      info800: {
+        color: "" + tokens$2.information800
+      },
+      info900: {
+        color: "" + tokens$2.information900
+      }
     }
   },
   forms: {
@@ -3716,7 +4648,16 @@ var agl = /*#__PURE__*/utils.makeTheme({
         alignItems: 'center !important',
         height: 'none !important',
         backgroundColor: "" + tokens$2.textFieldDefaultBackgroundColor,
-        marginBottom: '30px'
+        marginBottom: '30px',
+        '&:hover ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important"
+        }
       },
       containPrefLeft: {
         display: 'flex',
@@ -3848,15 +4789,6 @@ var agl = /*#__PURE__*/utils.makeTheme({
         },
         '&::placeholder': {
           color: tokens$2.textFieldDefaultPlaceholderColor
-        },
-        '&:hover ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
-        },
-        '&:focus ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important"
         },
         '& .css-1cqyib9-Textfield': {
           paddingLeft: '30px !important'
@@ -5110,17 +6042,17 @@ var agl = /*#__PURE__*/utils.makeTheme({
  * Generated on Sat, 24 Sep 2022 05:32:18 GMT
  */
 var tokens$3 = {
-  primary25: '#f8fafd',
-  primary50: '#f2f6fb',
-  primary100: '#e4eef7',
-  primary200: '#c6dcf0',
-  primary300: '#a3c9e8',
-  primary400: '#73b2df',
-  primary500: '#229bd8',
-  primary600: '#1e8ac1',
-  primary700: '#1a78a7',
-  primary800: '#156288',
-  primary900: '#0f4560',
+  primary25: '#f9fbf9',
+  primary50: '#f2f8f3',
+  primary100: '#e6f1e8',
+  primary200: '#cae2cf',
+  primary300: '#aad2b2',
+  primary400: '#82c190',
+  primary500: '#47af64',
+  primary600: '#3f9c59',
+  primary700: '#36874d',
+  primary800: '#2c6e3f',
+  primary900: '#1f4e2c',
   secondary25: '#f1f2f2',
   secondary50: '#dbdede',
   secondary100: '#a6b3b7',
@@ -5193,31 +6125,31 @@ var tokens$3 = {
   buttonsSmPaddingLeftRight: '12px',
   buttonsSmPaddingTopBottom: '8px',
   buttonsSmIconSize: '12px',
-  buttonsPrimaryDefaultBackgroundColor: '#229bd8',
+  buttonsPrimaryDefaultBackgroundColor: '#47af64',
   buttonsPrimaryDefaultColor: '#ffffff',
-  buttonsPrimaryHoverBackgroundColor: '#1e8ac1',
+  buttonsPrimaryHoverBackgroundColor: '#3f9c59',
   buttonsPrimaryHoverColor: '#ffffff',
-  buttonsPrimaryActiveBackgroundColor: '#1a78a7',
+  buttonsPrimaryActiveBackgroundColor: '#36874d',
   buttonsPrimaryActiveColor: '#ffffff',
-  buttonsPrimaryFocusBackgroundColors: '#229bd8',
+  buttonsPrimaryFocusBackgroundColors: '#47af64',
   buttonsPrimaryFocusColor: '#ffffff',
-  buttonsPrimaryFocusBorderColors: '#a3c9e8',
+  buttonsPrimaryFocusBorderColors: '#aad2b2',
   buttonsPrimaryDisabledBackgroundColor: '#b1b1b1',
   buttonsPrimaryDisabledColor: '#616161',
   buttonsPrimaryBorderWidth: '0px',
-  buttonsSecondaryDefaultBackgroundColor: '#f2f6fb',
-  buttonsSecondaryDefaultColor: '#229bd8',
-  buttonsSecondaryHoverBackgroundColor: '#e4eef7',
-  buttonsSecondaryHoverColor: '#1e8ac1',
-  buttonsSecondaryActiveBackgroundColor: '#c6dcf0',
-  buttonsSecondaryActiveColor: '#1e8ac1',
-  buttonsSecondaryFocusBackgroundColor: '#f2f6fb',
-  buttonsSecondaryFocusColor: '#229bd8',
-  buttonsSecondaryFocusBorderColors: '#229bd8',
+  buttonsSecondaryDefaultBackgroundColor: '#f2f8f3',
+  buttonsSecondaryDefaultColor: '#47af64',
+  buttonsSecondaryHoverBackgroundColor: '#e6f1e8',
+  buttonsSecondaryHoverColor: '#3f9c59',
+  buttonsSecondaryActiveBackgroundColor: '#cae2cf',
+  buttonsSecondaryActiveColor: '#3f9c59',
+  buttonsSecondaryFocusBackgroundColor: '#f2f8f3',
+  buttonsSecondaryFocusColor: '#47af64',
+  buttonsSecondaryFocusBorderColors: '#82c190',
   buttonsSecondaryDisabledBackgroundColor: '#f3f3f3',
   buttonsSecondaryDisabledColor: '#cecece',
   buttonsSecondaryBorderWidth: '0px',
-  buttonsBorderRadius: '500px',
+  buttonsBorderRadius: '16px',
   buttonsMdPaddingLeftRight: '12px',
   buttonsMdPaddingTopBottom: '8px',
   buttonsMdIconSize: '16px',
@@ -5225,12 +6157,12 @@ var tokens$3 = {
   checkboxDefaultBorder: '#cecece',
   checkboxDisabledBackgroundColor: '#e8e8e8',
   checkboxDisabledBorder: '#b1b1b1',
-  checkboxActiveDisableBackgroundColor: '#a3c9e8',
+  checkboxActiveDisableBackgroundColor: '#aad2b2',
   checkboxActiveDisableColor: '#ffffff',
-  checkboxActiveDisableBorder: '#229bd8',
-  checkboxActiveBackgroundColor: '#229bd8',
+  checkboxActiveDisableBorder: '#47af64',
+  checkboxActiveBackgroundColor: '#47af64',
   checkboxActiveColor: '#ffffff',
-  checkboxActiveBorder: '#1e8ac1',
+  checkboxActiveBorder: '#3f9c59',
   checkboxBorderRadius: '4px',
   checkboxBorderWidth: '1px',
   checkboxTextEnable: '#041e29',
@@ -5241,21 +6173,21 @@ var tokens$3 = {
   radioDisableBackgroundColor: '#e8e8e8',
   radioDisableBorder: '#b1b1b1',
   radioActiveBackgroundColor: '#ffffff',
-  radioActiveBorder: '#229bd8',
+  radioActiveBorder: '#47af64',
   radioActiveDisableBackgroundColor: '#ffffff',
-  radioActiveDisableBorder: '#a3c9e8',
+  radioActiveDisableBorder: '#aad2b2',
   radioTextEnable: '#041e29',
   radioTextDisable: '#8f8f8f',
-  anchorDefaultColor: '#229bd8',
-  anchorHoverColor: '#1e8ac1',
-  anchorActiveColor: '#1a78a7',
-  anchorFocusColor: '#229bd8',
+  anchorDefaultColor: '#47af64',
+  anchorHoverColor: '#3f9c59',
+  anchorActiveColor: '#36874d',
+  anchorFocusColor: '#47af64',
   anchorDisableColor: '#b1b1b1',
   anchorLgIconSize: '20px',
   anchorMdIconSize: '16px',
   anchorSmIconSize: '12px',
-  switchActiveBackgroundColor: '#229bd8',
-  switchActiveDisableBackgroundColor: '#c6dcf0',
+  switchActiveBackgroundColor: '#47af64',
+  switchActiveDisableBackgroundColor: '#cae2cf',
   switchNonactiveBackgroundColor: '#b1b1b1',
   switchNonactiveDisableBackgroundColor: '#e8e8e8',
   avatarLgSize: '64px',
@@ -5269,9 +6201,9 @@ var tokens$3 = {
   textFieldDefaultIconColor: '#3d3d3d',
   textFieldDefaultPlaceholderColor: '#8f8f8f',
   textFieldDefaultLabelColor: '#3d3d3d',
-  textFieldActiveOutlineColor: '#229bd8',
+  textFieldActiveOutlineColor: '#47af64',
   textFieldActivePlaceholderColor: '#3d3d3d',
-  textFieldActiveBorderColor: '#c6dcf0',
+  textFieldActiveBorderColor: '#cae2cf',
   textFieldErrorOutlineColor: '#f04438',
   textFieldSuccessOutlineColor: '#12b76a',
   textFieldDisableBackgroundColor: '#e8e8e8',
@@ -5282,10 +6214,10 @@ var tokens$3 = {
   textFieldBorderRadius: '4px',
   textFieldPaddingLeftRight: '12px',
   textFieldPaddingTopBottom: '12px',
-  badgePrimaryBackgroundColor: '#229bd8',
+  badgePrimaryBackgroundColor: '#47af64',
   badgePrimaryColor: '#ffffff',
-  badgeSecondaryBackgroundColor: '#e4eef7',
-  badgeSecondaryColor: '#229bd8',
+  badgeSecondaryBackgroundColor: '#e6f1e8',
+  badgeSecondaryColor: '#47af64',
   badgeErrorBackgroundColor: '#fce6e5',
   badgeErrorColor: '#f04438',
   badgeInfoBackgroundColor: '#e0f2fe',
@@ -5298,7 +6230,7 @@ var tokens$3 = {
 };
 
 var _formSideCenter$2, _containerLoginCen$2, _formSideRight$2, _formSideLeft$2, _containerLogin$2;
-var aqf = /*#__PURE__*/utils.makeTheme({
+var agr = /*#__PURE__*/utils.makeTheme({
   //...base,
   colors: {
     primary25: tokens$3.primary25,
@@ -5595,7 +6527,7 @@ var aqf = /*#__PURE__*/utils.makeTheme({
       color: tokens$3.anchorDefaultColor + " !important",
       '&:hover': {
         color: tokens$3.anchorHoverColor + " !important",
-        textDecoration: "underline",
+        textDecoration: 'underline',
         outline: 'none',
         cursor: 'pointer'
       },
@@ -5673,6 +6605,472 @@ var aqf = /*#__PURE__*/utils.makeTheme({
         display: 'inline-flex',
         alignItems: 'center'
       })
+    },
+    background: {
+      primary25: {
+        background: "" + tokens$3.primary25
+      },
+      primary50: {
+        background: "" + tokens$3.primary50
+      },
+      primary100: {
+        background: "" + tokens$3.primary100
+      },
+      primary200: {
+        background: "" + tokens$3.primary200
+      },
+      primary300: {
+        background: "" + tokens$3.primary300
+      },
+      primary400: {
+        background: "" + tokens$3.primary400
+      },
+      primary500: {
+        background: "" + tokens$3.primary500
+      },
+      primary600: {
+        background: "" + tokens$3.primary600
+      },
+      primary700: {
+        background: "" + tokens$3.primary700
+      },
+      primary800: {
+        background: "" + tokens$3.primary800
+      },
+      primary900: {
+        background: "" + tokens$3.primary900
+      },
+      secondary25: {
+        background: "" + tokens$3.secondary25
+      },
+      secondary50: {
+        background: "" + tokens$3.secondary50
+      },
+      secondary100: {
+        background: "" + tokens$3.secondary100
+      },
+      secondary200: {
+        background: "" + tokens$3.secondary200
+      },
+      secondary300: {
+        background: "" + tokens$3.secondary300
+      },
+      secondary400: {
+        background: "" + tokens$3.secondary400
+      },
+      secondary500: {
+        background: "" + tokens$3.secondary500
+      },
+      secondary600: {
+        background: "" + tokens$3.secondary600
+      },
+      secondary700: {
+        background: "" + tokens$3.secondary700
+      },
+      secondary800: {
+        background: "" + tokens$3.secondary800
+      },
+      secondary900: {
+        background: "" + tokens$3.secondary900
+      },
+      tertiary25: {
+        background: "" + tokens$3.tertiary25
+      },
+      tertiary50: {
+        background: "" + tokens$3.tertiary50
+      },
+      tertiary100: {
+        background: "" + tokens$3.tertiary100
+      },
+      tertiary200: {
+        background: "" + tokens$3.tertiary200
+      },
+      tertiary300: {
+        background: "" + tokens$3.tertiary300
+      },
+      tertiary400: {
+        background: "" + tokens$3.tertiary400
+      },
+      tertiary500: {
+        background: "" + tokens$3.tertiary500
+      },
+      tertiary600: {
+        background: "" + tokens$3.tertiary600
+      },
+      tertiary700: {
+        background: "" + tokens$3.tertiary700
+      },
+      tertiary800: {
+        background: "" + tokens$3.tertiary800
+      },
+      tertiary900: {
+        background: "" + tokens$3.tertiary900
+      },
+      success25: {
+        background: "" + tokens$3.success25
+      },
+      success50: {
+        background: "" + tokens$3.success50
+      },
+      success100: {
+        background: "" + tokens$3.success100
+      },
+      success200: {
+        background: "" + tokens$3.success200
+      },
+      success300: {
+        background: "" + tokens$3.success300
+      },
+      success400: {
+        background: "" + tokens$3.success400
+      },
+      success500: {
+        background: "" + tokens$3.success500
+      },
+      success600: {
+        background: "" + tokens$3.success600
+      },
+      success700: {
+        background: "" + tokens$3.success700
+      },
+      success800: {
+        background: "" + tokens$3.success800
+      },
+      success900: {
+        background: "" + tokens$3.success900
+      },
+      warning25: {
+        background: "" + tokens$3.warning25
+      },
+      warning50: {
+        background: "" + tokens$3.warning50
+      },
+      warning100: {
+        background: "" + tokens$3.warning100
+      },
+      warning200: {
+        background: "" + tokens$3.warning200
+      },
+      warning300: {
+        background: "" + tokens$3.warning300
+      },
+      warning400: {
+        background: "" + tokens$3.warning400
+      },
+      warning500: {
+        background: "" + tokens$3.warning500
+      },
+      warning600: {
+        background: "" + tokens$3.warning600
+      },
+      warning700: {
+        background: "" + tokens$3.warning700
+      },
+      warning800: {
+        background: "" + tokens$3.warning800
+      },
+      warning900: {
+        background: "" + tokens$3.warning900
+      },
+      error25: {
+        background: "" + tokens$3.error25
+      },
+      error50: {
+        background: "" + tokens$3.error50
+      },
+      error100: {
+        background: "" + tokens$3.error100
+      },
+      error200: {
+        background: "" + tokens$3.error200
+      },
+      error300: {
+        background: "" + tokens$3.error300
+      },
+      error400: {
+        background: "" + tokens$3.error400
+      },
+      error500: {
+        background: "" + tokens$3.error500
+      },
+      error600: {
+        background: "" + tokens$3.error600
+      },
+      error700: {
+        background: "" + tokens$3.error700
+      },
+      error800: {
+        background: "" + tokens$3.error800
+      },
+      error900: {
+        background: "" + tokens$3.error900
+      },
+      info25: {
+        background: "" + tokens$3.information25
+      },
+      info50: {
+        background: "" + tokens$3.information50
+      },
+      info100: {
+        background: "" + tokens$3.information100
+      },
+      info200: {
+        background: "" + tokens$3.information200
+      },
+      info300: {
+        background: "" + tokens$3.information300
+      },
+      info400: {
+        background: "" + tokens$3.information400
+      },
+      info500: {
+        background: "" + tokens$3.information500
+      },
+      info600: {
+        background: "" + tokens$3.information600
+      },
+      info700: {
+        background: "" + tokens$3.information700
+      },
+      info800: {
+        background: "" + tokens$3.information800
+      },
+      info900: {
+        background: "" + tokens$3.information900
+      }
+    },
+    text: {
+      primary25: {
+        color: "" + tokens$3.primary25
+      },
+      primary50: {
+        color: "" + tokens$3.primary50
+      },
+      primary100: {
+        color: "" + tokens$3.primary100
+      },
+      primary200: {
+        color: "" + tokens$3.primary200
+      },
+      primary300: {
+        color: "" + tokens$3.primary300
+      },
+      primary400: {
+        color: "" + tokens$3.primary400
+      },
+      primary500: {
+        color: "" + tokens$3.primary500
+      },
+      primary600: {
+        color: "" + tokens$3.primary600
+      },
+      primary700: {
+        color: "" + tokens$3.primary700
+      },
+      primary800: {
+        color: "" + tokens$3.primary800
+      },
+      primary900: {
+        color: "" + tokens$3.primary900
+      },
+      secondary25: {
+        color: "" + tokens$3.secondary25
+      },
+      secondary50: {
+        color: "" + tokens$3.secondary50
+      },
+      secondary100: {
+        color: "" + tokens$3.secondary100
+      },
+      secondary200: {
+        color: "" + tokens$3.secondary200
+      },
+      secondary300: {
+        color: "" + tokens$3.secondary300
+      },
+      secondary400: {
+        color: "" + tokens$3.secondary400
+      },
+      secondary500: {
+        color: "" + tokens$3.secondary500
+      },
+      secondary600: {
+        color: "" + tokens$3.secondary600
+      },
+      secondary700: {
+        color: "" + tokens$3.secondary700
+      },
+      secondary800: {
+        color: "" + tokens$3.secondary800
+      },
+      secondary900: {
+        color: "" + tokens$3.secondary900
+      },
+      tertiary25: {
+        color: "" + tokens$3.tertiary25
+      },
+      tertiary50: {
+        color: "" + tokens$3.tertiary50
+      },
+      tertiary100: {
+        color: "" + tokens$3.tertiary100
+      },
+      tertiary200: {
+        color: "" + tokens$3.tertiary200
+      },
+      tertiary300: {
+        color: "" + tokens$3.tertiary300
+      },
+      tertiary400: {
+        color: "" + tokens$3.tertiary400
+      },
+      tertiary500: {
+        color: "" + tokens$3.tertiary500
+      },
+      tertiary600: {
+        color: "" + tokens$3.tertiary600
+      },
+      tertiary700: {
+        color: "" + tokens$3.tertiary700
+      },
+      tertiary800: {
+        color: "" + tokens$3.tertiary800
+      },
+      tertiary900: {
+        color: "" + tokens$3.tertiary900
+      },
+      success25: {
+        color: "" + tokens$3.success25
+      },
+      success50: {
+        color: "" + tokens$3.success50
+      },
+      success100: {
+        color: "" + tokens$3.success100
+      },
+      success200: {
+        color: "" + tokens$3.success200
+      },
+      success300: {
+        color: "" + tokens$3.success300
+      },
+      success400: {
+        color: "" + tokens$3.success400
+      },
+      success500: {
+        color: "" + tokens$3.success500
+      },
+      success600: {
+        color: "" + tokens$3.success600
+      },
+      success700: {
+        color: "" + tokens$3.success700
+      },
+      success800: {
+        color: "" + tokens$3.success800
+      },
+      success900: {
+        color: "" + tokens$3.success900
+      },
+      warning25: {
+        color: "" + tokens$3.warning25
+      },
+      warning50: {
+        color: "" + tokens$3.warning50
+      },
+      warning100: {
+        color: "" + tokens$3.warning100
+      },
+      warning200: {
+        color: "" + tokens$3.warning200
+      },
+      warning300: {
+        color: "" + tokens$3.warning300
+      },
+      warning400: {
+        color: "" + tokens$3.warning400
+      },
+      warning500: {
+        color: "" + tokens$3.warning500
+      },
+      warning600: {
+        color: "" + tokens$3.warning600
+      },
+      warning700: {
+        color: "" + tokens$3.warning700
+      },
+      warning800: {
+        color: "" + tokens$3.warning800
+      },
+      warning900: {
+        color: "" + tokens$3.warning900
+      },
+      error25: {
+        color: "" + tokens$3.error25
+      },
+      error50: {
+        color: "" + tokens$3.error50
+      },
+      error100: {
+        color: "" + tokens$3.error100
+      },
+      error200: {
+        color: "" + tokens$3.error200
+      },
+      error300: {
+        color: "" + tokens$3.error300
+      },
+      error400: {
+        color: "" + tokens$3.error400
+      },
+      error500: {
+        color: "" + tokens$3.error500
+      },
+      error600: {
+        color: "" + tokens$3.error600
+      },
+      error700: {
+        color: "" + tokens$3.error700
+      },
+      error800: {
+        color: "" + tokens$3.error800
+      },
+      error900: {
+        color: "" + tokens$3.error900
+      },
+      info25: {
+        color: "" + tokens$3.information25
+      },
+      info50: {
+        color: "" + tokens$3.information50
+      },
+      info100: {
+        color: "" + tokens$3.information100
+      },
+      info200: {
+        color: "" + tokens$3.information200
+      },
+      info300: {
+        color: "" + tokens$3.information300
+      },
+      info400: {
+        color: "" + tokens$3.information400
+      },
+      info500: {
+        color: "" + tokens$3.information500
+      },
+      info600: {
+        color: "" + tokens$3.information600
+      },
+      info700: {
+        color: "" + tokens$3.information700
+      },
+      info800: {
+        color: "" + tokens$3.information800
+      },
+      info900: {
+        color: "" + tokens$3.information900
+      }
     }
   },
   forms: {
@@ -5836,16 +7234,7 @@ var aqf = /*#__PURE__*/utils.makeTheme({
         alignItems: 'center !important',
         height: 'none !important',
         backgroundColor: "" + tokens$3.textFieldDefaultBackgroundColor,
-        marginBottom: '30px',
-        '&:hover ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
-        },
-        '&:focus ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important"
-        }
+        marginBottom: '30px'
       },
       containPrefLeft: {
         display: 'flex',
@@ -5977,6 +7366,15 @@ var aqf = /*#__PURE__*/utils.makeTheme({
         },
         '&::placeholder': {
           color: tokens$3.textFieldDefaultPlaceholderColor
+        },
+        '&:hover ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
+        },
+        '&:focus ~ .css-wot0oi-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important"
         },
         '& .css-1cqyib9-Textfield': {
           paddingLeft: '30px !important'

@@ -1075,7 +1075,7 @@ export const agl = makeTheme({
               color: `${tokens.checkboxDisabledBorder} !important`,
             },
           },
-          backgroundcolor: `${tokens.grayscale30} !important`,
+          backgroundcolor: `${color.grayscale30} !important`,
           borderRadius: `${tokens.checkboxBorderRadius} !important`,
           border: 'none !important',
         },

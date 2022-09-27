@@ -481,6 +481,472 @@ export declare const agl: {
                 color: string;
             };
         };
+        background: {
+            primary25: {
+                background: string;
+            };
+            primary50: {
+                background: string;
+            };
+            primary100: {
+                background: string;
+            };
+            primary200: {
+                background: string;
+            };
+            primary300: {
+                background: string;
+            };
+            primary400: {
+                background: string;
+            };
+            primary500: {
+                background: string;
+            };
+            primary600: {
+                background: string;
+            };
+            primary700: {
+                background: string;
+            };
+            primary800: {
+                background: string;
+            };
+            primary900: {
+                background: string;
+            };
+            secondary25: {
+                background: string;
+            };
+            secondary50: {
+                background: string;
+            };
+            secondary100: {
+                background: string;
+            };
+            secondary200: {
+                background: string;
+            };
+            secondary300: {
+                background: string;
+            };
+            secondary400: {
+                background: string;
+            };
+            secondary500: {
+                background: string;
+            };
+            secondary600: {
+                background: string;
+            };
+            secondary700: {
+                background: string;
+            };
+            secondary800: {
+                background: string;
+            };
+            secondary900: {
+                background: string;
+            };
+            tertiary25: {
+                background: string;
+            };
+            tertiary50: {
+                background: string;
+            };
+            tertiary100: {
+                background: string;
+            };
+            tertiary200: {
+                background: string;
+            };
+            tertiary300: {
+                background: string;
+            };
+            tertiary400: {
+                background: string;
+            };
+            tertiary500: {
+                background: string;
+            };
+            tertiary600: {
+                background: string;
+            };
+            tertiary700: {
+                background: string;
+            };
+            tertiary800: {
+                background: string;
+            };
+            tertiary900: {
+                background: string;
+            };
+            success25: {
+                background: string;
+            };
+            success50: {
+                background: string;
+            };
+            success100: {
+                background: string;
+            };
+            success200: {
+                background: string;
+            };
+            success300: {
+                background: string;
+            };
+            success400: {
+                background: string;
+            };
+            success500: {
+                background: string;
+            };
+            success600: {
+                background: string;
+            };
+            success700: {
+                background: string;
+            };
+            success800: {
+                background: string;
+            };
+            success900: {
+                background: string;
+            };
+            warning25: {
+                background: string;
+            };
+            warning50: {
+                background: string;
+            };
+            warning100: {
+                background: string;
+            };
+            warning200: {
+                background: string;
+            };
+            warning300: {
+                background: string;
+            };
+            warning400: {
+                background: string;
+            };
+            warning500: {
+                background: string;
+            };
+            warning600: {
+                background: string;
+            };
+            warning700: {
+                background: string;
+            };
+            warning800: {
+                background: string;
+            };
+            warning900: {
+                background: string;
+            };
+            error25: {
+                background: string;
+            };
+            error50: {
+                background: string;
+            };
+            error100: {
+                background: string;
+            };
+            error200: {
+                background: string;
+            };
+            error300: {
+                background: string;
+            };
+            error400: {
+                background: string;
+            };
+            error500: {
+                background: string;
+            };
+            error600: {
+                background: string;
+            };
+            error700: {
+                background: string;
+            };
+            error800: {
+                background: string;
+            };
+            error900: {
+                background: string;
+            };
+            info25: {
+                background: string;
+            };
+            info50: {
+                background: string;
+            };
+            info100: {
+                background: string;
+            };
+            info200: {
+                background: string;
+            };
+            info300: {
+                background: string;
+            };
+            info400: {
+                background: string;
+            };
+            info500: {
+                background: string;
+            };
+            info600: {
+                background: string;
+            };
+            info700: {
+                background: string;
+            };
+            info800: {
+                background: string;
+            };
+            info900: {
+                background: string;
+            };
+        };
+        text: {
+            primary25: {
+                color: string;
+            };
+            primary50: {
+                color: string;
+            };
+            primary100: {
+                color: string;
+            };
+            primary200: {
+                color: string;
+            };
+            primary300: {
+                color: string;
+            };
+            primary400: {
+                color: string;
+            };
+            primary500: {
+                color: string;
+            };
+            primary600: {
+                color: string;
+            };
+            primary700: {
+                color: string;
+            };
+            primary800: {
+                color: string;
+            };
+            primary900: {
+                color: string;
+            };
+            secondary25: {
+                color: string;
+            };
+            secondary50: {
+                color: string;
+            };
+            secondary100: {
+                color: string;
+            };
+            secondary200: {
+                color: string;
+            };
+            secondary300: {
+                color: string;
+            };
+            secondary400: {
+                color: string;
+            };
+            secondary500: {
+                color: string;
+            };
+            secondary600: {
+                color: string;
+            };
+            secondary700: {
+                color: string;
+            };
+            secondary800: {
+                color: string;
+            };
+            secondary900: {
+                color: string;
+            };
+            tertiary25: {
+                color: string;
+            };
+            tertiary50: {
+                color: string;
+            };
+            tertiary100: {
+                color: string;
+            };
+            tertiary200: {
+                color: string;
+            };
+            tertiary300: {
+                color: string;
+            };
+            tertiary400: {
+                color: string;
+            };
+            tertiary500: {
+                color: string;
+            };
+            tertiary600: {
+                color: string;
+            };
+            tertiary700: {
+                color: string;
+            };
+            tertiary800: {
+                color: string;
+            };
+            tertiary900: {
+                color: string;
+            };
+            success25: {
+                color: string;
+            };
+            success50: {
+                color: string;
+            };
+            success100: {
+                color: string;
+            };
+            success200: {
+                color: string;
+            };
+            success300: {
+                color: string;
+            };
+            success400: {
+                color: string;
+            };
+            success500: {
+                color: string;
+            };
+            success600: {
+                color: string;
+            };
+            success700: {
+                color: string;
+            };
+            success800: {
+                color: string;
+            };
+            success900: {
+                color: string;
+            };
+            warning25: {
+                color: string;
+            };
+            warning50: {
+                color: string;
+            };
+            warning100: {
+                color: string;
+            };
+            warning200: {
+                color: string;
+            };
+            warning300: {
+                color: string;
+            };
+            warning400: {
+                color: string;
+            };
+            warning500: {
+                color: string;
+            };
+            warning600: {
+                color: string;
+            };
+            warning700: {
+                color: string;
+            };
+            warning800: {
+                color: string;
+            };
+            warning900: {
+                color: string;
+            };
+            error25: {
+                color: string;
+            };
+            error50: {
+                color: string;
+            };
+            error100: {
+                color: string;
+            };
+            error200: {
+                color: string;
+            };
+            error300: {
+                color: string;
+            };
+            error400: {
+                color: string;
+            };
+            error500: {
+                color: string;
+            };
+            error600: {
+                color: string;
+            };
+            error700: {
+                color: string;
+            };
+            error800: {
+                color: string;
+            };
+            error900: {
+                color: string;
+            };
+            info25: {
+                color: string;
+            };
+            info50: {
+                color: string;
+            };
+            info100: {
+                color: string;
+            };
+            info200: {
+                color: string;
+            };
+            info300: {
+                color: string;
+            };
+            info400: {
+                color: string;
+            };
+            info500: {
+                color: string;
+            };
+            info600: {
+                color: string;
+            };
+            info700: {
+                color: string;
+            };
+            info800: {
+                color: string;
+            };
+            info900: {
+                color: string;
+            };
+        };
     };
     forms: {
         switch: {
@@ -600,7 +1066,7 @@ export declare const agl: {
                             color: string;
                         };
                     };
-                    backgroundColor: string;
+                    backgroundcolor: string;
                     borderRadius: string;
                     border: string;
                 };
