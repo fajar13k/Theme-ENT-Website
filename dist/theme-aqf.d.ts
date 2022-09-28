@@ -966,7 +966,7 @@ export declare const aqf: {
             };
             background: string;
             'input:checked ~ &': {
-                backgroundColor: "#52BD94 !important";
+                backgroundColor: string;
             };
             ':disabled': {
                 background: string;

@@ -91,7 +91,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Tue, 27 Sep 2022 07:27:38 GMT
+ * Generated on Wed, 28 Sep 2022 04:52:02 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -861,7 +861,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Tue, 27 Sep 2022 07:27:38 GMT
+ * Generated on Wed, 28 Sep 2022 04:52:03 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1913,7 +1913,7 @@ var agr = /*#__PURE__*/makeTheme({
       },
       background: '#C8CCD2 !important',
       'input:checked ~ &': {
-        backgroundColor: '#52BD94 !important'
+        backgroundColor: tokens$1.primary500 + " !important"
       },
       ':disabled': {
         background: '#D9DDE3 !important'
@@ -3447,7 +3447,7 @@ var agr = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Tue, 27 Sep 2022 07:27:38 GMT
+ * Generated on Wed, 28 Sep 2022 04:52:02 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -4499,7 +4499,7 @@ var agl = /*#__PURE__*/makeTheme({
       },
       background: '#C8CCD2 !important',
       'input:checked ~ &': {
-        backgroundColor: '#52BD94 !important'
+        backgroundColor: tokens$2.primary500 + " !important"
       },
       ':disabled': {
         background: '#D9DDE3 !important'
@@ -6033,7 +6033,7 @@ var agl = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Tue, 27 Sep 2022 07:27:38 GMT
+ * Generated on Wed, 28 Sep 2022 04:52:03 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -7085,7 +7085,7 @@ var aqf = /*#__PURE__*/makeTheme({
       },
       background: '#C8CCD2 !important',
       'input:checked ~ &': {
-        backgroundColor: '#52BD94 !important'
+        backgroundColor: tokens$3.primary500 + " !important"
       },
       ':disabled': {
         background: '#D9DDE3 !important'

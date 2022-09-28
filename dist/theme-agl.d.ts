@@ -966,7 +966,7 @@ export declare const agl: {
             };
             background: string;
             'input:checked ~ &': {
-                backgroundColor: "#52BD94 !important";
+                backgroundColor: string;
             };
             ':disabled': {
                 background: string;
