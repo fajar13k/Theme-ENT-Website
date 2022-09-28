@@ -2,7 +2,7 @@
 import { makeTheme } from '@theme-ui/css/utils';
 import { color } from '.';
 import spacer from './spacers';
-import { text } from './thypograpy';
+import { text } from './typography';
 //import { tokens as foundation } from './tokens/foundation';
 import { tokens } from './tokens/agree-fisheries';
 
