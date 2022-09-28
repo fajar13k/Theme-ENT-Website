@@ -975,7 +975,7 @@ export const agr = makeTheme({
       },
       background: '#C8CCD2 !important',
       'input:checked ~ &': {
-        backgroundColor: '#52BD94 !important',
+        backgroundColor: `${tokens.primary500} !important`,
       },
       ':disabled': {
         background: '#D9DDE3 !important',
