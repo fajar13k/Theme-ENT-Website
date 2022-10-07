@@ -97,7 +97,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Fri, 07 Oct 2022 12:14:07 GMT
+ * Generated on Fri, 07 Oct 2022 12:33:35 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -867,7 +867,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Fri, 07 Oct 2022 12:14:08 GMT
+ * Generated on Fri, 07 Oct 2022 12:33:35 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1352,7 +1352,7 @@ var agr = /*#__PURE__*/utils.makeTheme({
   },
   styles: {
     a: {
-      color: tokens$1.anchorDefaultColor + " !important",
+      color: tokens$1.anchorDefaultColor,
       disabled: {
         color: tokens$1.tertiary300,
         pointerEvents: 'none'
@@ -3457,7 +3457,7 @@ var agr = /*#__PURE__*/utils.makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Fri, 07 Oct 2022 12:14:07 GMT
+ * Generated on Fri, 07 Oct 2022 12:33:35 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -3942,7 +3942,7 @@ var agl = /*#__PURE__*/utils.makeTheme({
   },
   styles: {
     a: {
-      color: tokens$2.anchorDefaultColor + " !important",
+      color: tokens$2.anchorDefaultColor,
       disabled: {
         color: tokens$2.tertiary300,
         pointerEvents: 'none'
@@ -6047,7 +6047,7 @@ var agl = /*#__PURE__*/utils.makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Fri, 07 Oct 2022 12:14:07 GMT
+ * Generated on Fri, 07 Oct 2022 12:33:35 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -6532,7 +6532,7 @@ var aqf = /*#__PURE__*/utils.makeTheme({
   },
   styles: {
     a: {
-      color: tokens$3.anchorDefaultColor + " !important",
+      color: tokens$3.anchorDefaultColor,
       disabled: {
         color: tokens$3.tertiary300,
         pointerEvents: 'none'
