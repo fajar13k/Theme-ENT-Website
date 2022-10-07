@@ -91,7 +91,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Wed, 28 Sep 2022 08:29:41 GMT
+ * Generated on Fri, 07 Oct 2022 12:14:07 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -861,7 +861,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Wed, 28 Sep 2022 08:29:41 GMT
+ * Generated on Fri, 07 Oct 2022 12:14:08 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -1347,6 +1347,10 @@ var agr = /*#__PURE__*/makeTheme({
   styles: {
     a: {
       color: tokens$1.anchorDefaultColor + " !important",
+      disabled: {
+        color: tokens$1.tertiary300,
+        pointerEvents: 'none'
+      },
       '&:hover': {
         color: tokens$1.anchorHoverColor + " !important",
         textDecoration: 'underline',
@@ -3447,7 +3451,7 @@ var agr = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Wed, 28 Sep 2022 08:29:41 GMT
+ * Generated on Fri, 07 Oct 2022 12:14:07 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -3933,6 +3937,10 @@ var agl = /*#__PURE__*/makeTheme({
   styles: {
     a: {
       color: tokens$2.anchorDefaultColor + " !important",
+      disabled: {
+        color: tokens$2.tertiary300,
+        pointerEvents: 'none'
+      },
       '&:hover': {
         color: tokens$2.anchorHoverColor + " !important",
         textDecoration: 'underline',
@@ -6033,7 +6041,7 @@ var agl = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Wed, 28 Sep 2022 08:29:41 GMT
+ * Generated on Fri, 07 Oct 2022 12:14:07 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -6519,6 +6527,10 @@ var aqf = /*#__PURE__*/makeTheme({
   styles: {
     a: {
       color: tokens$3.anchorDefaultColor + " !important",
+      disabled: {
+        color: tokens$3.tertiary300,
+        pointerEvents: 'none'
+      },
       '&:hover': {
         color: tokens$3.anchorHoverColor + " !important",
         textDecoration: 'underline',

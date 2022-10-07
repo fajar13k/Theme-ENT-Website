@@ -391,6 +391,10 @@ export declare const agr: {
     styles: {
         a: {
             color: string;
+            disabled: {
+                color: string;
+                pointerEvents: "none";
+            };
             '&:hover': {
                 color: string;
                 textDecoration: string;
