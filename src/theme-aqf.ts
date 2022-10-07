@@ -408,6 +408,10 @@ export const aqf = makeTheme({
   styles: {
     a: {
       color: `${tokens.anchorDefaultColor} !important`,
+      disabled: {
+        color: tokens.tertiary300,
+        pointerEvents: 'none',
+      },
 
       '&:hover': {
         color: `${tokens.anchorHoverColor} !important`,
