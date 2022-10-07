@@ -407,7 +407,7 @@ export const agl = makeTheme({
   },
   styles: {
     a: {
-      color: `${tokens.anchorDefaultColor} !important`,
+      color: tokens.anchorDefaultColor,
       disabled: {
         color: tokens.tertiary300,
         pointerEvents: 'none',
