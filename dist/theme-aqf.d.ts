@@ -1114,15 +1114,6 @@ export declare const aqf: {
                 height: string;
                 backgroundColor: string;
                 marginBottom: string;
-                '&:hover ~ .css-wot0oi-Textfield': {
-                    outline: string;
-                    border: string;
-                };
-                '&:focus ~ .css-wot0oi-Textfield': {
-                    outline: string;
-                    border: string;
-                    boxShadow: string;
-                };
             };
             containPrefLeft: {
                 display: "flex";
@@ -1181,8 +1172,8 @@ export declare const aqf: {
                 left: string;
                 width: string;
                 height: string;
-                borderRadius: string;
                 border: string;
+                borderRadius: string;
                 transition: "all 0.15s ease-in-out 0s";
             };
             wrappSuccess: {
@@ -1265,13 +1256,24 @@ export declare const aqf: {
                 backgroundColor: "transparent !important";
             };
             normal: {
-                '&:focus': {
-                    outline: string;
-                };
                 '&::placeholder': {
                     color: string;
                 };
-                '& .css-1cqyib9-Textfield': {
+                '&:focus': {
+                    outline: string;
+                };
+                '&:hover ~ .css-ib4mcl-Textfield': {
+                    outline: string;
+                    border: string;
+                    transition: "all 0.10s ease-in-out 0s";
+                };
+                '&:focus  ~ .css-ib4mcl-Textfield': {
+                    outline: string;
+                    border: string;
+                    boxShadow: string;
+                    transition: "all 0.15s ease-in-out 0s";
+                };
+                '& .css-ib4mcl-Textfield': {
                     paddingLeft: string;
                 };
                 border: string;
@@ -1280,17 +1282,22 @@ export declare const aqf: {
                 zIndex: string;
             };
             success: {
-                '&:hover ~ .css-1nk40ql-Textfield': {
-                    outline: string;
-                    border: string;
+                '&::placeholder': {
+                    color: string;
                 };
                 '&:focus': {
                     outline: string;
                 };
-                '&:focus ~ .css-1nk40ql-Textfield': {
+                '&:hover ~ .css-1hm5k8u-Textfield': {
+                    outline: string;
+                    border: string;
+                    transition: "all 0.10s ease-in-out 0s";
+                };
+                '&:focus ~ .css-1hm5k8u-Textfield': {
                     outline: string;
                     border: string;
                     boxShadow: string;
+                    transition: "all 0.15s ease-in-out 0s";
                 };
                 zIndex: number;
                 border: string;
@@ -1298,17 +1305,21 @@ export declare const aqf: {
                 padding: string;
             };
             error: {
-                '&:hover ~ .css-19xfusu-Textfield': {
-                    outline: string;
-                    border: string;
+                '&::placeholder': {
+                    color: string;
                 };
                 '&:focus': {
                     outline: string;
                 };
-                '&:focus ~ .css-19xfusu-Textfield': {
+                '&:hover  ~ .css-1ahjwsl-Textfield': {
                     outline: string;
                     border: string;
+                    transition: "all 0.10s ease-in-out 0s";
+                };
+                '&:focus ~ .css-1ahjwsl-Textfield': {
+                    border: string;
                     boxShadow: string;
+                    transition: "all 0.15s ease-in-out 0s";
                 };
                 zIndex: number;
                 border: string;
@@ -1335,11 +1346,13 @@ export declare const aqf: {
                 ':hover': {
                     border: string;
                     outline: string;
+                    transition: "all 0.15s ease-in-out 0s";
                 };
             };
             ':hover': {
                 outline: string;
                 border: string;
+                transition: "all 0.15s ease-in-out 0s";
             };
             ':focus': {
                 outline: string;
@@ -1348,12 +1361,15 @@ export declare const aqf: {
             };
             normal: {
                 border: string;
+                transition: "all 0.15s ease-in-out 0s";
             };
             success: {
                 border: string;
+                transition: "all 0.15s ease-in-out 0s";
             };
             error: {
                 border: string;
+                transition: "all 0.15s ease-in-out 0s";
             };
         };
     };

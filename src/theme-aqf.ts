@@ -1123,15 +1123,7 @@ export const aqf = makeTheme({
         height: 'none !important',
         backgroundColor: `${tokens.textFieldDefaultBackgroundColor}`,
         marginBottom: '30px',
-        '&:hover ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
-        },
-        '&:focus ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
-        },
+        
       },
       containPrefLeft: {
         display: 'flex',
@@ -1176,7 +1168,7 @@ export const aqf = makeTheme({
         width: '100%',
         height: '-webkit-fill-available',
         borderRadius: `${tokens.textFieldBorderRadius}`,
-        border: `1px solid ${tokens.textFieldDefaultOutlineColor} !important`,
+        border: `1px solid ${tokens.textFieldDefaultOutlineColor}`,
         backgroundColor: `${tokens.textFieldDisableBackgroundColor} !important`,
         transition: 'all 0.15s ease-in-out 0s',
       },
@@ -1187,8 +1179,8 @@ export const aqf = makeTheme({
         left: '0px',
         width: '100%',
         height: '-webkit-fill-available',
-        borderRadius: `${tokens.textFieldBorderRadius}`,
         border: `1px solid ${tokens.textFieldDefaultOutlineColor}`,
+        borderRadius: `${tokens.textFieldBorderRadius}`,
         transition: 'all 0.15s ease-in-out 0s',
       },
       wrappSuccess: {
@@ -1262,14 +1254,26 @@ export const aqf = makeTheme({
         backgroundColor: 'transparent !important',
       },
       normal: {
-        '&:focus': {
-          outline: 'none',
-        },
         '&::placeholder': {
           color: tokens.textFieldDefaultPlaceholderColor,
         },
+        '&:focus': {
+          outline: 'none',
+        },
+        '&:hover ~ .css-ib4mcl-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+          transition: 'all 0.10s ease-in-out 0s',
 
-        '& .css-1cqyib9-Textfield': {
+        },
+        '&:focus  ~ .css-ib4mcl-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
+          boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
+          transition: 'all 0.15s ease-in-out 0s',
+
+        },
+        '& .css-ib4mcl-Textfield': {
           paddingLeft: '30px !important',
         },
         border: '0',
@@ -1278,35 +1282,50 @@ export const aqf = makeTheme({
         zIndex: '2',
       },
       success: {
-        '&:hover ~ .css-1nk40ql-Textfield': {
-          outline: 'none',
-          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+        '&::placeholder': {
+          color: tokens.textFieldDefaultPlaceholderColor,
         },
         '&:focus': {
           outline: 'none',
         },
-        '&:focus ~ .css-1nk40ql-Textfield': {
+        '&:hover ~ .css-1hm5k8u-Textfield': {
+          outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+          transition: 'all 0.10s ease-in-out 0s',
+
+        },
+        '&:focus ~ .css-1hm5k8u-Textfield': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
           boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
+          transition: 'all 0.15s ease-in-out 0s',
         },
         zIndex: 2,
         border: '0',
         backgroundColor: 'transparent',
         padding: `${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} ${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} !important`,
+
+        
       },
       error: {
-        '&:hover ~ .css-19xfusu-Textfield': {
-          outline: 'none',
-          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+        '&::placeholder': {
+          color: tokens.textFieldDefaultPlaceholderColor,
         },
+
         '&:focus': {
           outline: 'none',
         },
-        '&:focus ~ .css-19xfusu-Textfield': {
+        '&:hover  ~ .css-1ahjwsl-Textfield': {
           outline: 'none',
+          border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+          transition: 'all 0.10s ease-in-out 0s',
+
+        },
+        '&:focus ~ .css-1ahjwsl-Textfield': {
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
           boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
+          transition: 'all 0.15s ease-in-out 0s',
+
         },
         zIndex: 2,
         border: '0',
@@ -1331,11 +1350,14 @@ export const aqf = makeTheme({
         ':hover': {
           border: `1px solid ${tokens.textFieldDefaultOutlineColor} !important`,
           outline: 'none',
+          transition: 'all 0.15s ease-in-out 0s',
+
         },
       },
       ':hover': {
         outline: 'none',
         border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
+        transition: 'all 0.15s ease-in-out 0s',
       },
       ':focus': {
         outline: 'none',
@@ -1344,12 +1366,15 @@ export const aqf = makeTheme({
       },
       normal: {
         border: `1px solid ${tokens.textFieldDefaultOutlineColor}`,
+        transition: 'all 0.15s ease-in-out 0s',
       },
       success: {
         border: `1px solid ${tokens.textFieldSuccessOutlineColor}`,
+        transition: 'all 0.15s ease-in-out 0s',
       },
       error: {
         border: `1px solid ${tokens.textFieldErrorOutlineColor}`,
+        transition: 'all 0.15s ease-in-out 0s',
       },
     },
   },

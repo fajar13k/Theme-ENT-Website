@@ -2104,7 +2104,7 @@ var agr = /*#__PURE__*/makeTheme({
         width: '100%',
         height: '-webkit-fill-available',
         borderRadius: "" + tokens$1.textFieldBorderRadius,
-        border: "1px solid " + tokens$1.textFieldDefaultOutlineColor + " !important",
+        border: "1px solid " + tokens$1.textFieldDefaultOutlineColor,
         backgroundColor: tokens$1.textFieldDisableBackgroundColor + " !important",
         transition: 'all 0.15s ease-in-out 0s'
       },
@@ -2115,8 +2115,8 @@ var agr = /*#__PURE__*/makeTheme({
         left: '0px',
         width: '100%',
         height: '-webkit-fill-available',
-        borderRadius: "" + tokens$1.textFieldBorderRadius,
         border: "1px solid " + tokens$1.textFieldDefaultOutlineColor,
+        borderRadius: "" + tokens$1.textFieldBorderRadius,
         transition: 'all 0.15s ease-in-out 0s'
       },
       wrappSuccess: {
@@ -2187,22 +2187,24 @@ var agr = /*#__PURE__*/makeTheme({
         backgroundColor: 'transparent !important'
       },
       normal: {
-        '&:focus': {
-          outline: 'none'
-        },
         '&::placeholder': {
           color: tokens$1.textFieldDefaultPlaceholderColor
         },
-        '&:hover ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important"
+        '&:focus': {
+          outline: 'none'
         },
-        '&:focus ~ .css-wot0oi-Textfield': {
+        '&:hover ~ .css-ib4mcl-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important",
+          transition: 'all 0.10s ease-in-out 0s'
+        },
+        '&:focus  ~ .css-ib4mcl-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor + " !important"
+          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor + " !important",
+          transition: 'all 0.15s ease-in-out 0s'
         },
-        '& .css-1cqyib9-Textfield': {
+        '& .css-ib4mcl-Textfield': {
           paddingLeft: '30px !important'
         },
         border: '0',
@@ -2211,17 +2213,22 @@ var agr = /*#__PURE__*/makeTheme({
         zIndex: '2'
       },
       success: {
-        '&:hover ~ .css-1nk40ql-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important"
+        '&::placeholder': {
+          color: tokens$1.textFieldDefaultPlaceholderColor
         },
         '&:focus': {
           outline: 'none'
         },
-        '&:focus ~ .css-1nk40ql-Textfield': {
+        '&:hover ~ .css-1hm5k8u-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important",
+          transition: 'all 0.10s ease-in-out 0s'
+        },
+        '&:focus ~ .css-1hm5k8u-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor + " !important"
+          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor + " !important",
+          transition: 'all 0.15s ease-in-out 0s'
         },
         zIndex: 2,
         border: '0',
@@ -2229,17 +2236,21 @@ var agr = /*#__PURE__*/makeTheme({
         padding: tokens$1.textFieldPaddingTopBottom + " " + tokens$1.textFieldPaddingLeftRight + " " + tokens$1.textFieldPaddingTopBottom + " " + tokens$1.textFieldPaddingLeftRight + " !important"
       },
       error: {
-        '&:hover ~ .css-19xfusu-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important"
+        '&::placeholder': {
+          color: tokens$1.textFieldDefaultPlaceholderColor
         },
         '&:focus': {
           outline: 'none'
         },
-        '&:focus ~ .css-19xfusu-Textfield': {
+        '&:hover  ~ .css-1ahjwsl-Textfield': {
           outline: 'none',
+          border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important",
+          transition: 'all 0.10s ease-in-out 0s'
+        },
+        '&:focus ~ .css-1ahjwsl-Textfield': {
           border: "1px solid " + tokens$1.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor + " !important"
+          boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor + " !important",
+          transition: 'all 0.15s ease-in-out 0s'
         },
         zIndex: 2,
         border: '0',
@@ -2261,12 +2272,14 @@ var agr = /*#__PURE__*/makeTheme({
         backgroundColor: tokens$1.textFieldDisableBackgroundColor + " !important",
         ':hover': {
           border: "1px solid " + tokens$1.textFieldDefaultOutlineColor + " !important",
-          outline: 'none'
+          outline: 'none',
+          transition: 'all 0.15s ease-in-out 0s'
         }
       },
       ':hover': {
         outline: 'none',
-        border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important"
+        border: "1px solid " + tokens$1.textFieldActiveOutlineColor + " !important",
+        transition: 'all 0.15s ease-in-out 0s'
       },
       ':focus': {
         outline: 'none',
@@ -2274,13 +2287,16 @@ var agr = /*#__PURE__*/makeTheme({
         boxShadow: "0px 0px 0px 2px " + tokens$1.textFieldActiveBorderColor
       },
       normal: {
-        border: "1px solid " + tokens$1.textFieldDefaultOutlineColor
+        border: "1px solid " + tokens$1.textFieldDefaultOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
       },
       success: {
-        border: "1px solid " + tokens$1.textFieldSuccessOutlineColor
+        border: "1px solid " + tokens$1.textFieldSuccessOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
       },
       error: {
-        border: "1px solid " + tokens$1.textFieldErrorOutlineColor
+        border: "1px solid " + tokens$1.textFieldErrorOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
       }
     }
   },
@@ -4607,7 +4623,7 @@ var agl = /*#__PURE__*/makeTheme({
               color: tokens$2.checkboxDisabledBorder + " !important"
             }
           },
-          backgroundcolor: color.grayscale30 + " !important",
+          backgroundColor: color.grayscale30 + " !important",
           borderRadius: tokens$2.checkboxBorderRadius + " !important",
           border: 'none !important'
         },
@@ -4694,7 +4710,7 @@ var agl = /*#__PURE__*/makeTheme({
         width: '100%',
         height: '-webkit-fill-available',
         borderRadius: "" + tokens$2.textFieldBorderRadius,
-        border: "1px solid " + tokens$2.textFieldDefaultOutlineColor + " !important",
+        border: "1px solid " + tokens$2.textFieldDefaultOutlineColor,
         backgroundColor: tokens$2.textFieldDisableBackgroundColor + " !important",
         transition: 'all 0.15s ease-in-out 0s'
       },
@@ -4705,8 +4721,8 @@ var agl = /*#__PURE__*/makeTheme({
         left: '0px',
         width: '100%',
         height: '-webkit-fill-available',
-        borderRadius: "" + tokens$2.textFieldBorderRadius,
         border: "1px solid " + tokens$2.textFieldDefaultOutlineColor,
+        borderRadius: "" + tokens$2.textFieldBorderRadius,
         transition: 'all 0.15s ease-in-out 0s'
       },
       wrappSuccess: {
@@ -4777,22 +4793,24 @@ var agl = /*#__PURE__*/makeTheme({
         backgroundColor: 'transparent !important'
       },
       normal: {
-        '&:focus': {
-          outline: 'none'
-        },
         '&::placeholder': {
           color: tokens$2.textFieldDefaultPlaceholderColor
         },
-        '&:hover ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
+        '&:focus': {
+          outline: 'none'
         },
-        '&:focus ~ .css-wot0oi-Textfield': {
+        '&:hover ~ .css-ib4mcl-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important",
+          transition: 'all 0.10s ease-in-out 0s'
+        },
+        '&:focus  ~ .css-ib4mcl-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important"
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important",
+          transition: 'all 0.15s ease-in-out 0s'
         },
-        '& .css-1cqyib9-Textfield': {
+        '& .css-ib4mcl-Textfield': {
           paddingLeft: '30px !important'
         },
         border: '0',
@@ -4801,17 +4819,22 @@ var agl = /*#__PURE__*/makeTheme({
         zIndex: '2'
       },
       success: {
-        '&:hover ~ .css-1nk40ql-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
+        '&::placeholder': {
+          color: tokens$2.textFieldDefaultPlaceholderColor
         },
         '&:focus': {
           outline: 'none'
         },
-        '&:focus ~ .css-1nk40ql-Textfield': {
+        '&:hover ~ .css-1hm5k8u-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important",
+          transition: 'all 0.10s ease-in-out 0s'
+        },
+        '&:focus ~ .css-1hm5k8u-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important"
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important",
+          transition: 'all 0.15s ease-in-out 0s'
         },
         zIndex: 2,
         border: '0',
@@ -4819,17 +4842,21 @@ var agl = /*#__PURE__*/makeTheme({
         padding: tokens$2.textFieldPaddingTopBottom + " " + tokens$2.textFieldPaddingLeftRight + " " + tokens$2.textFieldPaddingTopBottom + " " + tokens$2.textFieldPaddingLeftRight + " !important"
       },
       error: {
-        '&:hover ~ .css-19xfusu-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
+        '&::placeholder': {
+          color: tokens$2.textFieldDefaultPlaceholderColor
         },
         '&:focus': {
           outline: 'none'
         },
-        '&:focus ~ .css-19xfusu-Textfield': {
+        '&:hover  ~ .css-1ahjwsl-Textfield': {
           outline: 'none',
+          border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important",
+          transition: 'all 0.10s ease-in-out 0s'
+        },
+        '&:focus ~ .css-1ahjwsl-Textfield': {
           border: "1px solid " + tokens$2.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important"
+          boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor + " !important",
+          transition: 'all 0.15s ease-in-out 0s'
         },
         zIndex: 2,
         border: '0',
@@ -4851,12 +4878,14 @@ var agl = /*#__PURE__*/makeTheme({
         backgroundColor: tokens$2.textFieldDisableBackgroundColor + " !important",
         ':hover': {
           border: "1px solid " + tokens$2.textFieldDefaultOutlineColor + " !important",
-          outline: 'none'
+          outline: 'none',
+          transition: 'all 0.15s ease-in-out 0s'
         }
       },
       ':hover': {
         outline: 'none',
-        border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important"
+        border: "1px solid " + tokens$2.textFieldActiveOutlineColor + " !important",
+        transition: 'all 0.15s ease-in-out 0s'
       },
       ':focus': {
         outline: 'none',
@@ -4864,13 +4893,16 @@ var agl = /*#__PURE__*/makeTheme({
         boxShadow: "0px 0px 0px 2px " + tokens$2.textFieldActiveBorderColor
       },
       normal: {
-        border: "1px solid " + tokens$2.textFieldDefaultOutlineColor
+        border: "1px solid " + tokens$2.textFieldDefaultOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
       },
       success: {
-        border: "1px solid " + tokens$2.textFieldSuccessOutlineColor
+        border: "1px solid " + tokens$2.textFieldSuccessOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
       },
       error: {
-        border: "1px solid " + tokens$2.textFieldErrorOutlineColor
+        border: "1px solid " + tokens$2.textFieldErrorOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
       }
     }
   },
@@ -7240,16 +7272,7 @@ var aqf = /*#__PURE__*/makeTheme({
         alignItems: 'center !important',
         height: 'none !important',
         backgroundColor: "" + tokens$3.textFieldDefaultBackgroundColor,
-        marginBottom: '30px',
-        '&:hover ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
-        },
-        '&:focus ~ .css-wot0oi-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important"
-        }
+        marginBottom: '30px'
       },
       containPrefLeft: {
         display: 'flex',
@@ -7293,7 +7316,7 @@ var aqf = /*#__PURE__*/makeTheme({
         width: '100%',
         height: '-webkit-fill-available',
         borderRadius: "" + tokens$3.textFieldBorderRadius,
-        border: "1px solid " + tokens$3.textFieldDefaultOutlineColor + " !important",
+        border: "1px solid " + tokens$3.textFieldDefaultOutlineColor,
         backgroundColor: tokens$3.textFieldDisableBackgroundColor + " !important",
         transition: 'all 0.15s ease-in-out 0s'
       },
@@ -7304,8 +7327,8 @@ var aqf = /*#__PURE__*/makeTheme({
         left: '0px',
         width: '100%',
         height: '-webkit-fill-available',
-        borderRadius: "" + tokens$3.textFieldBorderRadius,
         border: "1px solid " + tokens$3.textFieldDefaultOutlineColor,
+        borderRadius: "" + tokens$3.textFieldBorderRadius,
         transition: 'all 0.15s ease-in-out 0s'
       },
       wrappSuccess: {
@@ -7376,13 +7399,24 @@ var aqf = /*#__PURE__*/makeTheme({
         backgroundColor: 'transparent !important'
       },
       normal: {
-        '&:focus': {
-          outline: 'none'
-        },
         '&::placeholder': {
           color: tokens$3.textFieldDefaultPlaceholderColor
         },
-        '& .css-1cqyib9-Textfield': {
+        '&:focus': {
+          outline: 'none'
+        },
+        '&:hover ~ .css-ib4mcl-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important",
+          transition: 'all 0.10s ease-in-out 0s'
+        },
+        '&:focus  ~ .css-ib4mcl-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important",
+          transition: 'all 0.15s ease-in-out 0s'
+        },
+        '& .css-ib4mcl-Textfield': {
           paddingLeft: '30px !important'
         },
         border: '0',
@@ -7391,17 +7425,22 @@ var aqf = /*#__PURE__*/makeTheme({
         zIndex: '2'
       },
       success: {
-        '&:hover ~ .css-1nk40ql-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
+        '&::placeholder': {
+          color: tokens$3.textFieldDefaultPlaceholderColor
         },
         '&:focus': {
           outline: 'none'
         },
-        '&:focus ~ .css-1nk40ql-Textfield': {
+        '&:hover ~ .css-1hm5k8u-Textfield': {
+          outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important",
+          transition: 'all 0.10s ease-in-out 0s'
+        },
+        '&:focus ~ .css-1hm5k8u-Textfield': {
           outline: 'none',
           border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important"
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important",
+          transition: 'all 0.15s ease-in-out 0s'
         },
         zIndex: 2,
         border: '0',
@@ -7409,17 +7448,21 @@ var aqf = /*#__PURE__*/makeTheme({
         padding: tokens$3.textFieldPaddingTopBottom + " " + tokens$3.textFieldPaddingLeftRight + " " + tokens$3.textFieldPaddingTopBottom + " " + tokens$3.textFieldPaddingLeftRight + " !important"
       },
       error: {
-        '&:hover ~ .css-19xfusu-Textfield': {
-          outline: 'none',
-          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
+        '&::placeholder': {
+          color: tokens$3.textFieldDefaultPlaceholderColor
         },
         '&:focus': {
           outline: 'none'
         },
-        '&:focus ~ .css-19xfusu-Textfield': {
+        '&:hover  ~ .css-1ahjwsl-Textfield': {
           outline: 'none',
+          border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important",
+          transition: 'all 0.10s ease-in-out 0s'
+        },
+        '&:focus ~ .css-1ahjwsl-Textfield': {
           border: "1px solid " + tokens$3.textFieldActiveOutlineColor,
-          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important"
+          boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor + " !important",
+          transition: 'all 0.15s ease-in-out 0s'
         },
         zIndex: 2,
         border: '0',
@@ -7441,12 +7484,14 @@ var aqf = /*#__PURE__*/makeTheme({
         backgroundColor: tokens$3.textFieldDisableBackgroundColor + " !important",
         ':hover': {
           border: "1px solid " + tokens$3.textFieldDefaultOutlineColor + " !important",
-          outline: 'none'
+          outline: 'none',
+          transition: 'all 0.15s ease-in-out 0s'
         }
       },
       ':hover': {
         outline: 'none',
-        border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important"
+        border: "1px solid " + tokens$3.textFieldActiveOutlineColor + " !important",
+        transition: 'all 0.15s ease-in-out 0s'
       },
       ':focus': {
         outline: 'none',
@@ -7454,13 +7499,16 @@ var aqf = /*#__PURE__*/makeTheme({
         boxShadow: "0px 0px 0px 2px " + tokens$3.textFieldActiveBorderColor
       },
       normal: {
-        border: "1px solid " + tokens$3.textFieldDefaultOutlineColor
+        border: "1px solid " + tokens$3.textFieldDefaultOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
       },
       success: {
-        border: "1px solid " + tokens$3.textFieldSuccessOutlineColor
+        border: "1px solid " + tokens$3.textFieldSuccessOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
       },
       error: {
-        border: "1px solid " + tokens$3.textFieldErrorOutlineColor
+        border: "1px solid " + tokens$3.textFieldErrorOutlineColor,
+        transition: 'all 0.15s ease-in-out 0s'
       }
     }
   },
