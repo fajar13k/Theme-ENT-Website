@@ -91,7 +91,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Fri, 07 Oct 2022 12:33:35 GMT
+ * Generated on Tue, 11 Oct 2022 09:25:29 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -861,7 +861,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Fri, 07 Oct 2022 12:33:35 GMT
+ * Generated on Tue, 11 Oct 2022 09:25:29 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -3467,7 +3467,7 @@ var agr = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Fri, 07 Oct 2022 12:33:35 GMT
+ * Generated on Tue, 11 Oct 2022 09:25:29 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -6073,7 +6073,7 @@ var agl = /*#__PURE__*/makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Fri, 07 Oct 2022 12:33:35 GMT
+ * Generated on Tue, 11 Oct 2022 09:25:29 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
