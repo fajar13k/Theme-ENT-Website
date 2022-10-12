@@ -608,7 +608,7 @@ var tokens = {
 var text = {
   body: {
     lg: {
-      reguler: {
+      regular: {
         fontSize: "" + tokens.bodyLargeRegularFontSize,
         lineHeight: "" + tokens.bodyLargeRegularLineHeight,
         fontWeight: 400,
@@ -630,33 +630,33 @@ var text = {
         fontSize: "" + tokens.bodyLargeItalicFontSize,
         lineHeight: "" + tokens.bodyLargeItalicLineHeight,
         fontWeight: 400,
-        fontStyle: "" + tokens.bodyLargeItalicTextDecoration,
+        fontStyle: 'italic',
         fontFamily: "" + tokens.bodyLargeItalicFontFamily
       },
       underline: {
         fontSize: "" + tokens.bodyLargeUnderlineFontSize,
         lineHeight: "" + tokens.bodyLargeUnderlineLineHeight,
         fontWeight: 400,
-        fontStyle: "" + tokens.bodyLargeUnderlineTextDecoration,
+        textDecoration: 'underline',
         fontFamily: "" + tokens.bodyLargeUnderlineFontFamily
       },
       underline_semibold: {
         fontSize: "" + tokens.bodyLargeUnderlineSemiboldFontSize,
         lineHeight: "" + tokens.bodyLargeUnderlineSemiboldLineHeight,
         fontWeight: 600,
-        fontStyle: "" + tokens.bodyLargeUnderlineSemiboldTextDecoration,
+        textDecoration: 'underline',
         fontFamily: "" + tokens.bodyLargeUnderlineSemiboldFontFamily
       },
       underline_bold: {
         fontSize: "" + tokens.bodyLargeUnderlineBoldFontSize,
         lineHeight: "" + tokens.bodyLargeUnderlineBoldLineHeight,
         fontWeight: 700,
-        fontStyle: "" + tokens.bodyLargeUnderlineBoldTextDecoration,
+        textDecoration: "" + tokens.bodyLargeUnderlineBoldTextDecoration,
         fontFamily: "" + tokens.bodyLargeUnderlineBoldFontFamily
       }
     },
     sm: {
-      reguler: {
+      regular: {
         fontSize: "" + tokens.bodySmallRegularFontSize,
         lineHeight: "" + tokens.bodySmallRegularLineHeight,
         fontWeight: 400,
@@ -678,35 +678,35 @@ var text = {
         fontSize: "" + tokens.bodySmallItalicFontSize,
         lineHeight: "" + tokens.bodySmallItalicLineHeight,
         fontWeight: 400,
-        fontStyle: "" + tokens.bodySmallItalicTextDecoration,
+        fontStyle: 'italic',
         fontFamily: "" + tokens.bodySmallItalicFontFamily
       },
       underline: {
         fontSize: "" + tokens.bodySmallUnderlineFontSize,
         lineHeight: "" + tokens.bodySmallUnderlineLineHeight,
         fontWeight: 400,
-        fontStyle: "" + tokens.bodySmallUnderlineTextDecoration,
+        textDecoration: 'underline',
         fontFamily: "" + tokens.bodySmallUnderlineFontFamily
       },
       underline_semibold: {
         fontSize: "" + tokens.bodySmallUnderlineSemiboldFontSize,
         lineHeight: "" + tokens.bodySmallUnderlineSemiboldLineHeight,
         fontWeight: 600,
-        fontStyle: "" + tokens.bodySmallUnderlineSemiboldTextDecoration,
+        textDecoration: 'underline',
         fontFamily: "" + tokens.bodySmallUnderlineSemiboldFontFamily
       },
       underline_bold: {
         fontSize: "" + tokens.bodySmallUnderlineBoldFontSize,
         lineHeight: "" + tokens.bodySmallUnderlineBoldLineHeight,
         fontWeight: 700,
-        fontStyle: "" + tokens.bodySmallUnderlineBoldTextDecoration,
+        textDecoration: 'underline',
         fontFamily: "" + tokens.bodySmallUnderlineBoldFontFamily
       }
     }
   },
   caption: {
     lg: {
-      reguler: {
+      regular: {
         fontSize: "" + tokens.captionLargeRegularFontSize,
         lineHeight: "" + tokens.captionLargeRegularLineHeight,
         fontWeight: 400,
@@ -728,33 +728,33 @@ var text = {
         fontSize: "" + tokens.captionLargeItalicFontSize,
         lineHeight: "" + tokens.captionLargeItalicLineHeight,
         fontWeight: 400,
-        fontStyle: "" + tokens.captionLargeItalicTextDecoration,
+        fontStyle: 'italic',
         fontFamily: "" + tokens.captionLargeItalicFontFamily
       },
       underline: {
         fontSize: "" + tokens.captionLargeUnderlineFontSize,
         lineHeight: "" + tokens.captionLargeUnderlineLineHeight,
         fontWeight: 400,
-        fontStyle: "" + tokens.captionLargeUnderlineTextDecoration,
+        textDecoration: 'italic',
         fontFamily: "" + tokens.captionLargeUnderlineFontFamily
       },
       underline_semibold: {
         fontSize: "" + tokens.captionLargeUnderlineSemiboldFontSize,
         lineHeight: "" + tokens.captionLargeUnderlineSemiboldLineHeight,
         fontWeight: 600,
-        fontStyle: "" + tokens.captionLargeUnderlineSemiboldTextDecoration,
+        textDecoration: 'underline',
         fontFamily: "" + tokens.captionLargeUnderlineSemiboldFontFamily
       },
       underline_bold: {
         fontSize: "" + tokens.captionLargeUnderlineBoldFontSize,
         lineHeight: "" + tokens.captionLargeUnderlineBoldLineHeight,
         fontWeight: 700,
-        fontStyle: "" + tokens.captionLargeUnderlineBoldTextDecoration,
+        textDecoration: 'underline',
         fontFamily: "" + tokens.captionLargeUnderlineBoldFontFamily
       }
     },
     sm: {
-      reguler: {
+      regular: {
         fontSize: "" + tokens.captionSmallRegularFontSize,
         lineHeight: "" + tokens.captionSmallRegularLineHeight,
         fontWeight: 400,
@@ -776,28 +776,28 @@ var text = {
         fontSize: "" + tokens.captionSmallItalicFontSize,
         lineHeight: "" + tokens.captionSmallItalicLineHeight,
         fontWeight: 400,
-        fontStyle: "" + tokens.captionSmallItalicTextDecoration,
+        fontStyle: 'italic',
         fontFamily: "" + tokens.captionSmallItalicFontFamily
       },
       underline: {
         fontSize: "" + tokens.captionSmallUnderlineFontSize,
         lineHeight: "" + tokens.captionSmallUnderlineLineHeight,
         fontWeight: 400,
-        fontStyle: "" + tokens.captionSmallUnderlineTextDecoration,
+        textDecoration: 'underilne',
         fontFamily: "" + tokens.captionSmallUnderlineFontFamily
       },
       underline_semibold: {
         fontSize: "" + tokens.captionSmallUnderlineSemiboldFontSize,
         lineHeight: "" + tokens.captionSmallUnderlineSemiboldLineHeight,
         fontWeight: 600,
-        fontStyle: "" + tokens.captionSmallUnderlineSemiboldTextDecoration,
+        textDecoration: 'underline',
         fontFamily: "" + tokens.captionSmallUnderlineSemiboldFontFamily
       },
       underline_bold: {
         fontSize: "" + tokens.captionSmallUnderlineBoldFontSize,
         lineHeight: "" + tokens.captionSmallUnderlineBoldLineHeight,
         fontWeight: 700,
-        fontStyle: "" + tokens.captionSmallUnderlineBoldTextDecoration,
+        textDecoration: 'underline',
         fontFamily: "" + tokens.captionSmallUnderlineBoldFontFamily
       }
     }
@@ -864,17 +864,17 @@ function _extends() {
  * Generated on Tue, 11 Oct 2022 09:25:29 GMT
  */
 var tokens$1 = {
-  primary25: '#f9fbf9',
-  primary50: '#f2f8f3',
-  primary100: '#e6f1e8',
-  primary200: '#cae2cf',
-  primary300: '#aad2b2',
-  primary400: '#82c190',
-  primary500: '#47af64',
-  primary600: '#3f9c59',
-  primary700: '#36874d',
-  primary800: '#2c6e3f',
-  primary900: '#1f4e2c',
+  primary25: '#fffaf8',
+  primary50: '#fff6f1',
+  primary100: '#ffeee4',
+  primary200: '#ffdbc5',
+  primary300: '#ffc8a1',
+  primary400: '#ffb272',
+  primary500: '#ff9900',
+  primary600: '#e48800',
+  primary700: '#c57600',
+  primary800: '#a16000',
+  primary900: '#724400',
   secondary25: '#f1f2f2',
   secondary50: '#dbdede',
   secondary100: '#a6b3b7',
@@ -947,31 +947,31 @@ var tokens$1 = {
   buttonsSmPaddingLeftRight: '12px',
   buttonsSmPaddingTopBottom: '8px',
   buttonsSmIconSize: '12px',
-  buttonsPrimaryDefaultBackgroundColor: '#47af64',
+  buttonsPrimaryDefaultBackgroundColor: '#ff9900',
   buttonsPrimaryDefaultColor: '#ffffff',
-  buttonsPrimaryHoverBackgroundColor: '#3f9c59',
+  buttonsPrimaryHoverBackgroundColor: '#e48800',
   buttonsPrimaryHoverColor: '#ffffff',
-  buttonsPrimaryActiveBackgroundColor: '#36874d',
+  buttonsPrimaryActiveBackgroundColor: '#c57600',
   buttonsPrimaryActiveColor: '#ffffff',
-  buttonsPrimaryFocusBackgroundColors: '#47af64',
+  buttonsPrimaryFocusBackgroundColors: '#ff9900',
   buttonsPrimaryFocusColor: '#ffffff',
-  buttonsPrimaryFocusBorderColors: '#aad2b2',
+  buttonsPrimaryFocusBorderColors: '#ffc8a1',
   buttonsPrimaryDisabledBackgroundColor: '#b1b1b1',
   buttonsPrimaryDisabledColor: '#616161',
   buttonsPrimaryBorderWidth: '0px',
-  buttonsSecondaryDefaultBackgroundColor: '#f2f8f3',
-  buttonsSecondaryDefaultColor: '#47af64',
-  buttonsSecondaryHoverBackgroundColor: '#e6f1e8',
-  buttonsSecondaryHoverColor: '#3f9c59',
-  buttonsSecondaryActiveBackgroundColor: '#cae2cf',
-  buttonsSecondaryActiveColor: '#3f9c59',
-  buttonsSecondaryFocusBackgroundColor: '#f2f8f3',
-  buttonsSecondaryFocusColor: '#47af64',
-  buttonsSecondaryFocusBorderColors: '#82c190',
+  buttonsSecondaryDefaultBackgroundColor: '#fff6f1',
+  buttonsSecondaryDefaultColor: '#ff9900',
+  buttonsSecondaryHoverBackgroundColor: '#ffeee4',
+  buttonsSecondaryHoverColor: '#e48800',
+  buttonsSecondaryActiveBackgroundColor: '#ffdbc5',
+  buttonsSecondaryActiveColor: '#e48800',
+  buttonsSecondaryFocusBackgroundColor: '#fff6f1',
+  buttonsSecondaryFocusColor: '#ff9900',
+  buttonsSecondaryFocusBorderColors: '#ff9900',
   buttonsSecondaryDisabledBackgroundColor: '#f3f3f3',
   buttonsSecondaryDisabledColor: '#cecece',
   buttonsSecondaryBorderWidth: '0px',
-  buttonsBorderRadius: '16px',
+  buttonsBorderRadius: '4px',
   buttonsMdPaddingLeftRight: '12px',
   buttonsMdPaddingTopBottom: '8px',
   buttonsMdIconSize: '16px',
@@ -979,12 +979,12 @@ var tokens$1 = {
   checkboxDefaultBorder: '#cecece',
   checkboxDisabledBackgroundColor: '#e8e8e8',
   checkboxDisabledBorder: '#b1b1b1',
-  checkboxActiveDisableBackgroundColor: '#aad2b2',
+  checkboxActiveDisableBackgroundColor: '#ffc8a1',
   checkboxActiveDisableColor: '#ffffff',
-  checkboxActiveDisableBorder: '#47af64',
-  checkboxActiveBackgroundColor: '#47af64',
+  checkboxActiveDisableBorder: '#ff9900',
+  checkboxActiveBackgroundColor: '#ff9900',
   checkboxActiveColor: '#ffffff',
-  checkboxActiveBorder: '#3f9c59',
+  checkboxActiveBorder: '#e48800',
   checkboxBorderRadius: '4px',
   checkboxBorderWidth: '1px',
   checkboxTextEnable: '#041e29',
@@ -995,21 +995,21 @@ var tokens$1 = {
   radioDisableBackgroundColor: '#e8e8e8',
   radioDisableBorder: '#b1b1b1',
   radioActiveBackgroundColor: '#ffffff',
-  radioActiveBorder: '#47af64',
+  radioActiveBorder: '#ff9900',
   radioActiveDisableBackgroundColor: '#ffffff',
-  radioActiveDisableBorder: '#aad2b2',
+  radioActiveDisableBorder: '#ffc8a1',
   radioTextEnable: '#041e29',
   radioTextDisable: '#8f8f8f',
-  anchorDefaultColor: '#47af64',
-  anchorHoverColor: '#3f9c59',
-  anchorActiveColor: '#36874d',
-  anchorFocusColor: '#47af64',
+  anchorDefaultColor: '#ff9900',
+  anchorHoverColor: '#e48800',
+  anchorActiveColor: '#c57600',
+  anchorFocusColor: '#ff9900',
   anchorDisableColor: '#b1b1b1',
   anchorLgIconSize: '20px',
   anchorMdIconSize: '16px',
   anchorSmIconSize: '12px',
-  switchActiveBackgroundColor: '#47af64',
-  switchActiveDisableBackgroundColor: '#cae2cf',
+  switchActiveBackgroundColor: '#ff9900',
+  switchActiveDisableBackgroundColor: '#ffdbc5',
   switchNonactiveBackgroundColor: '#b1b1b1',
   switchNonactiveDisableBackgroundColor: '#e8e8e8',
   avatarLgSize: '64px',
@@ -1023,9 +1023,9 @@ var tokens$1 = {
   textFieldDefaultIconColor: '#3d3d3d',
   textFieldDefaultPlaceholderColor: '#8f8f8f',
   textFieldDefaultLabelColor: '#3d3d3d',
-  textFieldActiveOutlineColor: '#47af64',
+  textFieldActiveOutlineColor: '#ff9900',
   textFieldActivePlaceholderColor: '#3d3d3d',
-  textFieldActiveBorderColor: '#cae2cf',
+  textFieldActiveBorderColor: '#ffdbc5',
   textFieldErrorOutlineColor: '#f04438',
   textFieldSuccessOutlineColor: '#12b76a',
   textFieldDisableBackgroundColor: '#e8e8e8',
@@ -1036,10 +1036,10 @@ var tokens$1 = {
   textFieldBorderRadius: '4px',
   textFieldPaddingLeftRight: '12px',
   textFieldPaddingTopBottom: '12px',
-  badgePrimaryBackgroundColor: '#47af64',
+  badgePrimaryBackgroundColor: '#ff9900',
   badgePrimaryColor: '#ffffff',
-  badgeSecondaryBackgroundColor: '#e6f1e8',
-  badgeSecondaryColor: '#47af64',
+  badgeSecondaryBackgroundColor: '#ffeee4',
+  badgeSecondaryColor: '#ff9900',
   badgeErrorBackgroundColor: '#fce6e5',
   badgeErrorColor: '#f04438',
   badgeInfoBackgroundColor: '#e0f2fe',
@@ -1052,7 +1052,7 @@ var tokens$1 = {
 };
 
 var _formSideCenter, _containerLoginCen, _formSideRight, _formSideLeft, _containerLogin;
-var agr = /*#__PURE__*/makeTheme({
+var agl = /*#__PURE__*/makeTheme({
   //...base,
   colors: {
     primary25: tokens$1.primary25,
@@ -2180,7 +2180,7 @@ var agr = /*#__PURE__*/makeTheme({
       wrapErrorMessage: /*#__PURE__*/_extends({
         marginTop: '-25px',
         color: "" + tokens$1.textFieldErrorOutlineColor
-      }, text.caption.lg.reguler),
+      }, text.caption.lg.regular),
       '&:disabled': {
         zIndex: 2,
         border: 0,
@@ -2692,42 +2692,42 @@ var agr = /*#__PURE__*/makeTheme({
       width: 8,
       height: 8,
       borderRadius: 8 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     smallWithBorder: /*#__PURE__*/_extends({
       border: '1px solid white',
       height: 10,
       borderRadius: 10 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithBorder: /*#__PURE__*/_extends({
       border: '2px solid white'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     smallWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 21,
       borderRadius: 24,
       paddingX: '7px'
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 28,
       borderRadius: tokens$1.badgeBorderRadius,
       paddingX: '14px'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     large: /*#__PURE__*/_extends({
       width: 12,
       height: 12,
       borderRadius: 12 / 2
-    }, text.body.lg.reguler)
+    }, text.body.lg.regular)
   },
   text: {
     "default": {
       fontFamily: 'Nunito Sans, sans-serif',
       color: tokens$1.tertiary800,
       // Body
-      lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
-      lg_reguler_respon: /*#__PURE__*/_extends({}, text.body.lg.reguler, {
+      lg_regular: /*#__PURE__*/_extends({}, text.body.lg.regular),
+      lg_regular_respon: /*#__PURE__*/_extends({}, text.body.lg.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '16px',
           lineHeight: '24px'
@@ -2775,8 +2775,8 @@ var agr = /*#__PURE__*/makeTheme({
           lineHeight: '24px'
         }
       }),
-      sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
-      sm_reguler_respon: /*#__PURE__*/_extends({}, text.body.sm.reguler, {
+      sm_regular: /*#__PURE__*/_extends({}, text.body.sm.regular),
+      sm_regular_respon: /*#__PURE__*/_extends({}, text.body.sm.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '14px',
           lineHeight: '21px'
@@ -2826,8 +2826,8 @@ var agr = /*#__PURE__*/makeTheme({
       }),
       // Caption
       sizes: {
-        lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
-        lg_reguler_respon: /*#__PURE__*/_extends({}, text.caption.lg.reguler, {
+        lg_regular: /*#__PURE__*/_extends({}, text.caption.lg.regular),
+        lg_regular_respon: /*#__PURE__*/_extends({}, text.caption.lg.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '12px',
             lineHeight: '18px'
@@ -2875,8 +2875,8 @@ var agr = /*#__PURE__*/makeTheme({
             lineHeight: '18px'
           }
         }),
-        sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
-        sm_reguler_respon: /*#__PURE__*/_extends({}, text.caption.sm.reguler, {
+        sm_regular: /*#__PURE__*/_extends({}, text.caption.sm.regular),
+        sm_regular_respon: /*#__PURE__*/_extends({}, text.caption.sm.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '10px',
             lineHeight: '18px'
@@ -3470,17 +3470,17 @@ var agr = /*#__PURE__*/makeTheme({
  * Generated on Tue, 11 Oct 2022 09:25:29 GMT
  */
 var tokens$2 = {
-  primary25: '#fffaf8',
-  primary50: '#fff6f1',
-  primary100: '#ffeee4',
-  primary200: '#ffdbc5',
-  primary300: '#ffc8a1',
-  primary400: '#ffb272',
-  primary500: '#ff9900',
-  primary600: '#e48800',
-  primary700: '#c57600',
-  primary800: '#a16000',
-  primary900: '#724400',
+  primary25: '#f8fafd',
+  primary50: '#f2f6fb',
+  primary100: '#e4eef7',
+  primary200: '#c6dcf0',
+  primary300: '#a3c9e8',
+  primary400: '#73b2df',
+  primary500: '#229bd8',
+  primary600: '#1e8ac1',
+  primary700: '#1a78a7',
+  primary800: '#156288',
+  primary900: '#0f4560',
   secondary25: '#f1f2f2',
   secondary50: '#dbdede',
   secondary100: '#a6b3b7',
@@ -3553,31 +3553,31 @@ var tokens$2 = {
   buttonsSmPaddingLeftRight: '12px',
   buttonsSmPaddingTopBottom: '8px',
   buttonsSmIconSize: '12px',
-  buttonsPrimaryDefaultBackgroundColor: '#ff9900',
+  buttonsPrimaryDefaultBackgroundColor: '#229bd8',
   buttonsPrimaryDefaultColor: '#ffffff',
-  buttonsPrimaryHoverBackgroundColor: '#e48800',
+  buttonsPrimaryHoverBackgroundColor: '#1e8ac1',
   buttonsPrimaryHoverColor: '#ffffff',
-  buttonsPrimaryActiveBackgroundColor: '#c57600',
+  buttonsPrimaryActiveBackgroundColor: '#1a78a7',
   buttonsPrimaryActiveColor: '#ffffff',
-  buttonsPrimaryFocusBackgroundColors: '#ff9900',
+  buttonsPrimaryFocusBackgroundColors: '#229bd8',
   buttonsPrimaryFocusColor: '#ffffff',
-  buttonsPrimaryFocusBorderColors: '#ffc8a1',
+  buttonsPrimaryFocusBorderColors: '#a3c9e8',
   buttonsPrimaryDisabledBackgroundColor: '#b1b1b1',
   buttonsPrimaryDisabledColor: '#616161',
   buttonsPrimaryBorderWidth: '0px',
-  buttonsSecondaryDefaultBackgroundColor: '#fff6f1',
-  buttonsSecondaryDefaultColor: '#ff9900',
-  buttonsSecondaryHoverBackgroundColor: '#ffeee4',
-  buttonsSecondaryHoverColor: '#e48800',
-  buttonsSecondaryActiveBackgroundColor: '#ffdbc5',
-  buttonsSecondaryActiveColor: '#e48800',
-  buttonsSecondaryFocusBackgroundColor: '#fff6f1',
-  buttonsSecondaryFocusColor: '#ff9900',
-  buttonsSecondaryFocusBorderColors: '#ff9900',
+  buttonsSecondaryDefaultBackgroundColor: '#f2f6fb',
+  buttonsSecondaryDefaultColor: '#229bd8',
+  buttonsSecondaryHoverBackgroundColor: '#e4eef7',
+  buttonsSecondaryHoverColor: '#1e8ac1',
+  buttonsSecondaryActiveBackgroundColor: '#c6dcf0',
+  buttonsSecondaryActiveColor: '#1e8ac1',
+  buttonsSecondaryFocusBackgroundColor: '#f2f6fb',
+  buttonsSecondaryFocusColor: '#229bd8',
+  buttonsSecondaryFocusBorderColors: '#229bd8',
   buttonsSecondaryDisabledBackgroundColor: '#f3f3f3',
   buttonsSecondaryDisabledColor: '#cecece',
   buttonsSecondaryBorderWidth: '0px',
-  buttonsBorderRadius: '4px',
+  buttonsBorderRadius: '500px',
   buttonsMdPaddingLeftRight: '12px',
   buttonsMdPaddingTopBottom: '8px',
   buttonsMdIconSize: '16px',
@@ -3585,12 +3585,12 @@ var tokens$2 = {
   checkboxDefaultBorder: '#cecece',
   checkboxDisabledBackgroundColor: '#e8e8e8',
   checkboxDisabledBorder: '#b1b1b1',
-  checkboxActiveDisableBackgroundColor: '#ffc8a1',
+  checkboxActiveDisableBackgroundColor: '#a3c9e8',
   checkboxActiveDisableColor: '#ffffff',
-  checkboxActiveDisableBorder: '#ff9900',
-  checkboxActiveBackgroundColor: '#ff9900',
+  checkboxActiveDisableBorder: '#229bd8',
+  checkboxActiveBackgroundColor: '#229bd8',
   checkboxActiveColor: '#ffffff',
-  checkboxActiveBorder: '#e48800',
+  checkboxActiveBorder: '#1e8ac1',
   checkboxBorderRadius: '4px',
   checkboxBorderWidth: '1px',
   checkboxTextEnable: '#041e29',
@@ -3601,21 +3601,21 @@ var tokens$2 = {
   radioDisableBackgroundColor: '#e8e8e8',
   radioDisableBorder: '#b1b1b1',
   radioActiveBackgroundColor: '#ffffff',
-  radioActiveBorder: '#ff9900',
+  radioActiveBorder: '#229bd8',
   radioActiveDisableBackgroundColor: '#ffffff',
-  radioActiveDisableBorder: '#ffc8a1',
+  radioActiveDisableBorder: '#a3c9e8',
   radioTextEnable: '#041e29',
   radioTextDisable: '#8f8f8f',
-  anchorDefaultColor: '#ff9900',
-  anchorHoverColor: '#e48800',
-  anchorActiveColor: '#c57600',
-  anchorFocusColor: '#ff9900',
+  anchorDefaultColor: '#229bd8',
+  anchorHoverColor: '#1e8ac1',
+  anchorActiveColor: '#1a78a7',
+  anchorFocusColor: '#229bd8',
   anchorDisableColor: '#b1b1b1',
   anchorLgIconSize: '20px',
   anchorMdIconSize: '16px',
   anchorSmIconSize: '12px',
-  switchActiveBackgroundColor: '#ff9900',
-  switchActiveDisableBackgroundColor: '#ffdbc5',
+  switchActiveBackgroundColor: '#229bd8',
+  switchActiveDisableBackgroundColor: '#c6dcf0',
   switchNonactiveBackgroundColor: '#b1b1b1',
   switchNonactiveDisableBackgroundColor: '#e8e8e8',
   avatarLgSize: '64px',
@@ -3629,9 +3629,9 @@ var tokens$2 = {
   textFieldDefaultIconColor: '#3d3d3d',
   textFieldDefaultPlaceholderColor: '#8f8f8f',
   textFieldDefaultLabelColor: '#3d3d3d',
-  textFieldActiveOutlineColor: '#ff9900',
+  textFieldActiveOutlineColor: '#229bd8',
   textFieldActivePlaceholderColor: '#3d3d3d',
-  textFieldActiveBorderColor: '#ffdbc5',
+  textFieldActiveBorderColor: '#c6dcf0',
   textFieldErrorOutlineColor: '#f04438',
   textFieldSuccessOutlineColor: '#12b76a',
   textFieldDisableBackgroundColor: '#e8e8e8',
@@ -3642,10 +3642,10 @@ var tokens$2 = {
   textFieldBorderRadius: '4px',
   textFieldPaddingLeftRight: '12px',
   textFieldPaddingTopBottom: '12px',
-  badgePrimaryBackgroundColor: '#ff9900',
+  badgePrimaryBackgroundColor: '#229bd8',
   badgePrimaryColor: '#ffffff',
-  badgeSecondaryBackgroundColor: '#ffeee4',
-  badgeSecondaryColor: '#ff9900',
+  badgeSecondaryBackgroundColor: '#e4eef7',
+  badgeSecondaryColor: '#229bd8',
   badgeErrorBackgroundColor: '#fce6e5',
   badgeErrorColor: '#f04438',
   badgeInfoBackgroundColor: '#e0f2fe',
@@ -3658,7 +3658,7 @@ var tokens$2 = {
 };
 
 var _formSideCenter$1, _containerLoginCen$1, _formSideRight$1, _formSideLeft$1, _containerLogin$1;
-var agl = /*#__PURE__*/makeTheme({
+var aqf = /*#__PURE__*/makeTheme({
   //...base,
   colors: {
     primary25: tokens$2.primary25,
@@ -4786,7 +4786,7 @@ var agl = /*#__PURE__*/makeTheme({
       wrapErrorMessage: /*#__PURE__*/_extends({
         marginTop: '-25px',
         color: "" + tokens$2.textFieldErrorOutlineColor
-      }, text.caption.lg.reguler),
+      }, text.caption.lg.regular),
       '&:disabled': {
         zIndex: 2,
         border: 0,
@@ -5298,42 +5298,42 @@ var agl = /*#__PURE__*/makeTheme({
       width: 8,
       height: 8,
       borderRadius: 8 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     smallWithBorder: /*#__PURE__*/_extends({
       border: '1px solid white',
       height: 10,
       borderRadius: 10 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithBorder: /*#__PURE__*/_extends({
       border: '2px solid white'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     smallWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 21,
       borderRadius: 24,
       paddingX: '7px'
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 28,
       borderRadius: tokens$2.badgeBorderRadius,
       paddingX: '14px'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     large: /*#__PURE__*/_extends({
       width: 12,
       height: 12,
       borderRadius: 12 / 2
-    }, text.body.lg.reguler)
+    }, text.body.lg.regular)
   },
   text: {
     "default": {
       fontFamily: 'Nunito Sans, sans-serif',
       color: tokens$2.tertiary800,
       // Body
-      lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
-      lg_reguler_respon: /*#__PURE__*/_extends({}, text.body.lg.reguler, {
+      lg_regular: /*#__PURE__*/_extends({}, text.body.lg.regular),
+      lg_regular_respon: /*#__PURE__*/_extends({}, text.body.lg.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '16px',
           lineHeight: '24px'
@@ -5381,8 +5381,8 @@ var agl = /*#__PURE__*/makeTheme({
           lineHeight: '24px'
         }
       }),
-      sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
-      sm_reguler_respon: /*#__PURE__*/_extends({}, text.body.sm.reguler, {
+      sm_regular: /*#__PURE__*/_extends({}, text.body.sm.regular),
+      sm_regular_respon: /*#__PURE__*/_extends({}, text.body.sm.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '14px',
           lineHeight: '21px'
@@ -5432,8 +5432,8 @@ var agl = /*#__PURE__*/makeTheme({
       }),
       // Caption
       sizes: {
-        lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
-        lg_reguler_respon: /*#__PURE__*/_extends({}, text.caption.lg.reguler, {
+        lg_regular: /*#__PURE__*/_extends({}, text.caption.lg.regular),
+        lg_regular_respon: /*#__PURE__*/_extends({}, text.caption.lg.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '12px',
             lineHeight: '18px'
@@ -5481,8 +5481,8 @@ var agl = /*#__PURE__*/makeTheme({
             lineHeight: '18px'
           }
         }),
-        sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
-        sm_reguler_respon: /*#__PURE__*/_extends({}, text.caption.sm.reguler, {
+        sm_regular: /*#__PURE__*/_extends({}, text.caption.sm.regular),
+        sm_regular_respon: /*#__PURE__*/_extends({}, text.caption.sm.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '10px',
             lineHeight: '18px'
@@ -6076,17 +6076,17 @@ var agl = /*#__PURE__*/makeTheme({
  * Generated on Tue, 11 Oct 2022 09:25:29 GMT
  */
 var tokens$3 = {
-  primary25: '#f8fafd',
-  primary50: '#f2f6fb',
-  primary100: '#e4eef7',
-  primary200: '#c6dcf0',
-  primary300: '#a3c9e8',
-  primary400: '#73b2df',
-  primary500: '#229bd8',
-  primary600: '#1e8ac1',
-  primary700: '#1a78a7',
-  primary800: '#156288',
-  primary900: '#0f4560',
+  primary25: '#f9fbf9',
+  primary50: '#f2f8f3',
+  primary100: '#e6f1e8',
+  primary200: '#cae2cf',
+  primary300: '#aad2b2',
+  primary400: '#82c190',
+  primary500: '#47af64',
+  primary600: '#3f9c59',
+  primary700: '#36874d',
+  primary800: '#2c6e3f',
+  primary900: '#1f4e2c',
   secondary25: '#f1f2f2',
   secondary50: '#dbdede',
   secondary100: '#a6b3b7',
@@ -6159,31 +6159,31 @@ var tokens$3 = {
   buttonsSmPaddingLeftRight: '12px',
   buttonsSmPaddingTopBottom: '8px',
   buttonsSmIconSize: '12px',
-  buttonsPrimaryDefaultBackgroundColor: '#229bd8',
+  buttonsPrimaryDefaultBackgroundColor: '#47af64',
   buttonsPrimaryDefaultColor: '#ffffff',
-  buttonsPrimaryHoverBackgroundColor: '#1e8ac1',
+  buttonsPrimaryHoverBackgroundColor: '#3f9c59',
   buttonsPrimaryHoverColor: '#ffffff',
-  buttonsPrimaryActiveBackgroundColor: '#1a78a7',
+  buttonsPrimaryActiveBackgroundColor: '#36874d',
   buttonsPrimaryActiveColor: '#ffffff',
-  buttonsPrimaryFocusBackgroundColors: '#229bd8',
+  buttonsPrimaryFocusBackgroundColors: '#47af64',
   buttonsPrimaryFocusColor: '#ffffff',
-  buttonsPrimaryFocusBorderColors: '#a3c9e8',
+  buttonsPrimaryFocusBorderColors: '#aad2b2',
   buttonsPrimaryDisabledBackgroundColor: '#b1b1b1',
   buttonsPrimaryDisabledColor: '#616161',
   buttonsPrimaryBorderWidth: '0px',
-  buttonsSecondaryDefaultBackgroundColor: '#f2f6fb',
-  buttonsSecondaryDefaultColor: '#229bd8',
-  buttonsSecondaryHoverBackgroundColor: '#e4eef7',
-  buttonsSecondaryHoverColor: '#1e8ac1',
-  buttonsSecondaryActiveBackgroundColor: '#c6dcf0',
-  buttonsSecondaryActiveColor: '#1e8ac1',
-  buttonsSecondaryFocusBackgroundColor: '#f2f6fb',
-  buttonsSecondaryFocusColor: '#229bd8',
-  buttonsSecondaryFocusBorderColors: '#229bd8',
+  buttonsSecondaryDefaultBackgroundColor: '#f2f8f3',
+  buttonsSecondaryDefaultColor: '#47af64',
+  buttonsSecondaryHoverBackgroundColor: '#e6f1e8',
+  buttonsSecondaryHoverColor: '#3f9c59',
+  buttonsSecondaryActiveBackgroundColor: '#cae2cf',
+  buttonsSecondaryActiveColor: '#3f9c59',
+  buttonsSecondaryFocusBackgroundColor: '#f2f8f3',
+  buttonsSecondaryFocusColor: '#47af64',
+  buttonsSecondaryFocusBorderColors: '#82c190',
   buttonsSecondaryDisabledBackgroundColor: '#f3f3f3',
   buttonsSecondaryDisabledColor: '#cecece',
   buttonsSecondaryBorderWidth: '0px',
-  buttonsBorderRadius: '500px',
+  buttonsBorderRadius: '16px',
   buttonsMdPaddingLeftRight: '12px',
   buttonsMdPaddingTopBottom: '8px',
   buttonsMdIconSize: '16px',
@@ -6191,12 +6191,12 @@ var tokens$3 = {
   checkboxDefaultBorder: '#cecece',
   checkboxDisabledBackgroundColor: '#e8e8e8',
   checkboxDisabledBorder: '#b1b1b1',
-  checkboxActiveDisableBackgroundColor: '#a3c9e8',
+  checkboxActiveDisableBackgroundColor: '#aad2b2',
   checkboxActiveDisableColor: '#ffffff',
-  checkboxActiveDisableBorder: '#229bd8',
-  checkboxActiveBackgroundColor: '#229bd8',
+  checkboxActiveDisableBorder: '#47af64',
+  checkboxActiveBackgroundColor: '#47af64',
   checkboxActiveColor: '#ffffff',
-  checkboxActiveBorder: '#1e8ac1',
+  checkboxActiveBorder: '#3f9c59',
   checkboxBorderRadius: '4px',
   checkboxBorderWidth: '1px',
   checkboxTextEnable: '#041e29',
@@ -6207,21 +6207,21 @@ var tokens$3 = {
   radioDisableBackgroundColor: '#e8e8e8',
   radioDisableBorder: '#b1b1b1',
   radioActiveBackgroundColor: '#ffffff',
-  radioActiveBorder: '#229bd8',
+  radioActiveBorder: '#47af64',
   radioActiveDisableBackgroundColor: '#ffffff',
-  radioActiveDisableBorder: '#a3c9e8',
+  radioActiveDisableBorder: '#aad2b2',
   radioTextEnable: '#041e29',
   radioTextDisable: '#8f8f8f',
-  anchorDefaultColor: '#229bd8',
-  anchorHoverColor: '#1e8ac1',
-  anchorActiveColor: '#1a78a7',
-  anchorFocusColor: '#229bd8',
+  anchorDefaultColor: '#47af64',
+  anchorHoverColor: '#3f9c59',
+  anchorActiveColor: '#36874d',
+  anchorFocusColor: '#47af64',
   anchorDisableColor: '#b1b1b1',
   anchorLgIconSize: '20px',
   anchorMdIconSize: '16px',
   anchorSmIconSize: '12px',
-  switchActiveBackgroundColor: '#229bd8',
-  switchActiveDisableBackgroundColor: '#c6dcf0',
+  switchActiveBackgroundColor: '#47af64',
+  switchActiveDisableBackgroundColor: '#cae2cf',
   switchNonactiveBackgroundColor: '#b1b1b1',
   switchNonactiveDisableBackgroundColor: '#e8e8e8',
   avatarLgSize: '64px',
@@ -6235,9 +6235,9 @@ var tokens$3 = {
   textFieldDefaultIconColor: '#3d3d3d',
   textFieldDefaultPlaceholderColor: '#8f8f8f',
   textFieldDefaultLabelColor: '#3d3d3d',
-  textFieldActiveOutlineColor: '#229bd8',
+  textFieldActiveOutlineColor: '#47af64',
   textFieldActivePlaceholderColor: '#3d3d3d',
-  textFieldActiveBorderColor: '#c6dcf0',
+  textFieldActiveBorderColor: '#cae2cf',
   textFieldErrorOutlineColor: '#f04438',
   textFieldSuccessOutlineColor: '#12b76a',
   textFieldDisableBackgroundColor: '#e8e8e8',
@@ -6248,10 +6248,10 @@ var tokens$3 = {
   textFieldBorderRadius: '4px',
   textFieldPaddingLeftRight: '12px',
   textFieldPaddingTopBottom: '12px',
-  badgePrimaryBackgroundColor: '#229bd8',
+  badgePrimaryBackgroundColor: '#47af64',
   badgePrimaryColor: '#ffffff',
-  badgeSecondaryBackgroundColor: '#e4eef7',
-  badgeSecondaryColor: '#229bd8',
+  badgeSecondaryBackgroundColor: '#e6f1e8',
+  badgeSecondaryColor: '#47af64',
   badgeErrorBackgroundColor: '#fce6e5',
   badgeErrorColor: '#f04438',
   badgeInfoBackgroundColor: '#e0f2fe',
@@ -6264,7 +6264,7 @@ var tokens$3 = {
 };
 
 var _formSideCenter$2, _containerLoginCen$2, _formSideRight$2, _formSideLeft$2, _containerLogin$2;
-var aqf = /*#__PURE__*/makeTheme({
+var agr = /*#__PURE__*/makeTheme({
   //...base,
   colors: {
     primary25: tokens$3.primary25,
@@ -7392,7 +7392,7 @@ var aqf = /*#__PURE__*/makeTheme({
       wrapErrorMessage: /*#__PURE__*/_extends({
         marginTop: '-25px',
         color: "" + tokens$3.textFieldErrorOutlineColor
-      }, text.caption.lg.reguler),
+      }, text.caption.lg.regular),
       '&:disabled': {
         zIndex: 2,
         border: 0,
@@ -7904,42 +7904,42 @@ var aqf = /*#__PURE__*/makeTheme({
       width: 8,
       height: 8,
       borderRadius: 8 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     smallWithBorder: /*#__PURE__*/_extends({
       border: '1px solid white',
       height: 10,
       borderRadius: 10 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithBorder: /*#__PURE__*/_extends({
       border: '2px solid white'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     smallWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 21,
       borderRadius: 24,
       paddingX: '7px'
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 28,
       borderRadius: tokens$3.badgeBorderRadius,
       paddingX: '14px'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     large: /*#__PURE__*/_extends({
       width: 12,
       height: 12,
       borderRadius: 12 / 2
-    }, text.body.lg.reguler)
+    }, text.body.lg.regular)
   },
   text: {
     "default": {
       fontFamily: 'Nunito Sans, sans-serif',
       color: tokens$3.tertiary800,
       // Body
-      lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
-      lg_reguler_respon: /*#__PURE__*/_extends({}, text.body.lg.reguler, {
+      lg_regular: /*#__PURE__*/_extends({}, text.body.lg.regular),
+      lg_regular_respon: /*#__PURE__*/_extends({}, text.body.lg.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '16px',
           lineHeight: '24px'
@@ -7987,8 +7987,8 @@ var aqf = /*#__PURE__*/makeTheme({
           lineHeight: '24px'
         }
       }),
-      sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
-      sm_reguler_respon: /*#__PURE__*/_extends({}, text.body.sm.reguler, {
+      sm_regular: /*#__PURE__*/_extends({}, text.body.sm.regular),
+      sm_regular_respon: /*#__PURE__*/_extends({}, text.body.sm.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '14px',
           lineHeight: '21px'
@@ -8038,8 +8038,8 @@ var aqf = /*#__PURE__*/makeTheme({
       }),
       // Caption
       sizes: {
-        lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
-        lg_reguler_respon: /*#__PURE__*/_extends({}, text.caption.lg.reguler, {
+        lg_regular: /*#__PURE__*/_extends({}, text.caption.lg.regular),
+        lg_regular_respon: /*#__PURE__*/_extends({}, text.caption.lg.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '12px',
             lineHeight: '18px'
@@ -8087,8 +8087,8 @@ var aqf = /*#__PURE__*/makeTheme({
             lineHeight: '18px'
           }
         }),
-        sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
-        sm_reguler_respon: /*#__PURE__*/_extends({}, text.caption.sm.reguler, {
+        sm_regular: /*#__PURE__*/_extends({}, text.caption.sm.regular),
+        sm_regular_respon: /*#__PURE__*/_extends({}, text.caption.sm.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '10px',
             lineHeight: '18px'

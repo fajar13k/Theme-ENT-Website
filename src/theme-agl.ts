@@ -1123,7 +1123,6 @@ export const agl = makeTheme({
         height: 'none !important',
         backgroundColor: `${tokens.textFieldDefaultBackgroundColor}`,
         marginBottom: '30px',
-        
       },
       containPrefLeft: {
         display: 'flex',
@@ -1264,14 +1263,12 @@ export const agl = makeTheme({
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
           transition: 'all 0.10s ease-in-out 0s',
-
         },
         '&:focus  ~ .css-ib4mcl-Textfield': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
           boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
           transition: 'all 0.15s ease-in-out 0s',
-
         },
         '& .css-ib4mcl-Textfield': {
           paddingLeft: '30px !important',
@@ -1292,7 +1289,6 @@ export const agl = makeTheme({
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
           transition: 'all 0.10s ease-in-out 0s',
-
         },
         '&:focus ~ .css-1hm5k8u-Textfield': {
           outline: 'none',
@@ -1304,8 +1300,6 @@ export const agl = makeTheme({
         border: '0',
         backgroundColor: 'transparent',
         padding: `${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} ${tokens.textFieldPaddingTopBottom} ${tokens.textFieldPaddingLeftRight} !important`,
-
-        
       },
       error: {
         '&::placeholder': {
@@ -1319,13 +1313,11 @@ export const agl = makeTheme({
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
           transition: 'all 0.10s ease-in-out 0s',
-
         },
         '&:focus ~ .css-1ahjwsl-Textfield': {
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
           boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
           transition: 'all 0.15s ease-in-out 0s',
-
         },
         zIndex: 2,
         border: '0',
@@ -1351,7 +1343,6 @@ export const agl = makeTheme({
           border: `1px solid ${tokens.textFieldDefaultOutlineColor} !important`,
           outline: 'none',
           transition: 'all 0.15s ease-in-out 0s',
-
         },
       },
       ':hover': {
