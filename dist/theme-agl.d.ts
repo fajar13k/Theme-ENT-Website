@@ -1834,13 +1834,13 @@ export declare const agl: {
         default: {
             fontFamily: "Nunito Sans, sans-serif";
             color: string;
-            lg_reguler: {
+            lg_regular: {
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
                 fontFamily: string;
             };
-            lg_reguler_respon: {
+            lg_regular_respon: {
                 '@media screen and (max-width: 400px)': {
                     fontSize: string;
                     lineHeight: string;
@@ -1954,13 +1954,13 @@ export declare const agl: {
                 fontStyle: string;
                 fontFamily: string;
             };
-            sm_reguler: {
+            sm_regular: {
                 fontSize: string;
                 lineHeight: string;
                 fontWeight: number;
                 fontFamily: string;
             };
-            sm_reguler_respon: {
+            sm_regular_respon: {
                 '@media screen and (max-width: 400px)': {
                     fontSize: string;
                     lineHeight: string;
@@ -2075,13 +2075,13 @@ export declare const agl: {
                 fontFamily: string;
             };
             sizes: {
-                lg_reguler: {
+                lg_regular: {
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
                     fontFamily: string;
                 };
-                lg_reguler_respon: {
+                lg_regular_respon: {
                     '@media screen and (max-width: 400px)': {
                         fontSize: string;
                         lineHeight: string;
@@ -2195,13 +2195,13 @@ export declare const agl: {
                     fontStyle: string;
                     fontFamily: string;
                 };
-                sm_reguler: {
+                sm_regular: {
                     fontSize: string;
                     lineHeight: string;
                     fontWeight: number;
                     fontFamily: string;
                 };
-                sm_reguler_respon: {
+                sm_regular_respon: {
                     '@media screen and (max-width: 400px)': {
                         fontSize: string;
                         lineHeight: string;

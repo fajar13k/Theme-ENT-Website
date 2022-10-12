@@ -97,7 +97,7 @@ var spacer = {
 
 /**
  * Do not edit directly
- * Generated on Tue, 11 Oct 2022 09:25:29 GMT
+ * Generated on Wed, 12 Oct 2022 02:26:53 GMT
  */
 var tokens = {
   elevation0Color: '#ebf0ff',
@@ -614,7 +614,7 @@ var tokens = {
 var text = {
   body: {
     lg: {
-      reguler: {
+      regular: {
         fontSize: "" + tokens.bodyLargeRegularFontSize,
         lineHeight: "" + tokens.bodyLargeRegularLineHeight,
         fontWeight: 400,
@@ -662,7 +662,7 @@ var text = {
       }
     },
     sm: {
-      reguler: {
+      regular: {
         fontSize: "" + tokens.bodySmallRegularFontSize,
         lineHeight: "" + tokens.bodySmallRegularLineHeight,
         fontWeight: 400,
@@ -712,7 +712,7 @@ var text = {
   },
   caption: {
     lg: {
-      reguler: {
+      regular: {
         fontSize: "" + tokens.captionLargeRegularFontSize,
         lineHeight: "" + tokens.captionLargeRegularLineHeight,
         fontWeight: 400,
@@ -760,7 +760,7 @@ var text = {
       }
     },
     sm: {
-      reguler: {
+      regular: {
         fontSize: "" + tokens.captionSmallRegularFontSize,
         lineHeight: "" + tokens.captionSmallRegularLineHeight,
         fontWeight: 400,
@@ -867,7 +867,7 @@ function _extends() {
 
 /**
  * Do not edit directly
- * Generated on Tue, 11 Oct 2022 09:25:29 GMT
+ * Generated on Wed, 12 Oct 2022 02:26:53 GMT
  */
 var tokens$1 = {
   primary25: '#f9fbf9',
@@ -2186,7 +2186,7 @@ var agr = /*#__PURE__*/utils.makeTheme({
       wrapErrorMessage: /*#__PURE__*/_extends({
         marginTop: '-25px',
         color: "" + tokens$1.textFieldErrorOutlineColor
-      }, text.caption.lg.reguler),
+      }, text.caption.lg.regular),
       '&:disabled': {
         zIndex: 2,
         border: 0,
@@ -2698,42 +2698,42 @@ var agr = /*#__PURE__*/utils.makeTheme({
       width: 8,
       height: 8,
       borderRadius: 8 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     smallWithBorder: /*#__PURE__*/_extends({
       border: '1px solid white',
       height: 10,
       borderRadius: 10 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithBorder: /*#__PURE__*/_extends({
       border: '2px solid white'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     smallWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 21,
       borderRadius: 24,
       paddingX: '7px'
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 28,
       borderRadius: tokens$1.badgeBorderRadius,
       paddingX: '14px'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     large: /*#__PURE__*/_extends({
       width: 12,
       height: 12,
       borderRadius: 12 / 2
-    }, text.body.lg.reguler)
+    }, text.body.lg.regular)
   },
   text: {
     "default": {
       fontFamily: 'Nunito Sans, sans-serif',
       color: tokens$1.tertiary800,
       // Body
-      lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
-      lg_reguler_respon: /*#__PURE__*/_extends({}, text.body.lg.reguler, {
+      lg_regular: /*#__PURE__*/_extends({}, text.body.lg.regular),
+      lg_regular_respon: /*#__PURE__*/_extends({}, text.body.lg.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '16px',
           lineHeight: '24px'
@@ -2781,8 +2781,8 @@ var agr = /*#__PURE__*/utils.makeTheme({
           lineHeight: '24px'
         }
       }),
-      sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
-      sm_reguler_respon: /*#__PURE__*/_extends({}, text.body.sm.reguler, {
+      sm_regular: /*#__PURE__*/_extends({}, text.body.sm.regular),
+      sm_regular_respon: /*#__PURE__*/_extends({}, text.body.sm.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '14px',
           lineHeight: '21px'
@@ -2832,8 +2832,8 @@ var agr = /*#__PURE__*/utils.makeTheme({
       }),
       // Caption
       sizes: {
-        lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
-        lg_reguler_respon: /*#__PURE__*/_extends({}, text.caption.lg.reguler, {
+        lg_regular: /*#__PURE__*/_extends({}, text.caption.lg.regular),
+        lg_regular_respon: /*#__PURE__*/_extends({}, text.caption.lg.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '12px',
             lineHeight: '18px'
@@ -2881,8 +2881,8 @@ var agr = /*#__PURE__*/utils.makeTheme({
             lineHeight: '18px'
           }
         }),
-        sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
-        sm_reguler_respon: /*#__PURE__*/_extends({}, text.caption.sm.reguler, {
+        sm_regular: /*#__PURE__*/_extends({}, text.caption.sm.regular),
+        sm_regular_respon: /*#__PURE__*/_extends({}, text.caption.sm.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '10px',
             lineHeight: '18px'
@@ -3473,7 +3473,7 @@ var agr = /*#__PURE__*/utils.makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Tue, 11 Oct 2022 09:25:29 GMT
+ * Generated on Wed, 12 Oct 2022 02:26:53 GMT
  */
 var tokens$2 = {
   primary25: '#fffaf8',
@@ -4792,7 +4792,7 @@ var agl = /*#__PURE__*/utils.makeTheme({
       wrapErrorMessage: /*#__PURE__*/_extends({
         marginTop: '-25px',
         color: "" + tokens$2.textFieldErrorOutlineColor
-      }, text.caption.lg.reguler),
+      }, text.caption.lg.regular),
       '&:disabled': {
         zIndex: 2,
         border: 0,
@@ -5304,42 +5304,42 @@ var agl = /*#__PURE__*/utils.makeTheme({
       width: 8,
       height: 8,
       borderRadius: 8 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     smallWithBorder: /*#__PURE__*/_extends({
       border: '1px solid white',
       height: 10,
       borderRadius: 10 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithBorder: /*#__PURE__*/_extends({
       border: '2px solid white'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     smallWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 21,
       borderRadius: 24,
       paddingX: '7px'
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 28,
       borderRadius: tokens$2.badgeBorderRadius,
       paddingX: '14px'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     large: /*#__PURE__*/_extends({
       width: 12,
       height: 12,
       borderRadius: 12 / 2
-    }, text.body.lg.reguler)
+    }, text.body.lg.regular)
   },
   text: {
     "default": {
       fontFamily: 'Nunito Sans, sans-serif',
       color: tokens$2.tertiary800,
       // Body
-      lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
-      lg_reguler_respon: /*#__PURE__*/_extends({}, text.body.lg.reguler, {
+      lg_regular: /*#__PURE__*/_extends({}, text.body.lg.regular),
+      lg_regular_respon: /*#__PURE__*/_extends({}, text.body.lg.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '16px',
           lineHeight: '24px'
@@ -5387,8 +5387,8 @@ var agl = /*#__PURE__*/utils.makeTheme({
           lineHeight: '24px'
         }
       }),
-      sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
-      sm_reguler_respon: /*#__PURE__*/_extends({}, text.body.sm.reguler, {
+      sm_regular: /*#__PURE__*/_extends({}, text.body.sm.regular),
+      sm_regular_respon: /*#__PURE__*/_extends({}, text.body.sm.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '14px',
           lineHeight: '21px'
@@ -5438,8 +5438,8 @@ var agl = /*#__PURE__*/utils.makeTheme({
       }),
       // Caption
       sizes: {
-        lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
-        lg_reguler_respon: /*#__PURE__*/_extends({}, text.caption.lg.reguler, {
+        lg_regular: /*#__PURE__*/_extends({}, text.caption.lg.regular),
+        lg_regular_respon: /*#__PURE__*/_extends({}, text.caption.lg.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '12px',
             lineHeight: '18px'
@@ -5487,8 +5487,8 @@ var agl = /*#__PURE__*/utils.makeTheme({
             lineHeight: '18px'
           }
         }),
-        sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
-        sm_reguler_respon: /*#__PURE__*/_extends({}, text.caption.sm.reguler, {
+        sm_regular: /*#__PURE__*/_extends({}, text.caption.sm.regular),
+        sm_regular_respon: /*#__PURE__*/_extends({}, text.caption.sm.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '10px',
             lineHeight: '18px'
@@ -6079,7 +6079,7 @@ var agl = /*#__PURE__*/utils.makeTheme({
 
 /**
  * Do not edit directly
- * Generated on Tue, 11 Oct 2022 09:25:29 GMT
+ * Generated on Wed, 12 Oct 2022 02:26:53 GMT
  */
 var tokens$3 = {
   primary25: '#f8fafd',
@@ -7398,7 +7398,7 @@ var aqf = /*#__PURE__*/utils.makeTheme({
       wrapErrorMessage: /*#__PURE__*/_extends({
         marginTop: '-25px',
         color: "" + tokens$3.textFieldErrorOutlineColor
-      }, text.caption.lg.reguler),
+      }, text.caption.lg.regular),
       '&:disabled': {
         zIndex: 2,
         border: 0,
@@ -7910,42 +7910,42 @@ var aqf = /*#__PURE__*/utils.makeTheme({
       width: 8,
       height: 8,
       borderRadius: 8 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     smallWithBorder: /*#__PURE__*/_extends({
       border: '1px solid white',
       height: 10,
       borderRadius: 10 / 2
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithBorder: /*#__PURE__*/_extends({
       border: '2px solid white'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     smallWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 21,
       borderRadius: 24,
       paddingX: '7px'
-    }, text.body.sm.reguler),
+    }, text.body.sm.regular),
     largeWithContent: /*#__PURE__*/_extends({
       display: 'inline-flex',
       alignItems: 'center',
       height: 28,
       borderRadius: tokens$3.badgeBorderRadius,
       paddingX: '14px'
-    }, text.body.lg.reguler),
+    }, text.body.lg.regular),
     large: /*#__PURE__*/_extends({
       width: 12,
       height: 12,
       borderRadius: 12 / 2
-    }, text.body.lg.reguler)
+    }, text.body.lg.regular)
   },
   text: {
     "default": {
       fontFamily: 'Nunito Sans, sans-serif',
       color: tokens$3.tertiary800,
       // Body
-      lg_reguler: /*#__PURE__*/_extends({}, text.body.lg.reguler),
-      lg_reguler_respon: /*#__PURE__*/_extends({}, text.body.lg.reguler, {
+      lg_regular: /*#__PURE__*/_extends({}, text.body.lg.regular),
+      lg_regular_respon: /*#__PURE__*/_extends({}, text.body.lg.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '16px',
           lineHeight: '24px'
@@ -7993,8 +7993,8 @@ var aqf = /*#__PURE__*/utils.makeTheme({
           lineHeight: '24px'
         }
       }),
-      sm_reguler: /*#__PURE__*/_extends({}, text.body.sm.reguler),
-      sm_reguler_respon: /*#__PURE__*/_extends({}, text.body.sm.reguler, {
+      sm_regular: /*#__PURE__*/_extends({}, text.body.sm.regular),
+      sm_regular_respon: /*#__PURE__*/_extends({}, text.body.sm.regular, {
         '@media screen and (max-width: 400px)': {
           fontSize: '14px',
           lineHeight: '21px'
@@ -8044,8 +8044,8 @@ var aqf = /*#__PURE__*/utils.makeTheme({
       }),
       // Caption
       sizes: {
-        lg_reguler: /*#__PURE__*/_extends({}, text.caption.lg.reguler),
-        lg_reguler_respon: /*#__PURE__*/_extends({}, text.caption.lg.reguler, {
+        lg_regular: /*#__PURE__*/_extends({}, text.caption.lg.regular),
+        lg_regular_respon: /*#__PURE__*/_extends({}, text.caption.lg.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '12px',
             lineHeight: '18px'
@@ -8093,8 +8093,8 @@ var aqf = /*#__PURE__*/utils.makeTheme({
             lineHeight: '18px'
           }
         }),
-        sm_reguler: /*#__PURE__*/_extends({}, text.caption.sm.reguler),
-        sm_reguler_respon: /*#__PURE__*/_extends({}, text.caption.sm.reguler, {
+        sm_regular: /*#__PURE__*/_extends({}, text.caption.sm.regular),
+        sm_regular_respon: /*#__PURE__*/_extends({}, text.caption.sm.regular, {
           '@media screen and (max-width: 400px)': {
             fontSize: '10px',
             lineHeight: '18px'
