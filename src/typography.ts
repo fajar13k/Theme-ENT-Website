@@ -3,7 +3,7 @@ import { tokens } from './tokens/foundation';
 export const text = {
   body: {
     lg:{
-      reguler: { 
+      regular: { 
         fontSize: `${tokens.bodyLargeRegularFontSize}`, 
         lineHeight: `${tokens.bodyLargeRegularLineHeight}`, 
         fontWeight: 400,
@@ -51,7 +51,7 @@ export const text = {
       }
     },
     sm:{
-      reguler: { 
+      regular: { 
         fontSize: `${tokens.bodySmallRegularFontSize}`, 
         lineHeight: `${tokens.bodySmallRegularLineHeight}`, 
         fontWeight: 400,
@@ -102,7 +102,7 @@ export const text = {
 
   caption: {
     lg:{
-      reguler: { 
+      regular: { 
         fontSize: `${tokens.captionLargeRegularFontSize}`, 
         lineHeight: `${tokens.captionLargeRegularLineHeight}`, 
         fontWeight: 400,
@@ -150,7 +150,7 @@ export const text = {
       }
     },
     sm:{
-      reguler: { 
+      regular: { 
         fontSize: `${tokens.captionSmallRegularFontSize}`, 
         lineHeight: `${tokens.captionSmallRegularLineHeight}`, 
         fontWeight: 400,

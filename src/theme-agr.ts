@@ -1246,7 +1246,7 @@ export const agr = makeTheme({
       wrapErrorMessage: {
         marginTop: '-25px',
         color: `${tokens.textFieldErrorOutlineColor}`,
-        ...text.caption.lg.reguler,
+        ...text.caption.lg.regular,
       },
       '&:disabled': {
         zIndex: 2,
@@ -1778,17 +1778,17 @@ export const agr = makeTheme({
       width: 8,
       height: 8,
       borderRadius: 8 / 2,
-      ...text.body.sm.reguler,
+      ...text.body.sm.regular,
     },
     smallWithBorder: {
       border: '1px solid white',
       height: 10,
       borderRadius: 10 / 2,
-      ...text.body.sm.reguler,
+      ...text.body.sm.regular,
     },
     largeWithBorder: {
       border: '2px solid white',
-      ...text.body.lg.reguler,
+      ...text.body.lg.regular,
     },
     smallWithContent: {
       display: 'inline-flex',
@@ -1796,7 +1796,7 @@ export const agr = makeTheme({
       height: 21,
       borderRadius: 24,
       paddingX: '7px',
-      ...text.body.sm.reguler,
+      ...text.body.sm.regular,
     },
     largeWithContent: {
       display: 'inline-flex',
@@ -1804,13 +1804,13 @@ export const agr = makeTheme({
       height: 28,
       borderRadius: tokens.badgeBorderRadius,
       paddingX: '14px',
-      ...text.body.lg.reguler,
+      ...text.body.lg.regular,
     },
     large: {
       width: 12,
       height: 12,
       borderRadius: 12 / 2,
-      ...text.body.lg.reguler,
+      ...text.body.lg.regular,
     },
   },
   text: {
@@ -1819,9 +1819,9 @@ export const agr = makeTheme({
       color: tokens.tertiary800,
 
       // Body
-      lg_reguler: { ...text.body.lg.reguler },
-      lg_reguler_respon: {
-        ...text.body.lg.reguler,
+      lg_regular: { ...text.body.lg.regular },
+      lg_regular_respon: {
+        ...text.body.lg.regular,
         '@media screen and (max-width: 400px)': {
           fontSize: '16px',
           lineHeight: '24px',
@@ -1875,9 +1875,9 @@ export const agr = makeTheme({
           lineHeight: '24px',
         },
       },
-      sm_reguler: { ...text.body.sm.reguler },
-      sm_reguler_respon: {
-        ...text.body.sm.reguler,
+      sm_regular: { ...text.body.sm.regular },
+      sm_regular_respon: {
+        ...text.body.sm.regular,
         '@media screen and (max-width: 400px)': {
           fontSize: '14px',
           lineHeight: '21px',
@@ -1934,9 +1934,9 @@ export const agr = makeTheme({
 
       // Caption
       sizes: {
-        lg_reguler: { ...text.caption.lg.reguler },
-        lg_reguler_respon: {
-          ...text.caption.lg.reguler,
+        lg_regular: { ...text.caption.lg.regular },
+        lg_regular_respon: {
+          ...text.caption.lg.regular,
           '@media screen and (max-width: 400px)': {
             fontSize: '12px',
             lineHeight: '18px',
@@ -1990,9 +1990,9 @@ export const agr = makeTheme({
             lineHeight: '18px',
           },
         },
-        sm_reguler: { ...text.caption.sm.reguler },
-        sm_reguler_respon: {
-          ...text.caption.sm.reguler,
+        sm_regular: { ...text.caption.sm.regular },
+        sm_regular_respon: {
+          ...text.caption.sm.regular,
           '@media screen and (max-width: 400px)': {
             fontSize: '10px',
             lineHeight: '18px',
