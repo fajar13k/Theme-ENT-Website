@@ -1238,15 +1238,58 @@ export const agl = makeTheme({
         ...text.body.sm.semibold,
       },
       wrappLabelField: {
+        justifyContent: 'space-between',
         marginBottom: '5px',
         color: `${tokens.textFieldDefaultLabelColor}`,
         ...text.body.sm.semibold,
+        '.label-field-text': {
+          gap: '4px',
+        },
+        '.label-field-help': {
+          color: tokens.tertiary600,
+          svg: {
+            verticalAlign: 'middle',
+          }
+        },
+        '.label-field-optional': {
+          color: tokens.tertiary500,
+          fontSize: '14px',
+          fontWeight: 400,
+        },
       },
-      wrapErrorMessage: {
-        marginTop: '-25px',
-        color: `${tokens.textFieldErrorOutlineColor}`,
-        ...text.caption.lg.regular,
+      wrapperCaption: {
+        alignItems: 'center',
+        gap: '8px',
+        marginTop: '8px',
+        color: tokens.tertiary500,
+        fontSize: '14px',
+        lineHeight: '21px',
+        '.container-textfield + &': {
+          marginTop: '-22px',
+        },
+        '.container-textfield + & + .wrapper-field-caption': {
+          marginTop: '8px',
+        },
+        error: {
+          color: tokens.error500,
+        },
+        success: {
+          color: tokens.success500,
+        },
       },
+      wrapperCaptionIcon: {
+        display: 'flex',
+        alignItems: 'center',
+        '& svg': {
+          width: '20px',
+          height: '20px',
+        },
+      },
+      // wrapErrorMessage: {
+      //   marginTop: '-25px',
+      //   color: `${tokens.textFieldErrorOutlineColor}`,
+      //   ...text.caption.lg.regular,
+      // },
       '&:disabled': {
         zIndex: 2,
         border: 0,
@@ -1259,18 +1302,18 @@ export const agl = makeTheme({
         '&:focus': {
           outline: 'none',
         },
-        '&:hover ~ .css-ib4mcl-Textfield': {
+        '&:hover ~ .input-border': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
           transition: 'all 0.10s ease-in-out 0s',
         },
-        '&:focus  ~ .css-ib4mcl-Textfield': {
+        '&:focus  ~ .input-border': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
           boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
           transition: 'all 0.15s ease-in-out 0s',
         },
-        '& .css-ib4mcl-Textfield': {
+        '& .input-border': {
           paddingLeft: '30px !important',
         },
         border: '0',
@@ -1285,12 +1328,12 @@ export const agl = makeTheme({
         '&:focus': {
           outline: 'none',
         },
-        '&:hover ~ .css-1hm5k8u-Textfield': {
+        '&:hover ~ .input-border': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
           transition: 'all 0.10s ease-in-out 0s',
         },
-        '&:focus ~ .css-1hm5k8u-Textfield': {
+        '&:focus ~ .input-border': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
           boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
@@ -1309,12 +1352,12 @@ export const agl = makeTheme({
         '&:focus': {
           outline: 'none',
         },
-        '&:hover  ~ .css-1ahjwsl-Textfield': {
+        '&:hover  ~ .input-border': {
           outline: 'none',
           border: `1px solid ${tokens.textFieldActiveOutlineColor} !important`,
           transition: 'all 0.10s ease-in-out 0s',
         },
-        '&:focus ~ .css-1ahjwsl-Textfield': {
+        '&:focus ~ .input-border': {
           border: `1px solid ${tokens.textFieldActiveOutlineColor}`,
           boxShadow: `0px 0px 0px 2px ${tokens.textFieldActiveBorderColor} !important`,
           transition: 'all 0.15s ease-in-out 0s',
@@ -1329,10 +1372,10 @@ export const agl = makeTheme({
       backgroundColor: `${tokens.textFieldDefaultBackgroundColor}`,
       borderRadius: `${tokens.textFieldBorderRadius}`,
 
-      labelTextArea: {
-        color: `${tokens.textFieldDefaultLabelColor}`,
-        ...text.body.sm.semibold,
-      },
+      // labelTextArea: {
+      //   color: `${tokens.textFieldDefaultLabelColor}`,
+      //   ...text.body.sm.semibold,
+      // },
       '&::placeholder': {
         color: `${tokens.textFieldDefaultPlaceholderColor}`,
       },
@@ -2581,6 +2624,116 @@ export const agl = makeTheme({
       color: `${tokens.information25}`,
       padding: '1rem',
       width: '100%',
+    },
+  },
+  tooltip: {
+    position: 'relative',
+    '&:hover .wrapper-tooltip': {
+      opacity: 1,
+    },
+    wrapper: {
+      width: 'max-content',
+      maxWidth: '50vw',
+      fontWeight: 600,
+      fontSize: '12px',
+      lineHeight: '18xpx',
+      color: '#fff',
+      backgroundColor: tokens.tertiary800,
+      padding: '12px',
+      borderRadius: '8px',
+      position: 'absolute',
+      zIndex: 1,
+      opacity: 0,
+      transition: 'opacity 0.15s ease-in-out 0s',
+      pointerEvents: 'none',
+      arrow: {
+        width: '12px',
+        height: '12px',
+        backgroundColor: tokens.tertiary800,
+        borderRadius: '1px',
+        transform: 'rotate(45deg)',
+        position: 'absolute',
+        'top-start': {
+          bottom: '-3px',
+          left: '12px',
+        },
+        'top-end': {
+          bottom: '-3px',
+          right: '12px',
+        },
+        top: {
+          bottom: '-3px',
+          left: '50%',
+          transform: 'translateX(-50%) rotate(45deg)',
+        },
+        'bottom-start': {
+          top: '-3px',
+          left: '12px',
+        },
+        'bottom-end': {
+          top: '-3px',
+          right: '12px',
+        },
+        bottom: {
+          top: '-3px',
+          left: '50%',
+          transform: 'translateX(-50%) rotate(45deg)',
+        },
+        left: {
+          right: '-3px',
+          top: '50%',
+          transform: 'translateY(-50%) rotate(45deg)',
+        },
+        right: {
+          left: '-3px',
+          top: '50%',
+          transform: 'translateY(-50%) rotate(45deg)',
+        },
+      },
+      'top-start': {
+        bottom: '100%',
+        marginBottom: '10px',
+        left: '-12px',
+      },
+      'top-end': {
+        bottom: '100%',
+        marginBottom: '10px',
+        right: '-12px',
+      },
+      top: {
+        bottom: '100%',
+        marginBottom: '10px',
+        left: '50%',
+        transform: 'translateX(-50%)',
+      },
+      'bottom-start': {
+        top: '100%',
+        marginTop: '10px',
+        left: '-12px',
+      },
+      'bottom-end': {
+        top: '100%',
+        marginTop: '10px',
+        right: '-12px',
+      },
+      bottom: {
+        top: '100%',
+        marginTop: '10px',
+        left: '50%',
+        transform: 'translateX(-50%)',
+      },
+      left: {
+        right: '100%',
+        marginRight: '10px',
+        top: '50%',
+        transform: 'translateY(-50%)',
+      },
+      right: {
+        left: '100%',
+        marginLeft: '10px',
+        top: '50%',
+        transform: 'translateY(-50%)',
+      },
     },
   },
 });
