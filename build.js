@@ -69,7 +69,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['foundation', 'agree-livestock', 'agree-fisheries', 'agree-culture'].map(function (theme) {
+['foundation', 'qip', 'lpe'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
@@ -77,7 +77,6 @@ console.log('Build started...');
     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
 
     StyleDictionary.buildPlatform('web');
-    StyleDictionary.buildPlatform('css');
 
     console.log('\nEnd processing');
 })
