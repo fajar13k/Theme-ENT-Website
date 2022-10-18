@@ -4,9 +4,9 @@ import { color } from '.';
 import spacer from './spacers';
 import { text } from './typography';
 //import { tokens as foundation } from './tokens/foundation';
-import { tokens } from './tokens/agree-culture';
+import { tokens } from './tokens/squad-lpe';
 
-export const agr = makeTheme({
+export const aqf = makeTheme({
   //...base,
   colors: {
     primary25: tokens.primary25,
@@ -1244,13 +1244,13 @@ export const agr = makeTheme({
         ...text.body.sm.semibold,
         '.label-field-text': {
           gap: '4px',
-        },
+      },
         '.label-field-help': {
           color: tokens.tertiary600,
           svg: {
             verticalAlign: 'middle',
           }
-        },
+      },
         '.label-field-optional': {
           color: tokens.tertiary500,
           fontSize: '14px',
@@ -1266,7 +1266,7 @@ export const agr = makeTheme({
         lineHeight: '21px',
         '.container-textfield + &': {
           marginTop: '-22px',
-      },
+        },
         '.container-textfield + & + .wrapper-field-caption': {
           marginTop: '8px',
         },
@@ -2738,4 +2738,4 @@ export const agr = makeTheme({
   },
 });
 
-export default agr;
+export default aqf;

@@ -4,9 +4,9 @@ import { color } from '.';
 import spacer from './spacers';
 import { text } from './typography';
 //import { tokens as foundation } from './tokens/foundation';
-import { tokens } from './tokens/agree-livestock';
+import { tokens } from './tokens/squad-qip';
 
-export const agl = makeTheme({
+export const agr = makeTheme({
   //...base,
   colors: {
     primary25: tokens.primary25,
@@ -1266,7 +1266,7 @@ export const agl = makeTheme({
         lineHeight: '21px',
         '.container-textfield + &': {
           marginTop: '-22px',
-        },
+      },
         '.container-textfield + & + .wrapper-field-caption': {
           marginTop: '8px',
         },
@@ -2738,4 +2738,4 @@ export const agl = makeTheme({
   },
 });
 
-export default agl;
+export default agr;
