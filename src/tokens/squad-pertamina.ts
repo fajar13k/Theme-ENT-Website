@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 18 Oct 2022 16:16:03 GMT
+ * Generated on Tue, 18 Oct 2022 16:21:34 GMT
  */
 
 export const tokens = {
@@ -123,6 +123,20 @@ buttonsSecondaryBorderWidth: '0px',
 buttonsBorderRadius: '4px',
 buttonsMdPaddingLeftRight: '12px',
 buttonsMdPaddingTopBottom: '8px',
+checkboxDefaultBackgroundColor: '#ffffff',
+checkboxDefaultBorder: '#e3e8ef',
+checkboxDisabledBackgroundColor: '#edf0f4',
+checkboxDisabledBorder: '#dae0e9',
+checkboxActiveDisableBackgroundColor: '#f19599',
+checkboxActiveDisableColor: '#ffffff',
+checkboxActiveDisableBorder: '#ea2036',
+checkboxActiveBackgroundColor: '#ea2036',
+checkboxActiveColor: '#ffffff',
+checkboxActiveBorder: '#d51d31',
+checkboxBorderRadius: '4px',
+checkboxBorderWidth: '1px',
+checkboxTextEnable: '#8b939c',
+checkboxTextDisable: '#cfd8e3',
 radioBorderWidth: '1px',
 radioDefaultBackgroundColor: '#ffffff',
 radioDefaultBorder: '#e3e8ef',

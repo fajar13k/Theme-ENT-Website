@@ -528,6 +528,74 @@
       }
     }
   },
+  "Checkbox": {
+    "_default": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#e3e8ef",
+        "type": "color"
+      }
+    },
+    "_disabled": {
+      "backgroundColor": {
+        "value": "#edf0f4",
+        "type": "color"
+      },
+      "border": {
+        "value": "#dae0e9",
+        "type": "color"
+      }
+    },
+    "_active_disable": {
+      "backgroundColor": {
+        "value": "#f19599",
+        "type": "color"
+      },
+      "color": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#ea2036",
+        "type": "color"
+      }
+    },
+    "_active": {
+      "backgroundColor": {
+        "value": "#ea2036",
+        "type": "color"
+      },
+      "color": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#d51d31",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "value": 4,
+      "type": "borderRadius"
+    },
+    "borderWidth": {
+      "value": 1,
+      "type": "borderWidth"
+    },
+    "text": {
+      "enable": {
+        "value": "#8b939c",
+        "type": "color"
+      },
+      "disable": {
+        "value": "#cfd8e3",
+        "type": "color"
+      }
+    }
+  },
   "Radio": {
     "borderWidth": {
       "value": 1,
