@@ -373,6 +373,26 @@
     }
   },
   "Buttons": {
+    "lg": {
+      "paddingLeft-Right": {
+        "type": "spacing",
+        "value": 16
+      },
+      "paddingTop-Bottom": {
+        "type": "spacing",
+        "value": 12
+      }
+    },
+    "sm": {
+      "paddingLeft-Right": {
+        "type": "spacing",
+        "value": 12
+      },
+      "paddingTop-Bottom": {
+        "type": "spacing",
+        "value": 8
+      }
+    },
     "Primary": {
       "_default": {
         "backgroundColor": {
@@ -427,6 +447,10 @@
           "type": "color",
           "value": "#c5d0de"
         }
+      },
+      "borderWidth": {
+        "value": 0,
+        "type": "borderWidth"
       }
     },
     "Secondary": {
@@ -470,7 +494,7 @@
           "type": "color"
         },
         "borderColors": {
-          "value": "#ed6b73",
+          "value": "#ea2036",
           "type": "color"
         }
       },
@@ -483,78 +507,24 @@
           "type": "color",
           "value": "#e3e8ef"
         }
-      }
-    },
-    "borderRadius": {
-      "value": 16,
-      "type": "borderRadius"
-    }
-  },
-  "Checkbox": {
-    "_default": {
-      "backgroundColor": {
-        "value": "#ffffff",
-        "type": "color"
       },
-      "border": {
-        "value": "#e3e8ef",
-        "type": "color"
-      }
-    },
-    "_disabled": {
-      "backgroundColor": {
-        "value": "#edf0f4",
-        "type": "color"
-      },
-      "border": {
-        "value": "#dae0e9",
-        "type": "color"
-      }
-    },
-    "_active_disable": {
-      "backgroundColor": {
-        "value": "#f19599",
-        "type": "color"
-      },
-      "color": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "border": {
-        "value": "#ea2036",
-        "type": "color"
-      }
-    },
-    "_active": {
-      "backgroundColor": {
-        "value": "#ea2036",
-        "type": "color"
-      },
-      "color": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "border": {
-        "value": "#d51d31",
-        "type": "color"
+      "borderWidth": {
+        "value": 0,
+        "type": "borderWidth"
       }
     },
     "borderRadius": {
       "value": 4,
       "type": "borderRadius"
     },
-    "borderWidth": {
-      "value": 1,
-      "type": "borderWidth"
-    },
-    "text": {
-      "enable": {
-        "value": "#8b939c",
-        "type": "color"
+    "md": {
+      "paddingLeft-Right": {
+        "value": 12,
+        "type": "spacing"
       },
-      "disable": {
-        "value": "#cfd8e3",
-        "type": "color"
+      "paddingTop-Bottom": {
+        "value": 8,
+        "type": "spacing"
       }
     }
   },
@@ -748,6 +718,14 @@
     "borderRadius": {
       "value": 4,
       "type": "borderRadius"
+    },
+    "paddingLeft-Right": {
+      "value": 12,
+      "type": "spacing"
+    },
+    "paddingTop-Bottom": {
+      "value": 12,
+      "type": "spacing"
     }
   },
   "Badge": {
