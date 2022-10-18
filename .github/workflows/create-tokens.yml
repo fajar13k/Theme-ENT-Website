@@ -16,9 +16,9 @@ jobs:
       # Transform Figma Tokens JSON to something Style Dictionary can read
       - run: npx token-transformer tokens.json src/resources/foundation.json foundation --expandTypography --expandShadow
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json src/resources/squad-lpe.json foundation,squad-lpe,theme foundation --expandTypography --expandShadow
+      - run: npx token-transformer tokens.json src/resources/squad-oss.json foundation,squad-oss,theme foundation --expandTypography --expandShadow
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json src/resources/squad-qip.json foundation,squad-qip,theme foundation --expandTypography --expandShadow
+      - run: npx token-transformer tokens.json src/resources/squad-pertamina.json foundation,squad-pertamina,theme foundation --expandTypography --expandShadow
       # Create a light theme, exclude the global tokens
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.

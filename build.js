@@ -69,7 +69,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['foundation', 'squad-qip', 'squad-lpe'].map(function (theme) {
+['foundation', 'squad-oss', 'squad-pertamina'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
