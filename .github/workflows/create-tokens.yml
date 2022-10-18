@@ -1,3 +1,5 @@
+
+
 name: CI
 on: [push]
 
@@ -12,30 +14,14 @@ jobs:
       # Install dependencies
       - run: npm install
       # Transform Figma Tokens JSON to something Style Dictionary can read
-      - run: npx token-transformer tokens.json src/resources/foundation.json foundation --expandTypography --expandShadow
+      - run: npx token-transformer tokens.json tokens/global.json global
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json src/resources/squad-lpe.json foundation,squad-lpe,theme foundation --expandTypography --expandShadow
-      # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json src/resources/squad-qip.json foundation,squad-qip,theme foundation --expandTypography --expandShadow
-      # Create a light theme, exclude the global tokens
+      - run: npx token-transformer tokens.json tokens/light.json global,light,theme global
+      # Create a dark theme, exclude the global tokens
+      - run: npx token-transformer tokens.json tokens/dark.json global,dark,theme global
+      # Convert tokens according to Style Dictionary config
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
-      - name: 'Automated Version Bump'
-        uses: 'phips28/gh-action-bump-version@master'
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          default: prerelease
-      - name: Setup Node ${{ matrix.node_version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
-          registry-url: 'registry=https://nexus.playcourt.id/repository/npm-private/'
-      - name: Publish
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
-      - name: Saving changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'update: theme'
+          commit_message: Update Tokens
