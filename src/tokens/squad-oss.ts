@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 18 Oct 2022 16:47:22 GMT
+ * Generated on Wed, 19 Oct 2022 09:02:15 GMT
  */
 
 export const tokens = {
@@ -109,7 +109,7 @@ buttonsSecondaryFocusBorderColors: '#00479b',
 buttonsSecondaryDisabledBackgroundColor: '#edeef0',
 buttonsSecondaryDisabledColor: '#c6cacf',
 buttonsSecondaryBorderWidth: '0px',
-buttonsBorderRadius: '4px',
+buttonsBorderRadius: '16px',
 buttonsMdPaddingLeftRight: '12px',
 buttonsMdPaddingTopBottom: '8px',
 checkboxDefaultBackgroundColor: '#ffffff',
