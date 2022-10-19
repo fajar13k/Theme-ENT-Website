@@ -397,7 +397,7 @@
       "_default": {
         "backgroundColor": {
           "type": "color",
-          "value": "#ea2036"
+          "value": "#0f6eb5"
         },
         "color": {
           "value": "#ffffff",
@@ -687,13 +687,13 @@
   "Switch": {
     "_active": {
       "backgroundColor": {
-        "value": "#ea2036",
+        "value": "#44ab4a",
         "type": "color"
       }
     },
     "_active_disable": {
       "backgroundColor": {
-        "value": "#f4b5b8",
+        "value": "#d3e6d4",
         "type": "color"
       }
     },

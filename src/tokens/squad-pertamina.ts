@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 19 Oct 2022 09:02:15 GMT
+ * Generated on Wed, 19 Oct 2022 09:16:28 GMT
  */
 
 export const tokens = {
@@ -96,7 +96,7 @@ buttonsLgPaddingLeftRight: '16px',
 buttonsLgPaddingTopBottom: '12px',
 buttonsSmPaddingLeftRight: '12px',
 buttonsSmPaddingTopBottom: '8px',
-buttonsPrimaryDefaultBackgroundColor: '#ea2036',
+buttonsPrimaryDefaultBackgroundColor: '#0f6eb5',
 buttonsPrimaryDefaultColor: '#ffffff',
 buttonsPrimaryHoverBackgroundColor: '#d51d31',
 buttonsPrimaryHoverColor: '#ffffff',
@@ -153,8 +153,8 @@ anchorHoverColor: '#d51d31',
 anchorActiveColor: '#be1a2c',
 anchorFocusColor: '#ea2036',
 anchorDisableColor: '#dae0e9',
-switchActiveBackgroundColor: '#ea2036',
-switchActiveDisableBackgroundColor: '#f4b5b8',
+switchActiveBackgroundColor: '#44ab4a',
+switchActiveDisableBackgroundColor: '#d3e6d4',
 switchNonactiveBackgroundColor: '#dae0e9',
 switchNonactiveDisableBackgroundColor: '#edf0f4',
 textFieldDefaultBackgroundColor: '#ffffff',
