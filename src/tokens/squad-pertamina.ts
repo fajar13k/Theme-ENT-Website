@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Oct 2022 06:35:41 GMT
+ * Generated on Tue, 25 Oct 2022 07:34:44 GMT
  */
 
 export const tokens = {
@@ -85,7 +85,7 @@ buttonsLgPaddingLeftRight: '16px',
 buttonsLgPaddingTopBottom: '12px',
 buttonsSmPaddingLeftRight: '12px',
 buttonsSmPaddingTopBottom: '8px',
-buttonsPrimaryDefaultBackgroundColor: '#0f6eb5',
+buttonsPrimaryDefaultBackgroundColor: '#ea2036',
 buttonsPrimaryDefaultColor: '#ffffff',
 buttonsPrimaryHoverBackgroundColor: '#d51d31',
 buttonsPrimaryHoverColor: '#ffffff',
