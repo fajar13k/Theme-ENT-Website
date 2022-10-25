@@ -92,52 +92,6 @@
       "type": "color"
     }
   },
-  "Accent": {
-    "25": {
-      "value": "#f7f9f2",
-      "type": "color"
-    },
-    "50": {
-      "value": "#f3f5ea",
-      "type": "color"
-    },
-    "100": {
-      "value": "#e6ecd2",
-      "type": "color"
-    },
-    "200": {
-      "value": "#d9e2b8",
-      "type": "color"
-    },
-    "300": {
-      "value": "#cbd89a",
-      "type": "color"
-    },
-    "400": {
-      "value": "#bccd74",
-      "type": "color"
-    },
-    "500": {
-      "value": "#acc23a",
-      "type": "color"
-    },
-    "600": {
-      "value": "#9db134",
-      "type": "color"
-    },
-    "700": {
-      "value": "#8c9e2f",
-      "type": "color"
-    },
-    "800": {
-      "value": "#798929",
-      "type": "color"
-    },
-    "900": {
-      "value": "#637021",
-      "type": "color"
-    }
-  },
   "Tertiary": {
     "25": {
       "value": "#f9fafb",
@@ -234,48 +188,47 @@
   },
   "Warning": {
     "25": {
-      "value": "#fef5f2",
+      "value": "#f7f9f2",
       "type": "color"
     },
     "50": {
-      "value": "#feeee9",
+      "value": "#f3f5ea",
       "type": "color"
     },
     "100": {
-      "value": "#feddd2",
+      "value": "#e6ecd2",
       "type": "color"
     },
     "200": {
-      "value": "#fdcab8",
+      "value": "#d9e2b8",
       "type": "color"
     },
     "300": {
-      "value": "#fdb69a",
-      "type": "color",
-      "description": "Main Color"
+      "value": "#cbd89a",
+      "type": "color"
     },
     "400": {
-      "value": "#fc9e73",
+      "value": "#bccd74",
       "type": "color"
     },
     "500": {
-      "value": "#fc8338",
+      "value": "#acc23a",
       "type": "color"
     },
     "600": {
-      "value": "#e67733",
+      "value": "#9db134",
       "type": "color"
     },
     "700": {
-      "value": "#cd6a2d",
+      "value": "#8c9e2f",
       "type": "color"
     },
     "800": {
-      "value": "#b25c27",
+      "value": "#798929",
       "type": "color"
     },
     "900": {
-      "value": "#914b20",
+      "value": "#637021",
       "type": "color"
     }
   },
@@ -849,11 +802,11 @@
     },
     "_warning": {
       "backgroundColor": {
-        "value": "#feddd2",
+        "value": "#e6ecd2",
         "type": "color"
       },
       "Color": {
-        "value": "#fc8338",
+        "value": "#acc23a",
         "type": "color"
       }
     },

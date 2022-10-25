@@ -45,6 +45,53 @@
       "type": "color"
     }
   },
+  "Secondary": {
+    "25": {
+      "value": "#f1f6f6",
+      "type": "color"
+    },
+    "50": {
+      "value": "#e8f0f1",
+      "type": "color"
+    },
+    "100": {
+      "value": "#d0e0e2",
+      "type": "color",
+      "description": "Main Color"
+    },
+    "200": {
+      "value": "#b4d0d3",
+      "type": "color"
+    },
+    "300": {
+      "value": "#93bec2",
+      "type": "color"
+    },
+    "400": {
+      "value": "#67aaaf",
+      "type": "color"
+    },
+    "500": {
+      "value": "#00949b",
+      "type": "color"
+    },
+    "600": {
+      "value": "#00878d",
+      "type": "color"
+    },
+    "700": {
+      "value": "#00787e",
+      "type": "color"
+    },
+    "800": {
+      "value": "#00686d",
+      "type": "color"
+    },
+    "900": {
+      "value": "#005559",
+      "type": "color"
+    }
+  },
   "Tertiary": {
     "25": {
       "value": "#f4f5f6",

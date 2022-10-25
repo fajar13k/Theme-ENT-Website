@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 24 Oct 2022 06:58:11 GMT
+ * Generated on Tue, 25 Oct 2022 05:37:49 GMT
  */
 
 export const tokens = {
@@ -15,6 +15,17 @@ primary600: '#00408d',
 primary700: '#00397e',
 primary800: '#00326d',
 primary900: '#002959',
+secondary25: '#f1f6f6',
+secondary50: '#e8f0f1',
+secondary100: '#d0e0e2',
+secondary200: '#b4d0d3',
+secondary300: '#93bec2',
+secondary400: '#67aaaf',
+secondary500: '#00949b',
+secondary600: '#00878d',
+secondary700: '#00787e',
+secondary800: '#00686d',
+secondary900: '#005559',
 tertiary25: '#f4f5f6',
 tertiary50: '#ffffff',
 tertiary100: '#fafbfb',
