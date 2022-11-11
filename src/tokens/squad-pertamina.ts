@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 07 Nov 2022 06:47:41 GMT
+ * Generated on Fri, 11 Nov 2022 04:16:37 GMT
  */
 
 export const tokens = {
