@@ -7,7 +7,9 @@ import { colorscard } from './colorscard';
 import { colors } from './colors';
 import { forms } from './forms';
 import { layout } from './layout';
+import { links } from './links';
 import { select } from './select';
+import { sidebar } from './sidebar';
 import { spacers } from './spacers';
 import { spinner } from './spinner';
 import { styles } from './styles';
@@ -28,7 +30,9 @@ export const makeThemeStyles = (tokens: ThemeTokens) => {
     colors: colors(tokens),
     forms: forms(tokens),
     layout: layout(),
+    links: links(tokens),
     select: select(tokens),
+    sidebar: sidebar(tokens),
     spacers: spacers(),
     spinner: spinner(tokens),
     styles: styles(tokens),
