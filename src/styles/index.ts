@@ -1,4 +1,5 @@
 import { ThemeTokens } from '../tokens';
+import { accordion } from './accordion';
 import { badges } from './badges';
 import { buttons } from './buttons';
 import { cards } from './cards';
@@ -6,7 +7,9 @@ import { colorscard } from './colorscard';
 import { colors } from './colors';
 import { forms } from './forms';
 import { layout } from './layout';
+import { links } from './links';
 import { select } from './select';
+import { sidebar } from './sidebar';
 import { spacers } from './spacers';
 import { spinner } from './spinner';
 import { styles } from './styles';
@@ -19,6 +22,7 @@ import { tableCell } from './tableCell';
 
 export const makeThemeStyles = (tokens: ThemeTokens) => {
   return {
+    accordion: accordion(tokens),
     badges: badges(tokens),
     buttons: buttons(tokens),
     cards: cards(tokens),
@@ -26,7 +30,9 @@ export const makeThemeStyles = (tokens: ThemeTokens) => {
     colors: colors(tokens),
     forms: forms(tokens),
     layout: layout(),
+    links: links(tokens),
     select: select(tokens),
+    sidebar: sidebar(tokens),
     spacers: spacers(),
     spinner: spinner(tokens),
     styles: styles(tokens),
