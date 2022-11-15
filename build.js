@@ -53,7 +53,7 @@ function getStyleDictionaryConfig(theme) {
           }]
       },
       "ios": {
-        "transforms": ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "content/swift/literal", "asset/swift/literal", "size/swift/remToCGFloat", "font/swift/literal"],
+        "transforms": ["attribute/cti", "name/cti/camel", "color/rgb", "size/remToPt"],
         "buildPath": `src/ios/`,
         "files": [{
             "destination": `${theme}.json`,
