@@ -52,12 +52,12 @@ function getStyleDictionaryConfig(theme) {
             "selector": `.${theme}-theme`
           }]
       },
-      "css": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `output/css/`,
+      "ios": {
+        "transforms": ["attribute/cti", "name/ti/camel", "color/UIColorSwift", "content/swift/literal", "asset/swift/literal", "size/swift/remToCGFloat", "font/swift/literal"],
+        "buildPath": `src/ios/`,
         "files": [{
-            "destination": `${theme}.css`,
-            "format": "css/variables",
+            "destination": `${theme}.json`,
+            "format": "json/asset",
             "selector": `.${theme}-theme`
           }]
       }
@@ -77,6 +77,7 @@ console.log('Build started...');
     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
 
     StyleDictionary.buildPlatform('web');
+    StyleDictionary.buildPlatform('ios');
 
     console.log('\nEnd processing');
 })
