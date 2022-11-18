@@ -6,19 +6,20 @@ import { cards } from './cards';
 import { colorscard } from './colorscard';
 import { colors } from './colors';
 import { forms } from './forms';
+import { headCell } from './headCell';
 import { layout } from './layout';
 import { links } from './links';
+import { navbar } from './navbar';
 import { select } from './select';
 import { sidebar } from './sidebar';
 import { spacers } from './spacers';
 import { spinner } from './spinner';
 import { styles } from './styles';
+import { table } from './table';
+import { tableCell } from './tableCell';
+import { tableRow } from './tableRow';
 import { text } from './text';
 import { tooltip } from './tooltip';
-import { table } from './table';
-import { tableRow } from './tableRow';
-import { headCell } from './headCell';
-import { tableCell } from './tableCell';
 
 export const makeThemeStyles = (tokens: ThemeTokens) => {
   return {
@@ -31,6 +32,7 @@ export const makeThemeStyles = (tokens: ThemeTokens) => {
     forms: forms(tokens),
     layout: layout(),
     links: links(tokens),
+    navbar: navbar(tokens),
     select: select(tokens),
     sidebar: sidebar(tokens),
     spacers: spacers(),
