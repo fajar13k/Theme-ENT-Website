@@ -13,6 +13,11 @@ export const sidebar = (tokens: ThemeTokens) => {
 
     '.sidebar-menu-wrapper': {
       padding: 0,
+
+      '& a:hover': {
+        background: `${tokens.primary50}`,
+        borderLeft: `3px solid ${tokens.primary500}`,
+      },
     },
   };
 };

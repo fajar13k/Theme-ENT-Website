@@ -12,6 +12,7 @@ import { links } from './links';
 import { navbar } from './navbar';
 import { select } from './select';
 import { sidebar } from './sidebar';
+import { sidebarWrapper } from './sidebarWrapper';
 import { spacers } from './spacers';
 import { spinner } from './spinner';
 import { styles } from './styles';
@@ -35,6 +36,7 @@ export const makeThemeStyles = (tokens: ThemeTokens) => {
     navbar: navbar(tokens),
     select: select(tokens),
     sidebar: sidebar(tokens),
+    sidebarWrapper: sidebarWrapper(tokens),
     spacers: spacers(),
     spinner: spinner(tokens),
     styles: styles(tokens),

@@ -55,8 +55,9 @@ export const accordion = (tokens: ThemeTokens) => {
         borderBottom: '0 !important',
 
         '&.is-menu:hover': {
-          background: `${tokens.primary400}`,
+          background: `${tokens.primary50}`,
           cursor: 'pointer',
+          borderLeft: `3px solid ${tokens.primary500}`,
         },
       },
 
