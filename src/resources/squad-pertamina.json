@@ -1057,11 +1057,11 @@
     "Heading 1": {
       "fontFamily": {
         "value": "Poppins",
-        "type": "fontFamily"
+        "type": "fontFamilies"
       },
       "fontWeight": {
         "value": "Bold",
-        "type": "fontWeight"
+        "type": "fontWeights"
       },
       "lineHeight": {
         "value": 72,
@@ -1069,7 +1069,7 @@
       },
       "fontSize": {
         "value": 60,
-        "type": "fontSize"
+        "type": "fontSizes"
       },
       "letterSpacing": {
         "value": 0,
@@ -1091,11 +1091,11 @@
     "Heading 2": {
       "fontFamily": {
         "value": "Poppins",
-        "type": "fontFamily"
+        "type": "fontFamilies"
       },
       "fontWeight": {
         "value": "Bold",
-        "type": "fontWeight"
+        "type": "fontWeights"
       },
       "lineHeight": {
         "value": 56,
@@ -1103,7 +1103,7 @@
       },
       "fontSize": {
         "value": 48,
-        "type": "fontSize"
+        "type": "fontSizes"
       },
       "letterSpacing": {
         "value": 0,
@@ -1125,11 +1125,11 @@
     "Heading 3": {
       "fontFamily": {
         "value": "Poppins",
-        "type": "fontFamily"
+        "type": "fontFamilies"
       },
       "fontWeight": {
         "value": "Bold",
-        "type": "fontWeight"
+        "type": "fontWeights"
       },
       "lineHeight": {
         "value": 44,
@@ -1137,7 +1137,7 @@
       },
       "fontSize": {
         "value": 36,
-        "type": "fontSize"
+        "type": "fontSizes"
       },
       "letterSpacing": {
         "value": 0,
@@ -1159,11 +1159,11 @@
     "Heading 4": {
       "fontFamily": {
         "value": "Poppins",
-        "type": "fontFamily"
+        "type": "fontFamilies"
       },
       "fontWeight": {
         "value": "Bold",
-        "type": "fontWeight"
+        "type": "fontWeights"
       },
       "lineHeight": {
         "value": 40,
@@ -1171,7 +1171,7 @@
       },
       "fontSize": {
         "value": 30,
-        "type": "fontSize"
+        "type": "fontSizes"
       },
       "letterSpacing": {
         "value": 0,
@@ -1193,11 +1193,11 @@
     "Heading 5": {
       "fontFamily": {
         "value": "Poppins",
-        "type": "fontFamily"
+        "type": "fontFamilies"
       },
       "fontWeight": {
         "value": "Bold",
-        "type": "fontWeight"
+        "type": "fontWeights"
       },
       "lineHeight": {
         "value": 36,
@@ -1205,7 +1205,7 @@
       },
       "fontSize": {
         "value": 24,
-        "type": "fontSize"
+        "type": "fontSizes"
       },
       "letterSpacing": {
         "value": 0,
@@ -1227,11 +1227,11 @@
     "Heading 6": {
       "fontFamily": {
         "value": "Poppins",
-        "type": "fontFamily"
+        "type": "fontFamilies"
       },
       "fontWeight": {
         "value": "Bold",
-        "type": "fontWeight"
+        "type": "fontWeights"
       },
       "lineHeight": {
         "value": 28,
@@ -1239,7 +1239,7 @@
       },
       "fontSize": {
         "value": 20,
-        "type": "fontSize"
+        "type": "fontSizes"
       },
       "letterSpacing": {
         "value": 0,
@@ -1264,11 +1264,11 @@
       "Regular": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Regular",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 28,
@@ -1276,7 +1276,7 @@
         },
         "fontSize": {
           "value": 18,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1298,11 +1298,11 @@
       "Semibold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "SemiBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 28,
@@ -1310,7 +1310,7 @@
         },
         "fontSize": {
           "value": 18,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1332,11 +1332,11 @@
       "Bold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Bold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 28,
@@ -1344,7 +1344,7 @@
         },
         "fontSize": {
           "value": 18,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1366,11 +1366,11 @@
       "Italic": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Italic",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 28,
@@ -1378,7 +1378,7 @@
         },
         "fontSize": {
           "value": 18,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1400,11 +1400,11 @@
       "Underline": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Regular",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 28,
@@ -1412,7 +1412,7 @@
         },
         "fontSize": {
           "value": 18,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1434,11 +1434,11 @@
       "Underline Semibold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "SemiBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 28,
@@ -1446,7 +1446,7 @@
         },
         "fontSize": {
           "value": 18,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1468,11 +1468,11 @@
       "Underline Bold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Bold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 28,
@@ -1480,7 +1480,7 @@
         },
         "fontSize": {
           "value": 18,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1504,11 +1504,11 @@
       "Regular": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Regular",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 24,
@@ -1516,7 +1516,7 @@
         },
         "fontSize": {
           "value": 16,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1538,11 +1538,11 @@
       "Semibold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "SemiBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 24,
@@ -1550,7 +1550,7 @@
         },
         "fontSize": {
           "value": 16,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1572,11 +1572,11 @@
       "Bold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Bold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 24,
@@ -1584,7 +1584,7 @@
         },
         "fontSize": {
           "value": 16,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1606,11 +1606,11 @@
       "Italic": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Italic",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 24,
@@ -1618,7 +1618,7 @@
         },
         "fontSize": {
           "value": 16,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1640,11 +1640,11 @@
       "Underline": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Regular",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 24,
@@ -1652,7 +1652,7 @@
         },
         "fontSize": {
           "value": 16,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1674,11 +1674,11 @@
       "Underline Semibold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "SemiBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 24,
@@ -1686,7 +1686,7 @@
         },
         "fontSize": {
           "value": 16,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1708,11 +1708,11 @@
       "Underline Bold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Bold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 24,
@@ -1720,7 +1720,7 @@
         },
         "fontSize": {
           "value": 16,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": -0.08,
@@ -1746,11 +1746,11 @@
       "Regular": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Regular",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 21,
@@ -1758,7 +1758,7 @@
         },
         "fontSize": {
           "value": 14,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1780,11 +1780,11 @@
       "Semibold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "SemiBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 21,
@@ -1792,7 +1792,7 @@
         },
         "fontSize": {
           "value": 14,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1814,11 +1814,11 @@
       "Bold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Bold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 21,
@@ -1826,7 +1826,7 @@
         },
         "fontSize": {
           "value": 14,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1848,11 +1848,11 @@
       "Italic": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Italic",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 21,
@@ -1860,7 +1860,7 @@
         },
         "fontSize": {
           "value": 14,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1882,11 +1882,11 @@
       "Underline": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Regular",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 21,
@@ -1894,7 +1894,7 @@
         },
         "fontSize": {
           "value": 14,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1916,11 +1916,11 @@
       "Underline Semibold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "SemiBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 21,
@@ -1928,7 +1928,7 @@
         },
         "fontSize": {
           "value": 14,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1950,11 +1950,11 @@
       "Underline Bold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Bold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 21,
@@ -1962,7 +1962,7 @@
         },
         "fontSize": {
           "value": 14,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -1986,11 +1986,11 @@
       "Regular": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Regular",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 18,
@@ -1998,7 +1998,7 @@
         },
         "fontSize": {
           "value": 12,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -2020,11 +2020,11 @@
       "Semibold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "SemiBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 18,
@@ -2032,7 +2032,7 @@
         },
         "fontSize": {
           "value": 12,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -2054,11 +2054,11 @@
       "Bold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Bold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 18,
@@ -2066,7 +2066,7 @@
         },
         "fontSize": {
           "value": 12,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -2088,11 +2088,11 @@
       "Italic": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Italic",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 18,
@@ -2100,7 +2100,7 @@
         },
         "fontSize": {
           "value": 12,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -2122,11 +2122,11 @@
       "Underline": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Regular",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 18,
@@ -2134,7 +2134,7 @@
         },
         "fontSize": {
           "value": 12,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -2156,11 +2156,11 @@
       "Underline Semibold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "SemiBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 18,
@@ -2168,7 +2168,7 @@
         },
         "fontSize": {
           "value": 12,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": 0,
@@ -2190,11 +2190,11 @@
       "Underline Bold": {
         "fontFamily": {
           "value": "Roboto",
-          "type": "fontFamily"
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": "Bold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "lineHeight": {
           "value": 18,
@@ -2202,7 +2202,7 @@
         },
         "fontSize": {
           "value": 12,
-          "type": "fontSize"
+          "type": "fontSizes"
         },
         "letterSpacing": {
           "value": -0.08,
