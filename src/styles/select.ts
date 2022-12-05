@@ -250,5 +250,79 @@ export const select = (tokens: ThemeTokens) => {
         lineHeight: 1,
       },
     },
+    '&:autofill': {
+      backgroundColor: 'transparent',
+      backgroundClip: 'text',
+      boxShadow: '0 0 0 30px transparent inset',
+      WebkitBoxShadow: '0 0 0 30px transparent inset',
+      WebkitTextFillColor: '#1f1f1f',
+      transition: 'background-color 5000s ease-in-out 0s',
+      filter: 'none',
+
+      '&:hover': {
+        backgroundColor: 'transparent',
+        backgroundClip: 'text',
+        boxShadow: '0 0 0 30px transparent inset',
+        WebkitBoxShadow: '0 0 0 30px transparent inset',
+        WebkitTextFillColor: '#1f1f1f',
+        transition: 'background-color 5000s ease-in-out 0s',
+        filter: 'none',
+      },
+
+      '&:focus': {
+        backgroundColor: 'transparent',
+        backgroundClip: 'text',
+        boxShadow: '0 0 0 30px transparent inset',
+        WebkitBoxShadow: '0 0 0 30px transparent inset',
+        WebkitTextFillColor: '#1f1f1f',
+        transition: 'background-color 5000s ease-in-out 0s',
+        filter: 'none',
+      },
+
+      '&:active': {
+        backgroundColor: 'transparent',
+        backgroundClip: 'text',
+        boxShadow: '0 0 0 30px transparent inset',
+        WebkitBoxShadow: '0 0 0 30px transparent inset',
+        WebkitTextFillColor: '#1f1f1f',
+        transition: 'background-color 5000s ease-in-out 0s',
+        filter: 'none',
+      },
+    },
+    '&:-webkit-autofill': {
+      backgroundColor: 'transparent',
+      backgroundClip: 'text',
+      boxShadow: '0 0 0 30px transparent inset',
+      WebkitBoxShadow: '0 0 0 30px transparent inset',
+      WebkitTextFillColor: '#1f1f1f',
+      transition: 'background-color 5000s ease-in-out 0s',
+
+      '&:hover': {
+        backgroundColor: 'transparent',
+        backgroundClip: 'text',
+        boxShadow: '0 0 0 30px transparent inset',
+        WebkitBoxShadow: '0 0 0 30px transparent inset',
+        WebkitTextFillColor: '#1f1f1f',
+        transition: 'background-color 5000s ease-in-out 0s',
+      },
+
+      '&:focus': {
+        backgroundColor: 'transparent',
+        backgroundClip: 'text',
+        boxShadow: '0 0 0 30px transparent inset',
+        WebkitBoxShadow: '0 0 0 30px transparent inset',
+        WebkitTextFillColor: '#1f1f1f',
+        transition: 'background-color 5000s ease-in-out 0s',
+      },
+
+      '&:active': {
+        backgroundColor: 'transparent',
+        backgroundClip: 'text',
+        boxShadow: '0 0 0 30px transparent inset',
+        WebkitBoxShadow: '0 0 0 30px transparent inset',
+        WebkitTextFillColor: '#1f1f1f',
+        transition: 'background-color 5000s ease-in-out 0s',
+      },
+    },
   };
 };
