@@ -5,6 +5,7 @@ import { buttons } from './buttons';
 import { cards } from './cards';
 import { colorscard } from './colorscard';
 import { colors } from './colors';
+import { dataTable } from './dataTable';
 import { forms } from './forms';
 import { headCell } from './headCell';
 import { layout } from './layout';
@@ -30,6 +31,7 @@ export const makeThemeStyles = (tokens: ThemeTokens) => {
     cards: cards(tokens),
     colorscard: colorscard(tokens),
     colors: colors(tokens),
+    dataTable: dataTable(tokens),
     forms: forms(tokens),
     layout: layout(),
     links: links(tokens),
