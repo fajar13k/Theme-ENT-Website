@@ -10,6 +10,7 @@ import { forms } from './forms';
 import { headCell } from './headCell';
 import { layout } from './layout';
 import { links } from './links';
+import { megamenu } from './megamenu';
 import { navbar } from './navbar';
 import { select } from './select';
 import { sidebar } from './sidebar';
@@ -35,6 +36,7 @@ export const makeThemeStyles = (tokens: ThemeTokens) => {
     forms: forms(tokens),
     layout: layout(),
     links: links(tokens),
+    megamenu: megamenu(tokens),
     navbar: navbar(tokens),
     select: select(tokens),
     sidebar: sidebar(tokens),
