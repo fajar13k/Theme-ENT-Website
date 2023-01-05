@@ -29,7 +29,6 @@ export const megamenu = (tokens: ThemeTokens) => {
         cursor: 'pointer',
 
         title: {
-          fontFamily: 'Nunito Sans, sans-serif',
           fontWeight: 600,
           fontSize: `${tokens.spacing4}`,
         },
