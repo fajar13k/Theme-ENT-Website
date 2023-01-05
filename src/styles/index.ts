@@ -3,6 +3,7 @@ import { accordion } from './accordion';
 import { badges } from './badges';
 import { buttons } from './buttons';
 import { cards } from './cards';
+import { carousel } from './carousel';
 import { colorscard } from './colorscard';
 import { colors } from './colors';
 import { dataTable } from './dataTable';
@@ -19,6 +20,7 @@ import { spacers } from './spacers';
 import { spinner } from './spinner';
 import { styles } from './styles';
 import { table } from './table';
+import { tabbar } from './tabbar';
 import { tableCell } from './tableCell';
 import { tableRow } from './tableRow';
 import { text } from './text';
@@ -30,10 +32,12 @@ export const makeThemeStyles = (tokens: ThemeTokens) => {
     badges: badges(tokens),
     buttons: buttons(tokens),
     cards: cards(tokens),
+    carousel: carousel(tokens),
     colorscard: colorscard(tokens),
     colors: colors(tokens),
     dataTable: dataTable(tokens),
     forms: forms(tokens),
+    headCell: headCell(tokens),
     layout: layout(),
     links: links(tokens),
     megamenu: megamenu(tokens),
@@ -45,8 +49,8 @@ export const makeThemeStyles = (tokens: ThemeTokens) => {
     spinner: spinner(tokens),
     styles: styles(tokens),
     table: table(),
+    tabbar: tabbar(tokens),
     tableRow: tableRow(tokens),
-    headCell: headCell(tokens),
     tableCell: tableCell(tokens),
     text: text(tokens),
     tooltip: tooltip(tokens),
