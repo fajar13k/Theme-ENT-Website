@@ -1,5 +1,6 @@
 import { ThemeTokens } from '../tokens';
 import { accordion } from './accordion';
+import { alerts } from './alerts';
 import { badges } from './badges';
 import { buttons } from './buttons';
 import { cards } from './cards';
@@ -29,6 +30,7 @@ import { tooltip } from './tooltip';
 export const makeThemeStyles = (tokens: ThemeTokens) => {
   return {
     accordion: accordion(tokens),
+    alerts: alerts(tokens),
     badges: badges(tokens),
     buttons: buttons(tokens),
     cards: cards(tokens),
