@@ -1,4 +1,4 @@
-import { ThemeTokens } from '..';
+import { ThemeTokens } from '../tokens';
 
 export const modal = (tokens: ThemeTokens) => {
   return {

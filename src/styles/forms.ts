@@ -37,7 +37,6 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
         alignItems: 'center',
         cursor: 'pointer',
         width: 'fit-content',
-        fontFamily: 'Nunito Sans, sans-serif',
       },
       sizeBoxSmall: {
         fontSize: '14px',
@@ -45,7 +44,6 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
         alignItems: 'center',
         cursor: 'pointer',
         width: 'fit-content',
-        fontFamily: 'Nunito Sans, sans-serif',
       },
       wrappLabel: {
         marginLeft: '10px',
@@ -284,7 +282,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '-webkit-fill-available',
+        height: 'initial',
         borderRadius: `${tokens.textFieldBorderRadius}`,
         border: `1px solid ${tokens.textFieldDefaultOutlineColor}`,
         backgroundColor: `${tokens.textFieldDisableBackgroundColor} !important`,
@@ -296,7 +294,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '-webkit-fill-available',
+        height: 'initial',
         border: `1px solid ${tokens.textFieldDefaultOutlineColor}`,
         borderRadius: `${tokens.textFieldBorderRadius}`,
         transition: 'all 0.15s ease-in-out 0s',
@@ -306,7 +304,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '-webkit-fill-available',
+        height: 'initial',
         borderRadius: `${tokens.textFieldBorderRadius}`,
         border: `1px solid ${tokens.textFieldSuccessOutlineColor}`,
         transition: 'all 0.15s ease-in-out 0s',
@@ -317,7 +315,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
         top: '0px',
         left: '0px',
         width: '100%',
-        height: '-webkit-fill-available',
+        height: 'initial',
         borderRadius: `${tokens.textFieldBorderRadius}`,
         border: `1px solid ${tokens.textFieldErrorOutlineColor}`,
         transition: 'all 0.15s ease-in-out 0s',
@@ -499,7 +497,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
         WebkitTextFillColor: '#1f1f1f',
         transition: 'background-color 5000s ease-in-out 0s',
         filter: 'none',
-  
+
         '&:hover': {
           backgroundColor: 'transparent',
           backgroundClip: 'text',
@@ -509,7 +507,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
           transition: 'background-color 5000s ease-in-out 0s',
           filter: 'none',
         },
-  
+
         '&:focus': {
           backgroundColor: 'transparent',
           backgroundClip: 'text',
@@ -519,7 +517,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
           transition: 'background-color 5000s ease-in-out 0s',
           filter: 'none',
         },
-  
+
         '&:active': {
           backgroundColor: 'transparent',
           backgroundClip: 'text',
@@ -537,7 +535,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
         WebkitBoxShadow: '0 0 0 30px transparent inset',
         WebkitTextFillColor: '#1f1f1f',
         transition: 'background-color 5000s ease-in-out 0s',
-  
+
         '&:hover': {
           backgroundColor: 'transparent',
           backgroundClip: 'text',
@@ -546,7 +544,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
           WebkitTextFillColor: '#1f1f1f',
           transition: 'background-color 5000s ease-in-out 0s',
         },
-  
+
         '&:focus': {
           backgroundColor: 'transparent',
           backgroundClip: 'text',
@@ -555,7 +553,7 @@ export const forms = (tokens: ThemeTokens): Theme['forms'] => {
           WebkitTextFillColor: '#1f1f1f',
           transition: 'background-color 5000s ease-in-out 0s',
         },
-  
+
         '&:active': {
           backgroundColor: 'transparent',
           backgroundClip: 'text',
