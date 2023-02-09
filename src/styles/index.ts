@@ -21,6 +21,7 @@ import { sidebar } from './sidebar';
 import { sidebarWrapper } from './sidebarWrapper';
 import { spacers } from './spacers';
 import { spinner } from './spinner';
+import { stepper } from './stepper';
 import { styles } from './styles';
 import { tabbar } from './tabbar';
 import { table } from './table';
@@ -53,6 +54,7 @@ export const makeThemeStyles = (tokens: ThemeTokens) => {
     sidebarWrapper: sidebarWrapper(tokens),
     spacers: spacers(),
     spinner: spinner(tokens),
+    stepper: stepper(tokens),
     styles: styles(tokens),
     tabbar: tabbar(tokens),
     table: table(),
