@@ -54,7 +54,7 @@ export const accordion = (tokens: ThemeTokens) => {
         fontSize: '14px !important',
         borderBottom: '0 !important',
 
-        '&.is-menu:hover': {
+        '&.is-menu:hover, &.is-menu-active': {
           background: `${tokens.primary50}`,
           cursor: 'pointer',
           borderLeft: `3px solid ${tokens.primary500}`,
@@ -85,6 +85,12 @@ export const accordion = (tokens: ThemeTokens) => {
         position: 'relative',
         top: '2px',
       },
+
+      '.right-icon': {
+        marginRight: tokens.spacing2,
+        position: 'absolute',
+        right: '12px',
+      }
     },
 
     '.content': {
