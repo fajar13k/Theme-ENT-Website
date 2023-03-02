@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Feb 2023 10:12:12 GMT
+ * Generated on Thu, 02 Mar 2023 02:37:42 GMT
  */
 
 export const tokens = {
@@ -85,7 +85,7 @@ buttonsLgPaddingLeftRight: '16px',
 buttonsLgPaddingTopBottom: '12px',
 buttonsSmPaddingLeftRight: '12px',
 buttonsSmPaddingTopBottom: '8px',
-buttonsPrimaryDefaultBackgroundColor: '#00479b',
+buttonsPrimaryDefaultBackgroundColor: '#53b1fd',
 buttonsPrimaryDefaultColor: '#ffffff',
 buttonsPrimaryHoverBackgroundColor: '#00408d',
 buttonsPrimaryHoverColor: '#ffffff',
@@ -109,7 +109,7 @@ buttonsSecondaryFocusBorderColors: '#00479b',
 buttonsSecondaryDisabledBackgroundColor: '#ffffff',
 buttonsSecondaryDisabledColor: '#e2e5e8',
 buttonsSecondaryBorderWidth: '0px',
-buttonsBorderRadius: '16px',
+buttonsBorderRadius: '4px',
 buttonsMdPaddingLeftRight: '12px',
 buttonsMdPaddingTopBottom: '8px',
 checkboxDefaultBackgroundColor: '#ffffff',

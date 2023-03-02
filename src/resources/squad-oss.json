@@ -347,7 +347,7 @@
       "_default": {
         "backgroundColor": {
           "type": "color",
-          "value": "#00479b"
+          "value": "#53b1fd"
         },
         "color": {
           "value": "#ffffff",
@@ -464,7 +464,7 @@
       }
     },
     "borderRadius": {
-      "value": 16,
+      "value": 4,
       "type": "borderRadius"
     },
     "md": {
