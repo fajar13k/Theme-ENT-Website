@@ -14,10 +14,19 @@ export const sidebar = (tokens: ThemeTokens) => {
     '.sidebar-menu-wrapper': {
       padding: 0,
 
-      '& a:hover': {
-        background: `${tokens.primary50}`,
-        borderLeft: `3px solid ${tokens.primary500}`,
+      '& a': {
+        position: 'relative',
+  
+        '&:hover, &:focus, &.active': {
+          background: tokens.primary50,
+          borderLeft: `3px solid ${tokens.primary500}`,
+        },
       },
+  
+      '& .badgeMenu': {
+        position: 'absolute',
+        right: '12px',
+      }
     },
   };
 };
