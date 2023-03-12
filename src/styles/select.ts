@@ -49,7 +49,8 @@ const ccsSelectOption = (tokens: ThemeTokens) => {
     borderRadius: '4px',
     color: tokens.tertiary800,
     '&:hover': {
-      background: '#F5F3FF',
+      background: tokens.primary50,
+      color: tokens.primary500,
     },
   };
 };
@@ -171,6 +172,7 @@ export const select = (tokens: ThemeTokens) => {
         boxShadow:
           '0px 2px 10px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(0, 0, 0, 0.2)',
         padding: '0 4px',
+        zIndex: 99999,
       },
       option: {
         sm: {
