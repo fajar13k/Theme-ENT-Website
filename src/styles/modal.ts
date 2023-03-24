@@ -64,8 +64,11 @@ export const modal = (tokens: ThemeTokens) => {
           fontSize: '18px',
           fontWeight: 700,
           lineHeight: tokens.spacing7,
-          marginLeft: tokens.spacing3,
         },
+        
+        svg: {
+          marginRight: tokens.spacing3,
+        }
       },
 
       '&__content': {
