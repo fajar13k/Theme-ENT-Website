@@ -99,8 +99,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
           boxShadow: 'none !important',
         },
         '&:focus': {
-          border: `2px solid ${tokens.primary400}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.primary400} !important`,
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.primary400} !important`,
         },
         '&:active': {
           backgroundColor: `${tokens.primary700} !important`,
@@ -122,8 +121,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
           boxShadow: 'none !important',
         },
         '&:focus': {
-          border: `2px solid ${tokens.secondary400}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.secondary400} !important`,
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.secondary400} !important`,
         },
         '&:active': {
           backgroundColor: `${tokens.secondary700} !important`,
@@ -145,8 +143,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
           boxShadow: 'none !important',
         },
         '&:focus': {
-          border: `2px solid ${tokens.tertiary400}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.tertiary400} !important`,
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.tertiary400} !important`,
         },
         '&:active': {
           backgroundColor: `${tokens.tertiary700} !important`,
@@ -168,8 +165,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
           boxShadow: 'none !important',
         },
         '&:focus': {
-          border: `2px solid ${tokens.success400}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.success400} !important`,
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.success400} !important`,
         },
         '&:active': {
           backgroundColor: `${tokens.success700} !important`,
@@ -191,8 +187,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
           boxShadow: 'none !important',
         },
         '&:focus': {
-          border: `2px solid ${tokens.warning400}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.warning400} !important`,
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.warning400} !important`,
         },
         '&:active': {
           backgroundColor: `${tokens.warning700} !important`,
@@ -214,8 +209,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
           boxShadow: 'none !important',
         },
         '&:focus': {
-          border: `2px solid ${tokens.information400}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.information400} !important`,
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.information400} !important`,
         },
         '&:active': {
           backgroundColor: `${tokens.information700} !important`,
@@ -237,8 +231,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
           boxShadow: 'none !important',
         },
         '&:focus': {
-          border: `2px solid ${tokens.error400}`,
-          boxShadow: `0px 0px 0px 2px ${tokens.error400} !important`,
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.error400} !important`,
         },
         '&:active': {
           backgroundColor: `${tokens.error700} !important`,
@@ -326,8 +319,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.primary50,
-          border: `2px solid ${tokens.primary400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.primary400} !important`,
           color: tokens.primary500,
         },
         '&:active': {
@@ -355,8 +347,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.secondary50,
-          border: `2px solid ${tokens.secondary400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.secondary400} !important`,
           color: tokens.secondary500,
         },
         '&:active': {
@@ -384,8 +375,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.tertiary50,
-          border: `2px solid ${tokens.tertiary400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.tertiary400} !important`,
           color: tokens.tertiary500,
         },
         '&:active': {
@@ -413,8 +403,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.success50,
-          border: `2px solid ${tokens.success400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.success400} !important`,
           color: tokens.success500,
         },
         '&:active': {
@@ -442,8 +431,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.warning50,
-          border: `2px solid ${tokens.warning400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.warning400} !important`,
           color: tokens.warning500,
         },
         '&:active': {
@@ -471,8 +459,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.information50,
-          border: `2px solid ${tokens.information400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.information400} !important`,
           color: tokens.information500,
         },
         '&:active': {
@@ -500,8 +487,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.error50,
-          border: `2px solid ${tokens.error400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.error400} !important`,
           color: tokens.error500,
         },
         '&:active': {
@@ -861,8 +847,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.primary25,
-          border: `2px solid ${tokens.primary400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.primary400} !important`,
           color: tokens.primary500,
         },
         '&:active': {
@@ -890,8 +875,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.secondary25,
-          border: `2px solid ${tokens.secondary400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.secondary400} !important`,
           color: tokens.secondary500,
         },
         '&:active': {
@@ -919,8 +903,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.tertiary25,
-          border: `2px solid ${tokens.tertiary400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.tertiary400} !important`,
           color: tokens.tertiary500,
         },
         '&:active': {
@@ -948,8 +931,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.success25,
-          border: `2px solid ${tokens.success400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.success400} !important`,
           color: tokens.success500,
         },
         '&:active': {
@@ -977,8 +959,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.warning25,
-          border: `2px solid ${tokens.warning400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.warning400} !important`,
           color: tokens.warning500,
         },
         '&:active': {
@@ -1006,8 +987,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.information25,
-          border: `2px solid ${tokens.information400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.information400} !important`,
           color: tokens.information500,
         },
         '&:active': {
@@ -1035,8 +1015,7 @@ export const buttons = (tokens: ThemeTokens): Theme['buttons'] => {
         },
         '&:focus': {
           backgroundColor: tokens.error25,
-          border: `2px solid ${tokens.error400}`,
-          boxShadow: 'none',
+          boxShadow: `inset 0px 0px 0px 2px ${tokens.error400} !important`,
           color: tokens.error500,
         },
         '&:active': {
